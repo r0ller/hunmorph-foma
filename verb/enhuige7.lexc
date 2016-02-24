@@ -1,0 +1,3423 @@
+!!!enhuige.lexc!!!
+
+Multichar_Symbols  +Verb +Rep +Imper  +Pot 
+                   +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+ +Adv +Advan
+                  +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12
+                  +IndefPl1 +IndefPl2 +IndefPl3
+                  +DefSg1   +DefSg2   +DefSg3  
+                  +DefPl1 +DefPl2 +DefPl3
+                  +ConjDefSg12 +PastDefSg12  +CondDefSg12
+                  +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3   
+                  +ConjIndefPl1 +ConjIndefPl2 +ConjIndefPl3
+                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3  
+                  +ConjDefPl1 +ConjDefPl2 +ConjDefPl3
+                  +PastIndefSg1   +PastIndefSg2   +PastIndefSg3   
+                  +PastIndefPl1 +PastIndefPl2 +PastIndefPl3
+                  +PastDefSg1   +PastDefSg2   +PastDefSg3  
+                  +PastDefPl1 +PastDefPl2 +PastDefPl3
+                  +CondIndefSg1   +CondIndefSg2   +CondIndefSg3   
+                  +CondIndefPl1 +CondIndefPl2 +CondIndefPl3
+                  +CondDefSg1   +CondDefSg2   +CondDefSg3  
+                  +CondDefPl1 +CondDefPl2 +CondDefPl3
+      
+§AA§ §AAA§ §igea§ §igeo§ §igeo2§ §igeu§ §igeuo§
+§igejakik1§ §igejatokitek1§ §igeija1§ §igeaa§ §igetattet§
+§felteo§ §j§ §szorelol§ §tatt§ §sj§ §sj3§ §igeoe§ §igeoue§
+§AAmely§ §AAAmely§ §igeamely§ §igeomely§ §igeo2mely§ §igeumely§ §felteo1§ §igeuomely§
+§igejakik1mely§ §igejatokitek1mely§ §igeija1mely§ §igeaamely§ §igetattetmely§
+§felteomely§ §szorelolmely§ §felteo3§ §l§
+§igeoo§ §igeoomely§
+      
+LEXICON Root
+Verb;
+Verb1;
+Prefigekoto;
+
+LEXICON Prefigekoto
++Pref+:keresztül   Verb;
++Pref+:kölcsön   Verb;
++Pref+:széjjel   Verb;
++Pref+:szembe   Verb;
++Pref+:szerte   Verb;
++Pref+:vissza   Verb;
++Pref+:helyre   Verb;
++Pref+:tovább   Verb;
++Pref+:tönkre   Verb;
++Pref+:észre   Verb;
++Pref+:rajta   Verb;
++Pref+:előre   Verb;
++Pref+:félbe   Verb;
++Pref+:félre   Verb;
++Pref+:felül   Verb;
++Pref+:fölül   Verb;
++Pref+:agyon   Verb;
++Pref+:ellen   Verb;
++Pref+:körbe   Verb;
++Pref+:körül   Verb;
++Pref+:közbe   Verb;
++Pref+:közre   Verb;
++Pref+:külön   Verb;
++Pref+:utána   Verb;
++Pref+:végbe   Verb;
++Pref+:végig   Verb;
++Pref+:hátra   Verb;
++Pref+:hozzá   Verb;
++Pref+:egybe   Verb;
++Pref+:ketté   Verb;
++Pref+:össze   Verb;
++Pref+:mellé   Verb;
++Pref+:által   Verb;
++Pref+:alul   Verb;
++Pref+:haza   Verb;
++Pref+:újra   Verb;
++Pref+:abba   Verb;
++Pref+:neki   Verb;
++Pref+:bele   Verb;
++Pref+:újjá   Verb;
++Pref+:benn   Verb;
++Pref+:fenn   Verb;
++Pref+:fönn   Verb;
++Pref+:jóvá   Verb;
++Pref+:szét   Verb;
++Pref+:tele   Verb;
++Pref+:tova   Verb;
++Pref+:meg   Verb;
++Pref+:oda   Verb;
++Pref+:elő   Verb;
++Pref+:túl   Verb;
++Pref+:alá   Verb;
++Pref+:föl   Verb;
++Pref+:ide   Verb;
++Pref+:fel   Verb;
++Pref+:rá   Verb;
++Pref+:ki   Verb;
++Pref+:le   Verb;
++Pref+:el   Verb;
++Pref+:át   Verb;
++Pref+:be   Verb;
+
+LEXICON Verb
+ballag AddVerbtet;
+barcog AddVerbtet;
+battyog AddVerbtet;
+berreg AddVerbtet;
+biceg AddVerbtet;
+biggyed AddVerbtett;
+billeg AddVerb;
+brekeg AddVerbtet;
+brummog AddVerbtet;
+bugyog AddVerbtet;
+bájcseveg AddVerbtet;
+bódorog AddVerbtetrg;
+bódorog:bódorg AddVerbrg;
+böfög AddVerbteteo;
+bök AddVerbeo1;
+búg AddVerb;
+büfög AddVerbteteo;
+bőg AddVerbeo1;
+cammog AddVerbtet;
+cincog AddVerbtet;
+csacsog AddVerbtet;
+csap AddVerb;
+csapkod AddVerbtet;
+csattog AddVerbtet;
+csemcseg AddVerbtet;
+csepeg AddVerbtet;
+csepereg AddVerbtetrg;
+csepereg:cseperg AddVerbrg;
+cserreg AddVerbtet;
+csetteg AddVerbtet;
+cseveg AddVerbtet;
+csicsog AddVerbtet;
+csillog AddVerbtet;
+csipeg AddVerb;
+csipked AddVerbtet;
+csipog AddVerbtet;
+csirreg AddVerbtet;
+csiszeg AddVerbtet;
+csivog AddVerbtet;
+csobog AddVerbtet;
+csoszog AddVerbtet;
+csuk AddVerbcsuk;
+csácsog AddVerbtet;
+csámborog AddVerbtetrg;
+csámborog:csámborg AddVerbrg;
+csámcsog AddVerbtet;
+csíp AddVerbtet;
+csöpög AddVerbteteo;
+csügg AddVerbeo1fugg;
+csügged AddVerbtett;
+cuppog AddVerbtet;
+cöcög AddVerbteteo;
+dadog AddVerbtet;
+dermed AddVerbtett;
+dirmeg AddVerbtet;
+dob AddVerb;
+dobog AddVerbtet;
+dohog AddVerbtet;
+dug AddVerb;
+dunnyog AddVerbtet;
+durrog AddVerbtet;
+duzzog AddVerbtet;
+döbög AddVerbteteo;
+döcög AddVerbteteo;
+dödög AddVerbteteo;
+döf AddVerbeo1;
+dönög AddVerbteteo;
+dörmög AddVerbteteo;
+dübög AddVerbteteo;
+dülled AddVerbtett;
+dünnyög AddVerbteteo;
+dürög AddVerbteteo;
+enged AddVerbtet;
+eped AddVerbtet;
+ered AddVerbtett;
+erjed AddVerbtett;
+ernyed AddVerbtett;
+fagy AddVerbat;
+farag AddVerbtet;
+fecseg AddVerbtet;
+fed AddVerb;
+fedd AddVerb;
+feled AddVerbtet;
+fentereg AddVerbtetrg;
+fentereg:fenterg AddVerbrg;
+fittyed AddVerbtett;
+fityeg AddVerbtet;
+fog AddVerb;
+fogad AddVerbtet;
+fogy AddVerbat;
+fogyton-fogy AddVerbat;
+fortyog AddVerbtet;
+fröcsög AddVerbteteo;
+föd AddVerbeo1;
+förmed AddVerbtett;
+függ AddVerbeo1fugg;
+fülled AddVerbtett;
+gagyog AddVerbtet;
+gebed AddVerbtett;
+gennyed AddVerbtett;
+gerjed AddVerbtett;
+gágog AddVerbtet;
+göcög AddVerbteteo;
+görbed AddVerbtett;
+görnyed AddVerbtett;
+gügyög AddVerbteteo;
+habog AddVerbtet;
+harap AddVerbtet;
+harsog AddVerbtet;
+hebeg AddVerbtet;
+heged AddVerbtett;
+hemzseg AddVerbtet;
+henceg AddVerbtet;
+hencsereg AddVerbtetrg;
+hencsereg:hencserg AddVerbrg;
+herreg AddVerbtet;
+herseg AddVerbtet;
+hetyeg AddVerbtet;
+hortyog AddVerbtet;
+huhog AddVerbtet;
+hull AddVerbhull;
+hurrog AddVerbtet;
+hág AddVerb;
+hápog AddVerbtet;
+hív AddVerbmely;
+húzkod AddVerbtet;
+hümmög AddVerbteteo;
+hüppög AddVerbteteo;
+ihog AddVerbtet;
+ijed AddVerbtett;
+illeg AddVerbat;
+imád AddVerbtet;
+ireg AddVerbtet;
+ityeg AddVerbtet;
+ityeg-fityeg AddVerbtet;
+kacag AddVerbtet;
+kaffog AddVerbtet;
+kap AddVerb;
+kapkod AddVerbtet;
+kattog AddVerbtet;
+kerreg AddVerbtet;
+ketyeg AddVerbtet;
+kocog AddVerbtet;
+kopog AddVerbtet;
+kotyog AddVerbtet;
+krákog AddVerbtet;
+kujtorog AddVerbtetrg;
+kujtorog:kujtorg AddVerbrg;
+kullog AddVerbtet;
+kuncog AddVerbtet;
+kuncorog AddVerbtetrg;
+kuncorog:kuncorg AddVerbrg;
+kunkorog AddVerbtetrg;
+kunkorog:kunkorg AddVerbrg;
+kurrog AddVerbtet;
+károg AddVerbtet;
+képed AddVerbtett;
+kóborog AddVerbtetrg;
+kóborog:kóborg AddVerbrg;
+köhög AddVerbteteo;
+köp AddVerbteteo;
+laffog AddVerbtet;
+lebeg AddVerbtet;
+leffeg AddVerbtet;
+lep AddVerb;
+leppeg AddVerbtet;
+letyeg AddVerbtet;
+libeg AddVerbtet;
+libeg-lobog AddVerbtet;
+lifeg AddVerbtet;
+liheg AddVerbtet;
+lobog AddVerbtet;
+locsog AddVerbtet;
+lop AddVerb;
+lopkod AddVerbtet;
+lotyog AddVerbtet;
+lép AddVerb;
+lépked AddVerbtet;
+létrehív AddVerbmely;
+lóg AddVerb;
+lök AddVerbeo1;
+löttyed AddVerbtett;
+lötyög AddVerbteteo;
+makog AddVerbtet;
+mekeg AddVerbtet;
+mered AddVerbtett;
+mormog AddVerbtet;
+motyog AddVerbtet;
+motyorog AddVerbtetrg;
+motyorog:motyorg AddVerbrg;
+mélyed AddVerbtett;
+nyafog AddVerbtet;
+nyammog AddVerbtet;
+nyekeg AddVerbtet;
+nyervog AddVerbtet;
+nyifog AddVerbtet;
+nyihog AddVerbtet;
+nyiszog AddVerbtet;
+nyom AddVerb;
+nyomkod AddVerbtet;
+nyámmog AddVerbtet;
+nyávog AddVerbtet;
+nyög AddVerbeo1;
+nyökög AddVerbteteo;
+nyüszög AddVerbteteo;
+okád AddVerbtet;
+pampog AddVerbtet;
+pattog AddVerbtet;
+perceg AddVerbtet;
+petyeg AddVerbtet;
+picsog AddVerbtet;
+piheg AddVerbtet;
+pilled AddVerbtett;
+pillog AddVerbtet;
+pislog AddVerbtet;
+pisszeg AddVerbtet;
+piszmog AddVerbtet;
+pittyed AddVerbtett;
+pittyeg AddVerbtet;
+pityeg AddVerbtet;
+plattyog AddVerbtet;
+pofonvág AddVerb;
+pofánvág AddVerb;
+potyog AddVerbtet;
+prüsszög AddVerbteteo;
+pufog AddVerbtet;
+pusmog AddVerbtet;
+pöffed AddVerbtett;
+pöfög AddVerbteteo;
+pök AddVerbeo1;
+pöntyög AddVerbteteo;
+pötyög AddVerbteteo;
+püffed AddVerbtett;
+püfög AddVerbteteo;
+ragyog AddVerbtet;
+rajtakap AddVerb;
+rak AddVerbfelteo1;
+rebeg AddVerbtet;
+recseg AddVerbtet;
+recseg-ropog AddVerbtet;
+reked AddVerbtett;
+remeg AddVerbtet;
+rendbeszed AddVerb;
+reped AddVerbtett;
+repked AddVerbtet;
+retteg AddVerbtet;
+riog AddVerbat;
+rivalg AddVerbtet;
+robog AddVerbtet;
+rogy AddVerbat;
+rop AddVerb;
+ropog AddVerbtet;
+roszog AddVerbtet;
+rotyog AddVerbtet;
+rág AddVerb;
+réved AddVerbtett;
+röfög AddVerbteteo;
+röhög AddVerbteteo;
+rötyög AddVerbteteo;
+rúg AddVerb;
+sanyarog AddVerbtetrg;
+sanyarog:sanyarg AddVerbrg;
+selypeg AddVerbtet;
+senyved AddVerbtet;
+seppeg AddVerbtet;
+serceg AddVerbtet;
+serked AddVerbtet;
+sipog AddVerbtet;
+slattyog AddVerbtet;
+suhog AddVerbtet;
+sunnyog AddVerbtet;
+sunyorog AddVerbtetrg;
+sunyorog:sunyorg AddVerbrg;
+surrog AddVerbtet;
+susmog AddVerbtet;
+susog AddVerbtet;
+sustorog AddVerbtetrg;
+sustorog:sustorg AddVerbrg;
+suttog AddVerbtet;
+szab AddVerb;
+szed AddVerb;
+szeg AddVerb;
+szenved AddVerbtet;
+szepeg AddVerbtet;
+szid AddVerbmely;
+szipog AddVerbtet;
+sziszeg AddVerbtet;
+szomorog AddVerbtetrg;
+szomorog:szomorg AddVerbrg;
+szop AddVerb;
+szortyog AddVerbtet;
+szuszog AddVerbtet;
+széled AddVerbtet;
+szív AddVerbmely;
+szörcsög AddVerbteteo;
+szörnyed AddVerbtett;
+szörtyög AddVerbteteo;
+sápog AddVerbtet;
+súg AddVerb;
+süllyed AddVerbtett;
+süpped AddVerbtett;
+tapod AddVerbtet;
+teremt AddVerbteremt;
+teremt:teremte AddVerbteremtcond;
+teremt:teremtet AddVerbtatpast;
+terjed AddVerbtett;
+tesped AddVerbtett;
+tipeg AddVerbtet;
+tocsog AddVerbtet;
+topog AddVerbtet;
+totyog AddVerbtet;
+tát AddVerbtat;
+tát:táta AddVerbtatcond;
+tát:tátot AddVerbtatpast;
+tátog AddVerbat;
+ténfereg AddVerbtetrg;
+ténfereg:ténferg AddVerbrg;
+tép AddVerb;
+tépked AddVerbtet;
+téved AddVerbtett;
+töfög AddVerbteteo;
+töm AddVerbateo;
+töpped AddVerbtett;
+tötyög AddVerbteteo;
+tüsszög AddVerbteteo;
+vacog AddVerbtet;
+vakog AddVerbtet;
+vartyog AddVerbtet;
+vernyog AddVerbtet;
+vihog AddVerbtet;
+vijjog AddVerbtet;
+villog AddVerbtet;
+vinnyog AddVerbtet;
+vág AddVerb;
+vív AddVerbmely;
+zavarog AddVerbtetrg;
+zavarog:zavarg AddVerbrg;
+zizeg AddVerbtet;
+zokog AddVerbtet;
+zsibog AddVerbtet;
+zsugorog AddVerbtetrg;
+zsugorog:zsugorg AddVerbrg;
+zubog AddVerbtet;
+zuhog AddVerbtet;
+zötyög AddVerbteteo;
+zúg AddVerb;
+zümmög AddVerbteteo;
+ébred AddVerbtett;
+ég AddVerb;
+éled AddVerbtett;
+észbekap AddVerb;
+óv AddVerb;
+ümmög AddVerbteteo;
+
+LEXICON Verb1
+arrébblök AddVerbeo1; !ige7
+arrébbrúg AddVerb;
+arrébbtipeg AddVerbtet;
+beljebbhív AddVerbmely; !ige7
+beljebbnyom AddVerb;
+bennefog AddVerb;
+benneragyog AddVerbtet;
+benneremeg AddVerbtet;
+benneég AddVerb; !7
+bennreked AddVerbtett;
+bentreked AddVerbtett;
+együttdobog AddVerbtet;
+együttlép AddVerb; !7
+együttég AddVerb;
+elévág AddVerb; !7
+feljebblép AddVerb; !7
+fölébecsül AddVerb;
+fölécsap AddVerb;
+fölényom AddVerb;
+fölérúg AddVerb;
+fölétornyosul AddVerb;
+fölévág AddVerb;
+füttyög AddVerbteteo; !ige7
+helybentopog AddVerbtet;
+ittkap AddVerb;
+ittreked AddVerbtett;
+kinnreked AddVerbtett;
+kintreked AddVerbtett;
+körbeszeg AddVerb;
+körülszeg AddVerb;
+közbefüttyög AddVerbteteo; !ige7
+közécsap AddVerb;
+közécsíp AddVerbtet; !ige7
+közédug AddVerb;
+közévág AddVerb;
+mögélép AddVerb; !7
+mögélök AddVerbeo1; !ige7
+odábbenged AddVerbtet;
+odébblép AddVerb; !7
+odébblök AddVerbeo1; !ige7
+odébbnyom AddVerb;
+odébbpattog AddVerbtet;
+odébbrak AddVerbfelteo1;
+odébbrúg AddVerb;
+pofoncsap AddVerb;
+síkralép AddVerb;
+teliharsog AddVerbtet;
+telikap AddVerb;
+telikürtöl AddVerb;
+telinyom AddVerb;
+telirak AddVerbfelteo1;
+teliszed AddVerb;
+telitöm AddVerbateo; !ige7
+összébbfog AddVerb;
+összébbnyom AddVerb;
+
+!ír
+!írhat  potential
+!irathat imper potential
+!irat imper
+!irattattat imper imper
+!irjon command
+!írhasson
+!írogattathat rep imper pot
+!íratgathat
+!írogattatgat
+!Irni
+!írnék, írnál .. írnának cond conditional
+! írjak írjon írj  command
+
+
+LEXICON AddVerb
++Verb:0     Rep;
+
+LEXICON Rep
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Imper;
+                    Imper1;
+
+LEXICON Imper
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrep;
+                      Nrep2;
+LEXICON Imper1
++Imper:^+cImp^§tatt§§AA§t  Nrep;
+                      Nrep1;
+
+LEXICON Nrep
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImper;
+                      NImper2;
+LEXICON Nrep2
++Rep:^+cNrep^g§AA§t  NImper;
+                      NImper2;
+
+LEXICON Nrep1
++Rep:^+cNrep^§felteo§g§AA§t  NImper;
+                      NImper1;
+
+LEXICON NImper
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Pot;
+                      Pot2;
+LEXICON NImper2
++Imper:^+cImp^t§AA§t  Pot;
+                      Pot2;
+
+LEXICON NImper1
++Imper:^+cImp^§tatt§§AA§t  Pot;
+                      Pot1;
+
+LEXICON Pot
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInf;
+             Case;
+LEXICON Pot2
++Pot:^+cPot^h§AAA§t  AddInf;
+             Case;
+
+LEXICON Pot1
++Pot:^+cPot^h§AAA§t  AddInf;
+             Case1;
+LEXICON AddInf
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+               Case;
+LEXICON Case
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON Case1
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON AddVerbfelteo1
++Verb:0     Repfelteo1;
+
+LEXICON Repfelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo1§g§AA§t  Imperfelteo1;
+                    Imper1felteo1;
+
+LEXICON Imperfelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepfelteo1;
+                      Nrepfelteo12;
+LEXICON Imper1felteo1
++Imper:^+cImp^§tatt§§AA§t  Nrepfelteo1;
+                      Nrep1felteo1;
+
+LEXICON Nrepfelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperfelteo1;
+                      NImperfelteo12;
+LEXICON Nrepfelteo12
++Rep:^+cNrep^g§AA§t  NImperfelteo1;
+                      NImperfelteo12;
+
+LEXICON Nrep1felteo1
++Rep:^+cNrep^§felteo1§g§AA§t  NImperfelteo1;
+                      NImper1felteo1;
+
+LEXICON NImperfelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potfelteo1;
+                      Potfelteo12;
+LEXICON NImperfelteo12
++Imper:^+cImp^t§AA§t  Potfelteo1;
+                      Potfelteo12;
+
+LEXICON NImper1felteo1
++Imper:^+cImp^§tatt§§AA§t  Potfelteo1;
+                      Pot1felteo1;
+
+LEXICON Potfelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInffelteo1;
+             Case;
+LEXICON Potfelteo12
++Pot:^+cPot^h§AAA§t  AddInffelteo1;
+             Case;
+
+LEXICON Pot1felteo1
++Pot:^+cPot^h§AAA§t  AddInffelteo1;
+             Case1;
+LEXICON AddInffelteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+                Case; 
+! uses Case and Case1 of AddVerb
+
+
+LEXICON AddVerbeo1
++Verb:0     Repeo1;
+
+LEXICON Repeo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo3§g§AA§t  Impereo1;
+                    Imper1eo1;
+
+LEXICON Impereo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepeo1;
+                      Nrepeo12;
+LEXICON Imper1eo1
++Imper:^+cImp^§tatt§§AA§t  Nrepeo1;
+                      Nrep1eo1;
+
+LEXICON Nrepeo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImpereo1;
+                      NImpereo12;
+LEXICON Nrepeo12
++Rep:^+cNrep^g§AA§t  NImpereo1;
+                      NImpereo12;
+
+LEXICON Nrep1eo1
++Rep:^+cNrep^§felteo3§g§AA§t  NImpereo1;
+                      NImper1eo1;
+
+LEXICON NImpereo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Poteo1;
+                      Poteo12;
+LEXICON NImpereo12
++Imper:^+cImp^t§AA§t  Poteo1;
+                      Poteo12;
+
+LEXICON NImper1eo1
++Imper:^+cImp^§tatt§§AA§t  Poteo1;
+                      Pot1eo1;
+
+LEXICON Poteo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfeo1;
+             Caseeo;
+LEXICON Poteo12
++Pot:^+cPot^h§AAA§t  AddInfeo1;
+             Caseeo;
+
+LEXICON Pot1eo1
++Pot:^+cPot^h§AAA§t  AddInfeo1;
+             Case1eo;
+LEXICON AddInfeo1
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+               Caseeo;
+
+LEXICON Caseeo
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON Case1eo
++IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoue§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoue§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoue§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON AddVerbmely
++Verb:0     Repmely;
+
+LEXICON Repmely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteomely§g§AAmely§t  Impermely;
+                    Imper1mely;
+
+LEXICON Impermely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Nrepmely;
+                      Nrepmely2;
+LEXICON Imper1mely
++Imper:^+cImp^§tatt§§AAmely§t  Nrepmely;
+                      Nrep1mely;
+
+LEXICON Nrepmely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cNrep^g§AAmely§t  NImpermely;
+                      NImpermely2;
+LEXICON Nrepmely2
++Rep:^+cNrep^g§AAmely§t  NImpermely;
+                      NImpermely2;
+
+LEXICON Nrep1mely
++Rep:^+cNrep^§felteomely§g§AAmely§t  NImpermely;
+                      NImper1mely;
+
+LEXICON NImpermely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Potmely;
+                      Potmely2;
+LEXICON NImpermely2
++Imper:^+cImp^t§AAmely§t  Potmely;
+                      Potmely2;
+
+LEXICON NImper1mely
++Imper:^+cImp^§tatt§§AAmely§t  Potmely;
+                      Pot1mely;
+
+LEXICON Potmely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Pot:^+cPot^h§AAAmely§t  AddInfmely;
+             Casemely;
+LEXICON Potmely2
++Pot:^+cPot^h§AAAmely§t  AddInfmely;
+             Casemely;
+
+LEXICON Pot1mely
++Pot:^+cPot^h§AAAmely§t  AddInfmely;
+             Case1mely;
+LEXICON AddInfmely
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
+             Casemely;
+LEXICON Casemely
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^t§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+LEXICON Case1mely
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^t§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+
+LEXICON AddVerbtett
++Verb:0     Reptett;
+
+LEXICON Reptett
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++PastIndefSg3:^+cPIndefSg3^t      #;    ! t
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Impertet;
+                    Imper1tet;
+
+
+LEXICON AddVerbtet
++Verb:0     Reptet;
+
+LEXICON Reptet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Impertet;
+                    Imper1tet;
+
+LEXICON Impertet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nreptet;
+                      Nreptet2;
+LEXICON Imper1tet
++Imper:^+cImp^t§AA§t  Nreptet;
+                      Nrep1tet;
+
+LEXICON Nreptet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImpertet;
+                      NImpertet2;
+LEXICON Nreptet2
++Rep:^+cNrep^g§AA§t  NImpertet;
+                      NImpertet2;
+
+LEXICON Nrep1tet
++Rep:^+cNrep^§felteo§g§AA§t  NImpertet;
+                      NImper1tet;
+
+LEXICON NImpertet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Pottet;
+                      Pottet2;
+LEXICON NImpertet2
++Imper:^+cImp^t§AA§t  Pottet;
+                      Pottet2;
+
+LEXICON NImper1tet
++Imper:^+cImp^t§AA§t  Pottet;
+                      Pot1tet;
+
+LEXICON Pottet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInftet;
+             Casetet;
+LEXICON Pottet2
++Pot:^+cPot^h§AAA§t  AddInftet;
+             Casetet;
+
+LEXICON Pot1tet
++Pot:^+cPot^h§AAA§t  AddInftet;
+             Case1tet;
+LEXICON AddInftet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+              Casetet;
+LEXICON Casetet
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1tet
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbteteo
++Verb:0     Repteteo;
+
+LEXICON Repteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Imperteteo;
+                    Imper1teteo;
+
+LEXICON Imperteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepteteo;
+                      Nrepteteo2;
+LEXICON Imper1teteo
++Imper:^+cImp^t§AA§t  Nrepteteo;
+                      Nrep1teteo;
+
+LEXICON Nrepteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperteteo;
+                      NImperteteo2;
+LEXICON Nrepteteo2
++Rep:^+cNrep^g§AA§t  NImperteteo;
+                      NImperteteo2;
+
+LEXICON Nrep1teteo
++Rep:^+cNrep^§felteo§g§AA§t  NImperteteo;
+                      NImper1teteo;
+
+LEXICON NImperteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potteteo;
+                      Potteteo2;
+LEXICON NImperteteo2
++Imper:^+cImp^t§AA§t  Potteteo;
+                      Potteteo2;
+
+LEXICON NImper1teteo
++Imper:^+cImp^t§AA§t  Potteteo;
+                      Pot1teteo;
+
+LEXICON Potteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfteteo;
+             Caseteteo;
+LEXICON Potteteo2
++Pot:^+cPot^h§AAA§t  AddInfteteo;
+             Caseteteo;
+
+LEXICON Pot1teteo
++Pot:^+cPot^h§AAA§t  AddInfteteo;
+             Case1teteo;
+LEXICON AddInfteteo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+              Caseteteo;
+LEXICON Caseteteo
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1teteo
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbat
++Verb:0     Repat;
+
+LEXICON Repat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo1§g§AA§t  Imperat;
+                    Imper1at;
+
+LEXICON Imperat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^§AA§t  Nrepat;
+                      Nrepat2;
+LEXICON Imper1at
++Imper:^+cImp^§AA§t  Nrepat;
+                      Nrep1at;
+
+LEXICON Nrepat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperat;
+                      NImperat2;
+LEXICON Nrepat2
++Rep:^+cNrep^g§AA§t  NImperat;
+                      NImperat2;
+
+LEXICON Nrep1at
++Rep:^+cNrep^§felteo1§g§AA§t  NImperat;
+                      NImper1at;
+
+LEXICON NImperat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potat;
+                      Potat2;
+LEXICON NImperat2
++Imper:^+cImp^t§AA§t  Potat;
+                      Potat2;
+
+LEXICON NImper1at
++Imper:^+cImp^§AA§t  Potat;
+                      Pot1at;
+
+LEXICON Potat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfat;
+             Caseat;
+LEXICON Potat2
++Pot:^+cPot^h§AAA§t  AddInfat;
+             Caseat;
+LEXICON Pot1at
++Pot:^+cPot^h§AAA§t  AddInfat;
+             Case1at;
+LEXICON AddInfat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+               Caseat;
+LEXICON Caseat
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1at
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbateo
++Verb:0     Repateo;
+
+LEXICON Repateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^ög§AA§t  Imperateo;
+                    Imper1ateo;
+
+LEXICON Imperateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^§AA§t  Nrepateo;
+                      Nrepateo2;
+LEXICON Imper1ateo
++Imper:^+cImp^§AA§t  Nrepateo;
+                      Nrep1ateo;
+
+LEXICON Nrepateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperateo;
+                      NImperateo2;
+LEXICON Nrepateo2
++Rep:^+cNrep^g§AA§t  NImperateo;
+                      NImperateo2;
+
+LEXICON Nrep1ateo
++Rep:^+cNrep^ög§AA§t  NImperateo;
+                      NImper1ateo;
+
+LEXICON NImperateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potateo;
+                      Potateo2;
+LEXICON NImperateo2
++Imper:^+cImp^t§AA§t  Potateo;
+                      Potateo2;
+
+LEXICON NImper1ateo
++Imper:^+cImp^§AA§t  Potateo;
+                      Pot1ateo;
+
+LEXICON Potateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfateo;
+             Caseateo;
+LEXICON Potateo2
++Pot:^+cPot^h§AAA§t  AddInfateo;
+             Caseateo;
+LEXICON Pot1ateo
++Pot:^+cPot^h§AAA§t  AddInfateo;
+             Case1ateo;
+LEXICON AddInfateo
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+             Caseateo;
+LEXICON Caseateo
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1ateo
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
+!+IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbtetrg
++Verb:0     Reptetrg;
+
+LEXICON Reptetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Impertetrg;
+                    Imper1tetrg;
+
+LEXICON Impertetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nreptetrg;
+                      Nreptetrg2;
+LEXICON Imper1tetrg
++Imper:^+cImp^t§AA§t  Nreptetrg;
+                      Nrep1tetrg;
+
+LEXICON Nreptetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImpertetrg;
+                      NImpertetrg2;
+LEXICON Nreptetrg2
++Rep:^+cNrep^g§AA§t  NImpertetrg;
+                      NImpertetrg2;
+
+LEXICON Nrep1tetrg
++Rep:^+cNrep^§felteo§g§AA§t  NImpertetrg;
+                      NImper1tetrg;
+
+LEXICON NImpertetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Pottetrg;
+                      Pottetrg2;
+LEXICON NImpertetrg2
++Imper:^+cImp^t§AA§t  Pottetrg;
+                      Pottetrg2;
+
+LEXICON NImper1tetrg
++Imper:^+cImp^t§AA§t  Pottetrg;
+                      Pot1tetrg;
+
+LEXICON Pottetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInftetrg;
+             Casetetrg;
+LEXICON Pottetrg2
++Pot:^+cPot^h§AAA§t  AddInftetrg;
+             Casetetrg;
+
+LEXICON Pot1tetrg
++Pot:^+cPot^h§AAA§t  AddInftetrg;
+             Case1tetrg;
+LEXICON AddInftetrg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+             Casetetrg;
+LEXICON Casetetrg
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1tetrg
+!+IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
+!+IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
+!+DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
+!+DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
+!+PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbrg
++Verb:0     Caserg;
+
+LEXICON Caserg
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
+!+IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
+!+IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
+!+IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
+!+IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
+!+DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
+!+DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
+!+DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
+!+DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
+
+LEXICON AddVerbtat
++Verb:0     Reptat;
+
+LEXICON Reptat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Impertat;
+                    Imper1tat;
+
+LEXICON Impertat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nreptat;
+                      Nreptat2;
+LEXICON Imper1tat
++Imper:^+cImp^§tatt§§AA§t  Nreptat;
+                      Nrep1tat;
+
+LEXICON Nreptat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImpertat;
+                      NImpertat2;
+LEXICON Nreptat2
++Rep:^+cNrep^g§AA§t  NImpertat;
+                      NImpertat2;
+
+LEXICON Nrep1tat
++Rep:^+cNrep^§felteo§g§AA§t  NImpertat;
+                      NImper1tat;
+
+LEXICON NImpertat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Pottat;
+                      Pottat2;
+LEXICON NImpertat2
++Imper:^+cImp^t§AA§t  Pottat;
+                      Pottat2;
+
+LEXICON NImper1tat
++Imper:^+cImp^§tatt§§AA§t  Pottat;
+                      Pot1tat;
+
+LEXICON Pottat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInftat;
+             Casetat;
+LEXICON Pottat2
++Pot:^+cPot^h§AAA§t  AddInftat;
+             Casetat;
+
+LEXICON Pot1tat
++Pot:^+cPot^h§AAA§t  AddInftat;
+             Case1tat;
+LEXICON AddInftat
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+           Casetat;
+LEXICON Casetat
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1tat
++ConjIndefSg1:^+cConjIndefSg1^§sj3§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj3§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj3§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj3§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj3§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj3§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj3§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj3§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj3§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj3§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj3§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj3§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj3§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj3§§igeaa§k            #;
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj3§§igea§l§igea§k          #;
+!+PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
+!+CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+! tát:tátot
+LEXICON AddVerbtatpast
++Verb:0     Casetatpast;
+
+LEXICON Casetatpast
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
+!+PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefSg3:^+cPIndefSg3^t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
+
+
+! tát:táta
+LEXICON AddVerbtatcond
++Verb:0     Casetatcond;
+
+LEXICON Casetatcond
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbteremt
++Verb:0     Repteremt;
+
+LEXICON Repteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Imperteremt;
+                    Imper1teremt;
+
+LEXICON Imperteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepteremt;
+                      Nrepteremt2;
+LEXICON Imper1teremt
++Imper:^+cImp^§AA§t  Nrepteremt;
+                      Nrep1teremt;
+
+LEXICON Nrepteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperteremt;
+                      NImperteremt2;
+LEXICON Nrepteremt2
++Rep:^+cNrep^g§AA§t  NImperteremt;
+                      NImperteremt2;
+
+LEXICON Nrep1teremt
++Rep:^+cNrep^§felteo§g§AA§t  NImperteremt;
+                      NImper1teremt;
+
+LEXICON NImperteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potteremt;
+                      Potteremt2;
+LEXICON NImperteremt2
++Imper:^+cImp^t§AA§t  Potteremt;
+                      Potteremt2;
+
+LEXICON NImper1teremt
++Imper:^+cImp^§AA§t  Potteremt;
+                      Pot1teremt;
+
+LEXICON Potteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfteremt;
+             Caseteremt;
+LEXICON Potteremt2
++Pot:^+cPot^h§AAA§t  AddInfteremt;
+             Caseteremt;
+
+LEXICON Pot1teremt
++Pot:^+cPot^h§AAA§t  AddInfteremt;
+             Case1teremt;
+LEXICON AddInfteremt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+               Caseteremt;
+LEXICON Caseteremt
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1teremt
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
+!+IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
+!+IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
+
+! teremt:teremte
+LEXICON AddVerbteremtcond
++Verb:0     Caseteremtcond;
+
+LEXICON Caseteremtcond
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+! use imper, imper1, nrep, case and case31 of AddVerb
+LEXICON AddVerbcsuk
++Verb:0     Repcsuk;
+
+LEXICON Repcsuk
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niok #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Imper;
+                    Imper1;
+
+
+LEXICON AddVerbhull
++Verb:0     Rephull;
+
+LEXICON Rephull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Inf11:^+ccInf11^§igea§n§igeoue§m #;
++Inf12:^+ccInf12^§igea§n§igeoue§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo§g§AA§t  Imperhull;
+                    Imper1hull;
+
+LEXICON Imperhull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrephull;
+                      Nrep2hull;
+LEXICON Imper1hull
++Imper:^+cImp^§tatt§§AA§t  Nrephull;
+                      Nrep1hull;
+
+LEXICON Nrephull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperhull;
+                      NImper2hull;
+LEXICON Nrep2hull
++Rep:^+cNrep^g§AA§t  NImperhull;
+                      NImper2hull;
+
+LEXICON Nrep1hull
++Rep:^+cNrep^§felteo§g§AA§t  NImperhull;
+                      NImper1hull;
+
+LEXICON NImperhull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Pothull;
+                      Pot2hull;
+LEXICON NImper2hull
++Imper:^+cImp^t§AA§t  Pothull;
+                      Pot2hull;
+
+LEXICON NImper1hull
++Imper:^+cImp^§tatt§§AA§t  Pothull;
+                      Pot1hull;
+
+LEXICON Pothull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfhull;
+             Case;
+LEXICON Pot2hull
++Pot:^+cPot^h§AAA§t  AddInfhull;
+             Case;
+
+LEXICON Pot1hull
++Pot:^+cPot^h§AAA§t  AddInfhull;
+             Case1hull;
+
+LEXICON AddInfhull
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+           Case;
+
+LEXICON Case1hull
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^ot§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^at§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl2:^+cIndefPl2^§igeo§tt§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
++PastIndefSg1:^+cPIndefSg1^§igeo§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§igeo§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§igeo§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§igeo§tt§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§igeo§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§igeo§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§igeo§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§igeo§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§igeo§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§igeo§tt§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§igeo§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++PastDefSg12:^+cPDefSgp12^§igeo§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbeo1fugg
++Verb:0     Repeo1fugg;
+
+LEXICON Repeo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Inf11:^+ccInf11^§igea§n§igeo§m #;
++Inf12:^+ccInf12^§igea§n§igeo§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeo§t§igeo§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§niök #;
++Inf:^+cInf^§igea§ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo3§g§AA§t  Impereo1fugg;
+                    Imper1eo1fugg;
+
+LEXICON Impereo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepeo1fugg;
+                      Nrepeo12fugg;
+LEXICON Imper1eo1fugg
++Imper:^+cImp^§tatt§§AA§t  Nrepeo1fugg;
+                      Nrep1eo1fugg;
+
+LEXICON Nrepeo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImpereo1fugg;
+                      NImpereo12fugg;
+LEXICON Nrepeo12fugg
++Rep:^+cNrep^g§AA§t  NImpereo1fugg;
+                      NImpereo12fugg;
+
+LEXICON Nrep1eo1fugg
++Rep:^+cNrep^§felteo3§g§AA§t  NImpereo1fugg;
+                      NImper1eo1fugg;
+
+LEXICON NImpereo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Poteo1fugg;
+                      Poteo12fugg;
+LEXICON NImpereo12fugg
++Imper:^+cImp^t§AA§t  Poteo1fugg;
+                      Poteo12fugg;
+
+LEXICON NImper1eo1fugg
++Imper:^+cImp^§tatt§§AA§t  Poteo1fugg;
+                      Pot1eo1fugg;
+
+LEXICON Poteo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfeo1fugg;
+             Caseeofugg;
+LEXICON Poteo12fugg
++Pot:^+cPot^h§AAA§t  AddInfeo1fugg;
+             Caseeofugg;
+
+LEXICON Pot1eo1fugg
++Pot:^+cPot^h§AAA§t  AddInfeo1fugg;
+             Case1eofugg;
+
+LEXICON AddInfeo1fugg
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^niök #;
++Inf:^+cInf^ni  #; 
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+                Caseeofugg;
+
+LEXICON Caseeofugg
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON Case1eofugg
++IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§         #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^tök  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoue§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoue§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoue§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg1^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg1^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg1^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg1^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
+
+

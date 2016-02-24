@@ -1,0 +1,1232 @@
+!!!enhuoa.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§J§ §JP§
+§VV§   §ooez23§ §EOA22§ §OEOE21§ §uue2§ §AE21§
+§UUE2§ §OEOE25§ §UUE21§ §AE22§ §OEOE22§ §oeoez21§ §oooe2§ 
+§AAA2§ §oeoe2§ §AA2§ §oeoez25§ §oeoez24§ §k§ §t§ 
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+! szavak:
+! alulírt
+! annyiadik
+! blazírt
+! bornírt
+! héj
+! kamásni
+! lik
+! rítt
+! sokadik
+! szíj
+! vékny
+! íj
+! 
+LEXICON Noun
+ablakszíj AddNoun;
+acélhéj AddNoun;
+acélszíj AddNoun;
+adalékdíj AddNoun;
+adatdíj AddNoun;
+adománydíj AddNoun;
+agyaghéj AddNoun;
+agyaglik AddNoun;
+akkutermékdíj AddNoun;
+alagútdíj AddNoun;
+alagúthéj AddNoun;
+alapanyagdíj AddNoun;
+alapdíj AddNoun;
+alapfuvardíj AddNoun;
+alapnyugdíj AddNoun;
+alaptandíj AddNoun;
+alaptiszteletdíj AddNoun;
+alhéj AddNoun;
+alkotódíj AddNoun;
+alkuszdíj AddNoun;
+almadíj AddNoun;
+almahéj AddNoun;
+alulírt AddNoun;
+alumíniumhéj AddNoun;
+alátéthéj AddNoun;
+amannyiadik AddNoun;
+amazondíj AddNoun;
+ananászhéj AddNoun;
+angyalhéj AddNoun;
+annyiadik AddNoun;
+antantszíj AddNoun;
+antennadíj AddNoun;
+anyagdíj AddNoun;
+anyaghéj AddNoun;
+aranydíj AddNoun;
+aranyszíj AddNoun;
+aranyváltságdíj AddNoun;
+aranyíj AddNoun;
+arcképdíj AddNoun;
+asztaldíj AddNoun;
+atomhéj AddNoun;
+atommaghéj AddNoun;
+autópályadíj AddNoun;
+autósztrádadíj AddNoun;
+avokádóhéj AddNoun;
+babhéj AddNoun;
+bajonettszíj AddNoun;
+bakancsszíj AddNoun;
+balettdíj AddNoun;
+banánhéj AddNoun;
+barackhéj AddNoun;
+becsüsdíj AddNoun;
+belhéj AddNoun;
+beléptidíj AddNoun;
+belépődíj AddNoun;
+bergamotthéj AddNoun;
+betegnyugdíj AddNoun;
+betonhéj AddNoun;
+betétdíj AddNoun;
+bizonyítványdíj AddNoun;
+blazírt AddNoun;
+bocskorszíj AddNoun;
+bogyóhéj AddNoun;
+bokaszíj AddNoun;
+boksznyugdíj AddNoun;
+bordahéj AddNoun;
+bordíj AddNoun;
+bornírt AddNoun;
+borotvaszíj AddNoun;
+borsóhéj AddNoun;
+brókerdíj AddNoun;
+buborékhéj AddNoun;
+burgonyahéj AddNoun;
+buszdíj AddNoun;
+bádogíj AddNoun;
+bánatdíj AddNoun;
+bányadíj AddNoun;
+bányanyugdíj AddNoun;
+bányásznyugdíj AddNoun;
+bázisdíj AddNoun;
+békedíj AddNoun;
+bélyegdíj AddNoun;
+bérkocsidíj AddNoun;
+bérkocsiviteldíj AddNoun;
+bérletdíj AddNoun;
+bérmunkadíj AddNoun;
+bírságdíj AddNoun;
+bónuszdíj AddNoun;
+böngészőhéj AddNoun;
+bújtatószíj AddNoun;
+büntetődíj AddNoun;
+bőrhéj AddNoun;
+bőrszíj AddNoun;
+bűndíj AddNoun;
+cellulózhéj AddNoun;
+centrumdíj AddNoun;
+charterdíj AddNoun;
+cikkdíj AddNoun;
+citromdíj AddNoun;
+citromhéj AddNoun;
+csapadékdíj AddNoun;
+csarnokhéj AddNoun;
+csatlósszíj AddNoun;
+csatlószíj AddNoun;
+csatolószíj AddNoun;
+csatornadíj AddNoun;
+csengettyűszíj AddNoun;
+csengőszíj AddNoun;
+cseppkőhéj AddNoun;
+cseredíj AddNoun;
+cseresznyehéj AddNoun;
+cseresznyeszíj AddNoun;
+csereszíj AddNoun;
+csereösztöndíj AddNoun;
+cserhéj AddNoun;
+csigadíj AddNoun;
+csigahéj AddNoun;
+csipkebogyóhéj AddNoun;
+csodadíj AddNoun;
+csomagdíj AddNoun;
+csomagpótdíj AddNoun;
+csomagszíj AddNoun;
+csonthéj AddNoun;
+csontíj AddNoun;
+csoportdíj AddNoun;
+csuklószíj AddNoun;
+császárdíj AddNoun;
+császárösztöndíj AddNoun;
+cséplőgépszíj AddNoun;
+cséplőszíj AddNoun;
+csípőíj AddNoun;
+csónakdíj AddNoun;
+csúcsdíj AddNoun;
+csőhéj AddNoun;
+cégnyugdíj AddNoun;
+céllövőíj AddNoun;
+darabdíj AddNoun;
+depódíj AddNoun;
+derékszíj AddNoun;
+designdíj AddNoun;
+deszkahéj AddNoun;
+dicsőségdíj AddNoun;
+dinnyehéj AddNoun;
+divatdíj AddNoun;
+dióhéj AddNoun;
+dokkdíj AddNoun;
+dokumentumfilmdíj AddNoun;
+dongahéj AddNoun;
+donordíj AddNoun;
+dugódíj AddNoun;
+dunnahéj AddNoun;
+dunyhahéj AddNoun;
+díj AddNoun;
+ebszíj AddNoun;
+edzésdíj AddNoun;
+egységdíj AddNoun;
+elektronhéj AddNoun;
+elődíj AddNoun;
+előfizetésdíj AddNoun;
+előnyugdíj AddNoun;
+előtéthéj AddNoun;
+emberdíj AddNoun;
+emlékdíj AddNoun;
+emlékösztöndíj AddNoun;
+energiadíj AddNoun;
+energiahéj AddNoun;
+engedélydíj AddNoun;
+eresztékszíj AddNoun;
+erénydíj AddNoun;
+esztergaszíj AddNoun;
+eszterhéj AddNoun;
+expresszdíj AddNoun;
+ezüstdíj AddNoun;
+ezüsthéj AddNoun;
+ezüstszíj AddNoun;
+fahéj AddNoun;
+faktordíj AddNoun;
+farhámszíj AddNoun;
+farokszíj AddNoun;
+farszíj AddNoun;
+faíj AddNoun;
+fedélhéj AddNoun;
+fegyverdíj AddNoun;
+fegyverszíj AddNoun;
+fehérrépahéj AddNoun;
+fejdíj AddNoun;
+feladatdíj AddNoun;
+felléptidíj AddNoun;
+fellépődíj AddNoun;
+felrántószíj AddNoun;
+felvonószíj AddNoun;
+fentírt AddNoun;
+fenőszíj AddNoun;
+fesztiváldíj AddNoun;
+feszítőszíj AddNoun;
+filmdíj AddNoun;
+filmjogdíj AddNoun;
+fixdíj AddNoun;
+flekkdíj AddNoun;
+fociösztöndíj AddNoun;
+fogasszíj AddNoun;
+foghíj AddNoun;
+foglalódíj AddNoun;
+forgalomdíj AddNoun;
+forgatókönyvdíj AddNoun;
+forgáshéj AddNoun;
+forgószíj AddNoun;
+frekvenciadíj AddNoun;
+fuvardíj AddNoun;
+fájdalomdíj AddNoun;
+fánkdíj AddNoun;
+féldíj AddNoun;
+félgömbhéj AddNoun;
+félnyugdíj AddNoun;
+fémhéj AddNoun;
+fémszíj AddNoun;
+fókabőrszíj AddNoun;
+födélhéj AddNoun;
+földgázdíj AddNoun;
+földimogyoróhéj AddNoun;
+függesztőszíj AddNoun;
+fürdésdíj AddNoun;
+fürdődíj AddNoun;
+füstlik AddNoun;
+fődíj AddNoun;
+fővigaszdíj AddNoun;
+fővonaldíj AddNoun;
+fűtésdíj AddNoun;
+fűzőlik AddNoun;
+fűzőszíj AddNoun;
+gabonahéj AddNoun;
+garanciadíj AddNoun;
+garázsdíj AddNoun;
+gatyaszíj AddNoun;
+generátorszíj AddNoun;
+gesztenyehéj AddNoun;
+gitárdíj AddNoun;
+gitárszíj AddNoun;
+gránátalmahéj AddNoun;
+gubóhéj AddNoun;
+gumihéj AddNoun;
+gumiszemhéj AddNoun;
+gumiszíj AddNoun;
+gumiékszíj AddNoun;
+gyepdíj AddNoun;
+gyeplőszíj AddNoun;
+gyerektartásdíj AddNoun;
+gyermekdíj AddNoun;
+gyermektartásdíj AddNoun;
+gyermekíj AddNoun;
+gyorsvonatpótdíj AddNoun;
+gyászmisedíj AddNoun;
+gyógydíj AddNoun;
+gyümölcsdíj AddNoun;
+gyümölcshéj AddNoun;
+gázdíj AddNoun;
+gáztartályhéj AddNoun;
+géphajtószíj AddNoun;
+gépjárműdíj AddNoun;
+gépkocsilízingdíj AddNoun;
+géppisztolyszíj AddNoun;
+gépszíj AddNoun;
+gépóradíj AddNoun;
+gézdíj AddNoun;
+gömbhéj AddNoun;
+görögdinnyehéj AddNoun;
+gúnydíj AddNoun;
+hadipótdíj AddNoun;
+hagymahéj AddNoun;
+hagymakupolahéj AddNoun;
+hajtásdíj AddNoun;
+hajtáshéj AddNoun;
+hajtásszíj AddNoun;
+hajtószíj AddNoun;
+hajódíj AddNoun;
+hajófuvardíj AddNoun;
+halasztódíj AddNoun;
+halhéj AddNoun;
+halántékszíj AddNoun;
+hanglemezdíj AddNoun;
+hanglemeznagydíj AddNoun;
+hangpostapercdíj AddNoun;
+hangszerdíj AddNoun;
+hangversenydíj AddNoun;
+harangszíj AddNoun;
+hasszíj AddNoun;
+hatásdíj AddNoun;
+havidíj AddNoun;
+hektárdíj AddNoun;
+helydíj AddNoun;
+helypénzdíj AddNoun;
+hengerhéj AddNoun;
+hevederszíj AddNoun;
+hidrogénhéj AddNoun;
+hiteldíj AddNoun;
+holtfuvardíj AddNoun;
+homlokszíj AddNoun;
+honvédnyugdíj AddNoun;
+hordárdíj AddNoun;
+hozománydíj AddNoun;
+hulladékdíj AddNoun;
+háladíj AddNoun;
+hálódíj AddNoun;
+hálókocsidíj AddNoun;
+hámigaszíj AddNoun;
+hámszíj AddNoun;
+hátszíj AddNoun;
+házhéj AddNoun;
+héj AddNoun;
+héliumhéj AddNoun;
+híj AddNoun;
+hírlapdíj AddNoun;
+hívásdíj AddNoun;
+húzószíj AddNoun;
+hődíj AddNoun;
+hőenergiadíj AddNoun;
+hűségdíj AddNoun;
+idénydíj AddNoun;
+ikrahéj AddNoun;
+illetékdíj AddNoun;
+imaszíj AddNoun;
+importdíj AddNoun;
+impulzusdíj AddNoun;
+indexdíj AddNoun;
+inkasszódíj AddNoun;
+internetdíj AddNoun;
+iparosnyugdíj AddNoun;
+irányóradíj AddNoun;
+iskoladíj AddNoun;
+ismétlődíj AddNoun;
+ismétlővizsgadíj AddNoun;
+ivóvízdíj AddNoun;
+jegyzetdíj AddNoun;
+jellemdíj AddNoun;
+jogdíj AddNoun;
+jutalomdíj AddNoun;
+jutalékdíj AddNoun;
+járatdíj AddNoun;
+járomszíj AddNoun;
+járódíj AddNoun;
+játékdíj AddNoun;
+játékíj AddNoun;
+júdásdíj AddNoun;
+kagylóhéj AddNoun;
+kakaóhéj AddNoun;
+kalapszíj AddNoun;
+kamatdíj AddNoun;
+kamionútdíj AddNoun;
+kamudíj AddNoun;
+kamásni AddNoun;
+kancadíj AddNoun;
+kantárszíj AddNoun;
+kapacitásdíj AddNoun;
+kapaszkodószíj AddNoun;
+kapcsolószíj AddNoun;
+kapszulahéj AddNoun;
+kardszíj AddNoun;
+karszíj AddNoun;
+kartonhéj AddNoun;
+karámdíj AddNoun;
+karóraszíj AddNoun;
+kaszinódíj AddNoun;
+kategóriadíj AddNoun;
+kaucsukszíj AddNoun;
+kazettajogdíj AddNoun;
+kegydíj AddNoun;
+kempingdíj AddNoun;
+kengyelszíj AddNoun;
+kenyérhéj AddNoun;
+kerámiahéj AddNoun;
+kerékpárdíj AddNoun;
+kerékpárviteldíj AddNoun;
+kikötődíj AddNoun;
+kiküldetésdíj AddNoun;
+kilométerdíj AddNoun;
+királydíj AddNoun;
+kishíj AddNoun;
+kivihéj AddNoun;
+klipdíj AddNoun;
+klubdíj AddNoun;
+klubtagdíj AddNoun;
+klíringjogdíj AddNoun;
+kocsidíj AddNoun;
+kocsiszíj AddNoun;
+kolbászhéj AddNoun;
+koleszdíj AddNoun;
+kolhoznyugdíj AddNoun;
+kollekciódíj AddNoun;
+kollégiumdíj AddNoun;
+kompdíj AddNoun;
+kompviteldíj AddNoun;
+komédiadíj AddNoun;
+koncessziódíj AddNoun;
+konferenciadíj AddNoun;
+kontrolldíj AddNoun;
+kopásdíj AddNoun;
+korbácsszíj AddNoun;
+korcsolyaszíj AddNoun;
+kordondíj AddNoun;
+kormányzódíj AddNoun;
+koronadíj AddNoun;
+korosztálydíj AddNoun;
+kottadíj AddNoun;
+kottakölcsöndíj AddNoun;
+kristályhéj AddNoun;
+kritikusdíj AddNoun;
+krokodilbőrszíj AddNoun;
+krumplihéj AddNoun;
+kukadíj AddNoun;
+kukoricahéj AddNoun;
+kukoricamaghéj AddNoun;
+kulacsszíj AddNoun;
+kupolahéj AddNoun;
+kurzusdíj AddNoun;
+kutatóösztöndíj AddNoun;
+kutyaszíj AddNoun;
+kábeldíj AddNoun;
+kádhéj AddNoun;
+káplárszíj AddNoun;
+kártyadíj AddNoun;
+kéglidíj AddNoun;
+kéményseprődíj AddNoun;
+kényszernyugdíj AddNoun;
+kényszerszennyvízdíj AddNoun;
+kéreghéj AddNoun;
+készpénzdíj AddNoun;
+kézfejszíj AddNoun;
+kézíj AddNoun;
+kínahéj AddNoun;
+kókuszdióhéj AddNoun;
+kókuszhéj AddNoun;
+kópiadíj AddNoun;
+kórusdíj AddNoun;
+kölcsöndíj AddNoun;
+költségdíj AddNoun;
+könyvdíj AddNoun;
+könyvtárösztöndíj AddNoun;
+köpenyhéj AddNoun;
+köpenyszíj AddNoun;
+körtehéj AddNoun;
+körzetdíj AddNoun;
+kötényszíj AddNoun;
+kötésdíj AddNoun;
+kötőfékszíj AddNoun;
+kötőszíj AddNoun;
+kövezetdíj AddNoun;
+közdíj AddNoun;
+közlőszíj AddNoun;
+közmunkadíj AddNoun;
+közműdíj AddNoun;
+köznyugdíj AddNoun;
+közterületdíj AddNoun;
+középnyugdíj AddNoun;
+közönségdíj AddNoun;
+kúphéj AddNoun;
+küldésdíj AddNoun;
+küldöncdíj AddNoun;
+különdíj AddNoun;
+labdarúgójogdíj AddNoun;
+labordíj AddNoun;
+lakkbőrszíj AddNoun;
+lakásdíj AddNoun;
+lapdíj AddNoun;
+leckedíj AddNoun;
+lefűzőszíj AddNoun;
+legelődíj AddNoun;
+lehúzóhéj AddNoun;
+leletdíj AddNoun;
+lemezdíj AddNoun;
+lemezjogdíj AddNoun;
+lemeznagydíj AddNoun;
+lendkerékszíj AddNoun;
+letétdíj AddNoun;
+levegődíj AddNoun;
+levéldíj AddNoun;
+licencdíj AddNoun;
+licenciadíj AddNoun;
+licencíj AddNoun;
+licitdíj AddNoun;
+lik AddNoun;
+lisztdíj AddNoun;
+lobbidíj AddNoun;
+lovasíj AddNoun;
+luxusnyugdíj AddNoun;
+luxusóraszíj AddNoun;
+lábfejszíj AddNoun;
+lábszíj AddNoun;
+légifuvardíj AddNoun;
+lízingdíj AddNoun;
+lóversenydíj AddNoun;
+madárfüttydíj AddNoun;
+maghéj AddNoun;
+magánnyugdíj AddNoun;
+malomkaródíj AddNoun;
+malátahéj AddNoun;
+mandarinhéj AddNoun;
+mandulahéj AddNoun;
+marcipándíj AddNoun;
+marhabőrszíj AddNoun;
+marketingdíj AddNoun;
+markolathéj AddNoun;
+markolatszíj AddNoun;
+matricadíj AddNoun;
+meghajtószíj AddNoun;
+meglepetésdíj AddNoun;
+megváltásdíj AddNoun;
+mellszíj AddNoun;
+mellékdíj AddNoun;
+mellékszereplődíj AddNoun;
+mellékszíj AddNoun;
+membránhéj AddNoun;
+menedzserdíj AddNoun;
+menedzsmentdíj AddNoun;
+menetdíj AddNoun;
+menyasszonydíj AddNoun;
+mesterdíj AddNoun;
+mestervizsgadíj AddNoun;
+mikrofondíj AddNoun;
+minimumdíj AddNoun;
+minimumnyugdíj AddNoun;
+minimumtagdíj AddNoun;
+minőségdíj AddNoun;
+misedíj AddNoun;
+modelldíj AddNoun;
+modemdíj AddNoun;
+mogyoróhéj AddNoun;
+molekulahéj AddNoun;
+mosolydíj AddNoun;
+moteldíj AddNoun;
+munkadíj AddNoun;
+munkanyugdíj AddNoun;
+munkaversenydíj AddNoun;
+munkaóradíj AddNoun;
+munkásnyugdíj AddNoun;
+mákhéj AddNoun;
+málhaszíj AddNoun;
+másodpercdíj AddNoun;
+mázsadíj AddNoun;
+médiadíj AddNoun;
+mérkőzésdíj AddNoun;
+mérlegdíj AddNoun;
+mészhéj AddNoun;
+mókadíj AddNoun;
+múzeumdíj AddNoun;
+műdíj AddNoun;
+műhelydíj AddNoun;
+műsordíj AddNoun;
+nadrágszíj AddNoun;
+nagydíj AddNoun;
+napidíj AddNoun;
+napraforgóhéj AddNoun;
+napraforgómaghéj AddNoun;
+narancshéj AddNoun;
+nevezésdíj AddNoun;
+nukleonhéj AddNoun;
+nyaklószíj AddNoun;
+nyakszíj AddNoun;
+nyelvvizsgadíj AddNoun;
+nyereghéj AddNoun;
+nyeregszíj AddNoun;
+nyersanyagdíj AddNoun;
+nyomdadíj AddNoun;
+nyomornyugdíj AddNoun;
+nyugalomdíj AddNoun;
+nyugdíj AddNoun;
+nyírfahéj AddNoun;
+négyzetméterdíj AddNoun;
+népnyugdíj AddNoun;
+nívódíj AddNoun;
+oklevéldíj AddNoun;
+oltalomdíj AddNoun;
+oroszlánkörömdíj AddNoun;
+orrszíj AddNoun;
+ostorszíj AddNoun;
+oszlopdíj AddNoun;
+osztrigahéj AddNoun;
+padlizsánhéj AddNoun;
+padlásdíj AddNoun;
+padláslik AddNoun;
+pajzsszíj AddNoun;
+panaszdíj AddNoun;
+panziódíj AddNoun;
+paplanhéj AddNoun;
+paradicsomhéj AddNoun;
+parahéj AddNoun;
+parasztnyugdíj AddNoun;
+parcelladíj AddNoun;
+parkdíj AddNoun;
+parkolódíj AddNoun;
+partnerdíj AddNoun;
+pausálédíj AddNoun;
+pedagógusdíj AddNoun;
+pedálszíj AddNoun;
+percdíj AddNoun;
+perdíj AddNoun;
+pisztáciahéj AddNoun;
+plédszíj AddNoun;
+pofaszíj AddNoun;
+poggyászdíj AddNoun;
+poggyászviteldíj AddNoun;
+polcdíj AddNoun;
+polgárdíj AddNoun;
+popdíj AddNoun;
+porcelánhéj AddNoun;
+porhéj AddNoun;
+portódíj AddNoun;
+postadíj AddNoun;
+presztízsdíj AddNoun;
+programdíj AddNoun;
+protonhéj AddNoun;
+prémiumdíj AddNoun;
+próbadíj AddNoun;
+próbateremdíj AddNoun;
+prófunthéj AddNoun;
+puskaszíj AddNoun;
+puskavállszíj AddNoun;
+páholydíj AddNoun;
+pálmahéj AddNoun;
+pályadíj AddNoun;
+pályakezdődíj AddNoun;
+pályaszakaszdíj AddNoun;
+párnahéj AddNoun;
+pártnyugdíj AddNoun;
+párttagdíj AddNoun;
+példányszámdíj AddNoun;
+pénzdíj AddNoun;
+pénzlik AddNoun;
+pótdíj AddNoun;
+pótlékdíj AddNoun;
+póttagdíj AddNoun;
+pótvizsgadíj AddNoun;
+póznadíj AddNoun;
+rabszolgadíj AddNoun;
+rabszolgaszíj AddNoun;
+rabszíj AddNoun;
+rabvezetőszíj AddNoun;
+rakodódíj AddNoun;
+rakpartdíj AddNoun;
+raktárdíj AddNoun;
+ranglistadíj AddNoun;
+rebarbarahéj AddNoun;
+receptdíj AddNoun;
+redőnyszíj AddNoun;
+referenciadíj AddNoun;
+reflexíj AddNoun;
+reklámdíj AddNoun;
+rendszerdíj AddNoun;
+rendszerhéj AddNoun;
+retekhéj AddNoun;
+rezsidíj AddNoun;
+reálnyugdíj AddNoun;
+ribizlihéj AddNoun;
+riportdíj AddNoun;
+rizshéj AddNoun;
+rockösztöndíj AddNoun;
+rohamszíj AddNoun;
+rokkantnyugdíj AddNoun;
+romaösztöndíj AddNoun;
+rozskenyérhéj AddNoun;
+rádiódíj AddNoun;
+rákhéj AddNoun;
+részdíj AddNoun;
+részfuvardíj AddNoun;
+részletdíj AddNoun;
+részmunkadíj AddNoun;
+részvételdíj AddNoun;
+részösztöndíj AddNoun;
+révdíj AddNoun;
+révhajófuvardíj AddNoun;
+révészdíj AddNoun;
+rézlik AddNoun;
+rítt AddNoun;
+rögzítőszíj AddNoun;
+rövidfilmdíj AddNoun;
+sajthéj AddNoun;
+sajtóösztöndíj AddNoun;
+sakkösztöndíj AddNoun;
+sarkantyúszíj AddNoun;
+saruszíj AddNoun;
+segéddíj AddNoun;
+segédorrszíj AddNoun;
+segélydíj AddNoun;
+serlegdíj AddNoun;
+sikerdíj AddNoun;
+sokadik AddNoun;
+sordíj AddNoun;
+sportdíj AddNoun;
+sportszerdíj AddNoun;
+sportvándordíj AddNoun;
+sportösztöndíj AddNoun;
+standdíj AddNoun;
+stornódíj AddNoun;
+strucctojáshéj AddNoun;
+stégdíj AddNoun;
+stílusdíj AddNoun;
+stúdiódíj AddNoun;
+szabadságdíj AddNoun;
+szakaszviteldíj AddNoun;
+szakdolgozatdíj AddNoun;
+szakdíj AddNoun;
+szakemberdíj AddNoun;
+szakvizsgadíj AddNoun;
+szalagszíj AddNoun;
+szalmahéj AddNoun;
+szalonnahéj AddNoun;
+szalámihéj AddNoun;
+szaruíj AddNoun;
+szatíradíj AddNoun;
+szaunadíj AddNoun;
+szegélyhéj AddNoun;
+szekciódíj AddNoun;
+szemhéj AddNoun;
+szemledíj AddNoun;
+szemlenagydíj AddNoun;
+szemlészdíj AddNoun;
+személydíj AddNoun;
+szemétdíj AddNoun;
+szennyvízdíj AddNoun;
+szerecsendióhéj AddNoun;
+szerencsedíj AddNoun;
+szerszámdíj AddNoun;
+szerszámíj AddNoun;
+szervizdíj AddNoun;
+szilvahéj AddNoun;
+szobadíj AddNoun;
+szobrászdíj AddNoun;
+szoftverdíj AddNoun;
+szolgáltatásdíj AddNoun;
+szorgalomdíj AddNoun;
+szorítószíj AddNoun;
+szotyolahéj AddNoun;
+szovjetösztöndíj AddNoun;
+szponzordíj AddNoun;
+sztirolhéj AddNoun;
+sztornódíj AddNoun;
+sztrádadíj AddNoun;
+szupernóvahéj AddNoun;
+szuronyszíj AddNoun;
+szállodadíj AddNoun;
+szállásdíj AddNoun;
+szállításdíj AddNoun;
+szállítószíj AddNoun;
+szállódíj AddNoun;
+számladíj AddNoun;
+számszeríj AddNoun;
+számíj AddNoun;
+szépségdíj AddNoun;
+szíj AddNoun;
+színészdíj AddNoun;
+színésznyugdíj AddNoun;
+szívólik AddNoun;
+szódíj AddNoun;
+szólistadíj AddNoun;
+szórványdíj AddNoun;
+szügyelőszíj AddNoun;
+szőlőhéj AddNoun;
+sárgabarackhéj AddNoun;
+sárgarépahéj AddNoun;
+sárkányhéj AddNoun;
+sátordíj AddNoun;
+sérelemdíj AddNoun;
+síndíj AddNoun;
+sírhelydíj AddNoun;
+sólyomíj AddNoun;
+sósborszeszdíj AddNoun;
+sördíj AddNoun;
+sünhéj AddNoun;
+sürgönydíj AddNoun;
+tagdíj AddNoun;
+tagságdíj AddNoun;
+találatdíj AddNoun;
+találódíj AddNoun;
+tandíj AddNoun;
+tanfolyamdíj AddNoun;
+tankönyvdíj AddNoun;
+tanszerdíj AddNoun;
+tanulódíj AddNoun;
+tanúdíj AddNoun;
+tarifadíj AddNoun;
+tarisznyaszíj AddNoun;
+tarkószíj AddNoun;
+tartalomdíj AddNoun;
+tartalékszíj AddNoun;
+tartásdíj AddNoun;
+tartóhéj AddNoun;
+tartószíj AddNoun;
+taxidíj AddNoun;
+taxiviteldíj AddNoun;
+teherdíj AddNoun;
+teherfuvardíj AddNoun;
+teknőchéj AddNoun;
+teknősbékahéj AddNoun;
+teknőshéj AddNoun;
+telefondíj AddNoun;
+televíziódíj AddNoun;
+teljesítménydíj AddNoun;
+tenderdíj AddNoun;
+teniszösztöndíj AddNoun;
+teremdíj AddNoun;
+terepszámszeríj AddNoun;
+termináldíj AddNoun;
+termálvízdíj AddNoun;
+termékdíj AddNoun;
+termékfődíj AddNoun;
+terméknagydíj AddNoun;
+terméshéj AddNoun;
+tervdíj AddNoun;
+területdíj AddNoun;
+testvérdíj AddNoun;
+tesztdíj AddNoun;
+tetszésdíj AddNoun;
+tiszteletdíj AddNoun;
+titoktartásdíj AddNoun;
+tojáshéj AddNoun;
+toleranciadíj AddNoun;
+tolmácsdíj AddNoun;
+tomboladíj AddNoun;
+tornadíj AddNoun;
+torokszíj AddNoun;
+transzferdíj AddNoun;
+tranzitdíj AddNoun;
+trófeadíj AddNoun;
+tyúktojáshéj AddNoun;
+tábordíj AddNoun;
+táncdíj AddNoun;
+táncösztöndíj AddNoun;
+tápdíj AddNoun;
+tárhelydíj AddNoun;
+táskaszíj AddNoun;
+távbeszélődíj AddNoun;
+távbeszélőpercdíj AddNoun;
+távhődíj AddNoun;
+távmunkadíj AddNoun;
+távolságdíj AddNoun;
+távösztöndíj AddNoun;
+téesznyugdíj AddNoun;
+térképdíj AddNoun;
+térítésdíj AddNoun;
+tésztahéj AddNoun;
+tévédíj AddNoun;
+tévéjogdíj AddNoun;
+típusíj AddNoun;
+többletdíj AddNoun;
+többletfuvardíj AddNoun;
+többletmunkadíj AddNoun;
+többletnyugdíj AddNoun;
+többlettagdíj AddNoun;
+többlettandíj AddNoun;
+többletviteldíj AddNoun;
+tökhéj AddNoun;
+tölténydíj AddNoun;
+tölténytárszíj AddNoun;
+töltésdíj AddNoun;
+töredékdíj AddNoun;
+törölköződíj AddNoun;
+túlmunkadíj AddNoun;
+túlsúlydíj AddNoun;
+túlóradíj AddNoun;
+túradíj AddNoun;
+tőzsdedíj AddNoun;
+uborkahéj AddNoun;
+ugyanannyiadik AddNoun;
+utazóösztöndíj AddNoun;
+utóvizsgadíj AddNoun;
+valenciahéj AddNoun;
+varrógépszíj AddNoun;
+varrószíj AddNoun;
+varázshéj AddNoun;
+varázsíj AddNoun;
+vasbetonhéj AddNoun;
+vegyértékhéj AddNoun;
+vendégösztöndíj AddNoun;
+versenydíj AddNoun;
+verőszíj AddNoun;
+vezetékszíj AddNoun;
+vezérműszíj AddNoun;
+vezérszíj AddNoun;
+videódíj AddNoun;
+vigaszdíj AddNoun;
+viharszíj AddNoun;
+villamosszíj AddNoun;
+villamosviteldíj AddNoun;
+villanydíj AddNoun;
+villanyáramdíj AddNoun;
+világnagydíj AddNoun;
+visszafuvardíj AddNoun;
+visszfuvardíj AddNoun;
+viteldíj AddNoun;
+vizitdíj AddNoun;
+vizsgadíj AddNoun;
+vizsgaóradíj AddNoun;
+vonaldíj AddNoun;
+vágásdíj AddNoun;
+vágódíj AddNoun;
+válaszdíj AddNoun;
+vállszíj AddNoun;
+váltságdíj AddNoun;
+váltódíj AddNoun;
+vámdíj AddNoun;
+vándordíj AddNoun;
+vánkoshéj AddNoun;
+vászonszíj AddNoun;
+vásárdíj AddNoun;
+vásárnagydíj AddNoun;
+vázlatdíj AddNoun;
+védődíj AddNoun;
+védőhéj AddNoun;
+végdíj AddNoun;
+vékny AddNounvekny;
+vékny:vékony AddNounvekny1;
+vérdíj AddNoun;
+vígjátékdíj AddNoun;
+vízdíj AddNoun;
+vízfestménydíj AddNoun;
+vízműdíj AddNoun;
+vízumdíj AddNoun;
+vízvezetékdíj AddNoun;
+vöröshagymahéj AddNoun;
+zablaszíj AddNoun;
+zenedíj AddNoun;
+zselatinhéj AddNoun;
+zsilipdíj AddNoun;
+zsűridíj AddNoun;
+zálogdíj AddNoun;
+záróhéj AddNoun;
+záróvizsgadíj AddNoun;
+zónadíj AddNoun;
+zöldborsóhéj AddNoun;
+zöldséghéj AddNoun;
+ágyékszíj AddNoun;
+államdíj AddNoun;
+államidíj AddNoun;
+állománydíj AddNoun;
+állomásdíj AddNoun;
+állszíj AddNoun;
+állásdíj AddNoun;
+álomnyugdíj AddNoun;
+áramdíj AddNoun;
+árnyékdíj AddNoun;
+átalánydíj AddNoun;
+átalányjogdíj AddNoun;
+átalánytagdíj AddNoun;
+átlagdíj AddNoun;
+átlagnyugdíj AddNoun;
+átlagtagdíj AddNoun;
+átlagtandíj AddNoun;
+átlagösztöndíj AddNoun;
+égőkamrahéj AddNoun;
+éhnyugdíj AddNoun;
+ékszíj AddNoun;
+életfadíj AddNoun;
+életképdíj AddNoun;
+életműdíj AddNoun;
+életpályadíj AddNoun;
+élőmunkadíj AddNoun;
+építészdíj AddNoun;
+épülethéj AddNoun;
+érdemdíj AddNoun;
+évdíj AddNoun;
+évfolyamdíj AddNoun;
+íj AddNoun;
+ívdíj AddNoun;
+óradíj AddNoun;
+óraszíj AddNoun;
+óvodadíj AddNoun;
+óvásdíj AddNoun;
+ózonhéj AddNoun;
+ózonlik AddNoun;
+ösztöndíj AddNoun;
+ötletdíj AddNoun;
+övszíj AddNoun;
+özvegydíj AddNoun;
+újdonságdíj AddNoun;
+újságíródíj AddNoun;
+útalapdíj AddNoun;
+útdíj AddNoun;
+útpályadíj AddNoun;
+úttörőszíj AddNoun;
+ütőszíj AddNoun;
+üvegdíj AddNoun;
+üzemanyagdíj AddNoun;
+üzemdíj AddNoun;
+üzenetdíj AddNoun;
+őrizetdíj AddNoun;
+őszibarackhéj AddNoun;
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam1;
+
+LEXICON Poss
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fam;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam1;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez21§k    Gen;
+                            Gen1;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+LEXICON Fam1
++Fam:^+cFam^ék         Gen;
+                       Gen1;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+LEXICON Gen1
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+ 
+LEXICON Case
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case1
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA2§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON AddNounvekny
++Noun:0     Possvekny;
++Noun:0     Plurvekny;
++Noun:0     Fam1vekny;
+
+LEXICON Possvekny
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Famvekny;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Famvekny;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Famvekny;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Famvekny;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Famvekny;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Famvekny;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Famvekny;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Famvekny;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Famvekny;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Famvekny;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Famvekny;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Famvekny;   !aik, jaik, eik, jeik
+                           Fam1vekny;
+
+LEXICON Plurvekny
++Plur:^+cPlur^§oeoez21§k    Genvekny;
+                            Gen1vekny;
+        
+LEXICON Famvekny
++Fam:^+cFam^ék         Genvekny;
+                       Genvekny;
+LEXICON Fam1vekny
++Fam:^+cFam^ék         Genvekny;
+                       Gen1vekny;
+
+LEXICON Genvekny
++Gens:^+cGens^é        Casevekny;
++Genpl:^+cGenpl^éi     Casevekny;
+                       Casevekny;
+ 
+LEXICON Gen1vekny
++Gens:^+cGens^é        Casevekny;
++Genpl:^+cGenpl^éi     Casevekny;
+                       Case1vekny;
+ 
+LEXICON Casevekny
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case1vekny
+!+Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
+!+Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
+!+All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
+!+Cau:^+cCau^ért           #;  ! ért
+!+Dat:^+cDat^n§AA2§k       #;  ! nak, nek
+!+Del:^+cDel^r§oooe2§l     #;  ! ról, ről
+!+Ess:^+cEss^§uue2§l          #;    ! ul, ül
+!+Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
+!+Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
+!+Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
+!+For:^+cFor^ként          #;  ! ként, képp, képpen
+!+Ill:^+cIll^b§AA2§        #;  ! ba, be
+!+Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
+!+Nom:^+cNom^0             #;  ! 
+!+Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON AddNounvekny1
++Noun:0     Casevekny1;
+
+LEXICON Casevekny1
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
+!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
+!+Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
+!+Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
+!+Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
+!+Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor

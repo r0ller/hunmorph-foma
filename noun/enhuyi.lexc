@@ -1,0 +1,625 @@
+!!!enhu2.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§uue§ §OEOE2§
+§UUE1§ §oooe§ §AAA§ §AA§ §AE1§ §AEyi§ §k§
+§ooez3y§ §EOAy§ §OEOE1y§ §Jy§ §oeoez2y§
+§UUEy§ §JPy§ §oeoez1y§ §oeoezy§ §VVy§ §oeoey§ §OEOEy§
+
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+LEXICON Noun
+!Ghyczy AddNouny;
+Adriany AddNoun;
+Aggteleky AddNoun;
+Airy AddNoun;
+Alexy AddNoun;
+Alföldy AddNoun;
+Alszeghy AddNoun;
+Alvinczy AddNoun;
+Aujerszky AddNoun;
+Aujeszky AddNoun;
+Bacsinszky AddNoun;
+Badzey AddNoun;
+Bajcsy-Zsilinszky AddNoun;
+Becsky AddNoun;
+Bedy AddNoun;
+Belatiny AddNoun;
+Beliczky AddNoun;
+Belky AddNoun;
+Bendefy AddNoun;
+Berczy AddNoun;
+Bereczky AddNoun;
+Beregfy AddNoun;
+Beretzky AddNoun;
+Berey AddNoun;
+Berinkey AddNoun;
+Berkeley AddNoun;
+Berkesy AddNoun;
+Berky AddNoun;
+Berzenczey AddNoun;
+Berzeviczy AddNoun;
+Beszterczey AddNoun;
+Bezerédy AddNoun;
+Beély AddNoun;
+Birly AddNoun;
+Bisztriczky AddNoun;
+Bitskey AddNoun;
+Blattny AddNoun;
+Bodroghközy AddNoun;
+Bohuniczky AddNoun;
+Boroviczény AddNoun;
+Borsiczky AddNoun;
+Borszéky AddNoun;
+Bredeczky AddNoun;
+Bresztyenszky AddNoun;
+Bánhidy AddNoun;
+Bánrévy AddNoun;
+Bédy AddNoun;
+Békessy AddNoun;
+Béky AddNoun;
+Békésy AddNoun;
+Béldy AddNoun;
+Bélley AddNoun;
+Bélteky AddNoun;
+Bérczy AddNoun;
+Béry AddNoun;
+Bölöny AddNoun;
+Chalupetzky AddNoun;
+Csehély AddNoun;
+Csekey AddNoun;
+Csemiczky AddNoun;
+Csengery AddNoun;
+Csengey AddNoun;
+Csepreghy AddNoun;
+Cserey AddNoun;
+Csernátony AddNoun;
+Csery AddNoun;
+Cserzy AddNoun;
+Cserépy AddNoun;
+Csiby AddNoun;
+Csiky AddNoun;
+Csopey AddNoun;
+Cséby AddNoun;
+Csécsy AddNoun;
+Cséry AddNoun;
+Csörgey AddNoun;
+Csüry AddNoun;
+Czeczey AddNoun;
+Czeglédy AddNoun;
+Cziffery AddNoun;
+Czindery AddNoun;
+Debreczy AddNoun;
+Debussy AddNoun;
+Decsy AddNoun;
+Delly AddNoun;
+Dembinszky AddNoun;
+Demeczky AddNoun;
+Demszky AddNoun;
+Derzsy AddNoun;
+Desericzky AddNoun;
+Dessewffy AddNoun;
+Detrekőy AddNoun;
+Dezséry AddNoun;
+Deésy AddNoun;
+Dicenty AddNoun;
+Disney AddNoun;
+Divéky AddNoun;
+Diószeghy AddNoun;
+Dunaiszky AddNoun;
+Duplinszky AddNoun;
+Duronelly AddNoun;
+Dybisewszky AddNoun;
+Déchy AddNoun;
+Déry AddNoun;
+Désy AddNoun;
+Ebeczky AddNoun;
+Egressy AddNoun;
+Egry AddNoun;
+Egyesy AddNoun;
+Elekfy AddNoun;
+Emericzy AddNoun;
+Emődy AddNoun;
+Endrey AddNoun;
+Endrédy AddNoun;
+Endrődy AddNoun;
+Enyedy AddNoun;
+Eperjessy AddNoun;
+Ercsey AddNoun;
+Erdey AddNoun;
+Erdy AddNoun;
+Erdélyszky AddNoun;
+Erdődy AddNoun;
+Erdőssy AddNoun;
+Ereky AddNoun;
+Erney AddNoun;
+Ernyey AddNoun;
+Ertsey AddNoun;
+Erőssy AddNoun;
+Eszterházy AddNoun;
+Esterházy AddNoun;
+Fabiny AddNoun;
+Fabriczy AddNoun;
+Fahidy AddNoun;
+Farkasinszky AddNoun;
+Feleky AddNoun;
+Fenyvessy AddNoun;
+Ferenczy AddNoun;
+Feszty AddNoun;
+Figyelmessy AddNoun;
+Finkey AddNoun;
+Finály AddNoun;
+Frey AddNoun;
+Frideczky AddNoun;
+Fáskerthy AddNoun;
+Földessy AddNoun;
+Földesy AddNoun;
+Földy AddNoun;
+Fövényessy AddNoun;
+Füzessy AddNoun;
+Füzesséry AddNoun;
+Füzesy AddNoun;
+Főkövy AddNoun;
+Garamszeghy AddNoun;
+Garanecsy AddNoun;
+Gelley AddNoun;
+Gerencséry AddNoun;
+Gergelyffy AddNoun;
+Gerőffy AddNoun;
+Ghimessy AddNoun;
+Giczy AddNoun;
+Gonzeczky AddNoun;
+Grétsy AddNoun;
+Gyökössy AddNoun;
+Gyöngyösy AddNoun;
+Györffy AddNoun;
+Györkösy AddNoun;
+Gyürey AddNoun;
+Győrffy AddNoun;
+Győrgyfy AddNoun;
+Győry AddNoun;
+Gáliczky AddNoun;
+Géczy AddNoun;
+Gömöry AddNoun;
+Gönczy AddNoun;
+Görgey AddNoun;
+Görömbey AddNoun;
+Gözsy AddNoun;
+Hazslinszky AddNoun;
+Hefty AddNoun;
+Helfy AddNoun;
+Helmeczy AddNoun;
+Helvey AddNoun;
+Hertelendy AddNoun;
+Hettyey AddNoun;
+Hetyey AddNoun;
+Hevesy AddNoun;
+Hideghéthy AddNoun;
+Hiry AddNoun;
+Hoitsy AddNoun;
+Horusitzky AddNoun;
+Hrabéczy AddNoun;
+Icsey AddNoun;
+Illy AddNoun;
+Illéssy AddNoun;
+Illésy AddNoun;
+Inczédy AddNoun;
+Inkey AddNoun;
+Irsy AddNoun;
+Istvány AddNoun;
+Izdenczy AddNoun;
+Jakobey AddNoun;
+Jalsoviczky AddNoun;
+Jaszlinszky AddNoun;
+Jelky AddNoun;
+Jeney AddNoun;
+Jerney AddNoun;
+Jersey AddNoun;
+Jeszenszky AddNoun;
+Jékey AddNoun;
+Kaczvinszky AddNoun;
+Kalecsinszky AddNoun;
+Kassitzky AddNoun;
+Kazaliczky AddNoun;
+Kecskeméthy AddNoun;
+Kelety AddNoun;
+Kemechey AddNoun;
+Kemenesy AddNoun;
+Keméndy AddNoun;
+Keményffy AddNoun;
+Keményfy AddNoun;
+Kenessey AddNoun;
+Kennedy AddNoun;
+Kentucky AddNoun;
+Kenézy AddNoun;
+Keresztessy AddNoun;
+Kereszty AddNoun;
+Kerny AddNoun;
+Kertbeny AddNoun;
+Kettesy AddNoun;
+Kismarty AddNoun;
+Klestinszky AddNoun;
+Klobusiczky AddNoun;
+Kmetty AddNoun;
+Kmety AddNoun;
+Knézy AddNoun;
+Kopeczky AddNoun;
+Korabinszky AddNoun;
+Korenchy AddNoun;
+Kosinszky AddNoun;
+Koszeghy AddNoun;
+Kremeneczky AddNoun;
+Krencsey AddNoun;
+Krunity AddNoun;
+Kukorelly AddNoun;
+Kulitzy AddNoun;
+Kunszery AddNoun;
+Kuzsinszky AddNoun;
+Kéky AddNoun;
+Kéméndy AddNoun;
+Képessy AddNoun;
+Kéry AddNoun;
+Kérészy AddNoun;
+Kéthly AddNoun;
+Kétly AddNoun;
+Kézy AddNoun;
+Kölcsey AddNoun;
+Kölesy AddNoun;
+Köpesdy AddNoun;
+Körmendy AddNoun;
+Környey AddNoun;
+Körössy AddNoun;
+Körösy AddNoun;
+Kövesligethy AddNoun;
+Kövessy AddNoun;
+Kövy AddNoun;
+Középessy AddNoun;
+Kürthy AddNoun;
+Küry AddNoun;
+Kőrössy AddNoun;
+Kőrösy AddNoun;
+Ladomerszky AddNoun;
+Lenkeffy AddNoun;
+Lenkey AddNoun;
+Levitzky AddNoun;
+Leövey AddNoun;
+Lipcsey AddNoun;
+Lipovniczky AddNoun;
+Lipszky AddNoun;
+Litkey AddNoun;
+Lomniczy AddNoun;
+Lorenthey AddNoun;
+Lubinszky AddNoun;
+Lévy AddNoun;
+Lővvy AddNoun;
+Lőwy AddNoun;
+Majerszky AddNoun;
+Maleczky AddNoun;
+Martinszky AddNoun;
+Mayerffy AddNoun;
+Mecséry AddNoun;
+Medgyessy AddNoun;
+Medveczky AddNoun;
+Medvey AddNoun;
+Megyercsy AddNoun;
+Megyery AddNoun;
+Mekcsey AddNoun;
+Mercy AddNoun;
+Mezey AddNoun;
+Mezőssy AddNoun;
+Micskey AddNoun;
+Mikesy AddNoun;
+Mikuleczky AddNoun;
+Mindszenthy AddNoun;
+Mindszenty AddNoun;
+Miskey AddNoun;
+Misley AddNoun;
+Muraközy AddNoun;
+Mátéffy AddNoun;
+Mérey AddNoun;
+Méry AddNoun;
+Nedeczky AddNoun;
+Nemesdy AddNoun;
+Nemesszeghy AddNoun;
+Nemky AddNoun;
+Ney AddNoun;
+Niczky AddNoun;
+Nikelszky AddNoun;
+Nirschy AddNoun;
+Nyiredy AddNoun;
+Nyiry AddNoun;
+Nécsey AddNoun;
+Négyesy AddNoun;
+Némethy AddNoun;
+Névy AddNoun;
+Olty AddNoun;
+Pacséry AddNoun;
+Pastinszky AddNoun;
+Pekry AddNoun;
+Pellérdy AddNoun;
+Penyigey AddNoun;
+Peregriny AddNoun;
+Perity AddNoun;
+Perliczy AddNoun;
+Perrey AddNoun;
+Perémy AddNoun;
+Pesthy AddNoun;
+Pesty AddNoun;
+Peterdy AddNoun;
+Petrőczy AddNoun;
+Pewny AddNoun;
+Peéry AddNoun;
+Peéty AddNoun;
+Pikéthy AddNoun;
+Pilinszky AddNoun;
+Plesnivy AddNoun;
+Podmaniczky AddNoun;
+Pompéry AddNoun;
+Potkonitzky AddNoun;
+Prileszky AddNoun;
+Pruzsinszky AddNoun;
+Pákey AddNoun;
+Pásztorniczky AddNoun;
+Péchy AddNoun;
+Péczely AddNoun;
+Pédery AddNoun;
+Péterffy AddNoun;
+Quimby AddNoun;
+Rabatinszky AddNoun;
+Radbezy AddNoun;
+Rajeczky AddNoun;
+Regőczy AddNoun;
+Remsey AddNoun;
+Repeczky AddNoun;
+Repiczky AddNoun;
+Reviczky AddNoun;
+Rezsny AddNoun;
+Rhédey AddNoun;
+Riheczky AddNoun;
+Rimely AddNoun;
+Ritly AddNoun;
+Rodiczky AddNoun;
+Rubletzky AddNoun;
+Récsey AddNoun;
+Réczey AddNoun;
+Rédey AddNoun;
+Réthey AddNoun;
+Réthly AddNoun;
+Réthy AddNoun;
+Révy AddNoun;
+Saint-Exupéry AddNoun;
+Salusinszky AddNoun;
+Schilberszky AddNoun;
+Schrotty AddNoun;
+Schwenszky AddNoun;
+Schwotty AddNoun;
+Sehy AddNoun;
+Semsey AddNoun;
+Sennyey AddNoun;
+Sepsy AddNoun;
+Sereghy AddNoun;
+Serly AddNoun;
+Sexty AddNoun;
+Shelley AddNoun;
+Sidney AddNoun;
+Sitkey AddNoun;
+Skalnitzky AddNoun;
+Skutetzky AddNoun;
+Sony AddNoun;
+Spergely AddNoun;
+Splény AddNoun;
+Stasney AddNoun;
+Stravinsky AddNoun;
+Strelisky AddNoun;
+Strelitzky AddNoun;
+Stáhly AddNoun;
+Szalay AddNoun;
+Szamosközy AddNoun;
+Szebellédy AddNoun;
+Szegedy AddNoun;
+Szeghy AddNoun;
+Szekrényessy AddNoun;
+Szelestey AddNoun;
+Szenczy AddNoun;
+Szendey AddNoun;
+Szendrey AddNoun;
+Szendy AddNoun;
+Szenessy AddNoun;
+Szenteleky AddNoun;
+Szentessy AddNoun;
+Szentkuty AddNoun;
+Szentmártony AddNoun;
+Szentpétery AddNoun;
+Szenvey AddNoun;
+Szepessy AddNoun;
+Szepesy AddNoun;
+Szeredy AddNoun;
+Szerelmey AddNoun;
+Szerémy AddNoun;
+Szigethy AddNoun;
+Szily AddNoun;
+Szivessy AddNoun;
+Szkalnitzky AddNoun;
+Szombaty AddNoun;
+Sztripszky AddNoun;
+Széchy AddNoun;
+Szécsey AddNoun;
+Székelyhidy AddNoun;
+Széky AddNoun;
+Szénfy AddNoun;
+Szörtsey AddNoun;
+Szüry AddNoun;
+Sződy AddNoun;
+Szőllőssy AddNoun;
+Szőllősy AddNoun;
+Szőreghy AddNoun;
+Sárközy AddNoun;
+Sármezey AddNoun;
+Séthy AddNoun;
+Sümeghy AddNoun;
+Tabéry AddNoun;
+Telegdy AddNoun;
+Telekessy AddNoun;
+Telepy AddNoun;
+Teleszky AddNoun;
+Tellyesniczky AddNoun;
+Tengerdy AddNoun;
+Termetzky AddNoun;
+Thaly AddNoun;
+Thököly AddNoun;
+Tichy AddNoun;
+Télfy AddNoun;
+Térey AddNoun;
+Téry AddNoun;
+Tölgyessy AddNoun;
+Töltéssy AddNoun;
+Töreky AddNoun;
+Töttössy AddNoun;
+Tötössy AddNoun;
+Tüköry AddNoun;
+Tőry AddNoun;
+Ubrizsy AddNoun;
+Valéry AddNoun;
+Vary AddNoun;
+Vecsey AddNoun;
+Velinszky AddNoun;
+Vendrey AddNoun;
+Verbőczy AddNoun;
+Vereby AddNoun;
+Veredy AddNoun;
+Vermesy AddNoun;
+Verseghy AddNoun;
+Veszelszky AddNoun;
+Veszely AddNoun;
+Veszprémy AddNoun;
+Vidéky AddNoun;
+Visky AddNoun;
+Vizkelety AddNoun;
+Vlaszaty AddNoun;
+Vámbéry AddNoun;
+Vértessy AddNoun;
+Vértesy AddNoun;
+Vízkelety AddNoun;
+Völcsey AddNoun;
+Vönöczky AddNoun;
+Welleczky AddNoun;
+Werbőczy AddNoun;
+Wessely AddNoun;
+Weszelszky AddNoun;
+Weszely AddNoun;
+Wodetzky AddNoun;
+Wosinsky AddNoun;
+Wény AddNoun;
+Zathureczky AddNoun;
+Zehery AddNoun;
+Zichy AddNoun;
+Zlinszky AddNoun;
+Zrumetzky AddNoun;
+Zselénszky AddNoun;
+Zsilinszky AddNoun;
+Zsivny AddNoun;
+Zászkaliczky AddNoun;
+Zöldy AddNoun;
+assembly AddNoun;
+bobby AddNoun;
+brandy AddNoun;
+cherry AddNoun;
+city AddNoun;
+curry AddNoun;
+fantasy AddNoun;
+floppy AddNoun;
+grizzly AddNoun;
+henry AddNoun;
+intercity AddNoun;
+penny AddNoun;
+proxy AddNoun;
+whisky AddNoun;
+zloty AddNoun;
+złoty AddNoun;
+Árkövy AddNoun;
+Árokháty AddNoun;
+Édeskuty AddNoun;
+Érdy AddNoun;
+Érkövy AddNoun;
+Étsy AddNoun;
+Óhidy AddNoun;
+Örley AddNoun;
+Ürmössy AddNoun;
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam;
+
+LEXICON Poss
++Dis:^+cDis^§ooez3y§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOAy§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^kor             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1y§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1y§d   Fam;   ! d
++Posss3s:^+cPosss3s^§Jy§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUEy§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1y§t§OEOEy§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§Jy§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JPy§§AEyi§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JPy§§AEyi§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JPy§§AEyi§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPy§§AEyi§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JPy§§AEyi§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPy§§AEyi§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam;
+
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez1y§k    Gen;
+                            Gen;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+
+LEXICON Gen
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+ 
+LEXICON Case
++Abl:^+cAbl^t§oooe§l       #;  ! tól, től
++Acc:^+cAcc^§oeoez2y§t     #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA§l        #;  ! nál, nél
++All:^+cAll^h§oeoey§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért            #;  ! ért
++Dat:^+cDat^n§AA§k         #;  ! nak, nek
++Del:^+cDel^r§oooe§l       #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe§l       #;  ! ból, ből
++Fac:^+cFac^§VVy§§AAA§     #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként           #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA§          #;  ! ból, ből
++Ine:^+cIne^b§AA§n         #;  ! ban, ben
++Ins:^+cIns^§VVy§§AA§l     #;  ! val, vel
++Nom:^+cNom^0              #;  ! 
++Sub:^+cSub^r§AA§          #;  ! ra, re
++Sup:^+cSup^§oeoezy§n      #;  ! on, en, ön, n
++Ter:^+cTer^ig             #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+

@@ -1,0 +1,294 @@
+!!!enhuoa.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§uue§ §UUE§ §OEOE§ §AE§ §OEOE2§
+§UUE1§ §oooe§ §AAA§ §oeoe§ §AA§ §oeoez§ §AE1§  §b§ §h§ §k§ §n§ §r§ §t§ §JJ§ §JPJ§
+§VV§   §ooez13§ §EOA2§ §OEOE11§ §oeoez12§ §oeoez11§
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+! szavak:
+! agykárosodott
+! aszálykárosult
+! borjúbecsinált
+! csirkebecsinált
+! degenerált
+! gát
+! halláskárosult
+! hasznosult
+! hold
+! jogosult
+! jégkárosult
+! látáskárosult
+! polgárosult
+! tűzkárosult
+! állandósult
+! árvízkárosult
+! 
+LEXICON Noun
+ablakhold AddNoun;
+agykárosodott AddNoun;
+alvógát AddNoun;
+anyaműhold AddNoun;
+aranyfélhold AddNoun;
+aranyhold AddNoun;
+aszálykárosult AddNoun;
+ballonhold AddNoun;
+bekötőgát AddNoun;
+betongát AddNoun;
+bolygóhold AddNoun;
+bombakárosult AddNoun;
+borjúbecsinált AddNoun;
+bukógát AddNoun;
+bádoggát AddNoun;
+bányahold AddNoun;
+bíborhold AddNoun;
+börtönhold AddNoun;
+csarnokvízgát AddNoun;
+cseppkőgát AddNoun;
+csibebecsinált AddNoun;
+csirkebecsinált AddNoun;
+csordítógát AddNoun;
+célműhold AddNoun;
+cölöpgát AddNoun;
+degenerált AddNoun;
+duzzasztógát AddNoun;
+dzsungelhold AddNoun;
+elemikárosult AddNoun;
+erődgát AddNoun;
+ezüstfélhold AddNoun;
+ezüsthold AddNoun;
+fagát AddNoun;
+farkashold AddNoun;
+fedezőgát AddNoun;
+felderítőhold AddNoun;
+fenékgát AddNoun;
+fogyóhold AddNoun;
+folyógát AddNoun;
+félhold AddNoun;
+fémgát AddNoun;
+fényképezőműhold AddNoun;
+földgát AddNoun;
+füstgát AddNoun;
+főgát AddNoun;
+gammaműhold AddNoun;
+gumigát AddNoun;
+gát AddNoun;
+hadikárosult AddNoun;
+halastógát AddNoun;
+halláskárosult AddNoun;
+hanggát AddNoun;
+harmóniagát AddNoun;
+harántgát AddNoun;
+hasznosult AddNoun;
+hold AddNoun;
+homokdombgát AddNoun;
+homokgát AddNoun;
+hullámgát AddNoun;
+háttérműhold AddNoun;
+hírhold AddNoun;
+hódgát AddNoun;
+hógát AddNoun;
+hőgát AddNoun;
+igényjogosult AddNoun;
+ikerhold AddNoun;
+illetményjogosult AddNoun;
+jelzálogjogosult AddNoun;
+jogosult AddNoun;
+jászolgát AddNoun;
+jéggát AddNoun;
+jégkárosult AddNoun;
+kalcitgát AddNoun;
+kalózhold AddNoun;
+keresztgát AddNoun;
+kiflihold AddNoun;
+kikötőgát AddNoun;
+kisbolygóhold AddNoun;
+kishold AddNoun;
+kutatóhold AddNoun;
+kutatóműhold AddNoun;
+kémműhold AddNoun;
+kísérőhold AddNoun;
+körgát AddNoun;
+körömhold AddNoun;
+közgát AddNoun;
+közvetítőhold AddNoun;
+kőgát AddNoun;
+látáskárosult AddNoun;
+léggát AddNoun;
+léggömbgát AddNoun;
+léggömbhold AddNoun;
+lézerhold AddNoun;
+lézerműhold AddNoun;
+malomgát AddNoun;
+megfigyelőműhold AddNoun;
+mellékhold AddNoun;
+mentőhold AddNoun;
+minihold AddNoun;
+miniműhold AddNoun;
+morénagát AddNoun;
+mozgógát AddNoun;
+mészkőgát AddNoun;
+műgát AddNoun;
+műhold AddNoun;
+nagyhold AddNoun;
+negyedhold AddNoun;
+nyugdíjjogosult AddNoun;
+nyúlgát AddNoun;
+oldalgát AddNoun;
+ostromgát AddNoun;
+osztógát AddNoun;
+papirosgát AddNoun;
+papírhold AddNoun;
+partgát AddNoun;
+polgárosult AddNoun;
+porcelánhold AddNoun;
+potenciálgát AddNoun;
+pásztorhold AddNoun;
+radarműhold AddNoun;
+rekeszgát AddNoun;
+rizsgát AddNoun;
+részjogosult AddNoun;
+révgát AddNoun;
+rézhold AddNoun;
+rönkgát AddNoun;
+röntgenhold AddNoun;
+röntgenműhold AddNoun;
+rőzsegát AddNoun;
+sarlóhold AddNoun;
+szikragát AddNoun;
+szinkronműhold AddNoun;
+szirtgát AddNoun;
+szivárgógát AddNoun;
+szolgagát AddNoun;
+szorítógát AddNoun;
+szántóhold AddNoun;
+szárnygát AddNoun;
+szükséggát AddNoun;
+szűrőgát AddNoun;
+sólyomhold AddNoun;
+sövénygát AddNoun;
+tanulógát AddNoun;
+tartalékhold AddNoun;
+tartalékműhold AddNoun;
+tejnugát AddNoun;
+telehold AddNoun;
+telihold AddNoun;
+teliholdhold AddNoun;
+terelőgát AddNoun;
+terelőhold AddNoun;
+teszthold AddNoun;
+textilhold AddNoun;
+torokgát AddNoun;
+tuskógát AddNoun;
+téglahold AddNoun;
+töltésgát AddNoun;
+törmelékgát AddNoun;
+törmelékhold AddNoun;
+tükörműhold AddNoun;
+tűzgát AddNoun;
+tűzkárosult AddNoun;
+ugrógát AddNoun;
+vasfélhold AddNoun;
+vikinghold AddNoun;
+virághold AddNoun;
+választójogosult AddNoun;
+vándorhold AddNoun;
+védőgát AddNoun;
+végmorénagát AddNoun;
+vízduzzasztógát AddNoun;
+vízgát AddNoun;
+vízkárosult AddNoun;
+völgygát AddNoun;
+völgyzárógát AddNoun;
+zsilipgát AddNoun;
+zárógát AddNoun;
+zúgógát AddNoun;
+állandósult AddNoun;
+árnyékhold AddNoun;
+árvízgát AddNoun;
+árvízkárosult AddNoun;
+átjárógát AddNoun;
+élőgát AddNoun;
+öntözőgát AddNoun;
+övgát AddNoun;
+újhold AddNoun;
+úszógát AddNoun;
+űrhold AddNoun;
+
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam;
+
+LEXICON Poss
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^kor              #;    ! kor
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^§JJ§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, önk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§JJ§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JPJ§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JPJ§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JPJ§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPJ§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JPJ§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPJ§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez11§k    Gen;
+                            Gen;
+       
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+ 
+LEXICON Case
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§     #;  ! val, vel
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l     #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n      #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor

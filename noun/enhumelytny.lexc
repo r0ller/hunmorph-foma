@@ -1,0 +1,281 @@
+!!!enhuoa.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§J§ §JP§ 
+§VV§ §uue2§ §AE21§
+§UUE2§ §OEOE25§ §UUE21§ §AE22§ §OEOE22§ §oooe2§ §oeoez22§
+§AAA2§ §oeoe2§ §AA2§ §oeoez25§ §JJ§ §b§ §h§ §k§ §n§ §r§ §t§ §oeoez17§
+§OEOE17§ §EOA17§ §ooez18§ §UUE3§
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+
+LEXICON Noun
+Aulich AddNoun1;
+Bachrich AddNoun1;
+Bakách AddNoun1;
+Balatony AddNoun;
+Batthyány AddNoun;
+Bedekovich AddNoun1;
+Blaskovich AddNoun1;
+Blazovich AddNoun1;
+Bogdanich AddNoun1;
+Bogisich AddNoun1;
+Bogovich AddNoun1;
+Boháty AddNoun;
+Damjanich AddNoun1;
+Dolly AddNoun;
+Dudich AddNoun1;
+Dumbovich AddNoun1;
+Epiphany AddNoun;
+Fabchich AddNoun1;
+Folly AddNoun;
+Forgách AddNoun1;
+Gallowich AddNoun1;
+Gasparich AddNoun1;
+Grassalkovich AddNoun1;
+Grubich AddNoun1;
+Gách AddNoun1;
+Haraszty AddNoun;
+Hatvany AddNoun;
+Haubrich AddNoun1;
+Huszty AddNoun;
+Jakubovich AddNoun1;
+Jankovich AddNoun1;
+Janny AddNoun;
+Joannovich AddNoun1;
+Josipovich AddNoun1;
+Jurisich AddNoun1;
+Jurkovich AddNoun1;
+Kamilly AddNoun;
+Kitonich AddNoun1;
+Kollonich AddNoun1;
+Kommenovich AddNoun1;
+Kossovich AddNoun1;
+Kovachich AddNoun1;
+Kovách AddNoun1;
+Krisztinkovich AddNoun1;
+Kulich AddNoun1;
+Lacsny AddNoun;
+Laczkovich AddNoun1;
+Lampich AddNoun1;
+Lovrekovich AddNoun1;
+Lovrich AddNoun1;
+Lubrich AddNoun1;
+Lukachich AddNoun1;
+Lukinich AddNoun1;
+Madách AddNoun1;
+Mamusich AddNoun1;
+Marich AddNoun1;
+Marinovich AddNoun1;
+Markovich AddNoun1;
+Mattanovich AddNoun1;
+Mentovich AddNoun1;
+Mihailich AddNoun1;
+Mihalovich AddNoun1;
+Modrovich AddNoun1;
+Novotny AddNoun;
+Pasquich AddNoun1;
+Patachich AddNoun1;
+Petrovich AddNoun1;
+Povolny AddNoun;
+Purgly AddNoun;
+Pály AddNoun;
+Radich AddNoun1;
+Reguly AddNoun;
+Rosty AddNoun;
+Saágy AddNoun;
+Simonchich AddNoun1;
+Somssich AddNoun1;
+Stansych AddNoun1;
+Subich AddNoun1;
+Szucsich AddNoun1;
+Takách AddNoun1;
+Ticharich AddNoun1;
+Tomasich AddNoun1;
+Voinovich AddNoun1;
+Vojnich AddNoun1;
+Vojnovich AddNoun1;
+Volny AddNoun;
+Vuchetich AddNoun1;
+Vörösmarty AddNoun;
+Wolny AddNoun;
+Zelovich AddNoun1;
+Zách AddNoun1;
+Áprily AddNoun;
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam11;
+!+Noun:0     Gen11;
+
+LEXICON Poss
++Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^§k§or               #;    ! kor
++Acc:^+cAcc^t    #;  ! ot, et, öt, t
++Sup:^+cSup^n    #;  ! on, en, ön, n
++Fac:^+cFac^v§AAA2§    #;  ! vá, vé
++Ins:^+cIns^v§AA2§l    #;  ! val, vel
++Posss1s:^+cPosss1s^m   Fam;   ! m
++Posss2s:^+cPosss2s^d   Fam;   ! d
++Posss3s:^+cPosss3s^§JJ§§AE21§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE3§nk   Fam;    ! unk, ünk
++Possp2s:^+cPossp2s^t§OEOE25§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§JJ§§UUE21§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JJ§§AE22§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JJ§§AE22§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JJ§§AE22§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JJ§§AE22§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JJ§§AE22§it§OEOE22§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JJ§§AE22§ik   Fam;   !aik, jaik, eik, jeik
+                                    Gen11;
+
+LEXICON Plur
++Plur:^+cPlur^k    Gen;
+                            Case11;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+LEXICON Fam11
++Fam:^+cFam^ék         Gen;
+                       Gen11;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+
+LEXICON Gen11
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case11;
+ 
+LEXICON Case
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+ 
+LEXICON Case11
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
+!+Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
+!+Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
+!+Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
+!+Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+
+LEXICON AddNoun1
++Noun:0     Poss1;
++Noun:0     Plur1;
++Noun:0     Fam1;
+
+LEXICON Poss1
++Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^§k§or               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE17§m   Fam1;   ! m
++Posss2s:^+cPosss2s^§OEOE17§d   Fam1;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fam1;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fam1;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE17§t§OEOE25§k   Fam1;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fam1;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fam1;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fam1;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fam1;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fam1;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fam1;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fam1;   !aik, jaik, eik, jeik
+                           Fam1;
+
+LEXICON Plur1
++Plur:^+cPlur^§oeoez17§k    Gen1;
+                            Gen1;
+        
+LEXICON Fam1
++Fam:^+cFam^ék         Gen1;
+                       Gen1;
+
+LEXICON Gen1
++Gens:^+cGens^é        Case1;
++Genpl:^+cGenpl^éi     Case1;
+                       Case1;
+ 
+LEXICON Case1
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez22§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+
+

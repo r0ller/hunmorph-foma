@@ -1,0 +1,264 @@
+!!!enhufxpp.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
+! +Possp1p +Possp2p +Possp3p +Posss3p +Posss1p +Posss2p +Possp3s 
+! +Possp2s +Posss2s +Possp1s +Posss3s +Posss1s 
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§EOA§ §uue§ §ooez3§ 
+§oeoez1§ §oooe§ §oeoez2§ §oeoez12§ §AAA§ §oeoe§ §AA§ §oeoez§ 
+§VV§ §b§ §h§ §k§ §n§ §r§ §t§ 
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+! szavak:
+! enyéim
+! enyém
+! maga
+! magad
+! magam
+! magatok
+! maguk
+! magunk
+! mieink
+! miéink
+! mienk
+! miénk
+! övé
+! övéi
+! övéik
+! övék
+! övéké
+! övüké
+! tied
+! tiéd
+! tieid
+! tiéid
+! tieitek
+! tiéitek
+! tietek
+! tiétek
+! 
+LEXICON Noun
+enyém AddNounenyem; !birtokos névmás
+tied AddNounenyem;
+tiéd AddNounenyem;
+övé AddNounenyem;
+mienk AddNounenyem;
+miénk AddNounenyem;
+tietek AddNounenyem;
+tiétek AddNounenyem;
+övék AddNounenyem;
+övüké AddNounenyem;
+övéké AddNounenyem;
+enyéim AddNounenyem; ! ugyanaz mint enyémek
+tieid AddNounenyem;
+tiéid AddNounenyem;
+övéi AddNounenyem;
+mieink AddNounenyem;
+miéink AddNounenyem;
+tieitek AddNounenyem;
+tiéitek AddNounenyem;
+övéik AddNounenyem;
+jómagam AddNounmagam; !visszaható névmás
+jómagad AddNounmagam;
+jómaga AddNounmagam;
+jómagunk AddNounmagam;
+jómagatok AddNounmagam;
+jómaguk AddNounmagam;
+magam AddNounmagam; !visszaható névmás
+magad AddNounmagam;
+maga AddNounmagam;
+magunk AddNounmagam;
+magatok AddNounmagam;
+maguk AddNounmagam;
+egymagam AddNounmagam; !visszaható névmás
+egymagad AddNounmagam;
+egymaga AddNounmagam;
+egymagunk AddNounmagam;
+egymagatok AddNounmagam;
+egymaguk AddNounmagam;
+néhányadmagam AddNounmagam; !visszaható névmás
+néhányadmagad AddNounmagam;
+néhányadmaga AddNounmagam;
+néhányadmagunk AddNounmagam;
+néhányadmagatok AddNounmagam;
+néhányadmaguk AddNounmagam;
+önmagam AddNounmagam; !visszaható névmás
+önmagad AddNounmagam;
+önmaga AddNounmagam;
+önmagunk AddNounmagam;
+önmagatok AddNounmagam;
+önmaguk AddNounmagam;
+önnönmagam AddNounmagam; !visszaható névmás
+önnönmagad AddNounmagam;
+önnönmaga AddNounmagam;
+önnönmagunk AddNounmagam;
+önnönmagatok AddNounmagam;
+önnönmaguk AddNounmagam;
+enmagam AddNounmagam; !visszaható névmás
+enmagad AddNounmagam;
+enmaga AddNounmagam;
+enmagunk AddNounmagam;
+enmagatok AddNounmagam;
+enmaguk AddNounmagam;
+tenmagam AddNounmagam; !visszaható névmás
+tenmagad AddNounmagam;
+tenmaga AddNounmagam;
+tenmagunk AddNounmagam;
+tenmagatok AddNounmagam;
+tenmaguk AddNounmagam;
+magamagam AddNounmagam; !visszaható névmás
+magamagad AddNounmagam;
+magamaga AddNounmagam;
+magamagunk AddNounmagam;
+magamagatok AddNounmagam;
+magamaguk AddNounmagam;
+másodmagam AddNounmagam; !visszaható névmás
+másodmagad AddNounmagam;
+másodmaga AddNounmagam;
+másodmagunk AddNounmagam;
+másodmagatok AddNounmagam;
+másodmaguk AddNounmagam;
+harmadmagam AddNounmagam; !visszaható névmás
+harmadmagad AddNounmagam;
+harmadmaga AddNounmagam;
+harmadmagunk AddNounmagam;
+harmadmagatok AddNounmagam;
+harmadmaguk AddNounmagam;
+negyedmagam AddNounmagam; !visszaható névmás
+negyedmagad AddNounmagam;
+negyedmaga AddNounmagam;
+negyedmagunk AddNounmagam;
+negyedmagatok AddNounmagam;
+negyedmaguk AddNounmagam;
+!
+ezredmagam AddNounmagam; !visszaható névmás
+ezredmagad AddNounmagam;
+ezredmaga AddNounmagam;
+ezredmagunk AddNounmagam;
+ezredmagatok AddNounmagam;
+ezredmaguk AddNounmagam;
+hányadmagam AddNounmagam; !visszaható névmás
+hányadmagad AddNounmagam;
+hányadmaga AddNounmagam;
+hányadmagunk AddNounmagam;
+hányadmagatok AddNounmagam;
+hányadmaguk AddNounmagam;
+sajátmagam AddNounmagam; !visszaható névmás
+sajátmagad AddNounmagam;
+sajátmaga AddNounmagam;
+sajátmagunk AddNounmagam;
+sajátmagatok AddNounmagam;
+sajátmaguk AddNounmagam;
+századmagam AddNounmagam; !visszaható névmás
+századmagad AddNounmagam;
+századmaga AddNounmagam;
+századmagunk AddNounmagam;
+századmagatok AddNounmagam;
+századmaguk AddNounmagam;
+mindmagam AddNounmagam; !visszaható névmás
+mindmagad AddNounmagam;
+mindmaga AddNounmagam;
+mindmagunk AddNounmagam;
+mindmagatok AddNounmagam;
+mindmaguk AddNounmagam;
+
+
+
+!< [ [[b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3} ] | [ [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{0,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{1,3}  [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z]^{1,4} [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő]^{0,3} ]* ] >    AddNoun;
+
+LEXICON AddNounmagam
++Noun:0     Fammagam;
+        
+LEXICON Fammagam
++Fam:^+cFam^ék         Genmagam;
+                       Genmagam;
+
+LEXICON Genmagam
++Gens:^+cGens^é          Casemagam;
++Genpl:^+cGenpl^éi     Casemagam;
+                       Casemagam;
+ 
+LEXICON Casemagam
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
+
+
+LEXICON AddNounenyem
++Noun:0     Plurenyem;
++Noun:0     Famenyem;
+
+
+LEXICON Plurenyem
++Plur:^+cPlur^§oeoez1§k    Genenyem;
+                            Genenyem;
+        
+LEXICON Famenyem
++Fam:^+cFam^ék         Genenyem;
+                       Genenyem;
+
+LEXICON Genenyem
++Gens:^+cGens^é          Caseenyem;
++Genpl:^+cGenpl^éi     Caseenyem;
+                       Caseenyem;
+ 
+LEXICON Caseenyem
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor

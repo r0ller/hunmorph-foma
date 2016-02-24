@@ -1,0 +1,5392 @@
+!!!enhuige.lexc!!!
+
+Multichar_Symbols  +Verb +Rep +Imper +Pot
+                   +Inf +Inf11 +Inf12 +Inf13 +Inf21 +Inf22 +Inf23 +Pref+ +Adv +Advan
+                  +IndefSg1   +IndefSg2   +IndefSg3   +IndefSg12
+                  +IndefPl1 +IndefPl2 +IndefPl3
+                  +DefSg1   +DefSg2   +DefSg3  
+                  +DefPl1 +DefPl2 +DefPl3
+                  +ConjDefSg12 +PastDefSg12  +CondDefSg12
+                  +ConjIndefSg1   +ConjIndefSg2   +ConjIndefSg3   
+                  +ConjIndefPl1 +ConjIndefPl2 +ConjIndefPl3
+                  +ConjDefSg1   +ConjDefSg2   +ConjDefSg3  
+                  +ConjDefPl1 +ConjDefPl2 +ConjDefPl3
+                  +PastIndefSg1   +PastIndefSg2   +PastIndefSg3   
+                  +PastIndefPl1 +PastIndefPl2 +PastIndefPl3
+                  +PastDefSg1   +PastDefSg2   +PastDefSg3  
+                  +PastDefPl1 +PastDefPl2 +PastDefPl3
+                  +CondIndefSg1   +CondIndefSg2   +CondIndefSg3   
+                  +CondIndefPl1 +CondIndefPl2 +CondIndefPl3
+                  +CondDefSg1   +CondDefSg2   +CondDefSg3  
+                  +CondDefPl1 +CondDefPl2 +CondDefPl3
+      
+§AA§ §AAA§ §igea§ §igeo§ §igeo2§ §igeu§ §igeuo§
+§igejakik1§ §igejatokitek1§ §igeija1§ §igeaa§ §igetattet§
+§j§ §szorelol§ §tatt§ §oe2§ 
+§felteo2§ §sj§  §ess§ §igeoe§ §igeoue§ §oeue§
+§AAmely§ §AAAmely§ §igeamely§ §igeomely§ §igeo2mely§ §igeumely§ §igeuomely§
+§igejakik1mely§ §igejatokitek1mely§ §igeija1mely§ §igeaamely§ §igetattetmely§ §ae2mely§ §oe2mely§
+§szorelolmely§ §felteo2mely§ §l§
+§igeoo§ §igeoomely§
+
+LEXICON Root
+Verb;
+Prefigekoto;
+Verb1;
+
+LEXICON Prefigekoto
++Pref+:keresztül   Verb;
++Pref+:kölcsön   Verb;
++Pref+:széjjel   Verb;
++Pref+:szembe   Verb;
++Pref+:szerte   Verb;
++Pref+:vissza   Verb;
++Pref+:helyre   Verb;
++Pref+:tovább   Verb;
++Pref+:tönkre   Verb;
++Pref+:észre   Verb;
++Pref+:rajta   Verb;
++Pref+:előre   Verb;
++Pref+:félbe   Verb;
++Pref+:félre   Verb;
++Pref+:felül   Verb;
++Pref+:fölül   Verb;
++Pref+:agyon   Verb;
++Pref+:ellen   Verb;
++Pref+:körbe   Verb;
++Pref+:körül   Verb;
++Pref+:közbe   Verb;
++Pref+:közre   Verb;
++Pref+:külön   Verb;
++Pref+:utána   Verb;
++Pref+:végbe   Verb;
++Pref+:végig   Verb;
++Pref+:hátra   Verb;
++Pref+:hozzá   Verb;
++Pref+:egybe   Verb;
++Pref+:ketté   Verb;
++Pref+:össze   Verb;
++Pref+:mellé   Verb;
++Pref+:által   Verb;
++Pref+:alul   Verb;
++Pref+:haza   Verb;
++Pref+:újra   Verb;
++Pref+:abba   Verb;
++Pref+:neki   Verb;
++Pref+:bele   Verb;
++Pref+:újjá   Verb;
++Pref+:benn   Verb;
++Pref+:fenn   Verb;
++Pref+:fönn   Verb;
++Pref+:jóvá   Verb;
++Pref+:szét   Verb;
++Pref+:tele   Verb;
++Pref+:tova   Verb;
++Pref+:meg   Verb;
++Pref+:oda   Verb;
++Pref+:elő   Verb;
++Pref+:túl   Verb;
++Pref+:alá   Verb;
++Pref+:föl   Verb;
++Pref+:ide   Verb;
++Pref+:fel   Verb;
++Pref+:rá   Verb;
++Pref+:ki   Verb;
++Pref+:le   Verb;
++Pref+:el   Verb;
++Pref+:át   Verb;
++Pref+:be   Verb;
+
+
+LEXICON Verb
+!kell AddVerbbekit;
+acélosít AddVerbmelyabrandit;
+acélvázasít AddVerbmelyabrandit;
+adatbázisosít AddVerbmelyabrandit;
+adhatatlanít AddVerbmelyabrandit;
+adókötelesít AddVerbbekit;
+adómentesít AddVerbbekit;
+adósságmentesít AddVerbbekit;
+adósít AddVerbmelyabrandit;
+aerobikosít AddVerbmelyabrandit;
+aggodalmasít AddVerbmelyabrandit;
+aggályosít AddVerbmelyabrandit;
+aggálytalanít AddVerbmelyabrandit;
+agyagosít AddVerbmelyabrandit;
+agyatlanít AddVerbmelyabrandit;
+ajánlatosít AddVerbmelyabrandit;
+akadálymentesít AddVerbbekit;
+akadálytalanít AddVerbmelyabrandit;
+akadékosít AddVerbmelyabrandit;
+akaratlanít AddVerbmelyabrandit;
+akaratosít AddVerbmelyabrandit;
+akarattalanít AddVerbmelyabrandit;
+akkréciósít AddVerbmelyabrandit;
+aknamentesít AddVerbbekit;
+aknásít AddVerbmelyabrandit;
+aknátlanít AddVerbmelyabrandit;
+akolbólít AddVerbmelyabrandit;
+aktásít AddVerbmelyabrandit;
+akupunktúrásít AddVerbmelyabrandit;
+akácosít AddVerbmelyabrandit;
+akósít AddVerbmelyabrandit;
+alacsonyít AddVerbmelyabrandit;
+alakít AddVerbmelyabrandit;
+alapbéresít AddVerbbekit;
+alaposít AddVerbmelyabrandit;
+alaptalanít AddVerbmelyabrandit;
+alaptőkésít AddVerbbekit;
+alapít AddVerbmelyabrandit;
+alföldiesít AddVerbbekit;
+algamentesít AddVerbbekit;
+algátlanít AddVerbmelyabrandit;
+aljasít AddVerbmelyabrandit;
+alkalmasít AddVerbmelyabrandit;
+alkalomszerűsít AddVerbbekit;
+alkoholmentesít AddVerbbekit;
+alkoholosít AddVerbmelyabrandit;
+alkotmányosít AddVerbmelyabrandit;
+allergiásít AddVerbmelyabrandit;
+almásít AddVerbmelyabrandit;
+alvatlanít AddVerbmelyabrandit;
+alábbszállít AddVerbmelyabrandit;
+alázatosít AddVerbmelyabrandit;
+amperesít AddVerbbekit;
+andalít AddVerbmelyabrandit;
+angolkórosít AddVerbmelyabrandit;
+angolosít AddVerbmelyabrandit;
+antidiszkriminációsít AddVerbmelyabrandit;
+antiinflációsít AddVerbmelyabrandit;
+anyagmentesít AddVerbbekit;
+anyagosít AddVerbmelyabrandit;
+anyagtakarékosít AddVerbmelyabrandit;
+anyagtalanít AddVerbmelyabrandit;
+anyásít AddVerbmelyabrandit;
+anyátlanít AddVerbmelyabrandit;
+anémiásít AddVerbmelyabrandit;
+apadhatatlanít AddVerbmelyabrandit;
+aprít AddVerbmelyabrandit;
+aprólékosít AddVerbmelyabrandit;
+apátlanít AddVerbmelyabrandit;
+arabosít AddVerbmelyabrandit;
+aranykeretesít AddVerbbekit;
+archaikusít AddVerbmelyabrandit;
+arctalanít AddVerbmelyabrandit;
+aromásít AddVerbmelyabrandit;
+arzénmentesít AddVerbbekit;
+arányosít AddVerbmelyabrandit;
+aránytalanít AddVerbmelyabrandit;
+arányít AddVerbmelyabrandit;
+asszonyosít AddVerbmelyabrandit;
+aszfaltmentesít AddVerbbekit;
+aszfaltosít AddVerbmelyabrandit;
+asztmásít AddVerbmelyabrandit;
+aszályosít AddVerbmelyabrandit;
+atkamentesít AddVerbbekit;
+atkátlanít AddVerbmelyabrandit;
+atomtalanít AddVerbmelyabrandit;
+autokorrelációsít AddVerbmelyabrandit;
+autómentesít AddVerbbekit;
+autópályásít AddVerbmelyabrandit;
+avartalanít AddVerbmelyabrandit;
+avasít AddVerbmelyabrandit;
+avatagít AddVerbmelyabrandit;
+axiomatikusít AddVerbmelyabrandit;
+axiálisít AddVerbmelyabrandit;
+azonosít AddVerbmelyabrandit;
+babonásít AddVerbmelyabrandit;
+babosít AddVerbmelyabrandit;
+babátlanít AddVerbmelyabrandit;
+babérkoszorúsít AddVerbmelyabrandit;
+bajosít AddVerbmelyabrandit;
+baldachinosít AddVerbmelyabrandit;
+balladásít AddVerbmelyabrandit;
+ballaszttalanít AddVerbmelyabrandit;
+ballábasít AddVerbmelyabrandit;
+balosít AddVerbmelyabrandit;
+balzsamosít AddVerbmelyabrandit;
+bandzsít AddVerbmelyabrandit;
+barbárít AddVerbmelyabrandit;
+barnásít AddVerbmelyabrandit;
+barnít AddVerbmelyabrandit;
+barokkosít AddVerbmelyabrandit;
+bazárosít AddVerbmelyabrandit;
+becsesít AddVerbbekit;
+becstelenít AddVerbbekit;
+becsületesít AddVerbbekit;
+becsülhetetlenít AddVerbbekit;
+befolyásosít AddVerbmelyabrandit;
+befőttesít AddVerbbekit;
+belterületesít AddVerbbekit;
+bencésít AddVerbbekit;
+benediktinusít AddVerbmelyabrandit;
+bennfentesít AddVerbbekit;
+bensőségesít AddVerbbekit;
+bentlakásosít AddVerbmelyabrandit;
+beszédesít AddVerbbekit;
+beszédhibásít AddVerbmelyabrandit;
+betegesít AddVerbbekit;
+betegít AddVerbbekit;
+betonosít AddVerbmelyabrandit;
+betűrímesít AddVerbbekit;
+betűsorosít AddVerbmelyabrandit;
+betűsít AddVerbbekit;
+betűzhetetlenít AddVerbbekit;
+bevonatmentesít AddVerbbekit;
+bevágásosít AddVerbmelyabrandit;
+bibisít AddVerbbekit;
+bikaerősít AddVerbbekit;
+bikásít AddVerbmelyabrandit;
+bilincstelenít AddVerbbekit;
+billentyűsít AddVerbbekit;
+birtokosít AddVerbmelyabrandit;
+biszexuálisít AddVerbmelyabrandit;
+bitangít AddVerbmelyabrandit;
+bitumenesít AddVerbbekit;
+bivalensít AddVerbbekit;
+bivalyerősít AddVerbbekit;
+bizalmasít AddVerbmelyabrandit;
+bizalmatlanít AddVerbmelyabrandit;
+bizarrít AddVerbmelyabrandit;
+bizonytalanít AddVerbmelyabrandit;
+bizonyít AddVerbmelyabrandit;
+biztonságosít AddVerbmelyabrandit;
+biztosít AddVerbmelyabrandit;
+blikkesít AddVerbbekit;
+blikkfangosít AddVerbmelyabrandit;
+blokkosít AddVerbmelyabrandit;
+blődít AddVerbbekit;
+bocsájt AddVerbbujt;
+bocsánatosít AddVerbmelyabrandit;
+bocsáthatatlanít AddVerbmelyabrandit;
+bodorít AddVerbmelyabrandit;
+bodrosít AddVerbmelyabrandit;
+bodzásít AddVerbmelyabrandit;
+bogarasít AddVerbmelyabrandit;
+bogasít AddVerbmelyabrandit;
+boglyasít AddVerbmelyabrandit;
+bogártalanít AddVerbmelyabrandit;
+bohémít AddVerbmelyabrandit;
+bohókásít AddVerbmelyabrandit;
+bojtosít AddVerbmelyabrandit;
+bokrosít AddVerbmelyabrandit;
+bokrétátlanít AddVerbmelyabrandit;
+bokszosít AddVerbmelyabrandit;
+boldogtalanít AddVerbmelyabrandit;
+boldogít AddVerbmelyabrandit;
+bolgárosít AddVerbmelyabrandit;
+bolhamentesít AddVerbbekit;
+bolhátlanít AddVerbmelyabrandit;
+bolondosít AddVerbmelyabrandit;
+bolondít AddVerbmelyabrandit;
+bolthajtásosít AddVerbmelyabrandit;
+boltosít AddVerbmelyabrandit;
+boltozatosít AddVerbmelyabrandit;
+boltívesít AddVerbbekit;
+bolydít AddVerbmelyabrandit;
+bolyhosít AddVerbmelyabrandit;
+bombamentesít AddVerbbekit;
+bomlékonyít AddVerbmelyabrandit;
+bonyodalmasít AddVerbmelyabrandit;
+bonyolít AddVerbmelyabrandit;
+borbélyinasít AddVerbmelyabrandit;
+bordásít AddVerbmelyabrandit;
+borgőzösít AddVerbbekit;
+bormentesít AddVerbbekit;
+bornemisszásít AddVerbmelyabrandit;
+borostásít AddVerbmelyabrandit;
+borosít AddVerbmelyabrandit;
+borotválatlanít AddVerbmelyabrandit;
+borsosít AddVerbmelyabrandit;
+borulékonyít AddVerbmelyabrandit;
+borvirágosít AddVerbmelyabrandit;
+borzalmasít AddVerbmelyabrandit;
+borzasít AddVerbmelyabrandit;
+borít AddVerbmelyabrandit;
+borízűsít AddVerbbekit;
+borúsít AddVerbmelyabrandit;
+bosszúszomjasít AddVerbmelyabrandit;
+bosszúsít AddVerbmelyabrandit;
+boszorkányosít AddVerbmelyabrandit;
+boszorkánytalanít AddVerbmelyabrandit;
+botfülűsít AddVerbbekit;
+botrányosít AddVerbmelyabrandit;
+boyosít AddVerbmelyabrandit;
+bozontosít AddVerbmelyabrandit;
+bozótosít AddVerbmelyabrandit;
+brandysít AddVerbmelyabrandit;
+bravúrosít AddVerbmelyabrandit;
+briliánsít AddVerbmelyabrandit;
+bronzosít AddVerbmelyabrandit;
+bruttósít AddVerbmelyabrandit;
+buborékosít AddVerbmelyabrandit;
+buckásít AddVerbmelyabrandit;
+buggyosít AddVerbmelyabrandit;
+bugrisít AddVerbmelyabrandit;
+bujt AddVerbbujt;
+bukésít AddVerbbekit;
+bulvárosít AddVerbmelyabrandit;
+bundásít AddVerbmelyabrandit;
+bunkósít AddVerbmelyabrandit;
+burnótosít AddVerbmelyabrandit;
+busásít AddVerbmelyabrandit;
+butusít AddVerbmelyabrandit;
+butít AddVerbmelyabrandit;
+buzdít AddVerbmelyabrandit;
+bábosít AddVerbmelyabrandit;
+bágyatagít AddVerbmelyabrandit;
+bájosít AddVerbmelyabrandit;
+bájtalanít AddVerbmelyabrandit;
+bálásít AddVerbmelyabrandit;
+bámulatosít AddVerbmelyabrandit;
+bánatosít AddVerbmelyabrandit;
+bársonyosít AddVerbmelyabrandit;
+bárósít AddVerbmelyabrandit;
+bátortalanít AddVerbmelyabrandit;
+bátorít AddVerbmelyabrandit;
+bávatagít AddVerbmelyabrandit;
+bávít AddVerbmelyabrandit;
+bázikusít AddVerbmelyabrandit;
+bázismentesít AddVerbbekit;
+béklyótlanít AddVerbmelyabrandit;
+békésít AddVerbbekit;
+békétlenít AddVerbbekit;
+békít AddVerbbekit;
+békülékenyít AddVerbbekit;
+béleletlenít AddVerbbekit;
+bélpoklosít AddVerbmelyabrandit;
+bélyegesít AddVerbbekit;
+bénít AddVerbmelyabrandit;
+béresít AddVerbbekit;
+bérmentesít AddVerbbekit;
+bírhatatlanít AddVerbmelyabrandit;
+bóbitásít AddVerbmelyabrandit;
+bódésít AddVerbmelyabrandit;
+bódít AddVerbmelyabrandit;
+bögyösít AddVerbbekit;
+bölcsít AddVerbbekit;
+búbánatosít AddVerbmelyabrandit;
+búskomorít AddVerbmelyabrandit;
+búsmagyarít AddVerbmelyabrandit;
+búsásít AddVerbmelyabrandit;
+búsít AddVerbmelyabrandit;
+büdösít AddVerbbekit;
+büntetlenít AddVerbbekit;
+büntetésmentesít AddVerbbekit;
+bütykösít AddVerbbekit;
+bőbeszédűsít AddVerbbekit;
+bőkezűsít AddVerbbekit;
+bőrkeményedésesít AddVerbbekit;
+bőrtelenít AddVerbbekit;
+bőszít AddVerbbekit;
+bőségesít AddVerbbekit;
+bővizűsít AddVerbbekit;
+bővérűsít AddVerbbekit;
+bővít AddVerbbekit;
+bűbájosít AddVerbmelyabrandit;
+bűntelenít AddVerbbekit;
+bűntudatosít AddVerbmelyabrandit;
+bűnösít AddVerbbekit;
+bűvösít AddVerbbekit;
+bűztelenít AddVerbbekit;
+bűzösít AddVerbbekit;
+cafatosít AddVerbmelyabrandit;
+cakkosít AddVerbmelyabrandit;
+cellulárisít AddVerbmelyabrandit;
+cellásít AddVerbmelyabrandit;
+cementesít AddVerbbekit;
+centisít AddVerbbekit;
+cicomásít AddVerbmelyabrandit;
+cicomátlanít AddVerbmelyabrandit;
+cifraszűrösít AddVerbbekit;
+cifrázatlanít AddVerbmelyabrandit;
+cigánymentesít AddVerbbekit;
+cigányosít AddVerbmelyabrandit;
+cigánytalanít AddVerbmelyabrandit;
+cigányít AddVerbmelyabrandit;
+cikisít AddVerbbekit;
+cikornyásít AddVerbmelyabrandit;
+cikornyátlanít AddVerbmelyabrandit;
+cilinderesít AddVerbbekit;
+cingárít AddVerbmelyabrandit;
+cinikusít AddVerbmelyabrandit;
+cinkosít AddVerbmelyabrandit;
+cinktelenít AddVerbbekit;
+cirillít AddVerbbekit;
+cirkulárisít AddVerbmelyabrandit;
+cirmosít AddVerbmelyabrandit;
+cirádásít AddVerbmelyabrandit;
+civilizálatlanít AddVerbmelyabrandit;
+ciánosít AddVerbmelyabrandit;
+combosít AddVerbmelyabrandit;
+cowboyosít AddVerbmelyabrandit;
+családiasít AddVerbmelyabrandit;
+családtalanít AddVerbmelyabrandit;
+csalárdít AddVerbmelyabrandit;
+csapadékosít AddVerbmelyabrandit;
+csapadéktalanít AddVerbmelyabrandit;
+csapodárít AddVerbmelyabrandit;
+csappantyúsít AddVerbmelyabrandit;
+csavarosít AddVerbmelyabrandit;
+csavarít AddVerbmelyabrandit;
+csehesít AddVerbbekit;
+csekélyít AddVerbbekit;
+cselekményesít AddVerbbekit;
+cselekvésképtelenít AddVerbbekit;
+cselekvőképtelenít AddVerbbekit;
+csendesít AddVerbbekit;
+csendít AddVerbbekit;
+csenevészít AddVerbbekit;
+csepergősít AddVerbbekit;
+cseppfolyósít AddVerbmelyabrandit;
+cseppmentesít AddVerbbekit;
+cserdít AddVerbbekit;
+cserepesít AddVerbbekit;
+cseresít AddVerbbekit;
+cserfesít AddVerbbekit;
+cserjésít AddVerbbekit;
+csersavasít AddVerbmelyabrandit;
+cserzetlenít AddVerbbekit;
+csibészít AddVerbbekit;
+csigavonalasít AddVerbmelyabrandit;
+csikorgósít AddVerbmelyabrandit;
+csillagdíszesít AddVerbbekit;
+csillagfényesít AddVerbbekit;
+csillagosít AddVerbmelyabrandit;
+csillagtalanít AddVerbmelyabrandit;
+csillapít AddVerbmelyabrandit;
+csillapítatlanít AddVerbmelyabrandit;
+csillámosít AddVerbmelyabrandit;
+csinosít AddVerbmelyabrandit;
+csintalanít AddVerbmelyabrandit;
+csipkésít AddVerbbekit;
+csipásít AddVerbmelyabrandit;
+csiramentesít AddVerbbekit;
+csiricsárít AddVerbmelyabrandit;
+csirizesít AddVerbbekit;
+csirkemellűsít AddVerbbekit;
+csirátlanít AddVerbmelyabrandit;
+csiszolatlanít AddVerbmelyabrandit;
+csitít AddVerbmelyabrandit;
+csizmásít AddVerbmelyabrandit;
+csodálatosít AddVerbmelyabrandit;
+csodásít AddVerbmelyabrandit;
+csomagosít AddVerbmelyabrandit;
+csomósít AddVerbmelyabrandit;
+csonkafülűsít AddVerbbekit;
+csonkít AddVerbmelyabrandit;
+csonkítatlanít AddVerbmelyabrandit;
+csonthéjasít AddVerbmelyabrandit;
+csontosít AddVerbmelyabrandit;
+csoportmentesít AddVerbbekit;
+csoportosít AddVerbmelyabrandit;
+csorbít AddVerbmelyabrandit;
+csordít AddVerbmelyabrandit;
+csucsorít AddVerbmelyabrandit;
+csuklyásít AddVerbmelyabrandit;
+csuklósít AddVerbmelyabrandit;
+csupaszít AddVerbmelyabrandit;
+csurdít AddVerbmelyabrandit;
+csábít AddVerbmelyabrandit;
+csámpít AddVerbmelyabrandit;
+csíkosít AddVerbmelyabrandit;
+csínosít AddVerbmelyabrandit;
+csípőficamosít AddVerbmelyabrandit;
+csíraképesít AddVerbbekit;
+csíramentesít AddVerbbekit;
+csírátlanít AddVerbmelyabrandit;
+csökevényesít AddVerbbekit;
+csöndesít AddVerbbekit;
+csördít AddVerbbekit;
+csövesít AddVerbbekit;
+csúcsosít AddVerbmelyabrandit;
+csúcsívesít AddVerbbekit;
+csúfosít AddVerbmelyabrandit;
+csúfít AddVerbmelyabrandit;
+csúnyít AddVerbmelyabrandit;
+csúszásmentesít AddVerbbekit;
+csúzosít AddVerbmelyabrandit;
+csücsörít AddVerbbekit;
+csődít AddVerbbekit;
+csőrtelenít AddVerbbekit;
+cudarít AddVerbmelyabrandit;
+cukorbajosít AddVerbmelyabrandit;
+cukrosít AddVerbmelyabrandit;
+cuppanósít AddVerbmelyabrandit;
+cégéresít AddVerbbekit;
+céhesít AddVerbbekit;
+célirányosít AddVerbmelyabrandit;
+célszerűsít AddVerbbekit;
+célszerűtlenít AddVerbbekit;
+céltalanít AddVerbmelyabrandit;
+céltudatosít AddVerbmelyabrandit;
+célzatosít AddVerbmelyabrandit;
+címezetlenít AddVerbbekit;
+címszavasít AddVerbbekit;
+címszavasít AddVerbmelyabrandit;
+címzetesít AddVerbbekit;
+dacosít AddVerbmelyabrandit;
+dagályosít AddVerbmelyabrandit;
+dajkásít AddVerbmelyabrandit;
+daliásít AddVerbmelyabrandit;
+dallamosít AddVerbmelyabrandit;
+dallamtalanít AddVerbmelyabrandit;
+darabosít AddVerbmelyabrandit;
+dedósít AddVerbmelyabrandit;
+dekádosít AddVerbmelyabrandit;
+delejesít AddVerbbekit;
+depósít AddVerbmelyabrandit;
+deresít AddVerbbekit;
+derékszögesít AddVerbbekit;
+derékszögűsít AddVerbbekit;
+derít AddVerbbekit;
+derűsít AddVerbbekit;
+despotikusít AddVerbmelyabrandit;
+diabetikusít AddVerbmelyabrandit;
+diabolikusít AddVerbmelyabrandit;
+diadalittasít AddVerbmelyabrandit;
+diadalmasít AddVerbmelyabrandit;
+diagnosztikusít AddVerbmelyabrandit;
+diagonálisít AddVerbmelyabrandit;
+diakronikusít AddVerbmelyabrandit;
+dialektikusít AddVerbmelyabrandit;
+dicstelenít AddVerbbekit;
+dicséretesít AddVerbbekit;
+dicsőít AddVerbbekit;
+didaktikusít AddVerbmelyabrandit;
+didergősít AddVerbbekit;
+dielektromosít AddVerbmelyabrandit;
+dietetikusít AddVerbmelyabrandit;
+differenciálatlanít AddVerbmelyabrandit;
+differenciálisít AddVerbmelyabrandit;
+diffúzít AddVerbmelyabrandit;
+diftériásít AddVerbmelyabrandit;
+digitálisít AddVerbmelyabrandit;
+diktatórikusít AddVerbmelyabrandit;
+dilinósít AddVerbmelyabrandit;
+dilisít AddVerbbekit;
+dimbes-dombosít AddVerbmelyabrandit;
+dimenziótlanít AddVerbmelyabrandit;
+dinamikusít AddVerbmelyabrandit;
+dinasztikusít AddVerbmelyabrandit;
+diplomatikusít AddVerbmelyabrandit;
+diplomásít AddVerbmelyabrandit;
+dipolárisít AddVerbbekit;
+disszonánsít AddVerbmelyabrandit;
+diszkriminációmentesít AddVerbbekit;
+diszkósít AddVerbmelyabrandit;
+divathóbortosít AddVerbmelyabrandit;
+divatosít AddVerbmelyabrandit;
+diétásít AddVerbmelyabrandit;
+dobozosít AddVerbmelyabrandit;
+dogmatikusít AddVerbmelyabrandit;
+dohosít AddVerbmelyabrandit;
+doktrinerít AddVerbbekit;
+dolgavégezetlenít AddVerbbekit;
+dollárosít AddVerbmelyabrandit;
+domborművesít AddVerbbekit;
+dombornyomásosít AddVerbmelyabrandit;
+domborít AddVerbmelyabrandit;
+dombosít AddVerbmelyabrandit;
+dominánsít AddVerbmelyabrandit;
+drabálisít AddVerbmelyabrandit;
+dramatikusít AddVerbmelyabrandit;
+drappít AddVerbmelyabrandit;
+drasztikusít AddVerbmelyabrandit;
+drágít AddVerbmelyabrandit;
+drótszőrűsít AddVerbbekit;
+dróttalanít AddVerbmelyabrandit;
+dsidásít AddVerbmelyabrandit;
+dualisztikusít AddVerbmelyabrandit;
+dudorosít AddVerbmelyabrandit;
+dudvásít AddVerbmelyabrandit;
+dugít AddVerbmelyabrandit;
+duhajít AddVerbmelyabrandit;
+dumásít AddVerbmelyabrandit;
+duplafedelűsít AddVerbbekit;
+durcásít AddVerbmelyabrandit;
+durvaszemcsésít AddVerbbekit;
+durvít AddVerbmelyabrandit;
+duálisít AddVerbmelyabrandit;
+dzsesszesít AddVerbbekit;
+dzsuvamentesít AddVerbbekit;
+dzsuvásít AddVerbmelyabrandit;
+dánosít AddVerbmelyabrandit;
+délcegít AddVerbbekit;
+délibábosít AddVerbmelyabrandit;
+déliesít AddVerbbekit;
+démonikusít AddVerbmelyabrandit;
+dérmentesít AddVerbbekit;
+dévajít AddVerbmelyabrandit;
+díjasít AddVerbmelyabrandit;
+díjkötelesít AddVerbbekit;
+díjmentesít AddVerbbekit;
+díjtalanít AddVerbmelyabrandit;
+díszesít AddVerbbekit;
+dísztelenít AddVerbbekit;
+díszít AddVerbbekit;
+díszítetlenít AddVerbbekit;
+dízelesít AddVerbbekit;
+dízelmotorosít AddVerbmelyabrandit;
+dögletesít AddVerbbekit;
+dögvészesít AddVerbbekit;
+dögösít AddVerbbekit;
+dölyfösít AddVerbbekit;
+döntetlenít AddVerbbekit;
+döntésképtelenít AddVerbbekit;
+dörgedelmesít AddVerbbekit;
+dúsít AddVerbmelyabrandit;
+dühít AddVerbbekit;
+dühösít AddVerbbekit;
+dülékenyít AddVerbbekit;
+dűt AddVerbbekitoe;
+ecetesít AddVerbbekit;
+edényesít AddVerbbekit;
+egalitáriusít AddVerbmelyabrandit;
+egocentrikusít AddVerbmelyabrandit;
+egoistít AddVerbmelyabrandit;
+egycsövűsít AddVerbbekit;
+egyediesít AddVerbbekit;
+egyeduralmasít AddVerbmelyabrandit;
+egyedít AddVerbbekit;
+egyenesít AddVerbbekit;
+egyenetlenít AddVerbbekit;
+egyenidejűsít AddVerbbekit;
+egyenirányít AddVerbmelyabrandit;
+egyenjogúsít AddVerbmelyabrandit;
+egyenletesít AddVerbbekit;
+egyenlít AddVerbbekit;
+egyenlősít AddVerbbekit;
+egyenlőtlenít AddVerbbekit;
+egyenruhásít AddVerbmelyabrandit;
+egyensúlyosít AddVerbmelyabrandit;
+egyenértékűsít AddVerbbekit;
+egyesít AddVerbbekit;
+egyetemesít AddVerbbekit;
+egyetemlegesít AddVerbbekit;
+egyezményesít AddVerbbekit;
+egyhengeresít AddVerbbekit;
+egyházellenesít AddVerbbekit;
+egyháziasít AddVerbmelyabrandit;
+egyházmentesít AddVerbbekit;
+egyidejűsít AddVerbbekit;
+egyismeretlenesít AddVerbbekit;
+egykedvűsít AddVerbbekit;
+egynejűsít AddVerbbekit;
+egyneműsít AddVerbbekit;
+egysejtűsít AddVerbbekit;
+egyszerűsít AddVerbbekit;
+egyszintűsít AddVerbbekit;
+egyszálbélűsít AddVerbbekit;
+egyszínűsít AddVerbbekit;
+egységesít AddVerbbekit;
+egyénesít AddVerbbekit;
+egyénít AddVerbbekit;
+egyértelműsít AddVerbbekit;
+egyöntetűsít AddVerbbekit;
+együgyűsít AddVerbbekit;
+egzisztenciátlanít AddVerbmelyabrandit;
+egértelenít AddVerbbekit;
+egészségesít AddVerbbekit;
+egészségtelenít AddVerbbekit;
+egészít AddVerbbekit;
+ejt AddVerbbujt;
+ekhósít AddVerbmelyabrandit;
+eklektikusít AddVerbmelyabrandit;
+eksztatikusít AddVerbmelyabrandit;
+ekvatoriálisít AddVerbmelyabrandit;
+ekvivalensít AddVerbbekit;
+elasztikusít AddVerbmelyabrandit;
+elegyít AddVerbbekit;
+elektromosít AddVerbmelyabrandit;
+elektromotorosít AddVerbmelyabrandit;
+elementárisít AddVerbmelyabrandit;
+elevenít AddVerbbekit;
+elitesít AddVerbbekit;
+ellenesít AddVerbbekit;
+ellenszenvesít AddVerbbekit;
+ellenségesít AddVerbbekit;
+ellentétesít AddVerbbekit;
+ellenzékmentesít AddVerbbekit;
+ellátatlanít AddVerbmelyabrandit;
+elmebajosít AddVerbmelyabrandit;
+elmebetegít AddVerbbekit;
+elmésít AddVerbbekit;
+elsődlegesít AddVerbbekit;
+elsőrendűsít AddVerbbekit;
+elvtelenít AddVerbbekit;
+elvtársiasít AddVerbmelyabrandit;
+elégedetlenít AddVerbbekit;
+elégikusít AddVerbmelyabrandit;
+elégségesít AddVerbbekit;
+elégtelenít AddVerbbekit;
+elégít AddVerbbekit;
+elégületlenít AddVerbbekit;
+elérhetetlenít AddVerbbekit;
+elévülhetetlenít AddVerbbekit;
+elöltesztelősít AddVerbbekit;
+előnytelenít AddVerbbekit;
+előnyösít AddVerbbekit;
+előzetesít AddVerbbekit;
+előzékenyít AddVerbbekit;
+előzőlegesít AddVerbbekit;
+emberesít AddVerbbekit;
+emberiesít AddVerbbekit;
+emberietlenít AddVerbbekit;
+emberszerűsít AddVerbbekit;
+emberségesít AddVerbbekit;
+embertelenít AddVerbbekit;
+emblematikusít AddVerbmelyabrandit;
+emeletesít AddVerbbekit;
+eminenciásít AddVerbmelyabrandit;
+emlékezetesít AddVerbbekit;
+említ AddVerbbekit;
+emlősít AddVerbbekit;
+emutlanít AddVerbmelyabrandit;
+emésztetlenít AddVerbbekit;
+emészthetetlenít AddVerbbekit;
+enciklopédikusít AddVerbmelyabrandit;
+energetikusít AddVerbmelyabrandit;
+energiagazdagít AddVerbmelyabrandit;
+energiaigényesít AddVerbbekit;
+energikusít AddVerbmelyabrandit;
+engedelmesít AddVerbbekit;
+engedetlenít AddVerbbekit;
+engedhetetlenít AddVerbbekit;
+engedményesít AddVerbbekit;
+engedékenyít AddVerbbekit;
+engesztelhetetlenít AddVerbbekit;
+engesztelékenyít AddVerbbekit;
+enyhít AddVerbbekit;
+enyvesít AddVerbbekit;
+enyvtelenít AddVerbbekit;
+epebajosít AddVerbmelyabrandit;
+epigrammásít AddVerbmelyabrandit;
+epésít AddVerbbekit;
+erdősít AddVerbbekit;
+eredményesít AddVerbbekit;
+eredménytelenít AddVerbbekit;
+erkölcstelenít AddVerbbekit;
+erkölcsösít AddVerbbekit;
+ernyedetlenít AddVerbbekit;
+erotikusít AddVerbmelyabrandit;
+erélyesít AddVerbbekit;
+erélytelenít AddVerbbekit;
+erényesít AddVerbbekit;
+erődít AddVerbbekit;
+erősbít AddVerbbekit;
+erőskezűsít AddVerbbekit;
+erőszakosít AddVerbmelyabrandit;
+erősít AddVerbbekit;
+erőtelenít AddVerbbekit;
+erőtlenít AddVerbbekit;
+esd AddVerbesd;
+esedékesít AddVerbbekit;
+eseménydúsít AddVerbmelyabrandit;
+eseménytelenít AddVerbbekit;
+esetlegesít AddVerbbekit;
+esetlenít AddVerbbekit;
+esszenciálisít AddVerbmelyabrandit;
+eszelősít AddVerbbekit;
+eszetlenít AddVerbbekit;
+eszközigényesít AddVerbbekit;
+eszköztelenít AddVerbbekit;
+eszközösít AddVerbbekit;
+eszményesít AddVerbbekit;
+eszményít AddVerbbekit;
+esztelenít AddVerbbekit;
+esélyesít AddVerbbekit;
+esélytelenít AddVerbbekit;
+esősít AddVerbbekit;
+esőtlenít AddVerbbekit;
+etikusít AddVerbmelyabrandit;
+etikátlanít AddVerbmelyabrandit;
+etnikumosít AddVerbmelyabrandit;
+etruszkosít AddVerbmelyabrandit;
+európaiasít AddVerbmelyabrandit;
+eurósít AddVerbmelyabrandit;
+excellenciásít AddVerbmelyabrandit;
+extrémít AddVerbbekit;
+ezerfejűsít AddVerbbekit;
+ezredévesít AddVerbbekit;
+ezüstgombosít AddVerbmelyabrandit;
+ezüstkeretesít AddVerbbekit;
+ezüstösít AddVerbbekit;
+facsarít AddVerbmelyabrandit;
+facérít AddVerbmelyabrandit;
+fafejűsít AddVerbbekit;
+faggyúsít AddVerbmelyabrandit;
+fagymentesít AddVerbbekit;
+fagyosít AddVerbmelyabrandit;
+fagyérzékenyít AddVerbbekit;
+fagyöngymentesít AddVerbbekit;
+fajlagosít AddVerbmelyabrandit;
+fajsúlyosít AddVerbmelyabrandit;
+fajsúlytalanít AddVerbmelyabrandit;
+fajtaazonosít AddVerbmelyabrandit;
+fajtalanít AddVerbmelyabrandit;
+fajtatisztít AddVerbmelyabrandit;
+fajtisztít AddVerbmelyabrandit;
+faksznisít AddVerbbekit;
+fakít AddVerbmelyabrandit;
+falsít AddVerbmelyabrandit;
+fanatikusít AddVerbmelyabrandit;
+fantasztikusít AddVerbmelyabrandit;
+fantomszerűsít AddVerbbekit;
+fantáziadúsít AddVerbmelyabrandit;
+fantáziátlanít AddVerbmelyabrandit;
+fanyarkásít AddVerbmelyabrandit;
+faragatlanít AddVerbmelyabrandit;
+farkatlanít AddVerbmelyabrandit;
+farmosít AddVerbmelyabrandit;
+favázasít AddVerbmelyabrandit;
+fedetlenít AddVerbbekit;
+fedezetlenít AddVerbbekit;
+fegyelmezetlenít AddVerbbekit;
+fegyveresít AddVerbbekit;
+fegyvertelenít AddVerbbekit;
+fehérjedúsít AddVerbmelyabrandit;
+fehérjementesít AddVerbbekit;
+fehérvérűsít AddVerbbekit;
+fehérít AddVerbbekit;
+fejesít AddVerbbekit;
+fejetlenít AddVerbbekit;
+fejezhetetlenít AddVerbbekit;
+fejezéstelenít AddVerbbekit;
+fejfájósít AddVerbmelyabrandit;
+fejlődésképtelenít AddVerbbekit;
+fejt AddVerbbujt;
+feketít AddVerbbekit;
+fekélyesít AddVerbbekit;
+feledékenyít AddVerbbekit;
+felejt AddVerbbujt;
+felelőtlenít AddVerbbekit;
+feleslegesít AddVerbbekit;
+felesít AddVerbbekit;
+felfogóképesít AddVerbbekit;
+felhólyagosít AddVerbmelyabrandit;
+felhősít AddVerbbekit;
+felhőtlenít AddVerbbekit;
+fellegesít AddVerbbekit;
+fellegtelenít AddVerbbekit;
+felnőttesít AddVerbbekit;
+felszínesít AddVerbbekit;
+felségesít AddVerbbekit;
+feltevésesít AddVerbbekit;
+feltételesít AddVerbbekit;
+felvágósít AddVerbmelyabrandit;
+felületesít AddVerbbekit;
+feneketlenít AddVerbbekit;
+fenolmentesít AddVerbbekit;
+fenségesít AddVerbbekit;
+fensőbbségesít AddVerbbekit;
+fensőségesít AddVerbbekit;
+fenyít AddVerbbekit;
+ferdít AddVerbbekit;
+fergetegesít AddVerbbekit;
+ferritesít AddVerbbekit;
+fertelmesít AddVerbbekit;
+fertőtlenít AddVerbbekit;
+fertőzésmentesít AddVerbbekit;
+festetlenít AddVerbbekit;
+festékmentesít AddVerbbekit;
+festéktelenít AddVerbbekit;
+festőiesít AddVerbbekit;
+feszesít AddVerbbekit;
+fesztelenít AddVerbbekit;
+feszít AddVerbbekit;
+feszültségmentesít AddVerbbekit;
+feszültségtelenít AddVerbbekit;
+fiasít AddVerbmelyabrandit;
+fiatalít AddVerbmelyabrandit;
+fibrinmentesít AddVerbbekit;
+ficamít AddVerbmelyabrandit;
+fickósít AddVerbmelyabrandit;
+fifikásít AddVerbmelyabrandit;
+figyelmesít AddVerbbekit;
+figyelmetlenít AddVerbbekit;
+filmesít AddVerbbekit;
+fineszesít AddVerbbekit;
+finnyásít AddVerbmelyabrandit;
+finomít AddVerbmelyabrandit;
+fintorít AddVerbmelyabrandit;
+fixesít AddVerbbekit;
+fizetésesít AddVerbbekit;
+fizetésképtelenít AddVerbbekit;
+fizetéstelenít AddVerbbekit;
+fizetőképesít AddVerbbekit;
+fiákerosít AddVerbmelyabrandit;
+fiókosít AddVerbmelyabrandit;
+fiúsít AddVerbmelyabrandit;
+flamósít AddVerbmelyabrandit;
+flancosít AddVerbmelyabrandit;
+fodorít AddVerbmelyabrandit;
+fodrosít AddVerbmelyabrandit;
+fogadatlanít AddVerbmelyabrandit;
+fogadhatatlanít AddVerbmelyabrandit;
+fogamzásképtelenít AddVerbbekit;
+foganatosít AddVerbmelyabrandit;
+fogasít AddVerbmelyabrandit;
+fogatlanít AddVerbmelyabrandit;
+fogházasít AddVerbmelyabrandit;
+foghíjasít AddVerbmelyabrandit;
+foglalatlanít AddVerbmelyabrandit;
+fogulatlanít AddVerbmelyabrandit;
+fogyatékosít AddVerbmelyabrandit;
+fogyhatatlanít AddVerbmelyabrandit;
+fogástalanít AddVerbmelyabrandit;
+fogékonyít AddVerbmelyabrandit;
+fojt AddVerbbujt;
+fojthatatlanít AddVerbmelyabrandit;
+fokozatosít AddVerbmelyabrandit;
+foltosít AddVerbmelyabrandit;
+folyadékmentesít AddVerbbekit;
+folyamatosít AddVerbmelyabrandit;
+folyosósít AddVerbmelyabrandit;
+folytonosít AddVerbmelyabrandit;
+folyékonyít AddVerbmelyabrandit;
+folyósít AddVerbmelyabrandit;
+folyótlanít AddVerbmelyabrandit;
+fonalasít AddVerbmelyabrandit;
+fondorlatosít AddVerbmelyabrandit;
+fonetikusít AddVerbmelyabrandit;
+fontosít AddVerbmelyabrandit;
+fordít AddVerbmelyabrandit;
+fordíthatatlanít AddVerbmelyabrandit;
+forgalmasít AddVerbmelyabrandit;
+forgalomképtelenít AddVerbbekit;
+forgalommentesít AddVerbbekit;
+forintosít AddVerbmelyabrandit;
+formásít AddVerbmelyabrandit;
+formátlanít AddVerbmelyabrandit;
+forradalmasít AddVerbmelyabrandit;
+forratlanít AddVerbmelyabrandit;
+forrófejűsít AddVerbbekit;
+forrósít AddVerbmelyabrandit;
+fortélyosít AddVerbmelyabrandit;
+fosszilisít AddVerbmelyabrandit;
+foszforosít AddVerbmelyabrandit;
+foszlányosít AddVerbmelyabrandit;
+foszlékonyít AddVerbmelyabrandit;
+fotogénít AddVerbmelyabrandit;
+fragilisít AddVerbmelyabrandit;
+franciásít AddVerbmelyabrandit;
+frenetikusít AddVerbmelyabrandit;
+frissít AddVerbbekit;
+frontálisít AddVerbmelyabrandit;
+frontérzékenyít AddVerbbekit;
+fullánkosít AddVerbmelyabrandit;
+fundamentalistít AddVerbmelyabrandit;
+furfangosít AddVerbmelyabrandit;
+futamít AddVerbmelyabrandit;
+fádít AddVerbmelyabrandit;
+fájdalmasít AddVerbmelyabrandit;
+fájdalmatlanít AddVerbmelyabrandit;
+fájdalommentesít AddVerbbekit;
+fájdít AddVerbmelyabrandit;
+fájintosít AddVerbmelyabrandit;
+fáradatlanít AddVerbmelyabrandit;
+fáradhatatlanít AddVerbmelyabrandit;
+fáradságosít AddVerbmelyabrandit;
+fáradékonyít AddVerbmelyabrandit;
+fásít AddVerbmelyabrandit;
+fátlanít AddVerbmelyabrandit;
+fázékonyít AddVerbmelyabrandit;
+fékezhetetlenít AddVerbbekit;
+féktelenít AddVerbbekit;
+félcédulásít AddVerbmelyabrandit;
+félelmesít AddVerbbekit;
+félemlít AddVerbbekit;
+félhetesít AddVerbbekit;
+félhivatalosít AddVerbmelyabrandit;
+félkilósít AddVerbmelyabrandit;
+félliteresít AddVerbbekit;
+félmeztelenít AddVerbbekit;
+félméteresít AddVerbbekit;
+félnaposít AddVerbmelyabrandit;
+félnótásít AddVerbmelyabrandit;
+félévszázadosít AddVerbmelyabrandit;
+fémesít AddVerbbekit;
+fémművesít AddVerbbekit;
+fényesít AddVerbbekit;
+fényigényesít AddVerbbekit;
+fénytelenít AddVerbbekit;
+féregmentesít AddVerbbekit;
+féregtelenít AddVerbbekit;
+férfiasít AddVerbmelyabrandit;
+férfiatlanít AddVerbmelyabrandit;
+férfiúsít AddVerbmelyabrandit;
+férgesít AddVerbbekit;
+férgetlenít AddVerbbekit;
+födetlenít AddVerbbekit;
+földetlenít AddVerbbekit;
+földszintesít AddVerbbekit;
+földtelenít AddVerbbekit;
+fölségesít AddVerbbekit;
+fölényesít AddVerbbekit;
+fölöslegesít AddVerbbekit;
+fölösít AddVerbbekit;
+fölületesít AddVerbbekit;
+fölülmúlhatatlanít AddVerbmelyabrandit;
+fönségesít AddVerbbekit;
+förtelmesít AddVerbbekit;
+fösvényít AddVerbbekit;
+fövenyesít AddVerbbekit;
+fövényesít AddVerbbekit;
+fúratlanít AddVerbmelyabrandit;
+függetlenít AddVerbbekit;
+függéstelenít AddVerbbekit;
+függőlegesít AddVerbbekit;
+fülkésít AddVerbbekit;
+fürgít AddVerbbekit;
+fürkészhetetlenít AddVerbbekit;
+fürtösít AddVerbbekit;
+füstmentesít AddVerbbekit;
+füsttelenít AddVerbbekit;
+füstösít AddVerbbekit;
+füvesít AddVerbbekit;
+füzesít AddVerbbekit;
+főnevesít AddVerbbekit;
+főtlenít AddVerbbekit;
+főzetlenít AddVerbbekit;
+fűszeresít AddVerbbekit;
+fűszertelenít AddVerbbekit;
+fűt AddVerbbekitoe;
+gabalyít AddVerbmelyabrandit;
+galambmentesít AddVerbbekit;
+gatyásít AddVerbmelyabrandit;
+gavallérít AddVerbmelyabrandit;
+gazdagít AddVerbmelyabrandit;
+gazdaságosít AddVerbmelyabrandit;
+gazdaságtalanít AddVerbmelyabrandit;
+gazdátlanít AddVerbmelyabrandit;
+gazmentesít AddVerbmelyabrandit;
+gazosít AddVerbmelyabrandit;
+gaztalanít AddVerbmelyabrandit;
+gebinesít AddVerbbekit;
+gennyesít AddVerbbekit;
+gerinctelenít AddVerbbekit;
+gettósít AddVerbmelyabrandit;
+giccsesít AddVerbbekit;
+gigantikusít AddVerbmelyabrandit;
+girhesít AddVerbbekit;
+gloknisít AddVerbbekit;
+glosszásít AddVerbmelyabrandit;
+golyvásít AddVerbmelyabrandit;
+gombamentesít AddVerbbekit;
+gombolyít AddVerbmelyabrandit;
+gombosít AddVerbmelyabrandit;
+gombátlanít AddVerbmelyabrandit;
+gondatlanít AddVerbmelyabrandit;
+gondolhatatlanít AddVerbmelyabrandit;
+gondosít AddVerbmelyabrandit;
+gondozatlanít AddVerbmelyabrandit;
+gondtalanít AddVerbmelyabrandit;
+gonoszít AddVerbmelyabrandit;
+gorombít AddVerbmelyabrandit;
+grippésít AddVerbbekit;
+grófosít AddVerbmelyabrandit;
+gubancosít AddVerbmelyabrandit;
+gumósít AddVerbmelyabrandit;
+gunyorosít AddVerbmelyabrandit;
+gurít AddVerbmelyabrandit;
+gusztustalanít AddVerbmelyabrandit;
+gyagyít AddVerbmelyabrandit;
+gyakorlóévesít AddVerbbekit;
+gyalogosít AddVerbmelyabrandit;
+gyalázatosít AddVerbmelyabrandit;
+gyantamentesít AddVerbbekit;
+gyantásít AddVerbmelyabrandit;
+gyanít AddVerbmelyabrandit;
+gyanúsít AddVerbmelyabrandit;
+gyanútlanít AddVerbmelyabrandit;
+gyarapít AddVerbmelyabrandit;
+gyarmatosít AddVerbmelyabrandit;
+gyengeelméjűsít AddVerbbekit;
+gyengít AddVerbbekit;
+gyepesít AddVerbbekit;
+gyerekesít AddVerbbekit;
+gyerektelenít AddVerbbekit;
+gyermekesít AddVerbbekit;
+gyermekiesít AddVerbbekit;
+gyermektelenít AddVerbbekit;
+gyermetegít AddVerbbekit;
+gyilkosít AddVerbmelyabrandit;
+gyogyósít AddVerbmelyabrandit;
+gyommentesít AddVerbbekit;
+gyomosít AddVerbmelyabrandit;
+gyomtalanít AddVerbmelyabrandit;
+gyorsít AddVerbmelyabrandit;
+gyámolít AddVerbmelyabrandit;
+gyászosít AddVerbmelyabrandit;
+gyávít AddVerbmelyabrandit;
+gyérít AddVerbbekit;
+gyógyszermentesít AddVerbbekit;
+gyógyít AddVerbmelyabrandit;
+gyökeresít AddVerbbekit;
+gyöktelenít AddVerbbekit;
+gyökértelenít AddVerbbekit;
+gyöngít AddVerbbekit;
+gyönyörtelenít AddVerbbekit;
+gyöpösít AddVerbbekit;
+gyötrelmesít AddVerbbekit;
+gyújt AddVerbbujt;
+gyümölcstelenít AddVerbbekit;
+gyümölcsösít AddVerbbekit;
+győzedelmesít AddVerbbekit;
+győzelmesít AddVerbbekit;
+gyűjt AddVerbbujtoe;
+gyűlöletesít AddVerbbekit;
+gyűrűsít AddVerbbekit;
+gáncstalanít AddVerbmelyabrandit;
+gátlásosít AddVerbmelyabrandit;
+gátlástalanít AddVerbmelyabrandit;
+gázmentesít AddVerbbekit;
+gázneműsít AddVerbbekit;
+gázosít AddVerbmelyabrandit;
+gáztalanít AddVerbmelyabrandit;
+géniuszosít AddVerbmelyabrandit;
+gépesít AddVerbbekit;
+gépiesít AddVerbbekit;
+gésít AddVerbbekit;
+góctalanít AddVerbmelyabrandit;
+gógyisít AddVerbbekit;
+gólerősít AddVerbbekit;
+gödrösít AddVerbbekit;
+gömbölyít AddVerbbekit;
+göndörít AddVerbbekit;
+göngyölít AddVerbbekit;
+görbít AddVerbbekit;
+görcsösít AddVerbbekit;
+gördít AddVerbbekit;
+görgőscsapágyasít AddVerbmelyabrandit;
+görvélykórosít AddVerbmelyabrandit;
+görögösít AddVerbbekit;
+göröngyösít AddVerbbekit;
+gúnyosít AddVerbmelyabrandit;
+gügyít AddVerbbekit;
+gümőkórosít AddVerbmelyabrandit;
+gümősít AddVerbbekit;
+gőgösít AddVerbbekit;
+gőztelenít AddVerbbekit;
+gőzösít AddVerbbekit;
+habosít AddVerbmelyabrandit;
+hagyományosít AddVerbmelyabrandit;
+hagyománytalanít AddVerbmelyabrandit;
+haikusít AddVerbmelyabrandit;
+hajfürtösít AddVerbbekit;
+hajlamosít AddVerbmelyabrandit;
+hajlásosít AddVerbmelyabrandit;
+hajlékonyít AddVerbmelyabrandit;
+hajléktalanít AddVerbmelyabrandit;
+hajlít AddVerbmelyabrandit;
+hajszálcsövesít AddVerbbekit;
+hajszálpontosít AddVerbmelyabrandit;
+hajt AddVerbbujt;
+hajít AddVerbmelyabrandit;
+haladéktalanít AddVerbmelyabrandit;
+halasít AddVerbmelyabrandit;
+halkít AddVerbmelyabrandit;
+hall AddVerbmelyabrandithall;
+hall AddVerbszik;
+hallgatagít AddVerbmelyabrandit;
+haloványít AddVerbmelyabrandit;
+halványít AddVerbmelyabrandit;
+halálosít AddVerbmelyabrandit;
+halálpontosít AddVerbmelyabrandit;
+hamisít AddVerbmelyabrandit;
+hamvasít AddVerbmelyabrandit;
+hangmentesít AddVerbbekit;
+hangosít AddVerbmelyabrandit;
+hangszeresít AddVerbbekit;
+hangsúlyosít AddVerbmelyabrandit;
+hangsúlyozatlanít AddVerbmelyabrandit;
+hangsúlytalanít AddVerbmelyabrandit;
+hangtalanít AddVerbmelyabrandit;
+hangulatosít AddVerbmelyabrandit;
+hangzatosít AddVerbmelyabrandit;
+hangzósít AddVerbmelyabrandit;
+hanyagít AddVerbmelyabrandit;
+haragosít AddVerbmelyabrandit;
+haragít AddVerbmelyabrandit;
+harapósít AddVerbmelyabrandit;
+harciasít AddVerbmelyabrandit;
+harcképtelenít AddVerbbekit;
+harcosít AddVerbmelyabrandit;
+harmatosít AddVerbmelyabrandit;
+harsányít AddVerbmelyabrandit;
+hasasít AddVerbmelyabrandit;
+hasonlatosít AddVerbmelyabrandit;
+hasonlít AddVerbmelyabrandit;
+hasonít AddVerbmelyabrandit;
+hasznosít AddVerbmelyabrandit;
+használatlanít AddVerbmelyabrandit;
+haszontalanít AddVerbmelyabrandit;
+hasztalanít AddVerbmelyabrandit;
+hasít AddVerbmelyabrandit;
+hatalmasít AddVerbmelyabrandit;
+hatodévesít AddVerbbekit;
+hatályosít AddVerbmelyabrandit;
+hatálytalanít AddVerbmelyabrandit;
+határidősít AddVerbbekit;
+határosít AddVerbmelyabrandit;
+határozatképtelenít AddVerbbekit;
+határozatlanít AddVerbmelyabrandit;
+határtalanít AddVerbmelyabrandit;
+hatásosít AddVerbmelyabrandit;
+hatástalanít AddVerbmelyabrandit;
+hatékonyít AddVerbmelyabrandit;
+havasít AddVerbmelyabrandit;
+havidíjasít AddVerbmelyabrandit;
+hazafiasít AddVerbmelyabrandit;
+hazafiatlanít AddVerbmelyabrandit;
+hazugságmentesít AddVerbbekit;
+hazugít AddVerbmelyabrandit;
+hazárdít AddVerbmelyabrandit;
+hazátlanít AddVerbmelyabrandit;
+hederít AddVerbbekit;
+hegesít AddVerbbekit;
+hegyesít AddVerbbekit;
+hegyezetlenít AddVerbbekit;
+hehezetesít AddVerbbekit;
+hektikásít AddVerbmelyabrandit;
+helyesbít AddVerbbekit;
+helyesít AddVerbbekit;
+helyettesít AddVerbbekit;
+helytelenít AddVerbbekit;
+hengerít AddVerbbekit;
+hepehupásít AddVerbmelyabrandit;
+heroikusít AddVerbmelyabrandit;
+hervatagít AddVerbmelyabrandit;
+hetedévesít AddVerbbekit;
+hevesít AddVerbbekit;
+hevít AddVerbbekit;
+hexameteresít AddVerbbekit;
+hibamentesít AddVerbbekit;
+hibásít AddVerbmelyabrandit;
+hibátlanít AddVerbmelyabrandit;
+hidegfejűsít AddVerbbekit;
+hidegháborúsít AddVerbmelyabrandit;
+hideglelősít AddVerbbekit;
+hidegvérűsít AddVerbbekit;
+hidegít AddVerbbekit;
+hidrogénmentesít AddVerbbekit;
+higanymentesít AddVerbbekit;
+higroszkóposít AddVerbmelyabrandit;
+himlőhelyesít AddVerbbekit;
+hindusít AddVerbmelyabrandit;
+hipertóniásít AddVerbmelyabrandit;
+hiresít AddVerbbekit;
+hisztérikusít AddVerbmelyabrandit;
+hitelesít AddVerbbekit;
+hitelképesít AddVerbbekit;
+hiteltelenít AddVerbbekit;
+hitesít AddVerbbekit;
+hitetlenít AddVerbbekit;
+hivatalosít AddVerbmelyabrandit;
+hivatásosít AddVerbmelyabrandit;
+hiányosít AddVerbmelyabrandit;
+hiánytalanít AddVerbmelyabrandit;
+hiúsít AddVerbmelyabrandit;
+hodályosít AddVerbmelyabrandit;
+holdfényesít AddVerbbekit;
+holdkórosít AddVerbmelyabrandit;
+holdvilágtalanít AddVerbmelyabrandit;
+hollandosít AddVerbmelyabrandit;
+homlokzatosít AddVerbmelyabrandit;
+homokosít AddVerbmelyabrandit;
+homorít AddVerbmelyabrandit;
+homályosít AddVerbmelyabrandit;
+honosít AddVerbmelyabrandit;
+hontalanít AddVerbmelyabrandit;
+horgasít AddVerbmelyabrandit;
+horgosít AddVerbmelyabrandit;
+horvátosít AddVerbmelyabrandit;
+hosszabbít AddVerbmelyabrandit;
+hosszasít AddVerbmelyabrandit;
+hosszít AddVerbmelyabrandit;
+hullajt AddVerbbujt;
+hullámosít AddVerbmelyabrandit;
+hullámtalanít AddVerbmelyabrandit;
+hullásít AddVerbmelyabrandit;
+humorosít AddVerbmelyabrandit;
+humortalanít AddVerbmelyabrandit;
+humusztalanít AddVerbmelyabrandit;
+humánusít AddVerbmelyabrandit;
+hunosít AddVerbmelyabrandit;
+hunyorít AddVerbmelyabrandit;
+hurkosít AddVerbmelyabrandit;
+huszárosít AddVerbmelyabrandit;
+huzatosít AddVerbmelyabrandit;
+háborít AddVerbmelyabrandit;
+hájasít AddVerbmelyabrandit;
+háklisít AddVerbmelyabrandit;
+hályogosít AddVerbmelyabrandit;
+hálásít AddVerbmelyabrandit;
+hálátlanít AddVerbmelyabrandit;
+hálózatosít AddVerbmelyabrandit;
+hámosít AddVerbmelyabrandit;
+hánt AddVerbmelyabrandit;
+háromnegyedesít AddVerbbekit;
+háromszögesít AddVerbbekit;
+hártyásít AddVerbmelyabrandit;
+hárít AddVerbmelyabrandit;
+hátralékosít AddVerbmelyabrandit;
+hátrányosít AddVerbmelyabrandit;
+házasít AddVerbmelyabrandit;
+háziasít AddVerbmelyabrandit;
+házmentesít AddVerbbekit;
+házsártosít AddVerbmelyabrandit;
+héjasít AddVerbmelyabrandit;
+hétköznaposít AddVerbmelyabrandit;
+hézagmentesít AddVerbbekit;
+hézagosít AddVerbmelyabrandit;
+hígít AddVerbmelyabrandit;
+hímnősít AddVerbbekit;
+hínármentesít AddVerbbekit;
+híresít AddVerbbekit;
+hírnevesít AddVerbbekit;
+hírtelenít AddVerbbekit;
+hízékonyít AddVerbmelyabrandit;
+hóbortosít AddVerbmelyabrandit;
+hódít AddVerbmelyabrandit;
+hómentesít AddVerbbekit;
+húrosít AddVerbmelyabrandit;
+húsosít AddVerbmelyabrandit;
+hústalanít AddVerbmelyabrandit;
+hülyít AddVerbbekit;
+hüvelyesít AddVerbbekit;
+hőemelkedésesít AddVerbbekit;
+hősiesít AddVerbbekit;
+hűbéresít AddVerbbekit;
+hűsít AddVerbbekit;
+hűt AddVerbbekitoe;
+hűvösít AddVerbbekit;
+ibolyásít AddVerbmelyabrandit;
+idegbajosít AddVerbmelyabrandit;
+idegenesít AddVerbbekit;
+idegenszerűsít AddVerbbekit;
+idegenít AddVerbbekit;
+idegeníthetetlenít AddVerbbekit;
+idegesít AddVerbbekit;
+idegzsábásít AddVerbmelyabrandit;
+ideológiamentesít AddVerbbekit;
+idomtalanít AddVerbmelyabrandit;
+idomít AddVerbmelyabrandit;
+időarányosít AddVerbmelyabrandit;
+időigényesít AddVerbbekit;
+időlegesít AddVerbbekit;
+időmértékesít AddVerbbekit;
+időszakosít AddVerbmelyabrandit;
+idősít AddVerbbekit;
+időtlenít AddVerbbekit;
+időzít AddVerbbekit;
+ifjít AddVerbmelyabrandit;
+igazhitűsít AddVerbbekit;
+igazságosít AddVerbmelyabrandit;
+igazságtalanít AddVerbmelyabrandit;
+igazít AddVerbmelyabrandit;
+igényesít AddVerbbekit;
+igénymentesít AddVerbbekit;
+igénytelenít AddVerbbekit;
+igésít AddVerbbekit;
+ihatatlanít AddVerbmelyabrandit;
+ihlettelenít AddVerbbekit;
+ijedősít AddVerbbekit;
+ikerít AddVerbbekit;
+ikresít AddVerbbekit;
+ikresít AddVerbbekit; !igea
+ildomosít AddVerbmelyabrandit;
+illatosít AddVerbmelyabrandit;
+illetékesít AddVerbbekit;
+illetékmentesít AddVerbbekit;
+illetéktelenít AddVerbbekit;
+illékonyít AddVerbmelyabrandit;
+illósít AddVerbmelyabrandit;
+illúziótlanít AddVerbmelyabrandit;
+impotensít AddVerbmelyabrandit;
+impozánsít AddVerbmelyabrandit;
+imádságosít AddVerbmelyabrandit;
+inasít AddVerbmelyabrandit;
+indukciósít AddVerbmelyabrandit;
+indulatmentesít AddVerbbekit;
+indulatosít AddVerbmelyabrandit;
+indít AddVerbmelyabrandit;
+inflációsít AddVerbmelyabrandit;
+infokommunikációsít AddVerbmelyabrandit;
+ingerlékenyít AddVerbbekit;
+ingoványosít AddVerbmelyabrandit;
+ingyenesít AddVerbbekit;
+inhomogénít AddVerbmelyabrandit;
+inkoherensít AddVerbmelyabrandit;
+internetesít AddVerbbekit;
+intézetlenít AddVerbbekit;
+intézményesít AddVerbbekit;
+intézménytelenít AddVerbbekit;
+ionmentesít AddVerbbekit;
+iontalanít AddVerbmelyabrandit;
+iparmentesít AddVerbbekit;
+iparosít AddVerbmelyabrandit;
+irgalmasít AddVerbmelyabrandit;
+irodalmasít AddVerbmelyabrandit;
+irthatatlanít AddVerbmelyabrandit;
+irtózatosít AddVerbmelyabrandit;
+irányzatosít AddVerbmelyabrandit;
+irányít AddVerbmelyabrandit;
+iskolásít AddVerbmelyabrandit;
+iskolátlanít AddVerbmelyabrandit;
+ismeretesít AddVerbbekit;
+istenesít AddVerbbekit;
+istentelenít AddVerbbekit;
+istenít AddVerbbekit;
+iszaposít AddVerbmelyabrandit;
+iszaptalanít AddVerbmelyabrandit;
+iszlámosít AddVerbmelyabrandit;
+iszonyatosít AddVerbmelyabrandit;
+iszákosít AddVerbmelyabrandit;
+italosít AddVerbmelyabrandit;
+ittasít AddVerbmelyabrandit;
+ivarosít AddVerbmelyabrandit;
+ivartalanít AddVerbmelyabrandit;
+izgalmasít AddVerbmelyabrandit;
+izmosít AddVerbmelyabrandit;
+izomerősít AddVerbbekit;
+izzadásmentesít AddVerbbekit;
+izzít AddVerbmelyabrandit;
+izzósít AddVerbmelyabrandit;
+izésít AddVerbbekit;
+jambusosít AddVerbmelyabrandit;
+japánosít AddVerbmelyabrandit;
+javít AddVerbmelyabrandit;
+javítatlanít AddVerbmelyabrandit;
+javíthatatlanít AddVerbmelyabrandit;
+jegesít AddVerbbekit;
+jegyesít AddVerbbekit;
+jegyzőtlenít AddVerbbekit;
+jelentékenyít AddVerbbekit;
+jelentéktelenít AddVerbbekit;
+jelentősít AddVerbbekit;
+jelenít AddVerbbekit;
+jelesít AddVerbbekit;
+jelképesít AddVerbbekit;
+jellegtelenít AddVerbbekit;
+jellegzetesít AddVerbbekit;
+jellemtelenít AddVerbbekit;
+jelszavasít AddVerbmelyabrandit;
+jeltelenít AddVerbbekit;
+jelzálogosít AddVerbmelyabrandit;
+jelzősít AddVerbbekit;
+jobbít AddVerbmelyabrandit;
+jogerősít AddVerbbekit;
+jogképesít AddVerbbekit;
+jogosít AddVerbmelyabrandit;
+jogtalanít AddVerbmelyabrandit;
+jogérvényesít AddVerbbekit;
+jugoszlávosít AddVerbmelyabrandit;
+juhászít AddVerbmelyabrandit;
+járadékosít AddVerbmelyabrandit;
+járatosít AddVerbmelyabrandit;
+járdásít AddVerbmelyabrandit;
+járulékosít AddVerbmelyabrandit;
+járványosít AddVerbmelyabrandit;
+járósít AddVerbmelyabrandit;
+játékfilmesít AddVerbbekit;
+játékosít AddVerbmelyabrandit;
+jégmentesít AddVerbbekit;
+jégtelenít AddVerbbekit;
+jégvirágosít AddVerbmelyabrandit;
+jésít AddVerbbekit;
+jóságosít AddVerbmelyabrandit;
+józanít AddVerbmelyabrandit;
+kagylósít AddVerbmelyabrandit;
+kalandosít AddVerbmelyabrandit;
+kalaposít AddVerbmelyabrandit;
+kalibrációsít AddVerbmelyabrandit;
+kalákásít AddVerbmelyabrandit;
+kalászosít AddVerbmelyabrandit;
+kamarásít AddVerbmelyabrandit;
+kamaszosít AddVerbmelyabrandit;
+kamatosít AddVerbmelyabrandit;
+kampósít AddVerbmelyabrandit;
+kamrásít AddVerbmelyabrandit;
+kanalasít AddVerbmelyabrandit;
+kancsalít AddVerbmelyabrandit;
+kancsít AddVerbmelyabrandit;
+kanyargósít AddVerbmelyabrandit;
+kanyarít AddVerbmelyabrandit;
+kanyarósít AddVerbmelyabrandit;
+kapcsolatosít AddVerbmelyabrandit;
+kapcsolattalanít AddVerbmelyabrandit;
+kapcsosít AddVerbmelyabrandit;
+karbolosít AddVerbmelyabrandit;
+karcmentesít AddVerbbekit;
+karcsít AddVerbmelyabrandit;
+karcsúsít AddVerbmelyabrandit;
+karikásít AddVerbmelyabrandit;
+karimásít AddVerbmelyabrandit;
+karimátlanít AddVerbmelyabrandit;
+karingesít AddVerbbekit;
+karmosít AddVerbmelyabrandit;
+karneválosít AddVerbmelyabrandit;
+kartellesít AddVerbmelyabrandit;
+karzatosít AddVerbmelyabrandit;
+karácsonyosít AddVerbmelyabrandit;
+kasztosít AddVerbmelyabrandit;
+kaszárnyásít AddVerbmelyabrandit;
+katonásít AddVerbmelyabrandit;
+kavicsosít AddVerbmelyabrandit;
+kecsesít AddVerbbekit;
+kedvesít AddVerbbekit;
+kedvetlenít AddVerbbekit;
+kedvezményesít AddVerbbekit;
+kedvtelenít AddVerbbekit;
+kedélyesít AddVerbbekit;
+kedélytelenít AddVerbbekit;
+kefésít AddVerbbekit;
+kegyelettelenít AddVerbbekit;
+kegyesít AddVerbbekit;
+kehesít AddVerbbekit;
+kekkít AddVerbbekit;
+keletiesít AddVerbbekit;
+kellemesít AddVerbbekit;
+kellemtelenít AddVerbbekit;
+keltásít AddVerbmelyabrandit;
+keltűsít AddVerbbekit;
+keményfejűsít AddVerbbekit;
+keménykezűsít AddVerbbekit;
+keményszívűsít AddVerbbekit;
+keményvonalasít AddVerbmelyabrandit;
+keményít AddVerbbekit;
+kendőzetlenít AddVerbbekit;
+kenetesít AddVerbbekit;
+kenetteljesít AddVerbbekit;
+kengurusít AddVerbmelyabrandit;
+kenőcsösít AddVerbbekit;
+kerekesít AddVerbbekit;
+kerekít AddVerbbekit;
+keresetképtelenít AddVerbbekit;
+keresetlenít AddVerbbekit;
+keresztfélévesít AddVerbbekit;
+kereszttelenít AddVerbbekit;
+keresztényesít AddVerbbekit;
+keretesít AddVerbbekit;
+kergít AddVerbbekit;
+kerozinmentesít AddVerbbekit;
+kertesít AddVerbbekit;
+kerékvágásosít AddVerbmelyabrandit;
+kerít AddVerbbekit;
+kerítetlenít AddVerbbekit;
+kerülhetetlenít AddVerbbekit;
+keservesít AddVerbbekit;
+keserít AddVerbbekit;
+keskenyít AddVerbbekit;
+kevesbít AddVerbbekit;
+kevélyít AddVerbbekit;
+kezdetlegesít AddVerbbekit;
+kezelhetetlenít AddVerbbekit;
+kezesít AddVerbbekit;
+kicsinyít AddVerbbekit;
+kiesít AddVerbbekit;
+kietlenít AddVerbbekit;
+kirakósít AddVerbmelyabrandit;
+kisbetűsít AddVerbbekit;
+kisdobosít AddVerbmelyabrandit;
+kisebbít AddVerbbekit;
+kisfilmesít AddVerbbekit;
+kisfiúsít AddVerbmelyabrandit;
+kisfrekvenciásít AddVerbmelyabrandit;
+kisgazdásít AddVerbmelyabrandit;
+kispénzűsít AddVerbbekit;
+kisrészvényesít AddVerbbekit;
+kisstílűsít AddVerbbekit;
+kisszerűsít AddVerbbekit;
+kisöbűsít AddVerbbekit;
+kivonatosít AddVerbmelyabrandit;
+kiváltságosít AddVerbmelyabrandit;
+kivételesít AddVerbbekit;
+kizárólagosít AddVerbmelyabrandit;
+kleptomániásít AddVerbmelyabrandit;
+klipesít AddVerbbekit;
+kloridmentesít AddVerbbekit;
+klórmentesít AddVerbbekit;
+kobzosít AddVerbmelyabrandit;
+kockásít AddVerbmelyabrandit;
+kockátlanít AddVerbmelyabrandit;
+kockázatmentesít AddVerbbekit;
+kockázatosít AddVerbmelyabrandit;
+kocsonyásít AddVerbmelyabrandit;
+kodálytalanít AddVerbmelyabrandit;
+koffeinmentesít AddVerbbekit;
+koffeintelenít AddVerbbekit;
+kohósít AddVerbmelyabrandit;
+kokszosít AddVerbmelyabrandit;
+komfortosít AddVerbmelyabrandit;
+kommunistátlanít AddVerbmelyabrandit;
+komolytalanít AddVerbmelyabrandit;
+komolyít AddVerbmelyabrandit;
+komorít AddVerbmelyabrandit;
+kompatibilisít AddVerbbekit;
+kompenzálatlanít AddVerbmelyabrandit;
+kompetensít AddVerbbekit;
+koncentrikusít AddVerbmelyabrandit;
+kondít AddVerbmelyabrandit;
+konkolyosít AddVerbmelyabrandit;
+kontrasztosít AddVerbmelyabrandit;
+konyít AddVerbmelyabrandit;
+konzolosít AddVerbmelyabrandit;
+koordinációsít AddVerbmelyabrandit;
+kopaszít AddVerbmelyabrandit;
+kopoltyúsít AddVerbmelyabrandit;
+kopottasít AddVerbmelyabrandit;
+kopárít AddVerbmelyabrandit;
+koravénít AddVerbbekit;
+korcsosít AddVerbmelyabrandit;
+korcsít AddVerbmelyabrandit;
+korhatagít AddVerbmelyabrandit;
+korhűsít AddVerbbekit;
+korlátlanít AddVerbmelyabrandit;
+korlátozatlanít AddVerbmelyabrandit;
+korláttalanít AddVerbmelyabrandit;
+kormosfejűsít AddVerbbekit;
+kormosít AddVerbmelyabrandit;
+kormánytalanít AddVerbmelyabrandit;
+korommentesít AddVerbbekit;
+koromtalanít AddVerbmelyabrandit;
+koronásít AddVerbmelyabrandit;
+korosít AddVerbmelyabrandit;
+korporációsít AddVerbmelyabrandit;
+korpásít AddVerbmelyabrandit;
+korróziómentesít AddVerbbekit;
+korszerűsít AddVerbbekit;
+kortalanít AddVerbmelyabrandit;
+koszosít AddVerbmelyabrandit;
+kosártalanít AddVerbmelyabrandit;
+kotnyelesít AddVerbbekit;
+kovalensít AddVerbbekit;
+kovászosít AddVerbmelyabrandit;
+kovásztalanít AddVerbmelyabrandit;
+kovásít AddVerbmelyabrandit;
+kozmásít AddVerbmelyabrandit;
+kristályosít AddVerbmelyabrandit;
+kritikátlanít AddVerbmelyabrandit;
+krémesít AddVerbbekit;
+kukacosít AddVerbmelyabrandit;
+kukorít AddVerbmelyabrandit;
+kullancsmentesít AddVerbbekit;
+kultúrásít AddVerbmelyabrandit;
+kunkorít AddVerbmelyabrandit;
+kupésít AddVerbmelyabrandit;
+kurtít AddVerbmelyabrandit;
+kurzustalanít AddVerbmelyabrandit;
+kutatatlanít AddVerbmelyabrandit;
+kvalitásosít AddVerbmelyabrandit;
+kábít AddVerbmelyabrandit;
+kárhozatosít AddVerbmelyabrandit;
+kármentesít AddVerbbekit;
+károsít AddVerbmelyabrandit;
+kártalanít AddVerbmelyabrandit;
+kártékonyít AddVerbmelyabrandit;
+kárósít AddVerbmelyabrandit;
+kásásít AddVerbmelyabrandit;
+kátrányosít AddVerbmelyabrandit;
+kátyúmentesít AddVerbbekit;
+kátyúsít AddVerbmelyabrandit;
+kátyútlanít AddVerbmelyabrandit;
+kéjesít AddVerbbekit;
+kéjsóvárít AddVerbmelyabrandit;
+kékesfeketésít AddVerbbekit;
+kékít AddVerbbekit;
+kénesít AddVerbbekit;
+kénkövesít AddVerbbekit;
+kéntelenít AddVerbbekit;
+kényelmesít AddVerbbekit;
+kényesít AddVerbbekit;
+kényszerít AddVerbbekit;
+kénytelenít AddVerbbekit;
+képesít AddVerbbekit;
+képezetlenít AddVerbbekit;
+képletesít AddVerbbekit;
+képlékenyít AddVerbbekit;
+képtelenít AddVerbbekit;
+képzelhetetlenít AddVerbbekit;
+képzetlenít AddVerbbekit;
+kérdésesít AddVerbbekit;
+kéregtelenít AddVerbbekit;
+kérgesít AddVerbbekit;
+késedelmesít AddVerbbekit;
+készségesít AddVerbbekit;
+készít AddVerbbekit;
+készítetlenít AddVerbbekit;
+készületlenít AddVerbbekit;
+kétkulacsosít AddVerbmelyabrandit;
+kétségesít AddVerbbekit;
+kétségtelenít AddVerbbekit;
+kétéltűsít AddVerbbekit;
+kézbesít AddVerbbekit;
+kéziratosít AddVerbmelyabrandit;
+kíméletesít AddVerbbekit;
+kínosít AddVerbmelyabrandit;
+kívánatosít AddVerbmelyabrandit;
+kócosít AddVerbmelyabrandit;
+kórokozómentesít AddVerbbekit;
+kórosít AddVerbmelyabrandit;
+köbösít AddVerbbekit;
+ködfoltosít AddVerbmelyabrandit;
+ködösít AddVerbbekit;
+kölcsönösít AddVerbbekit;
+költségesít AddVerbbekit;
+költségigényesít AddVerbbekit;
+költségtakarékosít AddVerbmelyabrandit;
+költőiesít AddVerbbekit;
+költőietlenít AddVerbbekit;
+könnyebbít AddVerbbekit;
+könnyesít AddVerbbekit;
+könnyfoltosít AddVerbmelyabrandit;
+könnytelenít AddVerbbekit;
+könnyít AddVerbbekit;
+könnyűszerkezetesít AddVerbbekit;
+könyvesít AddVerbbekit;
+könyörületesít AddVerbbekit;
+körforgalmasít AddVerbmelyabrandit;
+körmösít AddVerbbekit;
+körzetesít AddVerbbekit;
+körít AddVerbbekit;
+körülményesít AddVerbbekit;
+köszvényesít AddVerbbekit;
+kötelesít AddVerbbekit;
+kötelezetlenít AddVerbbekit;
+kötetlenít AddVerbbekit;
+kötödésít AddVerbbekit;
+kövecsesít AddVerbbekit;
+kövesít AddVerbbekit;
+kövérít AddVerbbekit;
+közelít AddVerbbekit;
+közelítőlegesít AddVerbbekit;
+közepesít AddVerbbekit;
+közhelyesít AddVerbbekit;
+közmondásosít AddVerbmelyabrandit;
+közművesít AddVerbbekit;
+központosít AddVerbmelyabrandit;
+községesít AddVerbbekit;
+közvetlenít AddVerbbekit;
+közvetít AddVerbbekit;
+közéelegyít AddVerbbekit;
+középarányosít AddVerbmelyabrandit;
+középpályásít AddVerbmelyabrandit;
+közértesít AddVerbbekit;
+közölhetetlenít AddVerbbekit;
+közömbösít AddVerbbekit;
+közönségesít AddVerbbekit;
+közönyösít AddVerbbekit;
+közösségesít AddVerbbekit;
+közösít AddVerbbekit;
+kúposít AddVerbmelyabrandit;
+külföldiesít AddVerbbekit;
+külgazdaság-érzékenyít AddVerbbekit;
+külsőlegesít AddVerbbekit;
+külterjesít AddVerbbekit;
+külvárosiasít AddVerbmelyabrandit;
+különlegesít AddVerbbekit;
+különít AddVerbbekit;
+különösít AddVerbbekit;
+küzdelmesít AddVerbbekit;
+kőmentesít AddVerbbekit;
+kőszívűsít AddVerbbekit;
+labilisít AddVerbmelyabrandit;
+labiálisít AddVerbmelyabrandit;
+ladysít AddVerbmelyabrandit;
+ladátlanít AddVerbmelyabrandit;
+lagymatagít AddVerbmelyabrandit;
+laikusít AddVerbmelyabrandit;
+lakatlanít AddVerbmelyabrandit;
+lakhatatlanít AddVerbmelyabrandit;
+lakosít AddVerbmelyabrandit;
+lakástalanít AddVerbmelyabrandit;
+langyosít AddVerbmelyabrandit;
+lanyhít AddVerbmelyabrandit;
+laposít AddVerbmelyabrandit;
+lapít AddVerbmelyabrandit;
+lassít AddVerbmelyabrandit;
+latinellenesít AddVerbbekit;
+latinosít AddVerbmelyabrandit;
+latyakosít AddVerbmelyabrandit;
+lazít AddVerbmelyabrandit;
+lefordíthatatlanít AddVerbmelyabrandit;
+legendásít AddVerbmelyabrandit;
+legesít AddVerbbekit;
+legyezősít AddVerbbekit;
+legyőzhetetlenít AddVerbbekit;
+legósít AddVerbmelyabrandit;
+lehallgatásmentesít AddVerbbekit;
+lehetetlenít AddVerbbekit;
+lehetősít AddVerbbekit;
+lejesít AddVerbbekit;
+lejt AddVerbbujt;
+lejtősít AddVerbbekit;
+lekopaszít AddVerbmelyabrandit;
+leküzdhetetlenít AddVerbbekit;
+leleményesít AddVerbbekit;
+lelkesít AddVerbbekit;
+lelkiismeretesít AddVerbbekit;
+lendít AddVerbbekit;
+lendületesít AddVerbbekit;
+lengyelesít AddVerbbekit;
+lepcsesít AddVerbbekit;
+lepkésít AddVerbbekit;
+leplesít AddVerbbekit;
+leplezetlenít AddVerbbekit;
+leprásít AddVerbmelyabrandit;
+leszbikusít AddVerbmelyabrandit;
+letargikusít AddVerbmelyabrandit;
+levegősít AddVerbbekit;
+levegőtlenít AddVerbbekit;
+levelesít AddVerbbekit;
+leveletlenít AddVerbbekit;
+levesesít AddVerbbekit;
+levesít AddVerbbekit;
+levéltelenít AddVerbbekit;
+leányosít AddVerbmelyabrandit;
+libabőrösít AddVerbbekit;
+libériásít AddVerbmelyabrandit;
+lidércesít AddVerbbekit;
+ligetesít AddVerbbekit;
+likacsosít AddVerbmelyabrandit;
+lilásít AddVerbmelyabrandit;
+linuxosít AddVerbmelyabrandit;
+lisztesít AddVerbbekit;
+lobbanékonyít AddVerbmelyabrandit;
+loboncosít AddVerbmelyabrandit;
+lobosít AddVerbmelyabrandit;
+logikátlanít AddVerbmelyabrandit;
+lokálisít AddVerbmelyabrandit;
+lombosít AddVerbmelyabrandit;
+lombtalanít AddVerbmelyabrandit;
+lomhít AddVerbmelyabrandit;
+lomposít AddVerbmelyabrandit;
+lomtalanít AddVerbmelyabrandit;
+loncsosít AddVerbmelyabrandit;
+lopásbiztosít AddVerbmelyabrandit;
+lovagiasít AddVerbmelyabrandit;
+lovagiatlanít AddVerbmelyabrandit;
+lovasít AddVerbmelyabrandit;
+lucskosít AddVerbmelyabrandit;
+lukacsosít AddVerbmelyabrandit;
+lukasít AddVerbmelyabrandit;
+lustít AddVerbmelyabrandit;
+lyukacsosít AddVerbmelyabrandit;
+lyukasít AddVerbmelyabrandit;
+lyukmentesít AddVerbbekit;
+lábatlanít AddVerbmelyabrandit;
+lábfájósít AddVerbmelyabrandit;
+lágymelegít AddVerbbekit;
+lágyszívűsít AddVerbbekit;
+lágyít AddVerbmelyabrandit;
+lámpátlanít AddVerbmelyabrandit;
+láncolatosít AddVerbmelyabrandit;
+lándzsásít AddVerbmelyabrandit;
+lángmentesít AddVerbbekit;
+lányosít AddVerbmelyabrandit;
+láposít AddVerbmelyabrandit;
+lármásít AddVerbmelyabrandit;
+láthatatlanít AddVerbmelyabrandit;
+látványosít AddVerbmelyabrandit;
+látástalanít AddVerbmelyabrandit;
+lázasít AddVerbmelyabrandit;
+lázít AddVerbmelyabrandit;
+lédúsít AddVerbmelyabrandit;
+légbefúvósít AddVerbmelyabrandit;
+légcsavarosít AddVerbmelyabrandit;
+léghűtésesít AddVerbbekit;
+légiesít AddVerbbekit;
+légiósít AddVerbmelyabrandit;
+légmentesít AddVerbbekit;
+légneműsít AddVerbbekit;
+légpárnásít AddVerbmelyabrandit;
+légtelenít AddVerbbekit;
+légvonatosít AddVerbmelyabrandit;
+légypiszkosít AddVerbmelyabrandit;
+légzsákmentesít AddVerbbekit;
+légósít AddVerbmelyabrandit;
+léktelenít AddVerbbekit;
+lélektelenít AddVerbbekit;
+lényegesít AddVerbbekit;
+lényegtelenít AddVerbbekit;
+lényegít AddVerbbekit;
+lépcsőzetesít AddVerbbekit;
+lépesít AddVerbbekit;
+léptűsít AddVerbbekit;
+létesít AddVerbbekit;
+lódít AddVerbmelyabrandit;
+lökhajtásosít AddVerbmelyabrandit;
+lúdtalpasít AddVerbmelyabrandit;
+lúgmentesít AddVerbbekit;
+lúgosít AddVerbmelyabrandit;
+lőportalanít AddVerbmelyabrandit;
+lőszermentesít AddVerbbekit;
+macskajajosít AddVerbmelyabrandit;
+macskamentesít AddVerbbekit;
+macskásít AddVerbmelyabrandit;
+macásít AddVerbmelyabrandit;
+maffiátlanít AddVerbmelyabrandit;
+maflít AddVerbmelyabrandit;
+magasztosít AddVerbmelyabrandit;
+magasít AddVerbmelyabrandit;
+magazinosít AddVerbmelyabrandit;
+magosít AddVerbmelyabrandit;
+magtalanít AddVerbmelyabrandit;
+magyarosít AddVerbmelyabrandit;
+magyartalanít AddVerbmelyabrandit;
+magyarít AddVerbmelyabrandit;
+magánerősít AddVerbbekit;
+magánosít AddVerbmelyabrandit;
+magányosít AddVerbmelyabrandit;
+majrésít AddVerbbekit;
+makacsít AddVerbmelyabrandit;
+makrancosít AddVerbmelyabrandit;
+makrociklusosít AddVerbmelyabrandit;
+makulátlanít AddVerbmelyabrandit;
+maláriásít AddVerbmelyabrandit;
+mangántalanít AddVerbmelyabrandit;
+manírosít AddVerbmelyabrandit;
+maradéktalanít AddVerbmelyabrandit;
+marjít AddVerbmelyabrandit;
+markosít AddVerbmelyabrandit;
+markánsít AddVerbmelyabrandit;
+maszatosít AddVerbmelyabrandit;
+maszattalanít AddVerbmelyabrandit;
+matricásít AddVerbmelyabrandit;
+mattosít AddVerbmelyabrandit;
+megyésít AddVerbbekit;
+melegellenesít AddVerbbekit;
+melegigényesít AddVerbbekit;
+melegszívűsít AddVerbbekit;
+melegvérűsít AddVerbbekit;
+melegít AddVerbbekit;
+melegítetlenít AddVerbbekit;
+mellékesít AddVerbbekit;
+melodikusít AddVerbmelyabrandit;
+menekít AddVerbbekit;
+menetesít AddVerbbekit;
+menetrendesít AddVerbbekit;
+mentesít AddVerbbekit;
+mentetlenít AddVerbbekit;
+menthetetlenít AddVerbbekit;
+mentolosít AddVerbmelyabrandit;
+menősít AddVerbbekit;
+merevít AddVerbbekit;
+merít AddVerbbekit;
+merőlegesít AddVerbbekit;
+mesterségesít AddVerbbekit;
+meszesít AddVerbbekit;
+mesésít AddVerbbekit;
+metafizikátlanít AddVerbmelyabrandit;
+metonímiásít AddVerbmelyabrandit;
+metrósít AddVerbmelyabrandit;
+meztelenít AddVerbbekit;
+miazmásít AddVerbmelyabrandit;
+micisapkásít AddVerbmelyabrandit;
+mikrobamentesít AddVerbbekit;
+mikroklimatikusít AddVerbmelyabrandit;
+mikroméretűsít AddVerbbekit;
+mikroporózusít AddVerbmelyabrandit;
+mikropórusosít AddVerbmelyabrandit;
+mikroszkopikusít AddVerbmelyabrandit;
+mimikrisít AddVerbbekit;
+mintásít AddVerbmelyabrandit;
+mintátlanít AddVerbmelyabrandit;
+minősít AddVerbbekit;
+missziósít AddVerbmelyabrandit;
+mitológiátlanít AddVerbmelyabrandit;
+mocsarasít AddVerbmelyabrandit;
+mocskosít AddVerbmelyabrandit;
+mocsoktalanít AddVerbmelyabrandit;
+mocsármentesít AddVerbbekit;
+modorosít AddVerbmelyabrandit;
+modortalanít AddVerbmelyabrandit;
+mogyorósít AddVerbmelyabrandit;
+mohásít AddVerbmelyabrandit;
+mohátlanít AddVerbmelyabrandit;
+molyhosít AddVerbmelyabrandit;
+molyosít AddVerbmelyabrandit;
+molytalanít AddVerbmelyabrandit;
+mondattalanít AddVerbmelyabrandit;
+mondhatatlanít AddVerbmelyabrandit;
+monomániásít AddVerbmelyabrandit;
+monopolárisít AddVerbmelyabrandit;
+morzsalékosít AddVerbmelyabrandit;
+morzsátlanít AddVerbmelyabrandit;
+mosolygósít AddVerbmelyabrandit;
+motorosít AddVerbmelyabrandit;
+mozdít AddVerbmelyabrandit;
+mozdíthatatlanít AddVerbmelyabrandit;
+mozgalmasít AddVerbmelyabrandit;
+mozgásképtelenít AddVerbbekit;
+mozgásmentesít AddVerbbekit;
+mozgásszegényít AddVerbbekit;
+mozgékonyít AddVerbmelyabrandit;
+mozgósít AddVerbmelyabrandit;
+mulatságosít AddVerbmelyabrandit;
+multimédiásít AddVerbmelyabrandit;
+munkaidősít AddVerbbekit;
+munkaigényesít AddVerbbekit;
+munkaképtelenít AddVerbbekit;
+munkátlanít AddVerbmelyabrandit;
+murisít AddVerbbekit;
+murvásít AddVerbmelyabrandit;
+muskotályosít AddVerbmelyabrandit;
+muszlimellenesít AddVerbbekit;
+mutatósít AddVerbmelyabrandit;
+mágiátlanít AddVerbmelyabrandit;
+mágnesesít AddVerbbekit;
+mágnestelenít AddVerbbekit;
+mákonyosít AddVerbmelyabrandit;
+mámorosít AddVerbmelyabrandit;
+mámorít AddVerbmelyabrandit;
+márgásít AddVerbmelyabrandit;
+márkátlanít AddVerbmelyabrandit;
+másnaposít AddVerbmelyabrandit;
+másoddiplomásít AddVerbmelyabrandit;
+másodfűsít AddVerbbekit;
+másodévesít AddVerbbekit;
+másít AddVerbmelyabrandit;
+másíthatatlanít AddVerbmelyabrandit;
+mázasít AddVerbmelyabrandit;
+mázatlanít AddVerbmelyabrandit;
+mázlisít AddVerbbekit;
+mázosít AddVerbmelyabrandit;
+máztalanít AddVerbmelyabrandit;
+médiátlanít AddVerbmelyabrandit;
+méhtelenít AddVerbbekit;
+mélyhűt AddVerbbekitoe;
+mélyít AddVerbbekit;
+méregerősít AddVerbbekit;
+méregtelenít AddVerbbekit;
+mérgesít AddVerbbekit;
+mértéktelenít AddVerbbekit;
+mészkövesít AddVerbbekit;
+mézesít AddVerbbekit;
+mézgásít AddVerbmelyabrandit;
+mítosztalanít AddVerbmelyabrandit;
+mócsingosít AddVerbmelyabrandit;
+módosít AddVerbmelyabrandit;
+módszeresít AddVerbbekit;
+mókásít AddVerbmelyabrandit;
+múlhatatlanít AddVerbmelyabrandit;
+műfordít AddVerbmelyabrandit;
+működésképtelenít AddVerbbekit;
+műszakosít AddVerbmelyabrandit;
+műszeresít AddVerbbekit;
+műt AddVerbbekitoe;
+műveletesít AddVerbbekit;
+művésziesít AddVerbbekit;
+művészietlenít AddVerbbekit;
+nadrágosít AddVerbmelyabrandit;
+nagybetűsít AddVerbbekit;
+nagycsaládosít AddVerbmelyabrandit;
+nagyfrekvenciásít AddVerbmelyabrandit;
+nagykorúsít AddVerbmelyabrandit;
+nagylányosít AddVerbmelyabrandit;
+nagyobbít AddVerbmelyabrandit;
+nagyothall AddVerbmelyabrandithall;
+nagyothall AddVerbszik;
+nagyszerűsít AddVerbbekit;
+nagyságosít AddVerbmelyabrandit;
+nagyít AddVerbmelyabrandit;
+napfényesít AddVerbbekit;
+napfénytelenít AddVerbbekit;
+naposít AddVerbmelyabrandit;
+naprakészít AddVerbbekit;
+napszúrásosít AddVerbmelyabrandit;
+narancstalanít AddVerbmelyabrandit;
+naturalisztikusít AddVerbmelyabrandit;
+naturálisít AddVerbmelyabrandit;
+nedvdúsít AddVerbmelyabrandit;
+nedvesít AddVerbbekit;
+nedvetlenít AddVerbbekit;
+negroidít AddVerbmelyabrandit;
+negyedlegesít AddVerbbekit;
+nehezít AddVerbbekit;
+nemesbít AddVerbbekit;
+nemesít AddVerbbekit;
+nemkívánatosít AddVerbmelyabrandit;
+nemlegesít AddVerbbekit;
+nemmágnesesít AddVerbbekit;
+nemparaméteresít AddVerbbekit;
+nemtelenít AddVerbbekit;
+nemvizesít AddVerbbekit;
+nemzetesít AddVerbbekit;
+nemzetiesít AddVerbbekit;
+nemzetietlenít AddVerbbekit;
+nemzésképtelenít AddVerbbekit;
+nemzőképtelenít AddVerbbekit;
+nesztelenít AddVerbbekit;
+neuraszténiásít AddVerbmelyabrandit;
+neveletlenít AddVerbbekit;
+nevesít AddVerbbekit;
+nevetségesít AddVerbbekit;
+nevezetesít AddVerbbekit;
+nevezhetetlenít AddVerbbekit;
+nincstelenít AddVerbbekit;
+nitrátosít AddVerbmelyabrandit;
+nitráttalanít AddVerbmelyabrandit;
+normásít AddVerbmelyabrandit;
+norvégosít AddVerbmelyabrandit;
+nyakasít AddVerbmelyabrandit;
+nyalizósít AddVerbmelyabrandit;
+nyalábosít AddVerbmelyabrandit;
+nyavalyatörősít AddVerbbekit;
+nyavalyásít AddVerbmelyabrandit;
+nyelvesít AddVerbbekit;
+nyelvhibásít AddVerbmelyabrandit;
+nyerít AddVerbbekit;
+nyikorgósít AddVerbmelyabrandit;
+nyilvánvalósít AddVerbmelyabrandit;
+nyilvánít AddVerbmelyabrandit;
+nyirkosít AddVerbmelyabrandit;
+nyomatékosít AddVerbmelyabrandit;
+nyomatéktalanít AddVerbmelyabrandit;
+nyomorít AddVerbmelyabrandit;
+nyomorúságosít AddVerbmelyabrandit;
+nyomosít AddVerbmelyabrandit;
+nyomozhatatlanít AddVerbmelyabrandit;
+nyomtalanít AddVerbmelyabrandit;
+nyomásmentesít AddVerbbekit;
+nyomósít AddVerbmelyabrandit;
+nyugalmasít AddVerbmelyabrandit;
+nyugatosít AddVerbmelyabrandit;
+nyugisít AddVerbbekit;
+nyugodalmasít AddVerbmelyabrandit;
+nyugtalanít AddVerbmelyabrandit;
+nyájasít AddVerbmelyabrandit;
+nyákosít AddVerbmelyabrandit;
+nyáktalanít AddVerbmelyabrandit;
+nyálkásít AddVerbmelyabrandit;
+nyálkátlanít AddVerbmelyabrandit;
+nyújt AddVerbbujt;
+nyüszít AddVerbbekit;
+nyüvesít AddVerbbekit;
+nyűgösít AddVerbbekit;
+nyűhetetlenít AddVerbbekit;
+nádasít AddVerbmelyabrandit;
+nátriumtalanít AddVerbmelyabrandit;
+négyszögesít AddVerbbekit;
+négyzetesít AddVerbbekit;
+nélkülözhetetlenít AddVerbbekit;
+németesít AddVerbbekit;
+némít AddVerbmelyabrandit;
+népesít AddVerbbekit;
+népiesít AddVerbbekit;
+népszerűsít AddVerbbekit;
+népszerűtlenít AddVerbbekit;
+népszínművesít AddVerbbekit;
+néptelenít AddVerbbekit;
+népzenésít AddVerbbekit;
+névlegesít AddVerbbekit;
+névtelenít AddVerbbekit;
+nézetesít AddVerbbekit;
+nívótlanít AddVerbmelyabrandit;
+növedékesít AddVerbbekit;
+növénymentesít AddVerbbekit;
+nőiesít AddVerbbekit;
+nőietlenít AddVerbbekit;
+nősít AddVerbbekit;
+nőtlenít AddVerbbekit;
+ocsmányít AddVerbmelyabrandit;
+odvasít AddVerbmelyabrandit;
+ojt AddVerbbujt;
+okklúziósít AddVerbmelyabrandit;
+okosít AddVerbmelyabrandit;
+okszerűsít AddVerbbekit;
+okszerűtlenít AddVerbbekit;
+oktalanít AddVerbmelyabrandit;
+okít AddVerbmelyabrandit;
+olajmentesít AddVerbbekit;
+olajosít AddVerbmelyabrandit;
+olajtalanít AddVerbmelyabrandit;
+olaszosít AddVerbmelyabrandit;
+olcsóbbít AddVerbmelyabrandit;
+oldhatatlanít AddVerbmelyabrandit;
+oldékonyít AddVerbmelyabrandit;
+oldóképesít AddVerbbekit;
+olthatatlanít AddVerbmelyabrandit;
+olvashatatlanít AddVerbmelyabrandit;
+oláhosít AddVerbmelyabrandit;
+opálosít AddVerbmelyabrandit;
+orcátlanít AddVerbmelyabrandit;
+ordít AddVerbmelyabrandit;
+orgiásít AddVerbmelyabrandit;
+ormótlanít AddVerbmelyabrandit;
+oroszellenesít AddVerbbekit;
+oroszlánszívűsít AddVerbbekit;
+oroszosít AddVerbmelyabrandit;
+országosít AddVerbmelyabrandit;
+orvosolhatatlanít AddVerbmelyabrandit;
+oszcillációsít AddVerbmelyabrandit;
+oszloposít AddVerbmelyabrandit;
+osztalékosít AddVerbmelyabrandit;
+oszthatatlanít AddVerbmelyabrandit;
+osztrákosít AddVerbmelyabrandit;
+otrombít AddVerbmelyabrandit;
+ottfelejt AddVerbbujt;
+otthoniasít AddVerbmelyabrandit;
+otthonosít AddVerbmelyabrandit;
+otthontalanít AddVerbmelyabrandit;
+oválisít AddVerbmelyabrandit;
+oxidmentesít AddVerbbekit;
+oxigénmentesít AddVerbbekit;
+pajzánít AddVerbmelyabrandit;
+palócosít AddVerbmelyabrandit;
+pamfletesít AddVerbbekit;
+panaszosít AddVerbmelyabrandit;
+panelesít AddVerbbekit;
+paposít AddVerbmelyabrandit;
+papásít AddVerbmelyabrandit;
+paraffinmentesít AddVerbbekit;
+parasztosít AddVerbmelyabrandit;
+parazitamentesít AddVerbbekit;
+parkosít AddVerbmelyabrandit;
+parlagfűmentesít AddVerbbekit;
+partiképesít AddVerbbekit;
+parttalanít AddVerbmelyabrandit;
+parázsmentesít AddVerbbekit;
+passzosít AddVerbmelyabrandit;
+passzít AddVerbmelyabrandit;
+pasztorációsít AddVerbmelyabrandit;
+pasztásít AddVerbmelyabrandit;
+patinásít AddVerbmelyabrandit;
+patkánymentesít AddVerbbekit;
+patkánytalanít AddVerbmelyabrandit;
+pechesít AddVerbbekit;
+peckesít AddVerbbekit;
+pecsétesít AddVerbbekit;
+pelyhesít AddVerbbekit;
+pempősít AddVerbbekit;
+pendelyesít AddVerbbekit;
+penderít AddVerbbekit;
+pendít AddVerbbekit;
+penészesít AddVerbbekit;
+penésztelenít AddVerbbekit;
+perdít AddVerbbekit;
+peremtelenít AddVerbbekit;
+peresít AddVerbbekit;
+perforálatlanít AddVerbmelyabrandit;
+periferikusít AddVerbmelyabrandit;
+periferiálisít AddVerbmelyabrandit;
+periférikusít AddVerbmelyabrandit;
+periodikusít AddVerbmelyabrandit;
+permanensít AddVerbbekit;
+permetesít AddVerbbekit;
+permeábilisít AddVerbbekit;
+peronoszpórásít AddVerbmelyabrandit;
+pestisesít AddVerbbekit;
+pettyesít AddVerbbekit;
+pezsdít AddVerbbekit;
+piacképesít AddVerbbekit;
+piacosít AddVerbmelyabrandit;
+piactalanít AddVerbmelyabrandit;
+picinyít AddVerbbekit;
+pihésít AddVerbbekit;
+pikkelyesít AddVerbbekit;
+pillanatosít AddVerbmelyabrandit;
+pindurít AddVerbmelyabrandit;
+pipásít AddVerbmelyabrandit;
+piritesít AddVerbbekit;
+pirosít AddVerbmelyabrandit;
+pirít AddVerbmelyabrandit;
+piszkosít AddVerbmelyabrandit;
+piszkít AddVerbmelyabrandit;
+pityókásít AddVerbmelyabrandit;
+plazmásít AddVerbmelyabrandit;
+pletykásít AddVerbmelyabrandit;
+pluszosít AddVerbmelyabrandit;
+pocakosít AddVerbmelyabrandit;
+pocsolyásít AddVerbmelyabrandit;
+pofaszakállasít AddVerbmelyabrandit;
+pofásít AddVerbmelyabrandit;
+pofátlanít AddVerbmelyabrandit;
+pohosít AddVerbmelyabrandit;
+pokrócosít AddVerbmelyabrandit;
+polgárosít AddVerbmelyabrandit;
+polgártalanít AddVerbmelyabrandit;
+polifonít AddVerbmelyabrandit;
+politikamentesít AddVerbbekit;
+politikusmentesít AddVerbbekit;
+politikátlanít AddVerbmelyabrandit;
+pollenérzékenyít AddVerbbekit;
+poloskásít AddVerbmelyabrandit;
+poloskátlanít AddVerbmelyabrandit;
+polyvásít AddVerbmelyabrandit;
+pompásít AddVerbmelyabrandit;
+pontosít AddVerbmelyabrandit;
+ponyvásít AddVerbmelyabrandit;
+poposít AddVerbmelyabrandit;
+porhanyít AddVerbmelyabrandit;
+porhanyósít AddVerbmelyabrandit;
+pormentesít AddVerbbekit;
+porosít AddVerbmelyabrandit;
+portalanít AddVerbmelyabrandit;
+portosít AddVerbmelyabrandit;
+portugálosít AddVerbmelyabrandit;
+portálosít AddVerbmelyabrandit;
+porzósít AddVerbmelyabrandit;
+porít AddVerbmelyabrandit;
+posványosít AddVerbmelyabrandit;
+potrohosít AddVerbmelyabrandit;
+pozsgásít AddVerbmelyabrandit;
+pravoszlávosít AddVerbmelyabrandit;
+precíziósít AddVerbmelyabrandit;
+problémamentesít AddVerbbekit;
+problémátlanít AddVerbmelyabrandit;
+projektesít AddVerbbekit;
+próbaidősít AddVerbbekit;
+prózaiasít AddVerbmelyabrandit;
+prózásít AddVerbmelyabrandit;
+prűdít AddVerbbekit;
+pszichésít AddVerbbekit;
+pucérít AddVerbmelyabrandit;
+pudvásít AddVerbmelyabrandit;
+puffosít AddVerbmelyabrandit;
+pufókít AddVerbmelyabrandit;
+puhaszőrűsít AddVerbbekit;
+puhít AddVerbmelyabrandit;
+puklisít AddVerbbekit;
+pusztít AddVerbmelyabrandit;
+pusztíthatatlanít AddVerbmelyabrandit;
+pápaszemesít AddVerbbekit;
+páradúsít AddVerbmelyabrandit;
+páramentesít AddVerbbekit;
+párbeszédesít AddVerbbekit;
+párevezősít AddVerbbekit;
+párhuzamosít AddVerbmelyabrandit;
+párosít AddVerbmelyabrandit;
+pártmentesít AddVerbbekit;
+pártosít AddVerbmelyabrandit;
+párttalanít AddVerbmelyabrandit;
+párásít AddVerbmelyabrandit;
+párátlanít AddVerbmelyabrandit;
+pátosztalanít AddVerbmelyabrandit;
+pázsitosít AddVerbmelyabrandit;
+példányosít AddVerbmelyabrandit;
+példásít AddVerbmelyabrandit;
+példátlanít AddVerbmelyabrandit;
+pénzesít AddVerbbekit;
+pénzigényesít AddVerbbekit;
+pénztelenít AddVerbbekit;
+pépesít AddVerbbekit;
+pírosít AddVerbmelyabrandit;
+póztalanít AddVerbmelyabrandit;
+pöcsösít AddVerbbekit;
+pöndörít AddVerbbekit;
+pördít AddVerbbekit;
+pörsenésesít AddVerbbekit;
+pöszít AddVerbbekit;
+púderosít AddVerbmelyabrandit;
+púposít AddVerbmelyabrandit;
+pürésít AddVerbbekit;
+rabosít AddVerbmelyabrandit;
+rabszolgásít AddVerbmelyabrandit;
+ragacsosít AddVerbmelyabrandit;
+ragadósít AddVerbmelyabrandit;
+ragtalanít AddVerbmelyabrandit;
+ragályosít AddVerbmelyabrandit;
+rakoncátlanít AddVerbmelyabrandit;
+rakósít AddVerbmelyabrandit;
+rangidősít AddVerbbekit;
+rangosít AddVerbmelyabrandit;
+raplisít AddVerbbekit;
+rapszodikusít AddVerbmelyabrandit;
+raszteresít AddVerbbekit;
+reakciósít AddVerbmelyabrandit;
+recésít AddVerbbekit;
+redvesít AddVerbbekit;
+redősít AddVerbbekit;
+redőtlenít AddVerbbekit;
+reflexiómentesít AddVerbbekit;
+regényesít AddVerbbekit;
+rejt AddVerbbujt;
+rejtélyesít AddVerbbekit;
+reklámmentesít AddVerbbekit;
+reménytelenít AddVerbbekit;
+rendesít AddVerbbekit;
+rendetlenít AddVerbbekit;
+rendreutasít AddVerbmelyabrandit;
+rendszeresít AddVerbbekit;
+rendszertelenít AddVerbbekit;
+rendít AddVerbbekit;
+rendíthetetlenít AddVerbbekit;
+repít AddVerbbekit;
+reszketegít AddVerbbekit;
+rettenetesít AddVerbbekit;
+rettenthetetlenít AddVerbbekit;
+reumatikusít AddVerbmelyabrandit;
+reumásít AddVerbmelyabrandit;
+reverzibilisít AddVerbbekit;
+revolveresít AddVerbbekit;
+revolúciósít AddVerbmelyabrandit;
+revüsít AddVerbbekit;
+rezdít AddVerbbekit;
+rezesít AddVerbbekit;
+rezgésmentesít AddVerbbekit;
+rezisztenciamentesít AddVerbbekit;
+rezisztensít AddVerbbekit;
+rezolúciósít AddVerbmelyabrandit;
+rezzenéstelenít AddVerbbekit;
+ridegít AddVerbbekit;
+rikít AddVerbmelyabrandit;
+ripacsosít AddVerbmelyabrandit;
+ritkásít AddVerbmelyabrandit;
+ritkít AddVerbmelyabrandit;
+ritmusosít AddVerbmelyabrandit;
+robusztusít AddVerbmelyabrandit;
+rojtosít AddVerbmelyabrandit;
+rokonszenvesít AddVerbbekit;
+rokontalanít AddVerbmelyabrandit;
+rokonít AddVerbmelyabrandit;
+romosít AddVerbmelyabrandit;
+romtalanít AddVerbmelyabrandit;
+románosít AddVerbmelyabrandit;
+rondít AddVerbmelyabrandit;
+rongyosít AddVerbmelyabrandit;
+roskatagít AddVerbmelyabrandit;
+rosszabbít AddVerbmelyabrandit;
+rosszízűsít AddVerbbekit;
+rostosít AddVerbmelyabrandit;
+rothadékonyít AddVerbmelyabrandit;
+rovarmentesít AddVerbbekit;
+rovartalanít AddVerbmelyabrandit;
+rozsdamentesít AddVerbbekit;
+rozsdásít AddVerbmelyabrandit;
+rozsdátlanít AddVerbmelyabrandit;
+rugalmasít AddVerbmelyabrandit;
+rugalmatlanít AddVerbmelyabrandit;
+ruganyosít AddVerbmelyabrandit;
+rugósít AddVerbmelyabrandit;
+ruhátlanít AddVerbmelyabrandit;
+rurálisít AddVerbmelyabrandit;
+rusztikusít AddVerbmelyabrandit;
+rácsosít AddVerbmelyabrandit;
+rákosít AddVerbmelyabrandit;
+rámpásít AddVerbmelyabrandit;
+ráncmentesít AddVerbbekit;
+ráncosít AddVerbmelyabrandit;
+ránctalanít AddVerbmelyabrandit;
+rándít AddVerbmelyabrandit;
+régiesít AddVerbbekit;
+rémesít AddVerbbekit;
+rémít AddVerbbekit;
+rémületesít AddVerbbekit;
+részarányosít AddVerbmelyabrandit;
+részegesít AddVerbbekit;
+részegít AddVerbbekit;
+részesít AddVerbbekit;
+részidősít AddVerbbekit;
+részlegesít AddVerbbekit;
+részletesít AddVerbbekit;
+részmunkaidősít AddVerbbekit;
+részvéttelenít AddVerbbekit;
+rézmentesít AddVerbbekit;
+rézsűsít AddVerbbekit;
+rózsakeresztesít AddVerbbekit;
+rózsaszínesít AddVerbbekit;
+rózsásít AddVerbmelyabrandit;
+rögeszmésít AddVerbbekit;
+rögmentesít AddVerbbekit;
+rögzít AddVerbbekit;
+rögösít AddVerbbekit;
+röhejesít AddVerbbekit;
+röpít AddVerbbekit;
+rövidít AddVerbbekit;
+rútít AddVerbmelyabrandit;
+rücskösít AddVerbbekit;
+rügytelenít AddVerbbekit;
+rühesít AddVerbbekit;
+sablonosít AddVerbmelyabrandit;
+sablontalanít AddVerbmelyabrandit;
+sajdít AddVerbmelyabrandit;
+sajnálatosít AddVerbmelyabrandit;
+sajátosít AddVerbmelyabrandit;
+sajátságosít AddVerbmelyabrandit;
+sajátít AddVerbmelyabrandit;
+salakosít AddVerbmelyabrandit;
+salaktalanít AddVerbmelyabrandit;
+salétromosít AddVerbmelyabrandit;
+salétromtalanít AddVerbmelyabrandit;
+sandít AddVerbmelyabrandit;
+sanzonosít AddVerbmelyabrandit;
+sarkalatosít AddVerbmelyabrandit;
+sarkosít AddVerbmelyabrandit;
+sarkít AddVerbmelyabrandit;
+sarokmentesít AddVerbbekit;
+sarutlanít AddVerbmelyabrandit;
+satnyít AddVerbmelyabrandit;
+savanyít AddVerbmelyabrandit;
+savasít AddVerbmelyabrandit;
+savmentesít AddVerbbekit;
+savtalanít AddVerbmelyabrandit;
+savómentesít AddVerbbekit;
+savósít AddVerbmelyabrandit;
+sebesít AddVerbbekit;
+sebhelyesít AddVerbbekit;
+segít AddVerbbekit;
+sejdít AddVerbbekit;
+sejt AddVerbbujt;
+sejtelmesít AddVerbbekit;
+sejtesít AddVerbbekit;
+sekélyesít AddVerbbekit;
+sekélyít AddVerbbekit;
+selejtesít AddVerbbekit;
+selejtmentesít AddVerbbekit;
+selymesít AddVerbbekit;
+selypesít AddVerbbekit;
+selypít AddVerbbekit;
+semlegesít AddVerbbekit;
+semmisít AddVerbbekit;
+serényít AddVerbbekit;
+sietősít AddVerbbekit;
+sikamlósít AddVerbmelyabrandit;
+sikeresít AddVerbbekit;
+sikertelenít AddVerbbekit;
+sikerít AddVerbbekit;
+siketít AddVerbbekit;
+sikkesít AddVerbbekit;
+sikértelenít AddVerbbekit;
+sikít AddVerbmelyabrandit;
+silányít AddVerbmelyabrandit;
+simlisít AddVerbbekit;
+simulékonyít AddVerbmelyabrandit;
+simít AddVerbmelyabrandit;
+sipít AddVerbmelyabrandit;
+siralmasít AddVerbmelyabrandit;
+sisakosít AddVerbmelyabrandit;
+sivárít AddVerbmelyabrandit;
+sivít AddVerbmelyabrandit;
+skorbutosít AddVerbmelyabrandit;
+sodorít AddVerbmelyabrandit;
+sokasít AddVerbmelyabrandit;
+sokktalanít AddVerbmelyabrandit;
+sokszorosít AddVerbmelyabrandit;
+sommásít AddVerbmelyabrandit;
+sorosít AddVerbmelyabrandit;
+sorozatosít AddVerbmelyabrandit;
+sorstalanít AddVerbmelyabrandit;
+soványít AddVerbmelyabrandit;
+spanyolosít AddVerbmelyabrandit;
+spiccesít AddVerbbekit;
+sportosít AddVerbmelyabrandit;
+sprayesít AddVerbbekit;
+sprődít AddVerbbekit;
+srégít AddVerbbekit;
+sterilizálatlanít AddVerbmelyabrandit;
+stigmatikusít AddVerbmelyabrandit;
+stigmásít AddVerbmelyabrandit;
+stilárisít AddVerbmelyabrandit;
+strammít AddVerbmelyabrandit;
+strapásít AddVerbmelyabrandit;
+stresszmentesít AddVerbbekit;
+stressztelenít AddVerbbekit;
+stréberít AddVerbbekit;
+strúmásít AddVerbmelyabrandit;
+stupidít AddVerbmelyabrandit;
+stílszerűsít AddVerbbekit;
+stílszerűtlenít AddVerbbekit;
+stílusosít AddVerbmelyabrandit;
+stílustalanít AddVerbmelyabrandit;
+subásít AddVerbmelyabrandit;
+sudarasít AddVerbmelyabrandit;
+sudárít AddVerbmelyabrandit;
+sugarasít AddVerbmelyabrandit;
+sugármentesít AddVerbbekit;
+sugártalanít AddVerbmelyabrandit;
+sugárzásmentesít AddVerbbekit;
+sunyít AddVerbmelyabrandit;
+sutít AddVerbmelyabrandit;
+svindlisít AddVerbbekit;
+svédesít AddVerbbekit;
+szabadalmasít AddVerbmelyabrandit;
+szabadít AddVerbmelyabrandit;
+szabványosít AddVerbmelyabrandit;
+szabályosít AddVerbmelyabrandit;
+szabálytalanít AddVerbmelyabrandit;
+szaftosít AddVerbmelyabrandit;
+szagosít AddVerbmelyabrandit;
+szagtalanít AddVerbmelyabrandit;
+szakajt AddVerbbujt;
+szakaszosít AddVerbmelyabrandit;
+szakbarbárít AddVerbmelyabrandit;
+szakmásít AddVerbmelyabrandit;
+szakosít AddVerbmelyabrandit;
+szakszerűsít AddVerbbekit;
+szakszerűtlenít AddVerbbekit;
+szakállasít AddVerbmelyabrandit;
+szakálltalanít AddVerbmelyabrandit;
+szakít AddVerbmelyabrandit;
+szakíthatatlanít AddVerbmelyabrandit;
+szalajt AddVerbbujt;
+szaldósít AddVerbmelyabrandit;
+szalmonellamentesít AddVerbbekit;
+szalmonellásít AddVerbmelyabrandit;
+szalmásít AddVerbmelyabrandit;
+szalonképtelenít AddVerbbekit;
+szaporít AddVerbmelyabrandit;
+szappanosít AddVerbmelyabrandit;
+szarukeretesít AddVerbbekit;
+szarusít AddVerbmelyabrandit;
+szavazóképesít AddVerbbekit;
+szebbít AddVerbbekit;
+szegélytelenít AddVerbbekit;
+szegényít AddVerbbekit;
+szekréciósít AddVerbmelyabrandit;
+szektásít AddVerbmelyabrandit;
+szektátlanít AddVerbmelyabrandit;
+szekérnyomosít AddVerbmelyabrandit;
+szelepesít AddVerbbekit;
+szelesít AddVerbbekit;
+szellemesít AddVerbbekit;
+szellemtelenít AddVerbbekit;
+szellemít AddVerbbekit;
+szellősít AddVerbbekit;
+szelvényesít AddVerbbekit;
+szelídít AddVerbbekit;
+szelídíthetetlenít AddVerbbekit;
+szembesít AddVerbbekit;
+szemcsésít AddVerbbekit;
+szemesít AddVerbbekit;
+szemetesít AddVerbbekit;
+szemfülesít AddVerbbekit;
+szemléletesít AddVerbbekit;
+szemtelenít AddVerbbekit;
+személyesít AddVerbbekit;
+személytelenít AddVerbbekit;
+szemérmesít AddVerbbekit;
+szemétmentesít AddVerbbekit;
+szemüvegesít AddVerbbekit;
+szenderít AddVerbbekit;
+szenesít AddVerbbekit;
+szenilisít AddVerbbekit;
+szennyesít AddVerbbekit;
+szennyvízmentesít AddVerbbekit;
+szentesít AddVerbbekit;
+szentségtelenít AddVerbbekit;
+szenvedélyesít AddVerbbekit;
+szenvedélymentesít AddVerbbekit;
+szenvedélytelenít AddVerbbekit;
+szenvtelenít AddVerbbekit;
+szenzációsít AddVerbmelyabrandit;
+szenít AddVerbbekit;
+szeplősít AddVerbbekit;
+szeplőtlenít AddVerbbekit;
+szerbesít AddVerbbekit;
+szerelmesít AddVerbbekit;
+szerencsésít AddVerbbekit;
+szerencsétlenít AddVerbbekit;
+szerezhetetlenít AddVerbbekit;
+szerkesztetlenít AddVerbbekit;
+szertartásosít AddVerbmelyabrandit;
+szertelenít AddVerbbekit;
+szervesít AddVerbbekit;
+szeszesít AddVerbbekit;
+szeszélyesít AddVerbbekit;
+szexepilesít AddVerbbekit;
+szexisít AddVerbbekit;
+szigorít AddVerbmelyabrandit;
+szikesít AddVerbbekit;
+sziklásít AddVerbmelyabrandit;
+szikárít AddVerbmelyabrandit;
+szilajít AddVerbmelyabrandit;
+szilárdít AddVerbmelyabrandit;
+szimmetrikusít AddVerbmelyabrandit;
+szipósít AddVerbmelyabrandit;
+szirtesít AddVerbbekit;
+sziruposít AddVerbmelyabrandit;
+szivacsosít AddVerbmelyabrandit;
+szivornyásít AddVerbmelyabrandit;
+szivárgásmentesít AddVerbbekit;
+szivárványosít AddVerbmelyabrandit;
+szlengesít AddVerbbekit;
+szlovákosít AddVerbmelyabrandit;
+szlávosít AddVerbmelyabrandit;
+sznobít AddVerbmelyabrandit;
+szobásít AddVerbmelyabrandit;
+szokványosít AddVerbmelyabrandit;
+szokásosít AddVerbmelyabrandit;
+szolgálatképtelenít AddVerbbekit;
+szolgálatosít AddVerbmelyabrandit;
+szomjasít AddVerbmelyabrandit;
+szomorít AddVerbmelyabrandit;
+szomszédosít AddVerbmelyabrandit;
+szontyolít AddVerbmelyabrandit;
+szorgalmasít AddVerbmelyabrandit;
+szorít AddVerbmelyabrandit;
+szulfátosít AddVerbmelyabrandit;
+szundít AddVerbmelyabrandit;
+szurkosít AddVerbmelyabrandit;
+szurtosít AddVerbmelyabrandit;
+szutykosít AddVerbmelyabrandit;
+szuvasít AddVerbmelyabrandit;
+szuverénít AddVerbmelyabrandit;
+szájasít AddVerbmelyabrandit;
+szálasít AddVerbmelyabrandit;
+szálkásít AddVerbmelyabrandit;
+szálkátlanít AddVerbmelyabrandit;
+szállodásít AddVerbmelyabrandit;
+szállít AddVerbmelyabrandit;
+számfejt AddVerbbujt;
+számosít AddVerbmelyabrandit;
+számszerűsít AddVerbbekit;
+számtalanít AddVerbmelyabrandit;
+számít AddVerbmelyabrandit;
+számítógépesít AddVerbbekit;
+szánalmasít AddVerbmelyabrandit;
+szándéktalanít AddVerbmelyabrandit;
+szántszándékosít AddVerbmelyabrandit;
+szárnyasít AddVerbmelyabrandit;
+szártalanít AddVerbmelyabrandit;
+szárít AddVerbmelyabrandit;
+százalékosít AddVerbmelyabrandit;
+szédít AddVerbbekit;
+szégyenlősít AddVerbbekit;
+szégyentelenít AddVerbbekit;
+szégyenít AddVerbbekit;
+székrekedésesít AddVerbbekit;
+szélesbít AddVerbbekit;
+szélesít AddVerbbekit;
+szélmentesít AddVerbbekit;
+szélsebesít AddVerbbekit;
+szélsőségesít AddVerbbekit;
+szélütésesít AddVerbbekit;
+szénsavasít AddVerbmelyabrandit;
+szépségesít AddVerbbekit;
+szépít AddVerbbekit;
+színesít AddVerbbekit;
+színházasít AddVerbmelyabrandit;
+színlegesít AddVerbbekit;
+színpompásít AddVerbmelyabrandit;
+színtelenít AddVerbbekit;
+színvonalasít AddVerbmelyabrandit;
+szít AddVerbmelyabrandit;
+szívesít AddVerbbekit;
+szívtelenít AddVerbbekit;
+szívókarosít AddVerbmelyabrandit;
+szívósít AddVerbmelyabrandit;
+szókihagyásosít AddVerbmelyabrandit;
+szólít AddVerbmelyabrandit;
+szórványosít AddVerbmelyabrandit;
+szótlanít AddVerbmelyabrandit;
+szögletesít AddVerbbekit;
+szövegesít AddVerbbekit;
+szövetesít AddVerbbekit;
+szövetkezetesít AddVerbbekit;
+szövetségesít AddVerbbekit;
+szövevényesít AddVerbbekit;
+szúnyogmentesít AddVerbbekit;
+szúnyogtalanít AddVerbmelyabrandit;
+szükségesít AddVerbbekit;
+szükségszerűsít AddVerbbekit;
+szükségtelenít AddVerbbekit;
+szünetmentesít AddVerbbekit;
+szürkít AddVerbbekit;
+szőkít AddVerbbekit;
+szőlősít AddVerbbekit;
+szőrtelenít AddVerbbekit;
+szőrösít AddVerbbekit;
+szűkít AddVerbbekit;
+sántít AddVerbmelyabrandit;
+sápít AddVerbmelyabrandit;
+sárgít AddVerbmelyabrandit;
+sármentesít AddVerbbekit;
+sártalanít AddVerbmelyabrandit;
+sásosít AddVerbmelyabrandit;
+sátorosít AddVerbmelyabrandit;
+sávosít AddVerbmelyabrandit;
+sérelmesít AddVerbbekit;
+síkosít AddVerbmelyabrandit;
+síktalanít AddVerbmelyabrandit;
+sóhajt AddVerbbujt;
+sómentesít AddVerbbekit;
+sótalanít AddVerbmelyabrandit;
+sótlanít AddVerbmelyabrandit;
+sömörösít AddVerbbekit;
+sörtésít AddVerbbekit;
+sötétít AddVerbbekit;
+sújt AddVerbbujt;
+súlyosbít AddVerbmelyabrandit;
+súlyosít AddVerbmelyabrandit;
+súlytalanít AddVerbmelyabrandit;
+süketít AddVerbbekit;
+sületlenít AddVerbbekit;
+süllyeszthetetlenít AddVerbbekit;
+süppedékesít AddVerbbekit;
+sürgősít AddVerbbekit;
+süvít AddVerbbekit;
+sűrít AddVerbbekit;
+sűrűsít AddVerbbekit;
+tablósít AddVerbmelyabrandit;
+tabusít AddVerbmelyabrandit;
+tagosít AddVerbmelyabrandit;
+tagozatosít AddVerbmelyabrandit;
+tajtékosít AddVerbmelyabrandit;
+takarékosít AddVerbmelyabrandit;
+takarít AddVerbmelyabrandit;
+taknyosít AddVerbmelyabrandit;
+talajmentesít AddVerbbekit;
+talajtalanít AddVerbmelyabrandit;
+tananyagosít AddVerbmelyabrandit;
+tanerősít AddVerbbekit;
+tankönyvesít AddVerbbekit;
+tanosít AddVerbmelyabrandit;
+tantárgyasít AddVerbmelyabrandit;
+tanulságosít AddVerbmelyabrandit;
+tanácsosít AddVerbmelyabrandit;
+tanácstalanít AddVerbmelyabrandit;
+tanít AddVerbmelyabrandit;
+tanúsít AddVerbmelyabrandit;
+tapintatosít AddVerbmelyabrandit;
+taplósít AddVerbmelyabrandit;
+tarkít AddVerbmelyabrandit;
+tartalmasít AddVerbmelyabrandit;
+tartósít AddVerbmelyabrandit;
+taszajt AddVerbbujt;
+taszít AddVerbmelyabrandit;
+tehermentesít AddVerbbekit;
+tehetetlenít AddVerbbekit;
+tehetségesít AddVerbbekit;
+tehetségtelenít AddVerbbekit;
+tehetősít AddVerbbekit;
+tejesít AddVerbbekit;
+tejfelesít AddVerbbekit;
+tejszínesít AddVerbbekit;
+tejérzékenyít AddVerbbekit;
+tekervényesít AddVerbbekit;
+tekintélyesít AddVerbbekit;
+telepít AddVerbbekit;
+telesít AddVerbbekit;
+televíziósít AddVerbmelyabrandit;
+telhetetlenít AddVerbbekit;
+teljesít AddVerbbekit;
+teljesíthetetlenít AddVerbbekit;
+telkesít AddVerbbekit;
+telít AddVerbbekit;
+telítetlenít AddVerbbekit;
+temperamentumosít AddVerbmelyabrandit;
+teraszosít AddVerbmelyabrandit;
+terepesít AddVerbbekit;
+terepmentesít AddVerbbekit;
+teresít AddVerbbekit;
+terhesít AddVerbbekit;
+terjedelmesít AddVerbbekit;
+terjedésűsít AddVerbbekit;
+terjengősít AddVerbbekit;
+termetesít AddVerbbekit;
+termékenyít AddVerbbekit;
+terméketlenít AddVerbbekit;
+természetesít AddVerbbekit;
+termőképtelenít AddVerbbekit;
+termősít AddVerbbekit;
+tervesít AddVerbbekit;
+terít AddVerbbekit;
+testesít AddVerbbekit;
+testtelenít AddVerbbekit;
+testvértelenít AddVerbbekit;
+tesztesít AddVerbbekit;
+tetemesít AddVerbbekit;
+tetszőlegesít AddVerbbekit;
+tetterősít AddVerbbekit;
+tettlegesít AddVerbbekit;
+tetvesít AddVerbbekit;
+tetvetlenít AddVerbbekit;
+tetőtlenít AddVerbbekit;
+tetűmentesít AddVerbbekit;
+tevőlegesít AddVerbbekit;
+tevősít AddVerbbekit;
+tintátlanít AddVerbmelyabrandit;
+tinódiasít AddVerbmelyabrandit;
+tisztesít AddVerbbekit;
+tisztulatlanít AddVerbmelyabrandit;
+tisztátalanít AddVerbmelyabrandit;
+tisztít AddVerbmelyabrandit;
+titkosít AddVerbmelyabrandit;
+tivornyásít AddVerbmelyabrandit;
+tobozosít AddVerbmelyabrandit;
+tokosít AddVerbmelyabrandit;
+tollasít AddVerbmelyabrandit;
+tompít AddVerbmelyabrandit;
+toprongyosít AddVerbmelyabrandit;
+torgyántalanít AddVerbmelyabrandit;
+torkosít AddVerbmelyabrandit;
+tornyosít AddVerbmelyabrandit;
+torziósít AddVerbmelyabrandit;
+torzít AddVerbmelyabrandit;
+továbbtágít AddVerbmelyabrandit;
+továbbít AddVerbmelyabrandit;
+traumásít AddVerbmelyabrandit;
+trolisít AddVerbmelyabrandit;
+tromfosít AddVerbmelyabrandit;
+truccosít AddVerbmelyabrandit;
+trágyásít AddVerbmelyabrandit;
+trágártalanít AddVerbmelyabrandit;
+tréfásít AddVerbmelyabrandit;
+trösztösít AddVerbbekit;
+trükkösít AddVerbbekit;
+tuberkulózisosít AddVerbmelyabrandit;
+tubákosít AddVerbmelyabrandit;
+tudatosít AddVerbmelyabrandit;
+tudattalanít AddVerbmelyabrandit;
+tudományosít AddVerbmelyabrandit;
+tudománytalanít AddVerbmelyabrandit;
+tudásszomjasít AddVerbmelyabrandit;
+tudósít AddVerbmelyabrandit;
+tulajdonnevesít AddVerbbekit;
+tulajdonosít AddVerbmelyabrandit;
+tulajdonít AddVerbmelyabrandit;
+tumormentesít AddVerbbekit;
+turbósít AddVerbmelyabrandit;
+turhásít AddVerbmelyabrandit;
+tuskótlanít AddVerbmelyabrandit;
+tyúkszemesít AddVerbbekit;
+táblásít AddVerbmelyabrandit;
+táblázatosít AddVerbmelyabrandit;
+tágít AddVerbmelyabrandit;
+táncosít AddVerbmelyabrandit;
+tántorít AddVerbmelyabrandit;
+tárgyasít AddVerbmelyabrandit;
+tárgyiasít AddVerbmelyabrandit;
+tárgyilagosít AddVerbmelyabrandit;
+tárgytalanít AddVerbmelyabrandit;
+társadalmasít AddVerbmelyabrandit;
+társadalomellenesít AddVerbbekit;
+társasít AddVerbmelyabrandit;
+társít AddVerbmelyabrandit;
+távirányít AddVerbmelyabrandit;
+távlatosít AddVerbmelyabrandit;
+távlattalanít AddVerbmelyabrandit;
+távolít AddVerbmelyabrandit;
+tébolyít AddVerbmelyabrandit;
+téeszesít AddVerbbekit;
+téliesít AddVerbbekit;
+ténylegesít AddVerbbekit;
+térhálósít AddVerbmelyabrandit;
+térképesít AddVerbbekit;
+térít AddVerbbekit;
+térítésmentesít AddVerbbekit;
+tésztásít AddVerbmelyabrandit;
+tétesít AddVerbbekit;
+tévésít AddVerbbekit;
+típusosít AddVerbmelyabrandit;
+tódít AddVerbmelyabrandit;
+tótosít AddVerbmelyabrandit;
+többesít AddVerbbekit;
+tökéletesít AddVerbbekit;
+tökélyesít AddVerbbekit;
+töltetlenít AddVerbbekit;
+tömbösít AddVerbbekit;
+tömegesít AddVerbbekit;
+tömpít AddVerbbekit;
+töményít AddVerbbekit;
+tömít AddVerbbekit;
+tömörít AddVerbbekit;
+tönkösít AddVerbbekit;
+töredelmesít AddVerbbekit;
+töredékesít AddVerbbekit;
+törpít AddVerbbekit;
+törtkitevősít AddVerbbekit;
+történetesít AddVerbbekit;
+törvényesít AddVerbbekit;
+törvénytelenít AddVerbbekit;
+törékenyít AddVerbbekit;
+töröktelenít AddVerbbekit;
+törökösít AddVerbbekit;
+tövisesít AddVerbbekit;
+túlságosít AddVerbmelyabrandit;
+túrósít AddVerbmelyabrandit;
+tüdőtlenít AddVerbbekit;
+tüdőtágulásosít AddVerbmelyabrandit;
+tüdővészesít AddVerbbekit;
+tükrösít AddVerbbekit;
+tükrözésmentesít AddVerbbekit;
+tükröződésmentesít AddVerbbekit;
+tüneményesít AddVerbbekit;
+tünetmentesít AddVerbbekit;
+türelmesít AddVerbbekit;
+tüskésít AddVerbbekit;
+tüskétlenít AddVerbbekit;
+tütüsít AddVerbbekit;
+tüzesít AddVerbbekit;
+tüzetesít AddVerbbekit;
+tőkeerősít AddVerbbekit;
+tőkeigényesít AddVerbbekit;
+tőkésít AddVerbbekit;
+tőzegesít AddVerbbekit;
+tűzmentesít AddVerbbekit;
+tűzveszélyesít AddVerbbekit;
+udvariasít AddVerbmelyabrandit;
+udvariatlanít AddVerbmelyabrandit;
+udvarképesít AddVerbbekit;
+ujjasít AddVerbmelyabrandit;
+ukránosít AddVerbmelyabrandit;
+umlautosít AddVerbmelyabrandit;
+unalmasít AddVerbmelyabrandit;
+undorít AddVerbmelyabrandit;
+uniósít AddVerbmelyabrandit;
+urasít AddVerbmelyabrandit;
+uszít AddVerbmelyabrandit;
+utasít AddVerbmelyabrandit;
+utcásít AddVerbmelyabrandit;
+utálatosít AddVerbmelyabrandit;
+utóhangosít AddVerbmelyabrandit;
+utópisztikusít AddVerbmelyabrandit;
+utóízesít AddVerbbekit;
+vadít AddVerbmelyabrandit;
+vagylagosít AddVerbmelyabrandit;
+vagyonosít AddVerbmelyabrandit;
+vagyontalanít AddVerbmelyabrandit;
+vajasít AddVerbmelyabrandit;
+vakosít AddVerbmelyabrandit;
+vakít AddVerbmelyabrandit;
+vakításmentesít AddVerbbekit;
+vall AddVerbmelyabranditott;
+vallásosít AddVerbmelyabrandit;
+valószínűsít AddVerbbekit;
+valóságosít AddVerbmelyabrandit;
+valósít AddVerbmelyabrandit;
+valótlanít AddVerbmelyabrandit;
+varratosít AddVerbmelyabrandit;
+varázslatosít AddVerbmelyabrandit;
+varázstalanít AddVerbmelyabrandit;
+vasasít AddVerbmelyabrandit;
+vaskalaposít AddVerbmelyabrandit;
+vastagít AddVerbmelyabrandit;
+vastalanít AddVerbmelyabrandit;
+vattásít AddVerbmelyabrandit;
+vegyszeresít AddVerbbekit;
+vegyít AddVerbbekit;
+vehetetlenít AddVerbbekit;
+velősít AddVerbbekit;
+velőtlenít AddVerbbekit;
+vemhesít AddVerbbekit;
+versenyképesít AddVerbbekit;
+versenyképtelenít AddVerbbekit;
+versesít AddVerbbekit;
+versmértékesít AddVerbbekit;
+verőfényesít AddVerbbekit;
+vesebajosít AddVerbmelyabrandit;
+vesekövesít AddVerbbekit;
+veszedelmesít AddVerbbekit;
+veszejt AddVerbbujt;
+veszekedősít AddVerbbekit;
+veszélyesít AddVerbbekit;
+veszélymentesít AddVerbbekit;
+veszélytelenít AddVerbbekit;
+veszít AddVerbbekit;
+vesződségesít AddVerbbekit;
+vetít AddVerbbekit;
+vevőtlenít AddVerbbekit;
+vezetésképtelenít AddVerbbekit;
+viaszmentesít AddVerbbekit;
+viaszosít AddVerbmelyabrandit;
+viccesít AddVerbbekit;
+vicsorít AddVerbmelyabrandit;
+vidámít AddVerbmelyabrandit;
+vidít AddVerbmelyabrandit;
+vigasztalanít AddVerbmelyabrandit;
+vigyázatlanít AddVerbmelyabrandit;
+vigyázatosít AddVerbmelyabrandit;
+viharmentesít AddVerbbekit;
+viharosít AddVerbmelyabrandit;
+vihetetlenít AddVerbbekit;
+villamostalanít AddVerbmelyabrandit;
+villamosít AddVerbmelyabrandit;
+villanyosít AddVerbmelyabrandit;
+villanytalanít AddVerbmelyabrandit;
+villásít AddVerbmelyabrandit;
+világfájdalmasít AddVerbmelyabrandit;
+világhíresít AddVerbbekit;
+világiasít AddVerbmelyabrandit;
+világosít AddVerbmelyabrandit;
+világtalanít AddVerbmelyabrandit;
+világít AddVerbmelyabrandit;
+világítatlanít AddVerbmelyabrandit;
+virágosít AddVerbmelyabrandit;
+virágtalanít AddVerbmelyabrandit;
+virít AddVerbmelyabrandit;
+viselhetetlenít AddVerbbekit;
+viselősít AddVerbbekit;
+visszhangosít AddVerbmelyabrandit;
+visszhangtalanít AddVerbmelyabrandit;
+viszonyít AddVerbmelyabrandit;
+visít AddVerbmelyabrandit;
+vitorlásít AddVerbmelyabrandit;
+vitriolosít AddVerbmelyabrandit;
+vitásít AddVerbmelyabrandit;
+vizenyősít AddVerbbekit;
+vizesít AddVerbbekit;
+vonalasít AddVerbmelyabrandit;
+vonyít AddVerbmelyabrandit;
+vonít AddVerbmelyabrandit;
+vágánytalanít AddVerbmelyabrandit;
+vákuumtalanít AddVerbmelyabrandit;
+válaszolhatatlanít AddVerbmelyabrandit;
+választhatatlanít AddVerbmelyabrandit;
+választékosít AddVerbmelyabrandit;
+válhatatlanít AddVerbmelyabrandit;
+vállasít AddVerbmelyabrandit;
+válságosít AddVerbmelyabrandit;
+válthatatlanít AddVerbmelyabrandit;
+változatosít AddVerbmelyabrandit;
+vámkötelesít AddVerbbekit;
+vámmentesít AddVerbbekit;
+vámosít AddVerbmelyabrandit;
+várományosít AddVerbmelyabrandit;
+vásít AddVerbmelyabrandit;
+vázasít AddVerbmelyabrandit;
+vázlatosít AddVerbmelyabrandit;
+védjegyesít AddVerbbekit;
+végesít AddVerbbekit;
+véglegesít AddVerbbekit;
+végletesít AddVerbbekit;
+végrehajt AddVerbbujt;
+végtelenít AddVerbbekit;
+végzetesít AddVerbbekit;
+végzetlenít AddVerbbekit;
+végérvényesít AddVerbbekit;
+vékonyít AddVerbmelyabrandit;
+vénasszonyosít AddVerbmelyabrandit;
+vénkisasszonyosít AddVerbmelyabrandit;
+vényesít AddVerbbekit;
+vénásít AddVerbmelyabrandit;
+vénít AddVerbbekit;
+véraláfutásosít AddVerbmelyabrandit;
+vérbajosít AddVerbmelyabrandit;
+véresít AddVerbbekit;
+vérszomjasít AddVerbmelyabrandit;
+vértelenít AddVerbbekit;
+vét AddVerbbekitvet;
+vétkesít AddVerbbekit;
+vírusmentesít AddVerbbekit;
+vírusosít AddVerbmelyabrandit;
+vírustalanít AddVerbmelyabrandit;
+vízhatlanít AddVerbmelyabrandit;
+vízigényesít AddVerbbekit;
+vízkórosít AddVerbmelyabrandit;
+vízkövesít AddVerbbekit;
+vízkőmentesít AddVerbbekit;
+vízmentesít AddVerbbekit;
+víznyomásosít AddVerbmelyabrandit;
+vízszintesít AddVerbbekit;
+víztelenít AddVerbbekit;
+vízummentesít AddVerbbekit;
+vörhenyesít AddVerbbekit;
+vörösít AddVerbbekit;
+webesít AddVerbbekit;
+whiskysít AddVerbbekit;
+zabolátlanít AddVerbmelyabrandit;
+zabosít AddVerbmelyabrandit;
+zaftosít AddVerbmelyabrandit;
+zagyosít AddVerbmelyabrandit;
+zajmentesít AddVerbbekit;
+zajosít AddVerbmelyabrandit;
+zajtalanít AddVerbmelyabrandit;
+zamatosít AddVerbmelyabrandit;
+zanzásít AddVerbmelyabrandit;
+zavarosít AddVerbmelyabrandit;
+zavartalanít AddVerbmelyabrandit;
+zegzugosít AddVerbmelyabrandit;
+zendít AddVerbbekit;
+zengzetesít AddVerbbekit;
+zenésít AddVerbbekit;
+zivatarmentesít AddVerbbekit;
+zivatarosít AddVerbmelyabrandit;
+zsalusít AddVerbmelyabrandit;
+zsebkönyvesít AddVerbbekit;
+zselésít AddVerbmelyabrandit;
+zsendít AddVerbbekit;
+zsidósít AddVerbmelyabrandit;
+zsidótlanít AddVerbmelyabrandit;
+zsizsikesít AddVerbbekit;
+zsizsiktelenít AddVerbbekit;
+zsongít AddVerbmelyabrandit;
+zsugorít AddVerbmelyabrandit;
+zsírmentesít AddVerbbekit;
+zsírosít AddVerbmelyabrandit;
+zsírtalanít AddVerbmelyabrandit;
+zákányosít AddVerbmelyabrandit;
+zálogosít AddVerbmelyabrandit;
+zártalanít AddVerbmelyabrandit;
+zártkörűsít AddVerbbekit;
+zárványosít AddVerbmelyabrandit;
+zónásít AddVerbmelyabrandit;
+zökkenésmentesít AddVerbbekit;
+zökkenőmentesít AddVerbbekit;
+zöldít AddVerbbekit;
+zömít AddVerbbekit;
+zömökít AddVerbbekit;
+zöngésít AddVerbbekit;
+zöngétlenít AddVerbbekit;
+zördít AddVerbbekit;
+zörgésmentesít AddVerbbekit;
+zúdít AddVerbmelyabrandit;
+zúzalékosít AddVerbmelyabrandit;
+zúzmarásít AddVerbmelyabrandit;
+zűrzavarosít AddVerbmelyabrandit;
+Óperenciásít AddVerbmelyabrandit;
+ábrándosít AddVerbmelyabrandit;
+ábrándít AddVerbmelyabrandit;
+ádámkosztümösít AddVerbbekit;
+ágasít AddVerbmelyabrandit;
+ágazatlanít AddVerbmelyabrandit;
+ágbogasít AddVerbmelyabrandit;
+áhít AddVerbmelyabrandit;
+áhítatosít AddVerbmelyabrandit;
+ájtatosít AddVerbmelyabrandit;
+államosít AddVerbmelyabrandit;
+államtalanít AddVerbmelyabrandit;
+állandósít AddVerbmelyabrandit;
+állapotosít AddVerbmelyabrandit;
+állapít AddVerbmelyabrandit;
+állatiasít AddVerbmelyabrandit;
+állatosít AddVerbmelyabrandit;
+állhatatlanít AddVerbmelyabrandit;
+állástalanít AddVerbmelyabrandit;
+állít AddVerbmelyabrandit;
+álmosít AddVerbmelyabrandit;
+álomtalanít AddVerbmelyabrandit;
+álszemérmesít AddVerbbekit;
+álságosít AddVerbmelyabrandit;
+általánosít AddVerbmelyabrandit;
+ámít AddVerbmelyabrandit;
+árammentesít AddVerbbekit;
+áramosít AddVerbmelyabrandit;
+áramtalanít AddVerbmelyabrandit;
+áramvonalasít AddVerbmelyabrandit;
+árjásít AddVerbmelyabrandit;
+árkádosít AddVerbmelyabrandit;
+ármentesít AddVerbbekit;
+ármányosít AddVerbmelyabrandit;
+árnyasít AddVerbmelyabrandit;
+árnyékosít AddVerbmelyabrandit;
+árnyéktalanít AddVerbmelyabrandit;
+ártalmasít AddVerbmelyabrandit;
+ártalmatlanít AddVerbmelyabrandit;
+ártalommentesít AddVerbbekit;
+árusít AddVerbmelyabrandit;
+árutlanít AddVerbmelyabrandit;
+árvízmentesít AddVerbbekit;
+ásványosít AddVerbmelyabrandit;
+ásít AddVerbmelyabrandit;
+átkosít AddVerbmelyabrandit;
+átlagosít AddVerbmelyabrandit;
+átlósít AddVerbmelyabrandit;
+átokerősít AddVerbbekit;
+éberít AddVerbbekit;
+édeskésít AddVerbbekit;
+édesít AddVerbbekit;
+éhesít AddVerbbekit;
+ékesít AddVerbbekit;
+ékezetesít AddVerbbekit;
+ékezetmentesít AddVerbbekit;
+ékezettelenít AddVerbbekit;
+éktelenít AddVerbbekit;
+ékírásosít AddVerbmelyabrandit;
+ékít AddVerbbekit;
+élcesít AddVerbbekit;
+élelmesít AddVerbbekit;
+élesít AddVerbbekit;
+életerősít AddVerbbekit;
+életesít AddVerbbekit;
+életképesít AddVerbbekit;
+életképtelenít AddVerbbekit;
+életlenít AddVerbbekit;
+élettelenít AddVerbbekit;
+életveszélyesít AddVerbbekit;
+éltűsít AddVerbbekit;
+élvezetesít AddVerbbekit;
+élénkít AddVerbbekit;
+élősködőmentesít AddVerbbekit;
+émelygősít AddVerbbekit;
+émelyít AddVerbbekit;
+épít AddVerbbekit;
+épületesít AddVerbbekit;
+ércesít AddVerbbekit;
+ércsomósít AddVerbmelyabrandit;
+érdekesít AddVerbbekit;
+érdektelenít AddVerbbekit;
+érdemesít AddVerbbekit;
+érdemlegesít AddVerbbekit;
+érdemtelenít AddVerbbekit;
+érdesít AddVerbbekit;
+érintőlegesít AddVerbbekit;
+értelmesít AddVerbbekit;
+értesít AddVerbbekit;
+értékesít AddVerbbekit;
+értékpapírosít AddVerbmelyabrandit;
+értéktelenít AddVerbbekit;
+érvényesít AddVerbbekit;
+érvénytelenít AddVerbbekit;
+érzelgősít AddVerbbekit;
+érzelmesít AddVerbbekit;
+érzékenyít AddVerbbekit;
+érzékletesít AddVerbbekit;
+érzéktelenít AddVerbbekit;
+érzéstelenít AddVerbbekit;
+ésszerűsít AddVerbbekit;
+évesít AddVerbbekit;
+évszázadosít AddVerbmelyabrandit;
+ígéretesít AddVerbbekit;
+íresít AddVerbbekit;
+írásosít AddVerbmelyabrandit;
+írótlanít AddVerbmelyabrandit;
+ítélőképesít AddVerbbekit;
+ívesít AddVerbbekit;
+ízesít AddVerbbekit;
+ízletesít AddVerbbekit;
+ízmentesít AddVerbbekit;
+óhajt AddVerbbujt;
+ólmosít AddVerbmelyabrandit;
+ótvarosít AddVerbmelyabrandit;
+öblít AddVerbbekit;
+öblösít AddVerbbekit;
+önerősít AddVerbbekit;
+öngyilkosít AddVerbmelyabrandit;
+önindukciósít AddVerbmelyabrandit;
+önkitöltősít AddVerbbekit;
+önkéntelenít AddVerbbekit;
+önkényesít AddVerbbekit;
+önkénytelenít AddVerbbekit;
+öntapadósít AddVerbmelyabrandit;
+öntudatosít AddVerbmelyabrandit;
+öntöltősít AddVerbbekit;
+önállósít AddVerbmelyabrandit;
+önérzetesít AddVerbbekit;
+önösít AddVerbbekit;
+ördögösít AddVerbbekit;
+öregasszonyosít AddVerbmelyabrandit;
+öregbít AddVerbbekit;
+öregesít AddVerbbekit;
+öregurasít AddVerbmelyabrandit;
+öregít AddVerbbekit;
+örökmécsesít AddVerbbekit;
+örökít AddVerbbekit;
+örömtelenít AddVerbbekit;
+összegesít AddVerbbekit;
+összesít AddVerbbekit;
+összhangtalanít AddVerbmelyabrandit;
+összhangzatosít AddVerbmelyabrandit;
+összkomfortosít AddVerbmelyabrandit;
+összpontosít AddVerbmelyabrandit;
+ösztöndíjasít AddVerbmelyabrandit;
+ösztönösít AddVerbbekit;
+ösztövérít AddVerbbekit;
+ötlettelenít AddVerbbekit;
+ötödévesít AddVerbbekit;
+újmisésít AddVerbbekit;
+újít AddVerbmelyabrandit;
+úszóhártyásít AddVerbmelyabrandit;
+úszóképesít AddVerbbekit;
+útbaigazít AddVerbmelyabrandit;
+útszélesít AddVerbbekit;
+úttalanít AddVerbmelyabrandit;
+üdvösít AddVerbbekit;
+üdvözít AddVerbbekit;
+üdít AddVerbbekit;
+ügyesít AddVerbbekit;
+üledékesít AddVerbbekit;
+ülepít AddVerbbekit;
+ünnepélyesít AddVerbbekit;
+üregesít AddVerbbekit;
+üresít AddVerbbekit;
+ürít AddVerbbekit;
+üszkösít AddVerbbekit;
+üszögösít AddVerbbekit;
+ütemesít AddVerbbekit;
+ütésesít AddVerbbekit;
+üvegesít AddVerbbekit;
+üzemesít AddVerbbekit;
+üzemképtelenít AddVerbbekit;
+üzletesít AddVerbbekit;
+üzletiesít AddVerbbekit;
+őrizetlenít AddVerbbekit;
+őrjít AddVerbbekit;
+őshonosít AddVerbmelyabrandit;
+őszít AddVerbbekit;
+
+LEXICON Verb1
+arrébbmozdít AddVerbmelyabrandit;
+arrébbtaszít AddVerbmelyabrandit;
+bennefelejt AddVerbbujt; !igea
+bentfelejt AddVerbbujt; !igea
+együttalakít AddVerbmelyabrandit;
+eléhajt AddVerbbujt; !igea
+feljebbminősít AddVerbbekit;
+föléhajt AddVerbbujt;
+helybenlazít AddVerbmelyabrandit;
+kintfelejt AddVerbbujt; !igea
+kétségbeejt AddVerbbujt; !igea
+nagytakarít AddVerbmelyabrandit;
+odébbhajlít AddVerbmelyabrandit;
+odébbhajít AddVerbmelyabrandit;
+odébbtaszít AddVerbmelyabrandit;
+teligurít AddVerbmelyabrandit;
+telimerít AddVerbbekit;
+viszontbiztosít AddVerbmelyabrandit;
+észheztérít AddVerbbekit;
+útbaejt AddVerbbujt; !igea
+
+
+!ír
+!írhat  potential
+!irathat imper potential
+!irat imper
+!irattattat imper imper
+!irjon command
+!írhasson
+!írogattathat rep imper pot
+!íratgathat
+!írogattatgat
+!Irni
+!írnék, írnál .. írnának cond conditional
+! írjak írjon írj  command
+
+
+LEXICON AddVerbmelyabranditott
++Verb:0     Repmelyabranditott;
+
+LEXICON Repmelyabranditott
++Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
++Inf12:^+ccInf12^§ae2mely§n§igeomely§d #;
++Inf13:^+ccInf13^§ae2mely§ni§AAmely§ #;
++Inf21:^+ccInf21^§ae2mely§n§igeumely§nk #;
++Inf22:^+ccInf22^§ae2mely§n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeumely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeuomely§k #;
++PastIndefSg3:^+cPIndefSg3^§igeoe§tt      #;    ! t
++Inf:^+cInf^§ae2mely§ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteo2mely§g§AAmely§t  Impermelyabrandit;
+                    Imper1melyabrandit;
+
+LEXICON AddVerbmelyabrandit
++Verb:0     Repmelyabrandit;
+
+LEXICON Repmelyabrandit
++Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
++Inf12:^+ccInf12^§ae2mely§n§igeomely§d #;
++Inf13:^+ccInf13^§ae2mely§ni§AAmely§ #;
++Inf21:^+ccInf21^§ae2mely§n§igeumely§nk #;
++Inf22:^+ccInf22^§ae2mely§n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeumely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeuomely§k #;
++Inf:^+cInf^§ae2mely§ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteo2mely§g§AAmely§t  Impermelyabrandit;
+                    Imper1melyabrandit;
+
+LEXICON Impermelyabrandit
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Nrepmelyabrandit;
+                      Nrepmelyabrandit2;
+LEXICON Imper1melyabrandit
++Imper:^+cImp^§tatt§§AAmely§t  Nrepmelyabrandit;
+                      Nrep1melyabrandit;
+
+LEXICON Nrepmelyabrandit
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cNrep^g§AAmely§t  NImpermelyabrandit;
+                      NImpermelyabrandit2;
+LEXICON Nrepmelyabrandit2
++Rep:^+cNrep^g§AAmely§t  NImpermelyabrandit;
+                      NImpermelyabrandit2;
+
+LEXICON Nrep1melyabrandit
++Rep:^+cNrep^§felteo2mely§g§AAmely§t  NImpermelyabrandit;
+                      NImper1melyabrandit;
+
+LEXICON NImpermelyabrandit
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Potmelyabrandit;
+                      Potmelyabrandit2;
+LEXICON NImpermelyabrandit2
++Imper:^+cImp^t§AAmely§t  Potmelyabrandit;
+                      Potmelyabrandit2;
+
+LEXICON NImper1melyabrandit
++Imper:^+cImp^§tatt§§AAmely§t  Potmelyabrandit;
+                      Pot1melyabrandit;
+
+LEXICON Potmelyabrandit
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Pot:^+cPot^h§AAAmely§t  AddInfmelybrandit;
+             Casemelyabrandit;
+LEXICON Potmelyabrandit2
++Pot:^+cPot^h§AAAmely§t  AddInfmelybrandit;
+             Casemelyabrandit;
+
+LEXICON Pot1melyabrandit
++Pot:^+cPot^h§AAAmely§t  AddInfmelybrandit;
+             Case1melyabrandit;
+
+LEXICON AddInfmelybrandit
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeuomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
+            Casemelyabrandit;
+
+
+LEXICON Casemelyabrandit
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^t§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+LEXICON Case1melyabrandit
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§ae2mely§sz         #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igeo2mely§l         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oe2mely§t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^§ae2mely§n§igeamely§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^§ess§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^§oe2mely§tt§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oe2mely§tt§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oe2mely§tt§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oe2mely§tt§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oe2mely§tt§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oe2mely§tt§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oe2mely§tt§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oe2mely§tt§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oe2mely§tt§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oe2mely§tt§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oe2mely§tt§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^§ae2mely§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§ae2mely§n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§ae2mely§n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§ae2mely§n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§ae2mely§n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^§ae2mely§n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§ae2mely§n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§ae2mely§n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§ae2mely§n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§ae2mely§n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§ae2mely§n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§ae2mely§n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§ae2mely§n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++IndefSg12:^+cIndefSgp12^§igeamely§§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^§oe2mely§tt§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^§ae2mely§n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+LEXICON AddVerbbekit
++Verb:0     Repbekit;
+
+LEXICON Repbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Inf11:^+ccInf11^§igea§n§igeoue§m #;
++Inf12:^+ccInf12^§igea§n§igeoue§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo2§g§AA§t  Imperbekit;
+                    Imper1bekit;
+
+LEXICON Imperbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepbekit;
+                      Nrepbekit2;
+LEXICON Imper1bekit
++Imper:^+cImp^§tatt§§AA§t  Nrepbekit;
+                      Nrep1bekit;
+
+LEXICON Nrepbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperbekit;
+                      NImperbekit2;
+LEXICON Nrepbekit2
++Rep:^+cNrep^g§AA§t  NImperbekit;
+                      NImperbekit2;
+
+LEXICON Nrep1bekit
++Rep:^+cNrep^§felteo2§g§AA§t  NImperbekit;
+                      NImper1bekit;
+
+LEXICON NImperbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potbekit;
+                      Potbekit2;
+LEXICON NImperbekit2
++Imper:^+cImp^t§AA§t  Potbekit;
+                      Potbekit2;
+
+LEXICON NImper1bekit
++Imper:^+cImp^§tatt§§AA§t  Potbekit;
+                      Pot1bekit;
+
+LEXICON Potbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfbekit;
+             Casebekit;
+LEXICON Potbekit2
++Pot:^+cPot^h§AAA§t  AddInfbekit;
+             Casebekit;
+
+LEXICON Pot1bekit
++Pot:^+cPot^h§AAA§t  AddInfbekit;
+             Case1bekit; ! case1 if differs
+
+LEXICON AddInfbekit
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+    Casebekit;
+
+LEXICON Casebekit
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1bekit
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igea§sz #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igeoue§l #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§igea§t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oe2§t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oeue§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oeue§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oeue§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oeue§tt§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oeue§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oeue§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oeue§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oeue§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oeue§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oeue§tt§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oeue§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oeue§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON AddVerbbekitoe
++Verb:0     Repbekitoe;
+
+LEXICON Repbekitoe
++Inf11:^+ccInf11^§igea§n§igea§m #;
++Inf12:^+ccInf12^§igea§n§igea§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igea§t§igea§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo2§g§AA§t  Imperbekitoe;
+                    Imper1bekitoe;
+
+LEXICON Imperbekitoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepbekitoe;
+                      Nrepbekitoe2;
+LEXICON Imper1bekitoe
++Imper:^+cImp^§tatt§§AA§t  Nrepbekitoe;
+                      Nrep1bekitoe;
+
+LEXICON Nrepbekitoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperbekitoe;
+                      NImperbekitoe2;
+LEXICON Nrepbekitoe2
++Rep:^+cNrep^g§AA§t  NImperbekitoe;
+                      NImperbekitoe2;
+
+LEXICON Nrep1bekitoe
++Rep:^+cNrep^§felteo2§g§AA§t  NImperbekitoe;
+                      NImper1bekitoe;
+
+LEXICON NImperbekitoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potbekitoe;
+                      Potbekitoe2;
+LEXICON NImperbekitoe2
++Imper:^+cImp^t§AA§t  Potbekitoe;
+                      Potbekitoe2;
+
+LEXICON NImper1bekitoe
++Imper:^+cImp^§tatt§§AA§t  Potbekitoe;
+                      Pot1bekitoe;
+
+LEXICON Potbekitoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfbekitoe;
+             Casebekitoe;
+LEXICON Potbekitoe2
++Pot:^+cPot^h§AAA§t  AddInfbekitoe;
+             Casebekitoe;
+
+LEXICON Pot1bekitoe
++Pot:^+cPot^h§AAA§t  AddInfbekitoe;
+             Case1bekitoe; ! case1 if differs
+LEXICON AddInfbekitoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+               Casebekitoe;
+
+LEXICON Casebekitoe
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1bekitoe
++IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igea§sz #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igeoue§l #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
+!+IndefPl2:^+cIndefPl2^t§igeoue§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oeue§t§igeoue§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
+!+IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoue§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoue§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoue§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oeue§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oeue§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oeue§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oeue§tt§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oeue§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oeue§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oeue§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oeue§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oeue§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oeue§tt§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oeue§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oeue§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbbujt
++Verb:0     Repbujt;
+
+LEXICON Repbujt
++Inf11:^+ccInf11^§igea§n§igeoue§m #;
++Inf12:^+ccInf12^§igea§n§igeoue§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§oe2§g§AA§t  Imperbujt;
+                    Imper1bujt;
+
+LEXICON Imperbujt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepbujt;
+                      Nrepbujt2;
+LEXICON Imper1bujt
++Imper:^+cImp^§AA§t  Nrepbujt;
+                      Nrep1bujt;
+
+LEXICON Nrepbujt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperbujt;
+                      NImperbujt2;
+LEXICON Nrepbujt2
++Rep:^+cNrep^g§AA§t  NImperbujt;
+                      NImperbujt2;
+
+LEXICON Nrep1bujt
++Rep:^+cNrep^§oe2§g§AA§t  NImperbujt;
+                      NImper1bujt;
+
+LEXICON NImperbujt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potbujt;
+                      Potbujt2;
+LEXICON NImperbujt2
++Imper:^+cImp^t§AA§t  Potbujt;
+                      Potbujt2;
+
+LEXICON NImper1bujt
++Imper:^+cImp^§AA§t  Potbujt;
+                      Pot1bujt;
+
+LEXICON Potbujt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfbujt;
+             Casebujt;
+LEXICON Potbujt2
++Pot:^+cPot^h§AAA§t  AddInfbujt;
+             Casebujt;
+
+LEXICON Pot1bujt
++Pot:^+cPot^h§AAA§t  AddInfbujt;
+             Case1bujt; ! case1 if differs
+LEXICON AddInfbujt
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+              Casebujt;
+LEXICON Casebujt
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1bujt
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^§oe2§t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d         #;
+!+ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oe2§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oe2§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oe2§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oe2§tt§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oe2§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oe2§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oe2§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oe2§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oe2§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oe2§tt§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oe2§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oe2§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON AddVerbbujtoe
++Verb:0     Repbujtoe;
+
+LEXICON Repbujtoe
++Inf11:^+ccInf11^§igea§n§igeoue§m #;
++Inf12:^+ccInf12^§igea§n§igeoue§d #;
++Inf11:^+ccInf11^§igea§n§igea§m #;
++Inf12:^+ccInf12^§igea§n§igea§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^§igea§n§igea§t§igea§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§oeue§g§AA§t  Imperbujtoe;
+                    Imper1bujtoe;
+
+LEXICON Imperbujtoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf11:^+ccInf11^n§igea§m #;
++Inf12:^+ccInf12^n§igea§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^n§igea§t§igea§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepbujtoe;
+                      Nrepbujtoe2;
+LEXICON Imper1bujtoe
++Imper:^+cImp^§AA§t  Nrepbujtoe;
+                      Nrep1bujtoe;
+
+LEXICON Nrepbujtoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf11:^+ccInf11^n§igea§m #;
++Inf12:^+ccInf12^n§igea§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^n§igea§t§igea§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperbujtoe;
+                      NImperbujtoe2;
+LEXICON Nrepbujtoe2
++Rep:^+cNrep^g§AA§t  NImperbujtoe;
+                      NImperbujtoe2;
+
+LEXICON Nrep1bujtoe
++Rep:^+cNrep^§oeue§g§AA§t  NImperbujtoe;
+                      NImper1bujtoe;
+
+LEXICON NImperbujtoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf11:^+ccInf11^n§igea§m #;
++Inf12:^+ccInf12^n§igea§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^n§igea§t§igea§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potbujtoe;
+                      Potbujtoe2;
+LEXICON NImperbujtoe2
++Imper:^+cImp^t§AA§t  Potbujtoe;
+                      Potbujtoe2;
+
+LEXICON NImper1bujtoe
++Imper:^+cImp^§AA§t  Potbujtoe;
+                      Pot1bujtoe;
+
+LEXICON Potbujtoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf11:^+ccInf11^n§igea§m #;
++Inf12:^+ccInf12^n§igea§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^n§igea§t§igea§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfbujtoe;
+             Casebujtoe;
+LEXICON Potbujtoe2
++Pot:^+cPot^h§AAA§t  AddInfbujtoe;
+             Casebujtoe;
+
+LEXICON Pot1bujtoe
++Pot:^+cPot^h§AAA§t  AddInfbujtoe;
+             Case1bujtoe; ! case1 if differs
+LEXICON AddInfbujtoe
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf11:^+ccInf11^n§igea§m #;
++Inf12:^+ccInf12^n§igea§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf22:^+ccInf22^n§igea§t§igea§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+                Casebujtoe;
+LEXICON Casebujtoe
++IndefSg1:^+cIndefSg1^§igeoe§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeoe§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoe§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoe§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoe§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igea§tt      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1bujtoe
++IndefSg1:^+cIndefSg1^§igeoue§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^ötök  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^etek  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeoue§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeoue§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeoue§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeoe§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeoe§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oeue§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oeue§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oeue§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oeue§tt§igea§t§igeoe§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oeue§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oeue§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oeue§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oeue§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oeue§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oeue§tt§igeaa§t§igeoe§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oeue§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeoe§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeoe§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oeue§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+
+
+LEXICON AddVerbesd
++Verb:0     Repesd;
+
+LEXICON Repesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§oe2§g§AA§t  Imperesd;
+                    Imper1esd;
+
+LEXICON Imperesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepesd;
+                      Nrepesd2;
+LEXICON Imper1esd
++Imper:^+cImp^§tatt§§AA§t  Nrepesd;
+                      Nrep1esd;
+
+LEXICON Nrepesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperesd;
+                      NImperesd2;
+LEXICON Nrepesd2
++Rep:^+cNrep^g§AA§t  NImperesd;
+                      NImperesd2;
+
+LEXICON Nrep1esd
++Rep:^+cNrep^§oe2§g§AA§t  NImperesd;
+                      NImper1esd;
+
+LEXICON NImperesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potesd;
+                      Potesd2;
+LEXICON NImperesd2
++Imper:^+cImp^t§AA§t  Potesd;
+                      Potesd2;
+
+LEXICON NImper1esd
++Imper:^+cImp^§tatt§§AA§t  Potesd;
+                      Pot1esd;
+
+LEXICON Potesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfesd;
+             Caseesd;
+LEXICON Potesd2
++Pot:^+cPot^h§AAA§t  AddInfesd;
+             Caseesd;
+
+LEXICON Pot1esd
++Pot:^+cPot^h§AAA§t  AddInfesd;
+             Case1esd; ! case1 if differs
+LEXICON AddInfesd
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+            Caseesd;
+
+LEXICON Caseesd
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1esd
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oe2§t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oe2§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oe2§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oe2§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oe2§tt§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oe2§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oe2§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oe2§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oe2§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oe2§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oe2§tt§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oe2§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oe2§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+! hall & hallik
+LEXICON AddVerbmelyabrandithall
++Verb:0     Repmelyabrandithall;
+
+LEXICON Repmelyabrandithall
++Inf11:^+ccInf11^§ae2mely§n§igeomely§m #;
++Inf12:^+ccInf12^§ae2mely§n§igeomely§d #;
++Inf13:^+ccInf13^§ae2mely§ni§AAmely§ #;
++Inf21:^+ccInf21^§ae2mely§n§igeumely§nk #;
++Inf22:^+ccInf22^§ae2mely§n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeumely§k #;
++Inf23:^+ccInf23^§ae2mely§ni§igeomely§k #;
++Inf:^+cInf^§ae2mely§ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cRep^§felteo2mely§g§AAmely§t  Impermelyabrandithall;
+                    Imper1melyabrandithall;
+
+LEXICON Impermelyabrandithall
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Nrepmelyabrandithall;
+                      Nrepmelyabrandithall2;
+LEXICON Imper1melyabrandithall
++Imper:^+cImp^§tatt§§AAmely§t  Nrepmelyabrandithall;
+                      Nrep1melyabrandithall;
+
+LEXICON Nrepmelyabrandithall
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Rep:^+cNrep^g§AAmely§t  NImpermelyabrandithall;
+                      NImpermelyabrandithall2;
+LEXICON Nrepmelyabrandithall2
++Rep:^+cNrep^g§AAmely§t  NImpermelyabrandithall;
+                      NImpermelyabrandithall2;
+
+LEXICON Nrep1melyabrandithall
++Rep:^+cNrep^§felteo2mely§g§AAmely§t  NImpermelyabrandithall;
+                      NImper1melyabrandithall;
+
+LEXICON NImpermelyabrandithall
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Imper:^+cImp^t§AAmely§t  Potmelyabrandithall;
+                      Potmelyabrandithall2;
+LEXICON NImpermelyabrandithall2
++Imper:^+cImp^t§AAmely§t  Potmelyabrandithall;
+                      Potmelyabrandithall2;
+
+LEXICON NImper1melyabrandithall
++Imper:^+cImp^§tatt§§AAmely§t  Potmelyabrandithall;
+                      Pot1melyabrandithall;
+
+LEXICON Potmelyabrandithall
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
++Pot:^+cPot^h§AAAmely§t  AddInfmelyabrandithall;
+             Casemelyabrandithall;
+LEXICON Potmelyabrandithall2
++Pot:^+cPot^h§AAAmely§t  AddInfmelyabrandithall;
+             Casemelyabrandithall;
+
+LEXICON Pot1melyabrandithall
++Pot:^+cPot^h§AAAmely§t  AddInfmelyabrandithall;
+             Case1melyabrandithall;
+LEXICON AddInfmelyabrandithall
++Inf11:^+ccInf11^n§igeomely§m #;
++Inf12:^+ccInf12^n§igeomely§d #;
++Inf13:^+ccInf13^ni§AAmely§ #;
++Inf21:^+ccInf21^n§igeumely§nk #;
++Inf22:^+ccInf22^n§igeomely§t§igeomely§k #;
++Inf23:^+ccInf23^ni§igeumely§k #;
++Inf23:^+ccInf23^ni§igeomely§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaamely§n #;
++Adv:^+cAdv^v§AAmely§  #;
+                Casemelyabrandithall;
+LEXICON Casemelyabrandithall
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^t§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+LEXICON Case1melyabrandithall
++IndefSg1:^+cIndefSg1^§igeomely§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelolmely§         #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§ae2mely§sz         #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefSg3:^+cIndefSg3^ik           #;    !
++IndefPl1:^+cIndefPl1^§igeumely§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2mely§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oe2mely§t§igeo2mely§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^§ae2mely§n§igeamely§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^n§igeamely§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeomely§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeomely§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1mely§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeumely§k       #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1mely§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1mely§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igeamely§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaamely§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeomely§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeumely§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igeamely§t§igeomely§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igeamely§n§igeamely§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igeamely§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igeamely§d         #;
++ConjDefSg2:^+cConjDefSg2^§ess§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igeamely§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeumely§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaamely§t§igeomely§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaamely§k            #;
++PastIndefSg1:^+cPIndefSg1^§oe2mely§tt§AAmely§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oe2mely§tt§igeaamely§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattetmely§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oe2mely§tt§igeumely§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oe2mely§tt§igeamely§t§igeo2mely§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oe2mely§tt§igeamely§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oe2mely§tt§igeamely§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oe2mely§tt§igeamely§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oe2mely§tt§igeamely§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oe2mely§tt§igeumely§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oe2mely§tt§igeaamely§t§igeo2mely§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oe2mely§tt§igeaamely§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^§ae2mely§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§ae2mely§n§igeaamely§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§ae2mely§n§igeamely§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§ae2mely§n§igeaamely§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§ae2mely§n§igeoomely§k #;
++CondIndefPl2:^+cCIndefPl2^§ae2mely§n§igeaamely§t§igeomely§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§ae2mely§n§igeaamely§n§igeamely§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§ae2mely§n§igeaamely§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§ae2mely§n§igeaamely§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§ae2mely§n§igeaamely§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§ae2mely§n§igeaamely§nk                #;    ! nánk/nénk
++CondDefPl1:^+cCDefPl1^§ae2mely§nók            #;    ! nók
++CondDefPl2:^+cCDefPl2^§ae2mely§n§igeaamely§t§igeomely§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§ae2mely§n§igeaamely§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igeamely§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igeamely§l§igeamely§k          #;
++PastDefSg12:^+cPDefSgp12^§oe2mely§tt§igeamely§l§igeamely§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^§ae2mely§n§igeaamely§l§igeamely§k                  #;    ! ná/né
+
+!hall
+LEXICON AddVerbszik
++Verb:0     Caseszik;
+
+LEXICON Caseszik
++DefSg3:^+cDefSg3^szik      #;    ! ismerszik
+
+LEXICON AddVerbbekitvet
++Verb:0     Repbekitvet;
+
+LEXICON Repbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Inf11:^+ccInf11^§igea§n§igeoue§m #;
++Inf12:^+ccInf12^§igea§n§igeoue§d #;
++Inf13:^+ccInf13^§igea§ni§AA§ #;
++Inf21:^+ccInf21^§igea§n§igeu§nk #;
++Inf22:^+ccInf22^§igea§n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^§igea§ni§igeu§k #;
++Inf23:^+ccInf23^§igea§ni§igeuo§k #;
++Inf:^+cInf^§igea§ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cRep^§felteo2§g§AA§t  Imperbekitvet;
+                    Imper1bekitvet;
+
+LEXICON Imperbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Nrepbekitvet;
+                      Nrepbekit2vet;
+LEXICON Imper1bekitvet
++Imper:^+cImp^§tatt§§AA§t  Nrepbekitvet;
+                      Nrep1bekitvet;
+
+LEXICON Nrepbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Rep:^+cNrep^g§AA§t  NImperbekitvet;
+                      NImperbekit2vet;
+LEXICON Nrepbekit2vet
++Rep:^+cNrep^g§AA§t  NImperbekitvet;
+                      NImperbekit2vet;
+
+LEXICON Nrep1bekitvet
++Rep:^+cNrep^§felteo2§g§AA§t  NImperbekitvet;
+                      NImper1bekitvet;
+
+LEXICON NImperbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Imper:^+cImp^t§AA§t  Potbekitvet;
+                      Potbekit2vet;
+LEXICON NImperbekit2vet
++Imper:^+cImp^t§AA§t  Potbekitvet;
+                      Potbekit2vet;
+
+LEXICON NImper1bekitvet
++Imper:^+cImp^§tatt§§AA§t  Potbekit;
+                      Pot1bekitvet;
+
+LEXICON Potbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
++Pot:^+cPot^h§AAA§t  AddInfbekitvet;
+             Casebekitvet;
+LEXICON Potbekit2vet
++Pot:^+cPot^h§AAA§t  AddInfbekitvet;
+             Casebekitvet;
+
+LEXICON Pot1bekitvet
++Pot:^+cPot^h§AAA§t  AddInfbekitvet;
+             Case1bekitvet; ! case1 if differs
+
+LEXICON AddInfbekitvet
++Inf11:^+ccInf11^n§igeoue§m #;
++Inf12:^+ccInf12^n§igeoue§d #;
++Inf13:^+ccInf13^ni§AA§ #;
++Inf21:^+ccInf21^n§igeu§nk #;
++Inf22:^+ccInf22^n§igeoue§t§igeoue§k #;
++Inf23:^+ccInf23^ni§igeu§k #;
++Inf23:^+ccInf23^ni§igeuo§k #;
++Inf:^+cInf^ni  #;
++Advan:^+ccAdvan^v§igeaa§n #;
++Adv:^+cAdv^v§AA§  #;
+    Casebekitvet;
+
+LEXICON Casebekitvet
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^§sj§§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§ék          #;
++ConjIndefSg2:^+cConjIndefSg2^§sj§           #;
++ConjIndefSg3:^+cConjIndefSg3^§sj§§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^§sj§§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^§sj§§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^§sj§§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^§sj§§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^§sj§§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^§sj§d              #;
++ConjDefSg3:^+cConjDefSg3^§sj§§igea§          #;
++ConjDefPl1:^+cConjDefPl1^§sj§§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^§sj§§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^§sj§§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^t§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^t§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^t§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^t§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^t§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^t§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^t§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^t§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^t§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^t§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^t§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^t§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
+
+LEXICON Case1bekitvet
++IndefSg1:^+cIndefSg1^§igeo§k    #;    ! ek/ok
++IndefSg2:^+cIndefSg2^§szorelol§ #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^sz #;    ! esz, el/ol
++IndefSg2:^+cIndefSg2^§igea§sz #;    ! esz, el/ol
++IndefSg3:^+cIndefSg3^           #;    !
++IndefPl1:^+cIndefPl1^§igeu§nk   #;    ! ünk/unk
++IndefPl2:^+cIndefPl2^t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§igea§t§igeo2§k  #;    ! tek/tok
++IndefPl2:^+cIndefPl2^§oe2§t§igeo2§k  #;    ! tek/tok
++IndefPl3:^+cIndefPl3^n§igea§k   #;    ! nek/nak
++IndefPl3:^+cIndefPl3^§igea§n§igea§k   #;    ! nek/nak
++DefSg1:^+cDefSg1^§igeo§m        #;    ! em/om
++DefSg2:^+cDefSg2^§igeo§d        #;    ! ed/od
++DefSg3:^+cDefSg3^§igeija1§       #;    ! i/sa
++DefPl1:^+cDefPl1^§j§§igeu§k      #;    ! jük/suk
++DefPl2:^+cDefPl2^§igejatokitek1§ #;    ! itek/sátok
++DefPl3:^+cDefPl3^§igejakik1§     #;    ! ik/sák
++ConjIndefSg1:^+cConjIndefSg1^s§igea§k     #;
++ConjIndefSg2:^+cConjIndefSg2^s§igeaa§l    #;
++ConjIndefSg2:^+cConjIndefSg2^sék          #;
++ConjIndefSg2:^+cConjIndefSg2^s           #;
++ConjIndefSg3:^+cConjIndefSg3^s§igeo§n     #;
++ConjIndefPl1:^+cConjIndefPl1^s§igeu§nk    #;
++ConjIndefPl2:^+cConjIndefPl2^s§igea§t§igeo§k       #;
++ConjIndefPl3:^+cConjIndefPl3^s§igea§n§igea§k      #;
++ConjDefSg1:^+cConjDefSg1^s§igea§m         #;
++ConjDefSg2:^+cConjDefSg2^s§igea§d         #;
++ConjDefSg2:^+cConjDefSg2^sd              #;
++ConjDefSg3:^+cConjDefSg3^s§igea§          #;
++ConjDefPl1:^+cConjDefPl1^s§igeu§k         #;
++ConjDefPl2:^+cConjDefPl2^s§igeaa§t§igeo§k     #;
++ConjDefPl3:^+cConjDefSg1^s§igeaa§k            #;
++PastIndefSg1:^+cPIndefSg1^§oeue§tt§AA§m            #;    ! tem/tam
++PastIndefSg2:^+cPIndefSg2^§oeue§tt§igeaa§l         #;    ! tál/tél
++PastIndefSg3:^+cPIndefSg3^§igetattet§t      #;    ! t
++PastIndefPl1:^+cPIndefPl1^§oeue§tt§igeu§nk         #;    ! tünk/tunk
++PastIndefPl2:^+cPIndefPl2^§oeue§tt§igea§t§igeo2§k  #;    ! tetek/tatok
++PastIndefPl3:^+cPIndefPl3^§oeue§tt§igea§k          #;    ! tek/tak
++PastDefSg1:^+cPDefSg1^§oeue§tt§igea§m              #;    ! tem/tam
++PastDefSg2:^+cPDefSg2^§oeue§tt§igea§d              #;    ! tad/ted
++PastDefSg3:^+cPDefSg3^§oeue§tt§igea§               #;    ! ta/te
++PastDefPl1:^+cPDefPl1^§oeue§tt§igeu§k              #;    ! tuk/tük
++PastDefPl2:^+cPDefPl2^§oeue§tt§igeaa§t§igeo2§k     #;    ! tátok/tétek
++PastDefPl3:^+cPDefPl3^§oeue§tt§igeaa§k             #;    ! ták/ték
++CondIndefSg1:^+cCIndefSg1^nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^n§igeaa§k                 #;    ! nák/nék
++CondIndefSg1:^+cCIndefSg1^§igea§nék               #;    ! nék
++CondIndefSg2:^+cCIndefSg2^§igea§n§igeaa§l         #;    ! nál/nél
++CondIndefSg3:^+cCIndefSg3^§igea§n§igea§           #;    ! na/ne
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeaa§nk            #;    ! nánk/nénk
++CondIndefPl1:^+cCIndefPl1^§igea§n§igeoo§k #;
++CondIndefPl2:^+cCIndefPl2^§igea§n§igeaa§t§igeo§k      #;    ! nátok/nétek
++CondIndefPl3:^+cCIndefPl3^§igea§n§igeaa§n§igea§k      #;    ! nának/nének
++CondDefSg1:^+cCDefSg1^§igea§n§igeaa§m                 #;    ! nám/ném
++CondDefSg2:^+cCDefSg2^§igea§n§igeaa§d                 #;    ! nád/néd
++CondDefSg3:^+cCDefSg3^§igea§n§igeaa§                  #;    ! ná/né
++CondDefPl1:^+cCDefPl1^§igea§n§igeaa§nk                #;    ! nánk/nénk
++CondDefPl2:^+cCDefPl2^§igea§n§igeaa§t§igeo§k          #;    ! nátok/nétek
++CondDefPl3:^+cCDefPl3^§igea§n§igeaa§k                 #;    ! nák/nék
++IndefSg12:^+cIndefSgp12^§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++IndefSg12:^+cIndefSgp12^§igea§§l§§igea§k           #;    !
++ConjDefSg12:^+cConjDefSgp12^§sj§§igea§l§igea§k          #;
++PastDefSg12:^+cPDefSgp12^§oeue§tt§igea§l§igea§k               #;    ! ta/te
++CondDefSg12:^+cCDefSgp12^n§igeaa§l§igea§k                  #;    ! ná/né
++CondDefSg12:^+cCDefSgp12^§igea§n§igeaa§l§igea§k                  #;    ! ná/né
+

@@ -1,0 +1,252 @@
+!!!enhuoamely-> enhuderek.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§J§ §JP§  §k§
+§VV§   §ooez23§ §EOA22§ §OEOE21§ §uue2§ §AE21§
+§UUE2§ §OEOE25§ §UUE21§ §AE22§ §OEOE22§ §oeoez21§ §oooe2§
+§AAA2§ §oeoe2§ §AA2§ §oeoez25§ §oeoez24§
+      
+LEXICON Root
+Noun;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+! mély és é-> e
+! fazék, derék
+!
+LEXICON Noun
+agyagfazék AddNoun;
+agyagfazék:agyagfazek AddNoun2;
+alumíniumfazék AddNoun;
+alumíniumfazék:alumíniumfazek AddNoun2;
+aranyfazék AddNoun;
+aranyfazék:aranyfazek AddNoun2;
+cserépfazék AddNoun;
+cserépfazék:cserépfazek AddNoun2;
+csőfazék AddNoun;
+csőfazék:csőfazek AddNoun2;
+darázsderék AddNoun;
+darázsderék:darázsderek AddNoun2;
+derék AddNoun;
+derék:derek AddNoun2;
+enyvesfazék AddNoun;
+enyvesfazék:enyvesfazek AddNoun2;
+faderék AddNoun;
+faderék:faderek AddNoun2;
+fazék AddNoun;
+fazék:fazek AddNoun2;
+félderék AddNoun;
+félderék:félderek AddNoun2;
+fütyülőfazék AddNoun;
+fütyülőfazék:fütyülőfazek AddNoun2;
+főzőfazék AddNoun;
+főzőfazék:főzőfazek AddNoun2;
+fűszeresfazék AddNoun;
+fűszeresfazék:fűszeresfazek AddNoun2;
+gyerekderék AddNoun;
+gyerekderék:gyerekderek AddNoun2;
+gyűlöletfazék AddNoun;
+gyűlöletfazék:gyűlöletfazek AddNoun2;
+hadderék AddNoun;
+hadderék:hadderek AddNoun2;
+hajóderék AddNoun;
+hajóderék:hajóderek AddNoun2;
+harcsaderék AddNoun;
+harcsaderék:harcsaderek AddNoun2;
+hordóderék AddNoun;
+hordóderék:hordóderek AddNoun2;
+húsfazék AddNoun;
+húsfazék:húsfazek AddNoun2;
+húslevesfazék AddNoun;
+húslevesfazék:húslevesfazek AddNoun2;
+húsosfazék AddNoun;
+húsosfazék:húsosfazek AddNoun2;
+kisfazék AddNoun;
+kisfazék:kisfazek AddNoun2;
+kocsiderék AddNoun;
+kocsiderék:kocsiderek AddNoun2;
+kuktafazék AddNoun;
+kuktafazék:kuktafazek AddNoun2;
+káposztafazék AddNoun;
+káposztafazék:káposztafazek AddNoun2;
+kőderék AddNoun;
+kőderék:kőderek AddNoun2;
+kőfazék AddNoun;
+kőfazék:kőfazek AddNoun2;
+levesesfazék AddNoun;
+levesesfazék:levesesfazek AddNoun2;
+liliomderék AddNoun;
+liliomderék:liliomderek AddNoun2;
+lugasfazék AddNoun;
+lugasfazék:lugasfazek AddNoun2;
+lóderék AddNoun;
+lóderék:lóderek AddNoun2;
+mosófazék AddNoun;
+mosófazék:mosófazek AddNoun2;
+nadrágderék AddNoun;
+nadrágderék:nadrágderek AddNoun2;
+nyárderék AddNoun;
+nyárderék:nyárderek AddNoun2;
+olvasztófazék AddNoun;
+olvasztófazék:olvasztófazek AddNoun2;
+pillérderék AddNoun;
+pillérderék:pillérderek AddNoun2;
+pléhfazék AddNoun;
+pléhfazék:pléhfazek AddNoun2;
+repedtfazék AddNoun;
+repedtfazék:repedtfazek AddNoun2;
+ruhaderék AddNoun;
+ruhaderék:ruhaderek AddNoun2;
+rézfazék AddNoun;
+rézfazék:rézfazek AddNoun2;
+sajtfazék AddNoun;
+sajtfazék:sajtfazek AddNoun2;
+selyemderék AddNoun;
+selyemderék:selyemderek AddNoun2;
+szalagderék AddNoun;
+szalagderék:szalagderek AddNoun2;
+szekérderék AddNoun;
+szekérderék:szekérderek AddNoun2;
+szentfazék AddNoun;
+szentfazék:szentfazek AddNoun2;
+szexfazék AddNoun;
+szexfazék:szexfazek AddNoun2;
+szilfaderék AddNoun;
+szilfaderék:szilfaderek AddNoun2;
+szoknyaderék AddNoun;
+szoknyaderék:szoknyaderek AddNoun2;
+szálfaderék AddNoun;
+szálfaderék:szálfaderek AddNoun2;
+tejesfazék AddNoun;
+tejesfazék:tejesfazek AddNoun2;
+tölgyderék AddNoun;
+tölgyderék:tölgyderek AddNoun2;
+tölgyfaderék AddNoun;
+tölgyfaderék:tölgyfaderek AddNoun2;
+tűzfazék AddNoun;
+tűzfazék:tűzfazek AddNoun2;
+vasderék AddNoun;
+vasderék:vasderek AddNoun2;
+vasfazék AddNoun;
+vasfazék:vasfazek AddNoun2;
+viaszfazék AddNoun;
+viaszfazék:viaszfazek AddNoun2;
+vállderék AddNoun;
+vállderék:vállderek AddNoun2;
+ércderék AddNoun;
+ércderék:ércderek AddNoun2;
+őzderék AddNoun;
+őzderék:őzderek AddNoun2;
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam1;
+!+Noun:0     Gen1;
+
+LEXICON AddNoun2
++Noun:0     Case2;
+
+LEXICON Poss
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
+!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Posss1s:^+cPosss1s^§OEOE21§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fam;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fam;   !aik, jaik, eik, jeik
+                                    Gen1;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez21§k    Gen;
+			  Gen1;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+			  Gen;
+
+LEXICON Fam1
++Fam:^+cFam^ék         Gen;
+			  Gen1;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+LEXICON Gen1
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+ 
+LEXICON Case
++Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case1
++Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
+!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case2
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
+

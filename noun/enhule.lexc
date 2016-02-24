@@ -1,0 +1,826 @@
+!!!enhu2.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+
+§uue§ §J§ §UUE§ §OEOE§ §JP§ §AE§ §OEOE2§
+§UUE1§ §oooe§ §AAA§ §oeoe§ §AA§ §oeoez§ §AE1§
+§VV§ §ooez13§ §EOA2§ §OEOE11§ §oeoez12§ §oeoez11§ §JPnull§ §Jnull§
+§k§
+
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+! lé, ló
+LEXICON Noun
+abálólé AddNoun;
+abálólé:abálólev AddNoun1;
+agyagló AddNounlo;
+agyagló:agyaglov AddNoun1;
+almalé AddNoun;
+almalé:almalev AddNoun1;
+aloélé AddNoun;
+aloélé:aloélev AddNoun1;
+anyaló AddNounlo;
+anyaló:anyalov AddNoun1;
+babaivólé AddNoun;
+babaivólé:babaivólev AddNoun1;
+bablé AddNoun;
+bablé:bablev AddNoun1;
+bagólé AddNoun;
+bagólé:bagólev AddNoun1;
+banánlé AddNoun;
+banánlé:banánlev AddNoun1;
+baracklé AddNoun;
+baracklé:baracklev AddNoun1;
+befőttlé AddNoun;
+befőttlé:befőttlev AddNoun1;
+befőzőlé AddNoun;
+befőzőlé:befőzőlev AddNoun1;
+bendőlé AddNoun;
+bendőlé:bendőlev AddNoun1;
+biogyümölcslé AddNoun;
+biogyümölcslé:biogyümölcslev AddNoun1;
+bodzalé AddNoun;
+bodzalé:bodzalev AddNoun1;
+bodzaviráglé AddNoun;
+bodzaviráglé:bodzaviráglev AddNoun1;
+bogyólé AddNoun;
+bogyólé:bogyólev AddNoun1;
+borlé AddNoun;
+borlé:borlev AddNoun1;
+borogatáslé AddNoun;
+borogatáslé:borogatáslev AddNoun1;
+borscslé AddNoun;
+borscslé:borscslev AddNoun1;
+brokkolilé AddNoun;
+brokkolilé:brokkolilev AddNoun1;
+bronzló AddNounlo;
+bronzló:bronzlov AddNoun1;
+burgonyalé AddNoun;
+burgonyalé:burgonyalev AddNoun1;
+bábló AddNounlo;
+bábló:báblov AddNoun1;
+bérló AddNounlo;
+bérló:bérlov AddNoun1;
+büröklé AddNoun;
+büröklé:büröklev AddNoun1;
+bűzlé AddNoun;
+bűzlé:bűzlev AddNoun1;
+cefrelé AddNoun;
+cefrelé:cefrelev AddNoun1;
+cementlé AddNoun;
+cementlé:cementlev AddNoun1;
+centrálé AddNoun;
+centrálé:centrálev AddNoun1;
+ciberelé AddNoun;
+ciberelé:ciberelev AddNoun1;
+citromlé AddNoun;
+citromlé:citromlev AddNoun1;
+ciánlé AddNoun;
+ciánlé:ciánlev AddNoun1;
+cowboyló AddNounlo;
+cowboyló:cowboylov AddNoun1;
+csaliló AddNounlo;
+csaliló:csalilov AddNoun1;
+csalánlé AddNoun;
+csalánlé:csalánlev AddNoun1;
+csapadéklé AddNoun;
+csapadéklé:csapadéklev AddNoun1;
+csataló AddNounlo;
+csataló:csatalov AddNoun1;
+csatornalé AddNoun;
+csatornalé:csatornalev AddNoun1;
+cseresznyelé AddNoun;
+cseresznyelé:cseresznyelev AddNoun1;
+cserkeszló AddNounlo;
+cserkeszló:cserkeszlov AddNoun1;
+cserlé AddNoun;
+cserlé:cserlev AddNoun1;
+cserzőlé AddNoun;
+cserzőlé:cserzőlev AddNoun1;
+cserépló AddNounlo;
+cserépló:cseréplov AddNoun1;
+csirkehúslé AddNoun;
+csirkehúslé:csirkehúslev AddNoun1;
+csirkelé AddNoun;
+csirkelé:csirkelev AddNoun1;
+csodalé AddNoun;
+csodalé:csodalev AddNoun1;
+csodaló AddNounlo;
+csodaló:csodalov AddNoun1;
+csontlé AddNoun;
+csontlé:csontlev AddNoun1;
+csudaló AddNounlo;
+csudaló:csudalov AddNoun1;
+csukalé AddNoun;
+csukalé:csukalev AddNoun1;
+csávalé AddNoun;
+csávalé:csávalev AddNoun1;
+csávázólé AddNoun;
+csávázólé:csávázólev AddNoun1;
+csíramálé AddNoun;
+csíramálé:csíramálev AddNoun1;
+cukorlé AddNoun;
+cukorlé:cukorlev AddNoun1;
+cukornádlé AddNoun;
+cukornádlé:cukornádlev AddNoun1;
+céklalé AddNoun;
+céklalé:céklalev AddNoun1;
+datolyalé AddNoun;
+datolyalé:datolyalev AddNoun1;
+degesztőlé AddNoun;
+degesztőlé:degesztőlev AddNoun1;
+dinnyelé AddNoun;
+dinnyelé:dinnyelev AddNoun1;
+dohánylé AddNoun;
+dohánylé:dohánylev AddNoun1;
+dragonyosló AddNounlo;
+dragonyosló:dragonyoslov AddNoun1;
+dzsidásló AddNounlo;
+dzsidásló:dzsidáslov AddNoun1;
+díjló AddNounlo;
+díjló:díjlov AddNoun1;
+előfogatló AddNounlo;
+előfogatló:előfogatlov AddNoun1;
+előáztatólé AddNoun;
+előáztatólé:előáztatólev AddNoun1;
+endívialé AddNoun;
+endívialé:endívialev AddNoun1;
+eperlé AddNoun;
+eperlé:eperlev AddNoun1;
+esőlé AddNoun;
+esőlé:esőlev AddNoun1;
+eukaliptuszlé AddNoun;
+eukaliptuszlé:eukaliptuszlev AddNoun1;
+ezüstló AddNounlo;
+ezüstló:ezüstlov AddNoun1;
+fajló AddNounlo;
+fajló:fajlov AddNoun1;
+faló AddNounlo;
+faló:falov AddNoun1;
+fecskendőpáclé AddNoun;
+fecskendőpáclé:fecskendőpáclev AddNoun1;
+feketeribizlilé AddNoun;
+feketeribizlilé:feketeribizlilev AddNoun1;
+felöntőlé AddNoun;
+felöntőlé:felöntőlev AddNoun1;
+festéklé AddNoun;
+festéklé:festéklev AddNoun1;
+festőlé AddNoun;
+festőlé:festőlev AddNoun1;
+fiákerló AddNounlo;
+fiákerló:fiákerlov AddNoun1;
+fodormentalé AddNoun;
+fodormentalé:fodormentalev AddNoun1;
+fogatló AddNounlo;
+fogatló:fogatlov AddNoun1;
+férfiló AddNounlo;
+férfiló:férfilov AddNoun1;
+fürdőlé AddNoun;
+fürdőlé:fürdőlev AddNoun1;
+főló AddNounlo;
+főló:főlov AddNoun1;
+főzőlé AddNoun;
+főzőlé:főzőlev AddNoun1;
+fűlé AddNoun;
+fűlé:fűlev AddNoun1;
+fűszerlé AddNoun;
+fűszerlé:fűszerlev AddNoun1;
+gabonalé AddNoun;
+gabonalé:gabonalev AddNoun1;
+galoppló AddNounlo;
+galoppló:galopplov AddNoun1;
+galuskalé AddNoun;
+galuskalé:galuskalev AddNoun1;
+ganajlé AddNoun;
+ganajlé:ganajlev AddNoun1;
+ganéjlé AddNoun;
+ganéjlé:ganéjlev AddNoun1;
+ganélé AddNoun;
+ganélé:ganélev AddNoun1;
+garancialé AddNoun;
+garancialé:garancialev AddNoun1;
+gebeló AddNounlo;
+gebeló:gebelov AddNoun1;
+gennylé AddNoun;
+gennylé:gennylev AddNoun1;
+gombóclé AddNoun;
+gombóclé:gombóclev AddNoun1;
+grapefruitlé AddNoun;
+grapefruitlé:grapefruitlev AddNoun1;
+gránátalmalé AddNoun;
+gránátalmalé:gránátalmalev AddNoun1;
+grépfrútlé AddNoun;
+grépfrútlé:grépfrútlev AddNoun1;
+gubacslé AddNoun;
+gubacslé:gubacslev AddNoun1;
+gulyáslé AddNoun;
+gulyáslé:gulyáslev AddNoun1;
+gyerekló AddNounlo;
+gyerekló:gyereklov AddNoun1;
+gyermekláncfűlé AddNoun;
+gyermekláncfűlé:gyermekláncfűlev AddNoun1;
+gyermekló AddNounlo;
+gyermekló:gyermeklov AddNoun1;
+gyászló AddNounlo;
+gyászló:gyászlov AddNoun1;
+gyümölcslé AddNoun;
+gyümölcslé:gyümölcslev AddNoun1;
+gépló AddNounlo;
+gépló:géplov AddNoun1;
+görögdinnyelé AddNoun;
+görögdinnyelé:görögdinnyelev AddNoun1;
+hablé AddNoun;
+hablé:hablev AddNoun1;
+hagymalé AddNoun;
+hagymalé:hagymalev AddNoun1;
+hajtóló AddNounlo;
+hajtóló:hajtólov AddNoun1;
+hallé AddNoun;
+hallé:hallev AddNoun1;
+halászlé AddNoun;
+halászlé:halászlev AddNoun1;
+harcsalé AddNoun;
+harcsalé:harcsalev AddNoun1;
+harmatlé AddNoun;
+harmatlé:harmatlev AddNoun1;
+hendikepló AddNounlo;
+hendikepló:hendikeplov AddNoun1;
+heringlé AddNoun;
+heringlé:heringlev AddNoun1;
+hintaló AddNounlo;
+hintaló:hintalov AddNoun1;
+hintavíziló AddNounlo;
+hintavíziló:hintavízilov AddNoun1;
+hintóló AddNounlo;
+hintóló:hintólov AddNoun1;
+hobbiló AddNounlo;
+hobbiló:hobbilov AddNoun1;
+honvédló AddNounlo;
+honvédló:honvédlov AddNoun1;
+hurkalé AddNoun;
+hurkalé:hurkalev AddNoun1;
+huszárló AddNounlo;
+huszárló:huszárlov AddNoun1;
+hátasló AddNounlo;
+hátasló:hátaslov AddNoun1;
+hígtrágyalé AddNoun;
+hígtrágyalé:hígtrágyalev AddNoun1;
+hígítólé AddNoun;
+hígítólé:hígítólev AddNoun1;
+hímló AddNounlo;
+hímló:hímlov AddNoun1;
+hólé AddNoun;
+hólé:hólev AddNoun1;
+húgylé AddNoun;
+húgylé:húgylev AddNoun1;
+húslé AddNoun;
+húslé:húslev AddNoun1;
+húsló AddNounlo;
+húsló:húslov AddNoun1;
+hűtőlé AddNoun;
+hűtőlé:hűtőlev AddNoun1;
+igásló AddNounlo;
+igásló:igáslov AddNoun1;
+iskolaló AddNounlo;
+iskolaló:iskolalov AddNoun1;
+istenló AddNounlo;
+istenló:istenlov AddNoun1;
+iszaplé AddNoun;
+iszaplé:iszaplev AddNoun1;
+ivólé AddNoun;
+ivólé:ivólev AddNoun1;
+jelzáloglé AddNoun;
+jelzáloglé:jelzáloglev AddNoun1;
+juharlé AddNoun;
+juharlé:juharlev AddNoun1;
+játékló AddNounlo;
+játékló:játéklov AddNoun1;
+kakaólé AddNoun;
+kakaólé:kakaólev AddNoun1;
+kaktuszlé AddNoun;
+kaktuszlé:kaktuszlev AddNoun1;
+kancaló AddNounlo;
+kancaló:kancalov AddNoun1;
+kaszáslé AddNoun;
+kaszáslé:kaszáslev AddNoun1;
+katonaló AddNounlo;
+katonaló:katonalov AddNoun1;
+kellékló AddNounlo;
+kellékló:kelléklov AddNoun1;
+keveréklé AddNoun;
+keveréklé:keveréklev AddNoun1;
+kezdőló AddNounlo;
+kezdőló:kezdőlov AddNoun1;
+kocsiló AddNounlo;
+kocsiló:kocsilov AddNoun1;
+kocsisló AddNounlo;
+kocsisló:kocsislov AddNoun1;
+kocsonyalé AddNoun;
+kocsonyalé:kocsonyalev AddNoun1;
+komlólé AddNoun;
+komlólé:komlólev AddNoun1;
+komplé AddNoun;
+komplé:komplev AddNoun1;
+kompótlé AddNoun;
+kompótlé:kompótlev AddNoun1;
+konflisló AddNounlo;
+konflisló:konflislov AddNoun1;
+korhelyhalászlé AddNoun;
+korhelyhalászlé:korhelyhalászlev AddNoun1;
+korpalé AddNoun;
+korpalé:korpalev AddNoun1;
+kovászlé AddNoun;
+kovászlé:kovászlev AddNoun1;
+kozákló AddNounlo;
+kozákló:kozáklov AddNoun1;
+krómlé AddNoun;
+krómlé:krómlev AddNoun1;
+kukoricamálé AddNoun;
+kukoricamálé:kukoricamálev AddNoun1;
+kuplé AddNoun;
+kuplé:kuplev AddNoun1;
+káposztalé AddNoun;
+káposztalé:káposztalev AddNoun1;
+képhandlé:képhandlev AddNoun1;
+kókuszlé AddNoun;
+kókuszlé:kókuszlev AddNoun1;
+kölcsönló AddNounlo;
+kölcsönló:kölcsönlov AddNoun1;
+köleslé AddNoun;
+köleslé:köleslev AddNoun1;
+kőló AddNounlo;
+kőló:kőlov AddNoun1;
+laskalé AddNoun;
+laskalé:laskalev AddNoun1;
+levendulalé AddNoun;
+levendulalé:levendulalev AddNoun1;
+luxusló AddNounlo;
+luxusló:luxuslov AddNoun1;
+lé     AddNoun;
+lé AddNoun;
+lé:lev AddNoun1;
+ló     AddNounlo;
+ló:lov AddNoun1;
+macskaló AddNounlo;
+macskaló:macskalov AddNoun1;
+majoránnalé AddNoun;
+majoránnalé:majoránnalev AddNoun1;
+malátalé AddNoun;
+malátalé:malátalev AddNoun1;
+mandragóralé AddNoun;
+mandragóralé:mandragóralev AddNoun1;
+mangólé AddNoun;
+mangólé:mangólev AddNoun1;
+marhahúslé AddNoun;
+marhahúslé:marhahúslev AddNoun1;
+mazsolalé AddNoun;
+mazsolalé:mazsolalev AddNoun1;
+meggybefőttlé AddNoun;
+meggybefőttlé:meggybefőttlev AddNoun1;
+meggylé AddNoun;
+meggylé:meggylev AddNoun1;
+mentalé AddNoun;
+mentalé:mentalev AddNoun1;
+meseló AddNounlo;
+meseló:meselov AddNoun1;
+miniló AddNounlo;
+miniló:minilov AddNoun1;
+mintaló AddNounlo;
+mintaló:mintalov AddNoun1;
+mocsoklé AddNoun;
+mocsoklé:mocsoklev AddNoun1;
+mocsárlé AddNoun;
+mocsárlé:mocsárlev AddNoun1;
+mosogatólé AddNoun;
+mosogatólé:mosogatólev AddNoun1;
+munkaló AddNounlo;
+munkaló:munkalov AddNoun1;
+máklé AddNoun;
+máklé:máklev AddNoun1;
+málhásló AddNounlo;
+málhásló:málháslov AddNoun1;
+málnalé AddNoun;
+málnalé:málnalev AddNoun1;
+málé AddNoun;
+málé:málev AddNoun1;
+ménló AddNounlo;
+ménló:ménlov AddNoun1;
+mészkénlé AddNoun;
+mészkénlé:mészkénlev AddNoun1;
+mészlé AddNoun;
+mészlé:mészlev AddNoun1;
+műló AddNounlo;
+műló:műlov AddNoun1;
+narancslé AddNoun;
+narancslé:narancslev AddNoun1;
+nektárlé AddNoun;
+nektárlé:nektárlev AddNoun1;
+nikotinlé AddNoun;
+nikotinlé:nikotinlev AddNoun1;
+nyomtatóló AddNounlo;
+nyomtatóló:nyomtatólov AddNoun1;
+nyárfalé AddNoun;
+nyárfalé:nyárfalev AddNoun1;
+nyírfalé AddNoun;
+nyírfalé:nyírfalev AddNoun1;
+olívalé AddNoun;
+olívalé:olívalev AddNoun1;
+orchidealé AddNoun;
+orchidealé:orchidealev AddNoun1;
+pacallé AddNoun;
+pacallé:pacallev AddNoun1;
+panírlé AddNoun;
+panírlé:panírlev AddNoun1;
+paprikalé AddNoun;
+paprikalé:paprikalev AddNoun1;
+paradicsomlé AddNoun;
+paradicsomlé:paradicsomlev AddNoun1;
+parasztgombóclé AddNoun;
+parasztgombóclé:parasztgombóclev AddNoun1;
+parasztló AddNounlo;
+parasztló:parasztlov AddNoun1;
+parkló AddNounlo;
+parkló:parklov AddNoun1;
+parádésló AddNounlo;
+parádésló:parádéslov AddNoun1;
+pecsenyelé AddNoun;
+pecsenyelé:pecsenyelev AddNoun1;
+pejló AddNounlo;
+pejló:pejlov AddNoun1;
+permetezőlé AddNoun;
+permetezőlé:permetezőlev AddNoun1;
+permetlé AddNoun;
+permetlé:permetlev AddNoun1;
+pinceló AddNounlo;
+pinceló:pincelov AddNoun1;
+pityókalé AddNoun;
+pityókalé:pityókalev AddNoun1;
+platánlé AddNoun;
+platánlé:platánlev AddNoun1;
+plüssló AddNounlo;
+plüssló:plüsslov AddNoun1;
+pocsolyalé AddNoun;
+pocsolyalé:pocsolyalev AddNoun1;
+postaló AddNounlo;
+postaló:postalov AddNoun1;
+postásló AddNounlo;
+postásló:postáslov AddNoun1;
+préslé AddNoun;
+préslé:préslev AddNoun1;
+puncilé AddNoun;
+puncilé:puncilev AddNoun1;
+puncslé AddNoun;
+puncslé:puncslev AddNoun1;
+páclé AddNoun;
+páclé:páclev AddNoun1;
+pálmalé AddNoun;
+pálmalé:pálmalev AddNoun1;
+párolólé AddNoun;
+párolólé:párolólev AddNoun1;
+pólóló AddNounlo;
+pólóló:pólólov AddNoun1;
+póniló AddNounlo;
+póniló:pónilov AddNoun1;
+póréhagymalé AddNoun;
+póréhagymalé:póréhagymalev AddNoun1;
+pótló AddNounlo;
+pótló:pótlov AddNoun1;
+pörköltlé AddNoun;
+pörköltlé:pörköltlev AddNoun1;
+regényhandlé AddNoun;
+regényhandlé:regényhandlev AddNoun1;
+rendőrló AddNounlo;
+rendőrló:rendőrlov AddNoun1;
+reteklé AddNoun;
+reteklé:reteklev AddNoun1;
+ribizlilé AddNoun;
+ribizlilé:ribizlilev AddNoun1;
+ricinuslé AddNoun;
+ricinuslé:ricinuslev AddNoun1;
+rizslé AddNoun;
+rizslé:rizslev AddNoun1;
+robotló AddNounlo;
+robotló:robotlov AddNoun1;
+répalé AddNoun;
+répalé:répalev AddNoun1;
+rézló AddNounlo;
+rézló:rézlov AddNoun1;
+sakkló AddNounlo;
+sakkló:sakklov AddNoun1;
+salaklé AddNoun;
+salaklé:salaklev AddNoun1;
+salátalé AddNoun;
+salátalé:salátalev AddNoun1;
+salátapáclé AddNoun;
+salátapáclé:salátapáclev AddNoun1;
+sonkalé AddNoun;
+sonkalé:sonkalev AddNoun1;
+spenótlé AddNoun;
+spenótlé:spenótlev AddNoun1;
+sportló AddNounlo;
+sportló:sportlov AddNoun1;
+spárgalé AddNoun;
+spárgalé:spárgalev AddNoun1;
+szalmaló AddNounlo;
+szalmaló:szalmalov AddNoun1;
+szalonnalé AddNoun;
+szalonnalé:szalonnalev AddNoun1;
+szamócalé AddNoun;
+szamócalé:szamócalev AddNoun1;
+szappanlé AddNoun;
+szappanlé:szappanlev AddNoun1;
+szarlé AddNoun;
+szarlé:szarlev AddNoun1;
+szecskalé AddNoun;
+szecskalé:szecskalev AddNoun1;
+szemétlé AddNoun;
+szemétlé:szemétlev AddNoun1;
+szennylé AddNoun;
+szennylé:szennylev AddNoun1;
+szeszlé AddNoun;
+szeszlé:szeszlev AddNoun1;
+szilvalé AddNoun;
+szilvalé:szilvalev AddNoun1;
+sziromlé AddNoun;
+sziromlé:sziromlev AddNoun1;
+szobaló AddNounlo;
+szobaló:szobalov AddNoun1;
+szénsavasgyümölcslé AddNoun;
+szénsavasgyümölcslé:szénsavasgyümölcslev AddNoun1;
+szörplé AddNoun;
+szörplé:szörplev AddNoun1;
+szőlőlé AddNoun;
+szőlőlé:szőlőlev AddNoun1;
+sárgadinnyelé AddNoun;
+sárgadinnyelé:sárgadinnyelev AddNoun1;
+sárgarépalé AddNoun;
+sárgarépalé:sárgarépalev AddNoun1;
+sárlé AddNoun;
+sárlé:sárlev AddNoun1;
+sólé AddNoun;
+sólé:sólev AddNoun1;
+sóskalé AddNoun;
+sóskalé:sóskalev AddNoun1;
+sörlé AddNoun;
+sörlé:sörlev AddNoun1;
+sörló AddNounlo;
+sörló:sörlov AddNoun1;
+sörösló AddNounlo;
+sörösló:söröslov AddNoun1;
+taligásló AddNounlo;
+taligásló:taligáslov AddNoun1;
+tanló AddNounlo;
+tanló:tanlov AddNoun1;
+tanítóló AddNounlo;
+tanítóló:tanítólov AddNoun1;
+taposóló AddNounlo;
+taposóló:taposólov AddNoun1;
+tatárló AddNounlo;
+tatárló:tatárlov AddNoun1;
+teherló AddNounlo;
+teherló:teherlov AddNoun1;
+tejesmálé AddNoun;
+tejesmálé:tejesmálev AddNoun1;
+tenyészló AddNounlo;
+tenyészló:tenyészlov AddNoun1;
+tenyésztőlé AddNoun;
+tenyésztőlé:tenyésztőlev AddNoun1;
+terepló AddNounlo;
+terepló:tereplov AddNoun1;
+tigrisló AddNounlo;
+tigrisló:tigrislov AddNoun1;
+tintalé AddNoun;
+tintalé:tintalev AddNoun1;
+tojáslé AddNoun;
+tojáslé:tojáslev AddNoun1;
+tormalé AddNoun;
+tormalé:tormalev AddNoun1;
+tornaló AddNounlo;
+tornaló:tornalov AddNoun1;
+trágyalé AddNoun;
+trágyalé:trágyalev AddNoun1;
+trágyaló AddNounlo;
+trágyaló:trágyalov AddNoun1;
+tyúkhúslé AddNoun;
+tyúkhúslé:tyúkhúslev AddNoun1;
+társzekérló AddNounlo;
+társzekérló:társzekérlov AddNoun1;
+téglaló AddNounlo;
+téglaló:téglalov AddNoun1;
+tésztalé AddNoun;
+tésztalé:tésztalev AddNoun1;
+töltőlé AddNoun;
+töltőlé:töltőlev AddNoun1;
+törpeló AddNounlo;
+törpeló:törpelov AddNoun1;
+törpevíziló AddNounlo;
+törpevíziló:törpevízilov AddNoun1;
+túraló AddNounlo;
+túraló:túralov AddNoun1;
+túrólé AddNoun;
+túrólé:túrólev AddNoun1;
+tüzérló AddNounlo;
+tüzérló:tüzérlov AddNoun1;
+uborkalé AddNoun;
+uborkalé:uborkalev AddNoun1;
+ugarló AddNounlo;
+ugarló:ugarlov AddNoun1;
+ugróló AddNounlo;
+ugróló:ugrólov AddNoun1;
+utazóló AddNounlo;
+utazóló:utazólov AddNoun1;
+utódló AddNounlo;
+utódló:utódlov AddNoun1;
+vadló AddNounlo;
+vadló:vadlov AddNoun1;
+vadászló AddNounlo;
+vadászló:vadászlov AddNoun1;
+vakló AddNounlo;
+vakló:vaklov AddNoun1;
+varázshalászlé AddNoun;
+varázshalászlé:varázshalászlev AddNoun1;
+vasló AddNounlo;
+vasló:vaslov AddNoun1;
+vendégló AddNounlo;
+vendégló:vendéglov AddNoun1;
+versenyló AddNounlo;
+versenyló:versenylov AddNoun1;
+vezetékló AddNounlo;
+vezetékló:vezetéklov AddNoun1;
+vezérló AddNounlo;
+vezérló:vezérlov AddNoun1;
+virslilé AddNoun;
+virslilé:virslilev AddNoun1;
+vágóló AddNounlo;
+vágóló:vágólov AddNoun1;
+váltóló AddNounlo;
+váltóló:váltólov AddNoun1;
+vámosló AddNounlo;
+vámosló:vámoslov AddNoun1;
+vérnarancslé AddNoun;
+vérnarancslé:vérnarancslev AddNoun1;
+víziló AddNounlo;
+víziló:vízilov AddNoun1;
+vöröshagymalé AddNoun;
+vöröshagymalé:vöröshagymalev AddNoun1;
+zöldbablé AddNoun;
+zöldbablé:zöldbablev AddNoun1;
+áfonyalé AddNoun;
+áfonyalé:áfonyalev AddNoun1;
+állatorvosló AddNounlo;
+állatorvosló:állatorvoslov AddNoun1;
+árpalé AddNoun;
+árpalé:árpalev AddNoun1;
+áztatólé AddNoun;
+áztatólé:áztatólev AddNoun1;
+édesgyökérlé AddNoun;
+édesgyökérlé:édesgyökérlev AddNoun1;
+ércló AddNounlo;
+ércló:érclov AddNoun1;
+ürömlé AddNoun;
+ürömlé:ürömlev AddNoun1;
+ősló AddNounlo;
+ősló:őslov AddNoun1;
+
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam;
+
+
+LEXICON Poss
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^kor              #;    ! kor
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, aa,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, önk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez11§k    Gen;
+                            Gen;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+
+LEXICON Gen
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi       Case;
+                         Case;
+ 
+LEXICON Case
++Abl:^+cAbl^t§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA§l       #;  ! nál, nél
++All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA§k        #;  ! nak, nek
++Del:^+cDel^r§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§     #;  ! val, vel
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA§         #;  ! ból, ből
++Ine:^+cIne^b§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l     #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n      #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON AddNoun1
++Noun:0     Poss1;
++Noun:0     Plur1;
++Noun:0     Case1;
+
+LEXICON Poss1
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^§Jnull§§AE1§   Fam;   ! ja, je, aa,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, önk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§Jnull§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                                  
+
+LEXICON Plur1
++Plur:^+cPlur^§oeoez11§k    Gen;
+                       
+LEXICON Case1
++Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Sup:^+cSup^§oeoez§n      #;  ! on, en, ön, n
+
+
+LEXICON AddNounlo
++Noun:0     Famlo;
+
+LEXICON Famlo
++Tem:^+cTem^kor              #;    ! kor
++Fam:^+cFam^ék         Genlo;
+                       Genlo;
+
+LEXICON Genlo
++Gens:^+cGens^é          Caselo;
++Genpl:^+cGenpl^éi       Caselo;
+                         Caselo;
+ 
+LEXICON Caselo
++Abl:^+cAbl^t§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA§l       #;  ! nál, nél
++All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA§k        #;  ! nak, nek
++Del:^+cDel^r§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§     #;  ! val, vel
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA§         #;  ! ból, ből
++Ine:^+cIne^b§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l     #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n      #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor

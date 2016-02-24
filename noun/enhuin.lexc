@@ -1,0 +1,930 @@
+!!!enhuin.lexc ín híd nyíl !!!
+
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§k§
+§VV§   §ooez23§ §EOA22§ §OEOE21§ §uue2§ §AE21§
+§UUE2§ §OEOE25§ §UUE21§ §AE22§ §OEOE22§ §oeoez21§ §oooe2§ 
+§AAA2§ §oeoe2§ §AA2§ §oeoez25§ §oeoez24§ §JJ§ §Jnull§
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+!ín, híd, nyíl (ne legyen a mélyben is!)
+LEXICON Noun
+Achilles-ín AddNoun;
+Achilles-ín:Achilles-in AddNoun1;
+Bailey-híd AddNoun;
+Bailey-híd:Bayley-hid AddNoun1;
+Basahíd AddNoun;
+Basahíd:Basahid AddNoun1;
+Drávaóhíd AddNoun;
+Drávaóhíd:Drávaóhid AddNoun1;
+Jankahíd AddNoun;
+Jankahíd:Jankahid AddNoun1;
+Megyehíd AddNoun;
+Megyehíd:Megyehid AddNoun1;
+Szamosborhíd AddNoun;
+Szamosborhíd:Szamoshid AddNoun1;
+Székelyhíd AddNoun;
+Székelyhíd:Székelyhid AddNoun1;
+Váldhíd AddNoun;
+Váldhíd:Válhid AddNoun1;
+ablakhíd AddNoun;
+ablakhíd:ablakhid AddNoun1;
+acélhíd AddNoun;
+acélhíd:acélhid AddNoun1;
+adathíd AddNoun;
+adathíd:adathid AddNoun1;
+agrárhíd AddNoun;
+agrárhíd:agrárhid AddNoun1;
+aknatoronyhíd AddNoun;
+aknatoronyhíd:aknatoronyhid AddNoun1;
+alumíniumhíd AddNoun;
+alumíniumhíd:alumíniumhid AddNoun1;
+angyalhíd AddNoun;
+angyalhíd:angyalhid AddNoun1;
+anyaghíd AddNoun;
+anyaghíd:anyaghid AddNoun1;
+apahíd AddNoun;
+apahíd:apahid AddNoun1;
+apáthíd AddNoun;
+apáthíd:apáthid AddNoun1;
+aranyhíd AddNoun;
+aranyhíd:aranyhid AddNoun1;
+aranynyíl AddNoun;
+aranynyíl:aranynyil AddNoun1;
+autópályahíd AddNoun;
+autópályahíd:autópályahid AddNoun1;
+azsúrnyíl AddNoun;
+azsúrnyíl:azsúrnyil AddNoun1;
+bakhíd AddNoun;
+bakhíd:bakhid AddNoun1;
+balnyíl AddNoun;
+balnyíl:balnyil AddNoun1;
+bambuszhíd AddNoun;
+bambuszhíd:bambuszhid AddNoun1;
+baromfivágóhíd AddNoun;
+baromfivágóhíd:baromfivágóhid AddNoun1;
+bejáróhíd AddNoun;
+bejáróhíd:bejáróhid AddNoun1;
+bekötőhíd AddNoun;
+bekötőhíd:bekötőhid AddNoun1;
+beretvahíd AddNoun;
+beretvahíd:beretvahid AddNoun1;
+betonhíd AddNoun;
+betonhíd:betonhid AddNoun1;
+billegőhíd AddNoun;
+billegőhíd:billegőhid AddNoun1;
+billenőhíd AddNoun;
+billenőhíd:billenőhid AddNoun1;
+birkózóhíd AddNoun;
+birkózóhíd:birkózóhid AddNoun1;
+borotvahíd AddNoun;
+borotvahíd:borotvahid AddNoun1;
+bronznyíl AddNoun;
+bronznyíl:bronznyil AddNoun1;
+békehíd AddNoun;
+békehíd:békehid AddNoun1;
+bürühíd AddNoun;
+bürühíd:bürühid AddNoun1;
+cellulózhíd AddNoun;
+cellulózhíd:cellulózhid AddNoun1;
+csapóhíd AddNoun;
+csapóhíd:csapóhid AddNoun1;
+csatornahíd AddNoun;
+csatornahíd:csatornahid AddNoun1;
+csillaghíd AddNoun;
+csillaghíd:csillaghid AddNoun1;
+csodahíd AddNoun;
+csodahíd:csodahid AddNoun1;
+csodanyíl AddNoun;
+csodanyíl:csodanyil AddNoun1;
+csonthíd AddNoun;
+csonthíd:csonthid AddNoun1;
+császárhíd AddNoun;
+császárhíd:császárhid AddNoun1;
+csónakhíd AddNoun;
+csónakhíd:csónakhid AddNoun1;
+csőhíd AddNoun;
+csőhíd:csőhid AddNoun1;
+cérnahíd AddNoun;
+cérnahíd:cérnahid AddNoun1;
+cölöphíd AddNoun;
+cölöphíd:cölöphid AddNoun1;
+daruhíd AddNoun;
+daruhíd:daruhid AddNoun1;
+deszkahíd AddNoun;
+deszkahíd:deszkahid AddNoun1;
+diszulfidhíd AddNoun;
+diszulfidhíd:diszulfidhid AddNoun1;
+diódahíd AddNoun;
+diódahíd:diódahid AddNoun1;
+dobogóhíd AddNoun;
+dobogóhíd:dobogóhid AddNoun1;
+dobónyíl AddNoun;
+dobónyíl:dobónyil AddNoun1;
+dolomithíd AddNoun;
+dolomithíd:dolomithid AddNoun1;
+doronghíd AddNoun;
+doronghíd:doronghid AddNoun1;
+dróthíd AddNoun;
+dróthíd:dróthid AddNoun1;
+drótkötélhíd AddNoun;
+drótkötélhíd:drótkötélhid AddNoun1;
+dzsungelhíd AddNoun;
+dzsungelhíd:dzsungelhid AddNoun1;
+ebvágóhíd AddNoun;
+ebvágóhíd:ebvágóhid AddNoun1;
+egérnyíl AddNoun;
+egérnyíl:egérnyil AddNoun1;
+emelőhíd AddNoun;
+emelőhíd:emelőhid AddNoun1;
+emlősvágóhíd AddNoun;
+emlősvágóhíd:emlősvágóhid AddNoun1;
+energiahíd AddNoun;
+energiahíd:energiahid AddNoun1;
+energianyíl AddNoun;
+energianyíl:energianyil AddNoun1;
+etilénhíd AddNoun;
+etilénhíd:etilénhid AddNoun1;
+euróhíd AddNoun;
+euróhíd:euróhid AddNoun1;
+exportvágóhíd AddNoun;
+exportvágóhíd:exportvágóhid AddNoun1;
+ezüsthíd AddNoun;
+ezüsthíd:ezüsthid AddNoun1;
+ezüstnyíl AddNoun;
+ezüstnyíl:ezüstnyil AddNoun1;
+fahíd AddNoun;
+fahíd:fahid AddNoun1;
+faluhíd AddNoun;
+faluhíd:faluhid AddNoun1;
+fanyíl AddNoun;
+fanyíl:fanyil AddNoun1;
+farönkhíd AddNoun;
+farönkhíd:farönkhid AddNoun1;
+felhajtóhíd AddNoun;
+felhajtóhíd:felhajtóhid AddNoun1;
+feljáróhíd AddNoun;
+feljáróhíd:feljáróhid AddNoun1;
+felvonóhíd AddNoun;
+felvonóhíd:felvonóhid AddNoun1;
+felüljáróhíd AddNoun;
+felüljáróhíd:felüljáróhid AddNoun1;
+feszítőhíd AddNoun;
+feszítőhíd:feszítőhid AddNoun1;
+foghíd AddNoun;
+foghíd:foghid AddNoun1;
+fogpiszkálóhíd AddNoun;
+fogpiszkálóhíd:fogpiszkálóhid AddNoun1;
+folyadékhíd AddNoun;
+folyadékhíd:folyadékhid AddNoun1;
+folyamhíd AddNoun;
+folyamhíd:folyamhid AddNoun1;
+folyóhíd AddNoun;
+folyóhíd:folyóhid AddNoun1;
+forgóhíd AddNoun;
+forgóhíd:forgóhid AddNoun1;
+fotonhíd AddNoun;
+fotonhíd:fotonhid AddNoun1;
+fronthíd AddNoun;
+fronthíd:fronthid AddNoun1;
+futóhíd AddNoun;
+futóhíd:futóhid AddNoun1;
+fájdalomnyíl AddNoun;
+fájdalomnyíl:fájdalomnyil AddNoun1;
+félhíd AddNoun;
+félhíd:félhid AddNoun1;
+félnyíl AddNoun;
+félnyíl:félnyil AddNoun1;
+fémhíd AddNoun;
+fémhíd:fémhid AddNoun1;
+fényhíd AddNoun;
+fényhíd:fényhid AddNoun1;
+földhíd AddNoun;
+földhíd:földhid AddNoun1;
+fölvonóhíd AddNoun;
+fölvonóhíd:fölvonóhid AddNoun1;
+függesztőhíd AddNoun;
+függesztőhíd:függesztőhid AddNoun1;
+függőhíd AddNoun;
+függőhíd:függőhid AddNoun1;
+fürdőhíd AddNoun;
+fürdőhíd:fürdőhid AddNoun1;
+füsthíd AddNoun;
+füsthíd:füsthid AddNoun1;
+főhíd AddNoun;
+főhíd:főhid AddNoun1;
+garázsvágóhíd AddNoun;
+garázsvágóhíd:garázsvágóhid AddNoun1;
+gerendahíd AddNoun;
+gerendahíd:gerendahid AddNoun1;
+gondolatnyíl AddNoun;
+gondolatnyíl:gondolatnyil AddNoun1;
+gránithíd AddNoun;
+gránithíd:gránithid AddNoun1;
+gyakorlóhíd AddNoun;
+gyakorlóhíd:gyakorlóhid AddNoun1;
+gyaloghíd AddNoun;
+gyaloghíd:gyaloghid AddNoun1;
+gyalogoshíd AddNoun;
+gyalogoshíd:gyalogoshid AddNoun1;
+gyerekhíd AddNoun;
+gyerekhíd:gyerekhid AddNoun1;
+gyermeknyíl AddNoun;
+gyermeknyíl:gyermeknyil AddNoun1;
+gyárhíd AddNoun;
+gyárhíd:gyárhid AddNoun1;
+gyékényhíd AddNoun;
+gyékényhíd:gyékényhid AddNoun1;
+gyémánthíd AddNoun;
+gyémánthíd:gyémánthid AddNoun1;
+gyújtónyíl AddNoun;
+gyújtónyíl:gyújtónyil AddNoun1;
+gyújtósnyíl AddNoun;
+gyújtósnyíl:gyújtósnyil AddNoun1;
+gáthíd AddNoun;
+gáthíd:gáthid AddNoun1;
+gázhíd AddNoun;
+gázhíd:gázhid AddNoun1;
+gördítőnyíl AddNoun;
+gördítőnyíl:gördítőnyil AddNoun1;
+görgetőnyíl AddNoun;
+görgetőnyíl:görgetőnyil AddNoun1;
+görgőhíd AddNoun;
+görgőhíd:görgőhid AddNoun1;
+hadihíd AddNoun;
+hadihíd:hadihid AddNoun1;
+hajdúhíd AddNoun;
+hajdúhíd:hajdúhid AddNoun1;
+hajnyíl AddNoun;
+hajnyíl:hajnyil AddNoun1;
+hajszálhíd AddNoun;
+hajszálhíd:hajszálhid AddNoun1;
+hajtáshíd AddNoun;
+hajtáshíd:hajtáshid AddNoun1;
+hajóhíd AddNoun;
+hajóhíd:hajóhid AddNoun1;
+hanghíd AddNoun;
+hanghíd:hanghid AddNoun1;
+hashíd AddNoun;
+hashíd:hashid AddNoun1;
+határhíd AddNoun;
+határhíd:határhid AddNoun1;
+hidrogénhíd AddNoun;
+hidrogénhíd:hidrogénhid AddNoun1;
+holdhíd AddNoun;
+holdhíd:holdhid AddNoun1;
+hordóhíd AddNoun;
+hordóhíd:hordóhid AddNoun1;
+horgasín AddNoun;
+horgasín:horgasin AddNoun1;
+háncshíd AddNoun;
+háncshíd:háncshid AddNoun1;
+hárfahíd AddNoun;
+hárfahíd:hárfahid AddNoun1;
+háromszöghíd AddNoun;
+háromszöghíd:háromszöghid AddNoun1;
+hátsóhíd AddNoun;
+hátsóhíd:hátsóhid AddNoun1;
+híd AddNoun;
+híd:hid AddNoun1;
+hóhíd AddNoun;
+hóhíd:hóhid AddNoun1;
+húsvágóhíd AddNoun;
+húsvágóhíd:húsvágóhid AddNoun1;
+hőfokhíd AddNoun;
+hőfokhíd:hőfokhid AddNoun1;
+hőhíd AddNoun;
+hőhíd:hőhid AddNoun1;
+időhíd AddNoun;
+időhíd:időhid AddNoun1;
+időnyíl AddNoun;
+időnyíl:időnyil AddNoun1;
+indahíd AddNoun;
+indahíd:indahid AddNoun1;
+indiánhíd AddNoun;
+indiánhíd:indiánhid AddNoun1;
+iránynyíl AddNoun;
+iránynyíl:iránynyil AddNoun1;
+irányítónyíl AddNoun;
+irányítónyíl:irányítónyil AddNoun1;
+ispotályhíd AddNoun;
+ispotályhíd:ispotályhid AddNoun1;
+japánhíd AddNoun;
+japánhíd:japánhid AddNoun1;
+jelzőhíd AddNoun;
+jelzőhíd:jelzőhid AddNoun1;
+jelzőnyíl AddNoun;
+jelzőnyíl:jelzőnyil AddNoun1;
+juhvágóhíd AddNoun;
+juhvágóhíd:juhvágóhid AddNoun1;
+járdahíd AddNoun;
+járdahíd:járdahid AddNoun1;
+járomhíd AddNoun;
+járomhíd:járomhid AddNoun1;
+járóhíd AddNoun;
+járóhíd:járóhid AddNoun1;
+játékhíd AddNoun;
+játékhíd:játékhid AddNoun1;
+játéknyíl AddNoun;
+játéknyíl:játéknyil AddNoun1;
+jéghíd AddNoun;
+jéghíd:jéghid AddNoun1;
+jégnyíl AddNoun;
+jégnyíl:jégnyil AddNoun1;
+jógahíd AddNoun;
+jógahíd:jógahid AddNoun1;
+kanálishíd AddNoun;
+kanálishíd:kanálishid AddNoun1;
+kapuhíd AddNoun;
+kapuhíd:kapuhid AddNoun1;
+karbonhíd AddNoun;
+karbonhíd:karbonhid AddNoun1;
+kaucsukhíd AddNoun;
+kaucsukhíd:kaucsukhid AddNoun1;
+kecskevágóhíd AddNoun;
+kecskevágóhíd:kecskevágóhid AddNoun1;
+kefehíd AddNoun;
+kefehíd:kefehid AddNoun1;
+keresztesnyíl AddNoun;
+keresztesnyíl:keresztesnyil AddNoun1;
+kereszthíd AddNoun;
+kereszthíd:kereszthid AddNoun1;
+kerethíd AddNoun;
+kerethíd:kerethid AddNoun1;
+kerámiahíd AddNoun;
+kerámiahíd:kerámiahid AddNoun1;
+kerékpárhíd AddNoun;
+kerékpárhíd:kerékpárhid AddNoun1;
+kezelőhíd AddNoun;
+kezelőhíd:kezelőhid AddNoun1;
+kikötőhíd AddNoun;
+kikötőhíd:kikötőhid AddNoun1;
+kirakodóhíd AddNoun;
+kirakodóhíd:kirakodóhid AddNoun1;
+kirakóhíd AddNoun;
+kirakóhíd:kirakóhid AddNoun1;
+kiszállóhíd AddNoun;
+kiszállóhíd:kiszállóhid AddNoun1;
+kommandóhíd AddNoun;
+kommandóhíd:kommandóhid AddNoun1;
+komphíd AddNoun;
+komphíd:komphid AddNoun1;
+kormányhíd AddNoun;
+kormányhíd:kormányhid AddNoun1;
+kristályhíd AddNoun;
+kristályhíd:kristályhid AddNoun1;
+krómhíd AddNoun;
+krómhíd:krómhid AddNoun1;
+kultúrahíd AddNoun;
+kultúrahíd:kultúrahid AddNoun1;
+kurzornyíl AddNoun;
+kurzornyíl:kurzornyil AddNoun1;
+kutyavágóhíd AddNoun;
+kutyavágóhíd:kutyavágóhid AddNoun1;
+kábelhíd AddNoun;
+kábelhíd:kábelhid AddNoun1;
+kénhíd AddNoun;
+kénhíd:kénhid AddNoun1;
+kérdésnyíl AddNoun;
+kérdésnyíl:kérdésnyil AddNoun1;
+ködhíd AddNoun;
+ködhíd:ködhid AddNoun1;
+körhíd AddNoun;
+körhíd:körhid AddNoun1;
+körvágóhíd AddNoun;
+körvágóhíd:körvágóhid AddNoun1;
+kötélhíd AddNoun;
+kötélhíd:kötélhid AddNoun1;
+kötélnyíl AddNoun;
+kötélnyíl:kötélnyil AddNoun1;
+kötőhíd AddNoun;
+kötőhíd:kötőhid AddNoun1;
+közlekedőhíd AddNoun;
+közlekedőhíd:közlekedőhid AddNoun1;
+közvágóhíd AddNoun;
+közvágóhíd:közvágóhid AddNoun1;
+kőhíd AddNoun;
+kőhíd:kőhid AddNoun1;
+kőműveshíd AddNoun;
+kőműveshíd:kőműveshid AddNoun1;
+lapozónyíl AddNoun;
+lapozónyíl:lapozónyil AddNoun1;
+lemezhíd AddNoun;
+lemezhíd:lemezhid AddNoun1;
+lengőhíd AddNoun;
+lengőhíd:lengőhid AddNoun1;
+leszállónyíl AddNoun;
+leszállónyíl:leszállónyil AddNoun1;
+libahíd AddNoun;
+libahíd:libahid AddNoun1;
+libidóhíd AddNoun;
+libidóhíd:libidóhid AddNoun1;
+luxushíd AddNoun;
+luxushíd:luxushid AddNoun1;
+lábín AddNoun;
+lábín:lábin AddNoun1;
+lánchíd AddNoun;
+lánchíd:lánchid AddNoun1;
+léchíd AddNoun;
+léchíd:léchid AddNoun1;
+léghíd AddNoun;
+léghíd:léghid AddNoun1;
+légihíd AddNoun;
+légihíd:légihid AddNoun1;
+lépcsőhíd AddNoun;
+lépcsőhíd:lépcsőhid AddNoun1;
+lóvágóhíd AddNoun;
+lóvágóhíd:lóvágóhid AddNoun1;
+madárhíd AddNoun;
+madárhíd:madárhid AddNoun1;
+madárnyíl AddNoun;
+madárnyíl:madárnyil AddNoun1;
+malomhíd AddNoun;
+malomhíd:malomhid AddNoun1;
+megcsapolóhíd AddNoun;
+megcsapolóhíd:megcsapolóhid AddNoun1;
+meglepetéshíd AddNoun;
+meglepetéshíd:meglepetéshid AddNoun1;
+megállóhíd AddNoun;
+megállóhíd:megállóhid AddNoun1;
+memóriahíd AddNoun;
+memóriahíd:memóriahid AddNoun1;
+mentőhíd AddNoun;
+mentőhíd:mentőhid AddNoun1;
+merőhíd AddNoun;
+merőhíd:merőhid AddNoun1;
+metróhíd AddNoun;
+metróhíd:metróhid AddNoun1;
+mosóhíd AddNoun;
+mosóhíd:mosóhid AddNoun1;
+mozgatónyíl AddNoun;
+mozgatónyíl:mozgatónyil AddNoun1;
+mozgóhíd AddNoun;
+mozgóhíd:mozgóhid AddNoun1;
+munkahíd AddNoun;
+munkahíd:munkahid AddNoun1;
+mutatónyíl AddNoun;
+mutatónyíl:mutatónyil AddNoun1;
+márványhíd AddNoun;
+márványhíd:márványhid AddNoun1;
+méregnyíl AddNoun;
+méregnyíl:méregnyil AddNoun1;
+méretnyíl AddNoun;
+méretnyíl:méretnyil AddNoun1;
+mérleghíd AddNoun;
+mérleghíd:mérleghid AddNoun1;
+mérőhíd AddNoun;
+mérőhíd:mérőhid AddNoun1;
+mészkőhíd AddNoun;
+mészkőhíd:mészkőhid AddNoun1;
+múzeumhíd AddNoun;
+múzeumhíd:múzeumhid AddNoun1;
+műemlékhíd AddNoun;
+műemlékhíd:műemlékhid AddNoun1;
+műhíd AddNoun;
+műhíd:műhid AddNoun1;
+műín AddNoun;
+műín:műin AddNoun1;
+negyedhíd AddNoun;
+negyedhíd:negyedhid AddNoun1;
+nyíl AddNoun;
+nyíl:nyil AddNoun1;
+nádhíd AddNoun;
+nádhíd:nádhid AddNoun1;
+nádszálnyíl AddNoun;
+nádszálnyíl:nádszálnyil AddNoun1;
+négyszöghíd AddNoun;
+négyszöghíd:négyszöghid AddNoun1;
+ollóhíd AddNoun;
+ollóhíd:ollóhid AddNoun1;
+orrhíd AddNoun;
+orrhíd:orrhid AddNoun1;
+oxigénhíd AddNoun;
+oxigénhíd:oxigénhid AddNoun1;
+padlóhíd AddNoun;
+padlóhíd:padlóhid AddNoun1;
+pallóhíd AddNoun;
+pallóhíd:pallóhid AddNoun1;
+papírhíd AddNoun;
+papírhíd:papírhid AddNoun1;
+papírnyíl AddNoun;
+papírnyíl:papírnyil AddNoun1;
+parancshíd AddNoun;
+parancshíd:parancshid AddNoun1;
+patakhíd AddNoun;
+patakhíd:patakhid AddNoun1;
+pestisnyíl AddNoun;
+pestisnyíl:pestisnyil AddNoun1;
+piachíd AddNoun;
+piachíd:piachid AddNoun1;
+pillérhíd AddNoun;
+pillérhíd:pillérhid AddNoun1;
+plazmahíd AddNoun;
+plazmahíd:plazmahid AddNoun1;
+pontonhíd AddNoun;
+pontonhíd:pontonhid AddNoun1;
+porcelánhíd AddNoun;
+porcelánhíd:porcelánhid AddNoun1;
+projekcióhíd AddNoun;
+projekcióhíd:projekcióhid AddNoun1;
+protoplazmahíd AddNoun;
+protoplazmahíd:protoplazmahid AddNoun1;
+pálcikanyíl AddNoun;
+pálcikanyíl:pálcikanyil AddNoun1;
+pókhíd AddNoun;
+pókhíd:pókhid AddNoun1;
+rakodóhíd AddNoun;
+rakodóhíd:rakodóhid AddNoun1;
+rakétanyíl AddNoun;
+rakétanyíl:rakétanyil AddNoun1;
+reklámhíd AddNoun;
+reklámhíd:reklámhid AddNoun1;
+relevanciahíd AddNoun;
+relevanciahíd:relevanciahid AddNoun1;
+repülőhíd AddNoun;
+repülőhíd:repülőhid AddNoun1;
+romhíd AddNoun;
+romhíd:romhid AddNoun1;
+rádióhíd AddNoun;
+rádióhíd:rádióhid AddNoun1;
+rézhíd AddNoun;
+rézhíd:rézhid AddNoun1;
+réznyíl AddNoun;
+réznyíl:réznyil AddNoun1;
+rönkhíd AddNoun;
+rönkhíd:rönkhid AddNoun1;
+segédhíd AddNoun;
+segédhíd:segédhid AddNoun1;
+selyemhíd AddNoun;
+selyemhíd:selyemhid AddNoun1;
+sertésközvágóhíd AddNoun;
+sertésközvágóhíd:sertésközvágóhid AddNoun1;
+sertésvágóhíd AddNoun;
+sertésvágóhíd:sertésvágóhid AddNoun1;
+sodronyhíd AddNoun;
+sodronyhíd:sodronyhid AddNoun1;
+spagettihíd AddNoun;
+spagettihíd:spagettihid AddNoun1;
+spárgahíd AddNoun;
+spárgahíd:spárgahid AddNoun1;
+strandhíd AddNoun;
+strandhíd:strandhid AddNoun1;
+struccvágóhíd AddNoun;
+struccvágóhíd:struccvágóhid AddNoun1;
+szabadsághíd AddNoun;
+szabadsághíd:szabadsághid AddNoun1;
+szalaghíd AddNoun;
+szalaghíd:szalaghid AddNoun1;
+szalmahíd AddNoun;
+szalmahíd:szalmahid AddNoun1;
+szamárhíd AddNoun;
+szamárhíd:szamárhid AddNoun1;
+szekérhíd AddNoun;
+szekérhíd:szekérhid AddNoun1;
+szellemhíd AddNoun;
+szellemhíd:szellemhid AddNoun1;
+szemaforhíd AddNoun;
+szemaforhíd:szemaforhid AddNoun1;
+szerelemnyíl AddNoun;
+szerelemnyíl:szerelemnyil AddNoun1;
+szerelőhíd AddNoun;
+szerelőhíd:szerelőhid AddNoun1;
+szerkesztőnyíl AddNoun;
+szerkesztőnyíl:szerkesztőnyil AddNoun1;
+szervizhíd AddNoun;
+szervizhíd:szervizhid AddNoun1;
+sziklahíd AddNoun;
+sziklahíd:sziklahid AddNoun1;
+szivárványhíd AddNoun;
+szivárványhíd:szivárványhid AddNoun1;
+szállítóhíd AddNoun;
+szállítóhíd:szállítóhid AddNoun1;
+szállítószalaghíd AddNoun;
+szállítószalaghíd:szállítószalaghid AddNoun1;
+szárnyhíd AddNoun;
+szárnyhíd:szárnyhid AddNoun1;
+szárnyhőhíd AddNoun;
+szárnyhőhíd:szárnyhőhid AddNoun1;
+szárnyín AddNoun;
+szárnyín:szárnyin AddNoun1;
+széknyíl AddNoun;
+széknyíl:széknyil AddNoun1;
+szükséghíd AddNoun;
+szükséghíd:szükséghid AddNoun1;
+sáshíd AddNoun;
+sáshíd:sáshid AddNoun1;
+sétálóhíd AddNoun;
+sétálóhíd:sétálóhid AddNoun1;
+sínhíd AddNoun;
+sínhíd:sínhid AddNoun1;
+sóhíd AddNoun;
+sóhíd:sóhid AddNoun1;
+tajtékhíd AddNoun;
+tajtékhíd:tajtékhid AddNoun1;
+talphíd AddNoun;
+talphíd:talphid AddNoun1;
+tapadóhíd AddNoun;
+tapadóhíd:tapadóhid AddNoun1;
+tartóhíd AddNoun;
+tartóhíd:tartóhid AddNoun1;
+teherhíd AddNoun;
+teherhíd:teherhid AddNoun1;
+teknőhíd AddNoun;
+teknőhíd:teknőhid AddNoun1;
+templomhíd AddNoun;
+templomhíd:templomhid AddNoun1;
+tengelyhíd AddNoun;
+tengelyhíd:tengelyhid AddNoun1;
+terelőnyíl AddNoun;
+terelőnyíl:terelőnyil AddNoun1;
+testhanghíd AddNoun;
+testhanghíd:testhanghid AddNoun1;
+testvérhíd AddNoun;
+testvérhíd:testvérhid AddNoun1;
+tevevágóhíd AddNoun;
+tevevágóhíd:tevevágóhid AddNoun1;
+toldalékhíd AddNoun;
+toldalékhíd:toldalékhid AddNoun1;
+toleranciahíd AddNoun;
+toleranciahíd:toleranciahid AddNoun1;
+tolóhíd AddNoun;
+tolóhíd:tolóhid AddNoun1;
+tudáshíd AddNoun;
+tudáshíd:tudáshid AddNoun1;
+tutajhíd AddNoun;
+tutajhíd:tutajhid AddNoun1;
+téglahíd AddNoun;
+téglahíd:téglahid AddNoun1;
+térdín AddNoun;
+térdín:térdin AddNoun1;
+térhíd AddNoun;
+térhíd:térhid AddNoun1;
+töltéshíd AddNoun;
+töltéshíd:töltéshid AddNoun1;
+tüskenyíl AddNoun;
+tüskenyíl:tüskenyil AddNoun1;
+tűzhíd AddNoun;
+tűzhíd:tűzhid AddNoun1;
+tűznyíl AddNoun;
+tűznyíl:tűznyil AddNoun1;
+unióhíd AddNoun;
+unióhíd:unióhid AddNoun1;
+uszályhíd AddNoun;
+uszályhíd:uszályhid AddNoun1;
+utashíd AddNoun;
+utashíd:utashid AddNoun1;
+vadhíd AddNoun;
+vadhíd:vadhid AddNoun1;
+vadásznyíl AddNoun;
+vadásznyíl:vadásznyil AddNoun1;
+varázsnyíl AddNoun;
+varázsnyíl:varázsnyil AddNoun1;
+vasbetonhíd AddNoun;
+vasbetonhíd:vasbetonhid AddNoun1;
+vashíd AddNoun;
+vashíd:vashid AddNoun1;
+vasnyíl AddNoun;
+vasnyíl:vasnyil AddNoun1;
+vassodronyhíd AddNoun;
+vassodronyhíd:vassodronyhid AddNoun1;
+vasúthíd AddNoun;
+vasúthíd:vasúthid AddNoun1;
+versenynyíl AddNoun;
+versenynyíl:versenynyil AddNoun1;
+vezénylőhíd AddNoun;
+vezénylőhíd:vezénylőhid AddNoun1;
+villámnyíl AddNoun;
+villámnyíl:villámnyil AddNoun1;
+világosítóhíd AddNoun;
+világosítóhíd:világosítóhid AddNoun1;
+világítóhíd AddNoun;
+világítóhíd:világítóhid AddNoun1;
+virághíd AddNoun;
+virághíd:virághid AddNoun1;
+vonóhíd AddNoun;
+vonóhíd:vonóhid AddNoun1;
+vágóhíd AddNoun;
+vágóhíd:vágóhid AddNoun1;
+vámhíd AddNoun;
+vámhíd:vámhid AddNoun1;
+vámoshíd AddNoun;
+vámoshíd:vámoshid AddNoun1;
+várhíd AddNoun;
+várhíd:várhid AddNoun1;
+vérhíd AddNoun;
+vérhíd:vérhid AddNoun1;
+völgyhíd AddNoun;
+völgyhíd:völgyhid AddNoun1;
+zenehíd AddNoun;
+zenehíd:zenehid AddNoun1;
+zengéshíd AddNoun;
+zengéshíd:zengéshid AddNoun1;
+zengőnyíl AddNoun;
+zengőnyíl:zengőnyil AddNoun1;
+zsiliphíd AddNoun;
+zsiliphíd:zsiliphid AddNoun1;
+zugvágóhíd AddNoun;
+zugvágóhíd:zugvágóhid AddNoun1;
+zápornyíl AddNoun;
+zápornyíl:zápornyil AddNoun1;
+zúzónyíl AddNoun;
+zúzónyíl:zúzónyil AddNoun1;
+Óhíd AddNoun;
+Óhíd:Óhid AddNoun1;
+állványhíd AddNoun;
+állványhíd:állványhid AddNoun1;
+állóhíd AddNoun;
+állóhíd:állóhid AddNoun1;
+árokhíd AddNoun;
+árokhíd:árokhid AddNoun1;
+áthidalóhíd AddNoun;
+áthidalóhíd:áthidalóhid AddNoun1;
+átjáróhíd AddNoun;
+átjáróhíd:átjáróhid AddNoun1;
+átkötőhíd AddNoun;
+átkötőhíd:átkötőhid AddNoun1;
+épülethíd AddNoun;
+épülethíd:épülethid AddNoun1;
+érchíd AddNoun;
+érchíd:érchid AddNoun1;
+ércnyíl AddNoun;
+ércnyíl:ércnyil AddNoun1;
+értéknyíl AddNoun;
+értéknyíl:értéknyil AddNoun1;
+évezredhatárhíd AddNoun;
+évezredhatárhíd:évezredhatárhid AddNoun1;
+ín AddNoun;
+ín:in AddNoun1;
+ívhíd AddNoun;
+ívhíd:ívhid AddNoun1;
+ólomhíd AddNoun;
+ólomhíd:ólomhid AddNoun1;
+óriáshíd AddNoun;
+óriáshíd:óriáshid AddNoun1;
+öbölhíd AddNoun;
+öbölhíd:öbölhid AddNoun1;
+ördöghíd AddNoun;
+ördöghíd:ördöghid AddNoun1;
+öszvérhíd AddNoun;
+öszvérhíd:öszvérhid AddNoun1;
+úszóhíd AddNoun;
+úszóhíd:úszóhid AddNoun1;
+ütőnyíl AddNoun;
+ütőnyíl:ütőnyil AddNoun1;
+üveghíd AddNoun;
+üveghíd:üveghid AddNoun1;
+üzemanyaghíd AddNoun;
+üzemanyaghíd:üzemanyaghid AddNoun1;
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Fam11;
+
+LEXICON Poss
++Tem:^+cTem^kor               #;    ! kor
++Posss3s:^+cPosss3s^§JJ§§AE21§   Fam;   ! ja, je, a,e
++Possp3s:^+cPossp3s^§JJ§§UUE21§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JJ§§AE22§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JJ§§AE22§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JJ§§AE22§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JJ§§AE22§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JJ§§AE22§it§OEOE22§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JJ§§AE22§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam11;
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+LEXICON Fam11
++Fam:^+cFam^ék         Gen;
+                       Gen11;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+LEXICON Gen11
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case11;
+
+LEXICON Case
++Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case11
++Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
+!+Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+
+LEXICON AddNoun1
++Noun:0     Poss1;
++Noun:0     Plur1;
+
+LEXICON Poss1
++Acc:^+cAcc^at    #;  ! ot, et, öt, t
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Posss1s:^+cPosss1s^§OEOE21§m   Fam1;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fam1;   ! d
++Posss3s:^+cPosss3s^§Jnull§§AE21§   Fam1;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fam1;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fam1;   ! etek, atok
++Possp3s:^+cPossp3s^§Jnull§§UUE21§k   Fam1;   ! ük, uk
++Posss1p:^+cPosss1p^§Jnull§§AE22§im   Fam1;   ! aim
++Posss2p:^+cPosss2p^§Jnull§§AE22§id   Fam1;   ! aid
++Posss3p:^+cPosss3p^§Jnull§§AE22§i   Fam1;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§Jnull§§AE22§ink   Fam1;   ! aink, eink
++Possp2p:^+cPossp2p^§Jnull§§AE22§it§OEOE22§k   Fam1;  ! aitok, eitek
++Possp3p:^+cPossp3p^§Jnull§§AE22§ik   Fam1;   !aik, jaik, eik, jeik
+
+
+LEXICON Plur1
++Plur:^+cPlur^§oeoez21§k    Gen1;
+        
+LEXICON Fam1
++Fam:^+cFam^ék         Gen1;
+                       Gen1;
+
+LEXICON Gen1
++Gens:^+cGens^é        Case1;
++Genpl:^+cGenpl^éi     Case1;
+                       Case1;
+
+LEXICON Case1
++Abl:^+cAbl^t§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA2§l      #;  ! nál, nél
++All:^+cAll^h§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA2§k       #;  ! nak, nek
++Del:^+cDel^r§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA2§        #;  ! ba, be
++Ine:^+cIne^b§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor

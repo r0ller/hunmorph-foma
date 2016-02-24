@@ -1,0 +1,61 @@
+!!!enhuazez2.lexc!!!
+
+Multichar_Symbols  +Noun
+
++Ess  +Tem 
+!+Dis +Soc
+!+Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
+!+Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
+!+Plur +Fam +Gens +Genpl
+      
++Abl  +Ade +All +Dat +Del
++Ela  +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub  +Ter
+!+Fac +Acc +Sup +Cau 
+      
+§uue§ 
+§oooe§ §AAA§ §oeoe§ §AA§ 
+§b§ §h§ §k§ §n§ §r§ §t§ 
+      
+LEXICON Root
+Det;
+
+LEXICON Det
+amaz:ama AddDet1;
+az:a AddDet1;
+emez:eme AddDet1;
+ez:e AddDet1;
+mindama AddDet1;
+mindaz:minda AddDet1;
+mindeme AddDet1;
+mindez:minde AddDet1;
+ugyanaz:ugyana AddDet1;
+ugyanez:ugyane AddDet1;
+
+
+LEXICON AddDet1
++Noun:0     Case2;
+
+LEXICON Case2
++Abl:^+cAbl^§t§t§oooe§l      #;  ! tól, től
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§n§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§h§oeoe§z      #;  ! hoz, hez, höz
+!+Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§n§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§r§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§b§oooe§l      #;  ! ból, ből
+!+Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ként          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§b§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§b§AA§n        #;  ! ban, ben
++Ins:^+cIns^vv§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§r§AA§         #;  ! ra, re
+!+Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ddig              #;  ! ig
++Tem:^+cTem^§k§kor             #;    ! kor

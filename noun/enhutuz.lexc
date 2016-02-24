@@ -1,0 +1,474 @@
+!!!enhuoa.-> enhuoaee .lexc!!!
+!               UeuetoueAcc3      .o. # ű
+!               UetoueueFgg3      .o. 
+!               UeuetouePP3       .o. 
+! ű -> ü
+!
+Multichar_Symbols  +Noun
+
++Dis +Ess +Soc +Tem 
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter
+      
+§uue§ §J§ §UUE§ §JP§ §AE§ §OEOE2§
+§UUE1§ §oooe§ §oeoez2§ §AAA§ §oeoe§ §AA§ §AE1§ §k§
+§VV§ §oeoez5§ §OEOE4§
+§OEOE3§ §oeoez4§  §EOA1§ §ooez4§ §oeoez31§
+§tuze§
+      
+LEXICON Root
+Noun ;
+
+!define Cons [b | c | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z];
+!define Vowel [a | á | e | é | i | í | o | ó | u | ú | ü | ű | ö | ő];
+!define Root [ [Cons^{0,4} Vowel^{1,3}] | [Cons^{0,4} Vowel^{1,3} Cons^{1,4} Vowel^{0,3} ]* ] ;
+
+
+! fűz, tűz, szűz oaee és oe keveréke
+LEXICON Noun
+Vesta-szűz AddNoun;
+acélszűz AddNoun;
+aggszűz AddNoun;
+aknatűz AddNoun;
+alagúttűz AddNoun;
+aljzattűz AddNoun;
+alomtűz AddNoun;
+anyaszűz AddNoun;
+apácaszűz AddNoun;
+aranyfűz AddNoun;
+aranyszűz AddNoun;
+asszonytűz AddNoun;
+autóbusztűz AddNoun;
+autótűz AddNoun;
+avartűz AddNoun;
+babérfűz AddNoun;
+bambuszsortűz AddNoun;
+barakktűz AddNoun;
+bengálitűz AddNoun;
+benzintűz AddNoun;
+berektűz AddNoun;
+bográcstűz AddNoun;
+bokorfűz AddNoun;
+bokortűz AddNoun;
+bolygótűz AddNoun;
+bombatűz AddNoun;
+borjúszűz AddNoun;
+bortűz AddNoun;
+botolófűz AddNoun;
+bozótfűz AddNoun;
+bozóttűz AddNoun;
+buditűz AddNoun;
+bálatűz AddNoun;
+bányatűz AddNoun;
+bíbortűz AddNoun;
+bölcsességtűz AddNoun;
+búzakévetűz AddNoun;
+cinegefűz AddNoun;
+csatártűz AddNoun;
+csavarfűz AddNoun;
+csendőrsortűz AddNoun;
+cserkésztábortűz AddNoun;
+csigolyafűz AddNoun;
+csillámtűz AddNoun;
+csipkebokortűz AddNoun;
+csűrtűz AddNoun;
+céltűz AddNoun;
+deszkatűz AddNoun;
+diadaltűz AddNoun;
+démontűz AddNoun;
+díszsortűz AddNoun;
+dísztűz AddNoun;
+egyestűz AddNoun;
+egységtűz AddNoun;
+elhárítótűz AddNoun;
+emléktűz AddNoun;
+erdőtűz AddNoun;
+erkélytűz AddNoun;
+erődtűz AddNoun;
+ezüstfűz AddNoun;
+faháztűz AddNoun;
+falutűz AddNoun;
+faszéntűz AddNoun;
+fedezőtűz AddNoun;
+fedélzettűz AddNoun;
+fegyvertűz AddNoun;
+fehérfűz AddNoun;
+felülettűz AddNoun;
+fenyőfatűz AddNoun;
+folyadéktűz AddNoun;
+fonófűz AddNoun;
+foszfortűz AddNoun;
+futótűz AddNoun;
+fáklyatűz AddNoun;
+fárosztűz AddNoun;
+félszűz AddNoun;
+fémtűz AddNoun;
+fényszórótűz AddNoun;
+férfiszűz AddNoun;
+fúriafűz AddNoun;
+füstölőtűz AddNoun;
+főzőtűz AddNoun;
+fűz AddNoun;
+galagonyatűz AddNoun;
+garázstűz AddNoun;
+grafittűz AddNoun;
+gránáttűz AddNoun;
+gumiabroncstűz AddNoun;
+gumitűz AddNoun;
+gyalogfűz AddNoun;
+gyehennatűz AddNoun;
+gyeptűz AddNoun;
+gyertyatűz AddNoun;
+gyomortűz AddNoun;
+gyorstűz AddNoun;
+gyászfűz AddNoun;
+gyásztűz AddNoun;
+gyújtótűz AddNoun;
+gázpalacktűz AddNoun;
+gáztűz AddNoun;
+gépfegyvertűz AddNoun;
+gépjárműtűz AddNoun;
+gépkocsitűz AddNoun;
+géppuskatűz AddNoun;
+géptértűz AddNoun;
+gépágyútűz AddNoun;
+görögtűz AddNoun;
+hajnaltűz AddNoun;
+hajtóműtűz AddNoun;
+hajótűz AddNoun;
+hangártűz AddNoun;
+holdfénytűz AddNoun;
+holdszűz AddNoun;
+honfitűz AddNoun;
+hoteltűz AddNoun;
+hámortűz AddNoun;
+háttértűz AddNoun;
+háztűz AddNoun;
+indiántűz AddNoun;
+irodatűz AddNoun;
+istállótűz AddNoun;
+jeltűz AddNoun;
+jelzőtűz AddNoun;
+járműtűz AddNoun;
+kabintűz AddNoun;
+kandallótűz AddNoun;
+kandelábertűz AddNoun;
+kartácstűz AddNoun;
+karácsonyfatűz AddNoun;
+kastélytűz AddNoun;
+katasztrófatűz AddNoun;
+kazaltűz AddNoun;
+kazántűz AddNoun;
+kecskefűz AddNoun;
+kemencetűz AddNoun;
+kereszttűz AddNoun;
+kerozintűz AddNoun;
+kirakatbábutűz AddNoun;
+kocsitűz AddNoun;
+kohótűz AddNoun;
+koksztűz AddNoun;
+kollégiumtűz AddNoun;
+kolostorszűz AddNoun;
+kombájntűz AddNoun;
+komputertűz AddNoun;
+konyhatűz AddNoun;
+kosárfonófűz AddNoun;
+kosárfűz AddNoun;
+kovácstűz AddNoun;
+kukatűz AddNoun;
+kupolatűz AddNoun;
+kábeltűz AddNoun;
+kályhatűz AddNoun;
+kéménytűz AddNoun;
+kéntűz AddNoun;
+kézifegyvertűz AddNoun;
+kígyótűz AddNoun;
+kórháztűz AddNoun;
+körgyűrűtűz AddNoun;
+körtűz AddNoun;
+kúttűz AddNoun;
+kőtűz AddNoun;
+lakástűz AddNoun;
+lakóháztűz AddNoun;
+legelőtűz AddNoun;
+leánytűz AddNoun;
+lidérctűz AddNoun;
+lábtörlőtűz AddNoun;
+lángtűz AddNoun;
+láptűz AddNoun;
+lármatűz AddNoun;
+légréstűz AddNoun;
+lótűz AddNoun;
+lövegtűz AddNoun;
+lőfegyvertűz AddNoun;
+malomtűz AddNoun;
+mandulafűz AddNoun;
+melléképülettűz AddNoun;
+mesefűz AddNoun;
+mesetűz AddNoun;
+meteorittűz AddNoun;
+meteortűz AddNoun;
+metrótűz AddNoun;
+mezőtűz AddNoun;
+mocsárfűz AddNoun;
+motortűz AddNoun;
+mozitűz AddNoun;
+mozsártűz AddNoun;
+munkatűz AddNoun;
+máglyatűz AddNoun;
+májtűz AddNoun;
+múzeumtűz AddNoun;
+műhelytűz AddNoun;
+műtábortűz AddNoun;
+műtűz AddNoun;
+naftatűz AddNoun;
+naptűz AddNoun;
+narancstűz AddNoun;
+neontűz AddNoun;
+nyoszolyószűz AddNoun;
+nádastűz AddNoun;
+nádtetőtűz AddNoun;
+nádtűz AddNoun;
+olajfűz AddNoun;
+olajtűz AddNoun;
+oldalsortűz AddNoun;
+oldaltűz AddNoun;
+oltártűz AddNoun;
+olvasztótűz AddNoun;
+orvlövésztűz AddNoun;
+ostromtűz AddNoun;
+padlástűz AddNoun;
+palacktűz AddNoun;
+palotatűz AddNoun;
+panelháztűz AddNoun;
+paradicsomsortűz AddNoun;
+parlagtűz AddNoun;
+parázstűz AddNoun;
+pergőtűz AddNoun;
+petárdatűz AddNoun;
+pincetűz AddNoun;
+plazmasortűz AddNoun;
+plazmatűz AddNoun;
+pokoltűz AddNoun;
+ponttűz AddNoun;
+poétatűz AddNoun;
+préritűz AddNoun;
+próbatűz AddNoun;
+puskatűz AddNoun;
+pusztatűz AddNoun;
+pásztatűz AddNoun;
+pásztortűz AddNoun;
+rajtűz AddNoun;
+rajössztűz AddNoun;
+rakománytűz AddNoun;
+raktártűz AddNoun;
+rakétasortűz AddNoun;
+rakétatűz AddNoun;
+rekettyefűz AddNoun;
+reménytűz AddNoun;
+repülőgéptűz AddNoun;
+riadótűz AddNoun;
+rőzsetűz AddNoun;
+sajtóössztűz AddNoun;
+serevényfűz AddNoun;
+sertésszűz AddNoun;
+sorozattűz AddNoun;
+sortűz AddNoun;
+spirálfűz AddNoun;
+sportcsarnoktűz AddNoun;
+srapneltűz AddNoun;
+sufnitűz AddNoun;
+szabadtűz AddNoun;
+szakálltűz AddNoun;
+szalmakazaltűz AddNoun;
+szalmatűz AddNoun;
+szaunatűz AddNoun;
+szavannatűz AddNoun;
+szellemtűz AddNoun;
+szemtűz AddNoun;
+szentszűz AddNoun;
+szikratűz AddNoun;
+szivartűz AddNoun;
+szobatűz AddNoun;
+szomorúfűz AddNoun;
+szondatűz AddNoun;
+sztyeppetűz AddNoun;
+sztyepptűz AddNoun;
+szuroktűz AddNoun;
+szállodatűz AddNoun;
+szállástűz AddNoun;
+számítógéptűz AddNoun;
+szárnytűz AddNoun;
+szárítótűz AddNoun;
+szénhidrogéntűz AddNoun;
+széntűz AddNoun;
+színháztűz AddNoun;
+szórótűz AddNoun;
+szűz AddNoun;
+szűztűz AddNoun;
+sárfűz AddNoun;
+söréttűz AddNoun;
+tajgatűz AddNoun;
+talajtűz AddNoun;
+tanyatűz AddNoun;
+taplótűz AddNoun;
+tarlótűz AddNoun;
+tartálytűz AddNoun;
+teherautótűz AddNoun;
+templomszűz AddNoun;
+templomtűz AddNoun;
+tengeralattjárótűz AddNoun;
+termittűz AddNoun;
+terrorsortűz AddNoun;
+területtűz AddNoun;
+testvértűz AddNoun;
+tetőtűz AddNoun;
+tisztítótűz AddNoun;
+torkolattűz AddNoun;
+toronyháztűz AddNoun;
+torpedótűz AddNoun;
+torpedóössztűz AddNoun;
+trágyatűz AddNoun;
+táborszűz AddNoun;
+tábortűz AddNoun;
+tálcatűz AddNoun;
+törmeléktűz AddNoun;
+törpefűz AddNoun;
+tőzegtűz AddNoun;
+tűz AddNoun;
+vadfűz AddNoun;
+vadontűz AddNoun;
+vadásztűz AddNoun;
+vaktűz AddNoun;
+varázstűz AddNoun;
+vasszűz AddNoun;
+vesszőfűz AddNoun;
+villámtűz AddNoun;
+világszűz AddNoun;
+virrasztótűz AddNoun;
+viskótűz AddNoun;
+vonattűz AddNoun;
+vulkántűz AddNoun;
+vágytűz AddNoun;
+vándortűz AddNoun;
+várostűz AddNoun;
+védőtűz AddNoun;
+vértanúszűz AddNoun;
+vértűz AddNoun;
+zavarótűz AddNoun;
+zsinagógatűz AddNoun;
+zárdaszűz AddNoun;
+zárótűz AddNoun;
+ágyútűz AddNoun;
+áruháztűz AddNoun;
+épülettűz AddNoun;
+örömtűz AddNoun;
+össztűz AddNoun;
+ötlettűz AddNoun;
+üdvözlőtűz AddNoun;
+ütegsortűz AddNoun;
+ütegtűz AddNoun;
+üzemanyagtűz AddNoun;
+őrtűz AddNoun;
+ősfűz AddNoun;
+őstűz AddNoun;
+űrállomástűz AddNoun;
+
+
+LEXICON AddNoun
++Noun:0     Poss;
++Noun:0     Plur;
++Noun:0     Fam;
+!+Noun:0     Gen1;
+
+LEXICON Poss
++Dis:^+cDis^§ooez4§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA1§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^kor              #;    ! kor
++Acc:^+cAcc^§oeoez2§t        #;  ! ot, et, öt, t
++Acc:^+cnAcc^t     #;  ! ot, et, öt, t
++Posss1s:^+cPosss1s^§OEOE4§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE4§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, önk
++Possp2s:^+cPossp2s^§OEOE4§t§OEOE3§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                                  Gen1;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez5§k    Gen;
+                            Case1;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen1;
+
+LEXICON Gen
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+
+LEXICON Gen1
++Gens:^+cGens^é        Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+ 
+LEXICON Case
++Abl:^+cAbl^t§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez4§t     #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA§l       #;  ! nál, nél
++All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA§k        #;  ! nak, nek
++Del:^+cDel^r§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§     #;  ! val, vel
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA§         #;  ! ból, ből
++Ine:^+cIne^b§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l     #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez31§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
+LEXICON Case1
++Abl:^+cAbl^t§oooe§l      #;  ! tól, től
+!+Acc:^+cAcc^et     #;  ! ot, et, öt, t
++Acc:^+cAcc^§tuze§t     #;  ! ot, et, öt, t
++Ade:^+cAde^n§AAA§l       #;  ! nál, nél
++All:^+cAll^h§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^n§AA§k        #;  ! nak, nek
++Del:^+cDel^r§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^b§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§     #;  ! val, vel
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^b§AA§         #;  ! ból, ből
++Ine:^+cIne^b§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l     #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^r§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez31§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
++Tem:^+cTem^§k§or #; ! kor
+
