@@ -1,0 +1,92 @@
+!!!enhuadv1.lexc!!!
+! másféle név kell, mint adv, pl Adve, tesztelni
+!
+Multichar_Symbols  +Adve +Pref+
+      
+LEXICON Root
+Adv;
+
+LEXICON Adv
+asztro
+al AddAdve;
+fő AddAdve;
+bel AddAdve;
+beljebb AddAdve;
+bent
+bi
+bizton
+blankó
+boxer
+bumli
+dörzs
+duna
+egy
+ellen
+elő
+eton
+farmako
+foto
+fág
+galván
+gilos
+grál
+gyú
+gó
+gör
+hekto
+hidro
+hord
+három
+húsz
+interiőr
+jaj
+kalló
+kilo
+kváder
+kápri
+két
+kívül
+kül
+lő
+mono
+mátyás
+tisza
+neo
+net
+neuro
+non
+normál
+nyug
+négy
+odor
+ott
+para
+pihenj
+piro
+poli
+pre
+pszicho
+pán
+pót
+show
+sztereo
+szub
+tenyész
+termo
+transz
+tám
+után
+vice
+video
+vissza
+viszont
+web
+win
+ál
+ó
+
+
+
+LEXICON AddAdve
++Adve:0     #;
+

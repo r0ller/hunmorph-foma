@@ -1,0 +1,24 @@
+!!!enhuneg.lexc!!!
+
+Multichar_Symbols  +Neg
+      
+LEXICON Root
+Neg;
+
+
+LEXICON Neg
+ne AddNeg;
+nem AddNeg;
+se AddNeg;
+sem AddNeg;
+soha AddNeg;
+sohase AddNeg;
+sohasem AddNeg;
+sohse AddNeg;
+sose AddNeg;
+sosem AddNeg;
+sosincs AddNeg;
+
+LEXICON AddNeg
++Neg:0     #;
+

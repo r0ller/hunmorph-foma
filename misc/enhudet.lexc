@@ -1,0 +1,19 @@
+!!!enhudet.lexc!!!
+
+Multichar_Symbols  +Det
+
+      
+LEXICON Root
+Det;
+
+
+LEXICON Det
+a AddDet;
+az AddDet;
+csupa AddDet;
+egy AddDet;
+
+
+LEXICON AddDet
++Det:0     #;
+

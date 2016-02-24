@@ -1,0 +1,569 @@
+! enhuadjmelyige.lexc
+Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+
++Dis +Ess +Soc +Tem +Pref+
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter +Mid
++Ik
+      
+§J§ §JP§ 
+§VV§ §b§ §h§ §k§ §n§ §r§ 
+§t§ §oeoez21§ §oooe2§ §oeoez24§ §AAA2§ §oeoe2§ §AA2§ §oeoez25§
+§ooez23§ §uue2§ §EOA22§ §OEOE21§ §AE21§ §UUE2§ §OEOE25§ §UUE21§ 
+§OEOE22§ §AE22§ §oeoebbmely§
+§OEOE21fazek§ §oeoez17§ §oeoeadjoemely§
+
+
+LEXICON Root
+Prefleg;
+Prefigekoto;
+
+LEXICON Prefleg
+leg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+                        Prefigekoto ; ! empty string entry
+
+LEXICON Prefigekoto
++Pref+:keresztül   Adjige;
++Pref+:kölcsön   Adjige;
++Pref+:széjjel   Adjige;
++Pref+:szembe   Adjige;
++Pref+:szerte   Adjige;
++Pref+:vissza   Adjige;
++Pref+:helyre   Adjige;
++Pref+:tovább   Adjige;
++Pref+:tönkre   Adjige;
++Pref+:észre   Adjige;
++Pref+:rajta   Adjige;
++Pref+:előre   Adjige;
++Pref+:félbe   Adjige;
++Pref+:félre   Adjige;
++Pref+:felül   Adjige;
++Pref+:fölül   Adjige;
++Pref+:agyon   Adjige;
++Pref+:ellen   Adjige;
++Pref+:körbe   Adjige;
++Pref+:körül   Adjige;
++Pref+:közbe   Adjige;
++Pref+:közre   Adjige;
++Pref+:külön   Adjige;
++Pref+:utána   Adjige;
++Pref+:végbe   Adjige;
++Pref+:végig   Adjige;
++Pref+:hátra   Adjige;
++Pref+:hozzá   Adjige;
++Pref+:egybe   Adjige;
++Pref+:ketté   Adjige;
++Pref+:össze   Adjige;
++Pref+:mellé   Adjige;
++Pref+:által   Adjige;
++Pref+:alul   Adjige;
++Pref+:haza   Adjige;
++Pref+:újra   Adjige;
++Pref+:abba   Adjige;
++Pref+:neki   Adjige;
++Pref+:bele   Adjige;
++Pref+:újjá   Adjige;
++Pref+:benn   Adjige;
++Pref+:fenn   Adjige;
++Pref+:fönn   Adjige;
++Pref+:jóvá   Adjige;
++Pref+:szét   Adjige;
++Pref+:tele   Adjige;
++Pref+:tova   Adjige;
++Pref+:meg   Adjige;
++Pref+:oda   Adjige;
++Pref+:elő   Adjige;
++Pref+:túl   Adjige;
++Pref+:alá   Adjige;
++Pref+:föl   Adjige;
++Pref+:ide   Adjige;
++Pref+:fel   Adjige;
++Pref+:rá   Adjige;
++Pref+:ki   Adjige;
++Pref+:le   Adjige;
++Pref+:el   Adjige;
++Pref+:át   Adjige;
++Pref+:be   Adjige;
+            Adjige;
+
+LEXICON Adjige
+adagolási AddAdji;
+adási AddAdji;
+ajánlási AddAdji;
+akasztási AddAdji;
+alakulási AddAdji;
+alakítási AddAdji;
+alapozási AddAdji;
+alkotási AddAdji;
+alvási AddAdji;
+alázkodási AddAdji;
+alázási AddAdji;
+alélt AddAdj;
+birtoklási AddAdji;
+bizonytalanodási AddAdji;
+bizonyítási AddAdji;
+bocsáthatósági AddAdji;
+bomlasztási AddAdji;
+bontási AddAdji;
+bonyolítási AddAdji;
+borulási AddAdji;
+botlási AddAdji;
+bujtási AddAdji;
+bukkanási AddAdji;
+burjánzási AddAdji;
+buzdulási AddAdji;
+bánási AddAdji;
+bírási AddAdji;
+csapolási AddAdji;
+csapási AddAdji;
+csapódási AddAdji;
+csillapulási AddAdji;
+csukási AddAdji;
+csábítási AddAdji;
+csúszási AddAdji;
+dagasztási AddAdji;
+dalolási AddAdji;
+darabolási AddAdji;
+dobási AddAdji;
+duzzadási AddAdji;
+fagyasztási AddAdji;
+fagyási AddAdji;
+fogatási AddAdji;
+fogyasztói AddAdji;
+fogási AddAdji;
+fokozási AddAdji;
+fordulási AddAdji;
+formálási AddAdji;
+fáradási AddAdji;
+fárasztási AddAdji;
+fázási AddAdji;
+fújási AddAdji;
+fúvódási AddAdji;
+gondolási AddAdji;
+gyilkolási AddAdji;
+gyulladási AddAdji;
+gyártási AddAdji;
+gyóntatói AddAdji;
+gyújtási AddAdji;
+gázosítási AddAdji;
+hajlási AddAdji;
+hajtási AddAdji;
+halási AddAdji;
+hatolási AddAdji;
+hatási AddAdji;
+hordási AddAdji;
+horgászási AddAdji;
+horpadási AddAdji;
+hunyászkodási AddAdji;
+háborodási AddAdji;
+hámlási AddAdji;
+hódolási AddAdji;
+húzási AddAdji;
+húzódási AddAdji;
+indulási AddAdji;
+indíttatási AddAdji;
+indítási AddAdji;
+irányítási AddAdji;
+iszapolódási AddAdji;
+járatási AddAdji;
+járhatósági AddAdji;
+járási AddAdji;
+kakilt AddAdj;
+kaparási AddAdji;
+kapcsolódási AddAdji;
+karmolási AddAdji;
+karolási AddAdji;
+kompenzálási AddAdji;
+kopasztási AddAdji;
+kopási AddAdji;
+kutatási AddAdji;
+lakási AddAdji;
+lopási AddAdji;
+lyukasztási AddAdji;
+látási AddAdji;
+maradási AddAdji;
+marasztalási AddAdji;
+morzsolódási AddAdji;
+mozdulási AddAdji;
+mozdítási AddAdji;
+mállási AddAdji;
+mártási AddAdji;
+másolási AddAdji;
+nyilvánulási AddAdji;
+nyomorodási AddAdji;
+nyomtatási AddAdji;
+nyomási AddAdji;
+nyugtatási AddAdji;
+nyugvási AddAdji;
+nyílt AddAdjjajeae;
+oldódási AddAdji;
+olvadási AddAdji;
+olvasási AddAdji;
+oszlatási AddAdji;
+osztási AddAdji;
+pakolási AddAdji;
+pillantási AddAdji;
+pipilt AddAdj;
+pisilt AddAdj;
+porzási AddAdji;
+puffadási AddAdji;
+puszilt AddAdj;
+párlási AddAdji;
+párzási AddAdji;
+ragasztási AddAdji;
+raktározási AddAdji;
+rakási AddAdji;
+riasztási AddAdji;
+robbanási AddAdji;
+rogyási AddAdji;
+rohadási AddAdji;
+roppanási AddAdji;
+roskadási AddAdji;
+rothadási AddAdji;
+rovási AddAdji;
+rítt AddAdj;
+sarjadzási AddAdji;
+sarjadási AddAdji;
+sorvadási AddAdji;
+sorvasztási AddAdji;
+sugárzási AddAdji;
+szabadulási AddAdji;
+szabadítási AddAdji;
+szabadításnyi AddAdji;
+szaglási AddAdji;
+szakítási AddAdji;
+szaporodási AddAdji;
+szavazási AddAdji;
+szilárdulási AddAdji;
+szivárgási AddAdji;
+szállási AddAdji;
+szállásolási AddAdji;
+számlálási AddAdji;
+számítási AddAdji;
+szívási AddAdji;
+szólalási AddAdji;
+szólamlási AddAdji;
+szólási AddAdji;
+szórási AddAdji;
+szórásnyi AddAdji;
+szóródási AddAdji;
+sírt AddAdj;
+sírási AddAdji;
+takarítási AddAdji;
+tapasztalási AddAdji;
+tartozási AddAdji;
+tartási AddAdji;
+tiltási AddAdji;
+toldási AddAdji;
+tolási AddAdji;
+torlási AddAdji;
+tálalási AddAdji;
+támadási AddAdji;
+tárási AddAdji;
+távolodási AddAdji;
+utalási AddAdji;
+utazási AddAdji;
+vakarási AddAdji;
+vitatási AddAdji;
+vizsgáltatói AddAdji;
+vonási AddAdji;
+vágási AddAdji;
+vágódási AddAdji;
+vájási AddAdji;
+választási AddAdji;
+válogatódási AddAdji;
+váltónyi AddAdji;
+válási AddAdji;
+vándorlási AddAdji;
+várási AddAdji;
+vásárlási AddAdji;
+zajlási AddAdji;
+zárkóztatási AddAdji;
+zárkózási AddAdji;
+zárási AddAdji;
+zúzási AddAdji;
+áldozási AddAdji;
+állítási AddAdji;
+állónyi AddAdji;
+áramlási AddAdji;
+árazási AddAdji;
+árusítási AddAdji;
+ázási AddAdji;
+írt AddAdj;
+írási AddAdji;
+írásnyi AddAdji;
+újhodási AddAdji;
+
+
+! al only with these
+LEXICON AddAdjjajeae
+0:^+cMid§oeoebbmely§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocasejajeae;
+
+LEXICON AddAdj
+0:^+cMid§oeoebbmely§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocase;
+
+Lexicon Tocase1
++Adj+Mid:0     Possmmely;
++Adj+Mid:0     Plurmmely;
++Adj+Mid:0     Fammely1;
+
+Lexicon Tocase
++Adj:0     Possmely;
++Adj:0     Plurmely;
++Adj:0     Fammely;
+
+
+LEXICON Possmely
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Fammely;   ! m
++Posss1s:^+cPosss1s^§OEOE21fazek§m   Fammely;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fammely;   ! d
++Posss2s:^+cPosss2s^§OEOE21fazek§d   Fammely;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fammely;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fammely;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fammely;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE21fazek§t§OEOE25§k   Fammely;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fammely;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fammely;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fammely;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fammely;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fammely;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fammely;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fammely;   !aik, jaik, eik, jeik
+                           Fammely;
+LEXICON Possmmely
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Fammely;   ! m
+!+Posss1s:^+cPosss1s^§OEOE21fazek§m        Genmely;  ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fammely;   ! d
+!+Posss2s:^+cPosss2s^§OEOE21fazek§d        Genmely;  ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fammely;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fammely;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fammely;   ! etek, atok
+!+Possp2s:^+cPossp2s^§OEOE21fazek§t§OEOE25§k Genmely;  ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fammely;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fammely;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fammely;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fammely;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fammely;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fammely;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fammely;   !aik, jaik, eik, jeik
+                           Fammely1;
+
+
+LEXICON Plurmely
++Plur:^+cPlur^§oeoez21§k    Genmely;
++Plur:^+cPlur^§oeoez17§k    Genmely;
+                            Genmely;
+LEXICON Plurmmely
++Plur:^+cPlur^§oeoez21§k    Genmely;
+!+Plur:^+cPlur^§oeoez17§k    Genmely;
+                            Genmely1;
+        
+LEXICON Fammely
++Fam:^+cFam^ék         Genmely;
+                       Genmely;
+LEXICON Fammely1
++Fam:^+cFam^ék         Genmely;
+                       Genmely1;
+
+LEXICON Genmely
++Gens:^+cGens^é        Casemely;
++Genpl:^+cGenpl^éi     Casemely;
+                       Casemely;
+LEXICON Genmely1
++Gens:^+cGens^é        Casemely;
++Genpl:^+cGenpl^éi     Casemely;
+                       Casemely1;
+ 
+LEXICON Casemely
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
+
+LEXICON Casemely1
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^ként          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
+                          Ikmely;
+
+!
+!mély 
+!
+Lexicon Ikmely
++Ik:^ik     Possikmely;
++Ik:^ik     Plurikmely;
++Ik:^ik     Famikmely;
+            #;
+
+LEXICON Possikmely
++Dis:^+cDis^§ooez23§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Famikmely;   ! m
++Posss1s:^+cPosss1s^§OEOE21fazek§m   Famikmely;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Famikmely;   ! d
++Posss2s:^+cPosss2s^§OEOE21fazek§d   Famikmely;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Famikmely;   ! ja, je, a,e
++Posss3s:^+cPosss3s^§AE21§   Famikmely;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Famikmely;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Famikmely;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE21fazek§t§OEOE25§k   Famikmely;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Famikmely;   ! ük, uk
++Possp3s:^+cPossp3s^§UUE21§k   Famikmely;   ! ük, uk
++Posss1p:^+cPosss1p^§AE22§im   Famikmely;   ! aim
++Posss1p:^+cPosss1p^§JP§§AE22§im   Famikmely;   ! aim
++Posss2p:^+cPosss2p^§AE22§id   Famikmely;   ! aid
++Posss2p:^+cPosss2p^§JP§§AE22§id   Famikmely;   ! aid
++Posss3p:^+cPosss3p^§AE22§i   Famikmely;   ! ai, jai, ei, jei
++Posss3p:^+cPosss3p^§JP§§AE22§i   Famikmely;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§AE22§ink   Famikmely;   ! aink, eink
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Famikmely;   ! aink, eink
++Possp2p:^+cPossp2p^§AE22§it§OEOE22§k   Famikmely;  ! aitok, eitek
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Famikmely;  ! aitok, eitek
++Possp3p:^+cPossp3p^§AE22§ik   Famikmely;   !aik, jaik, eik, jeik
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Famikmely;   !aik, jaik, eik, jeik
+                           Famikmely;
+LEXICON Plurikmely
++Plur:^+cPlur^§oeoez21§k    Genikmely;
++Plur:^+cPlur^§oeoez17§k    Genikmely;
+                            Genikmely;
+
+LEXICON Famikmely
++Fam:^+cFam^ék         Genikmely;
+                       Genikmely;
+
+LEXICON Genikmely
++Gens:^+cGens^é          Caseikmely;
++Genpl:^+cGenpl^éi     Caseikmely;
+                       Caseikmely;
+  
+LEXICON Caseikmely
++Abl:^+cAbl^§t§§oooe2§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA2§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l      #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA2§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA2§         #;  ! ra, re
++Sup:^+cSup^§oeoez25§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+Lexicon Tocasejajeae
++Adj:0     Possmelyjajeae;
++Adj:0     Plurmely;
++Adj:0     Fammely;
+
+
+LEXICON Possmelyjajeae
++Dis:^+cDis^§ooez23§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA22§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^kor               #;    ! kor
++Posss1s:^+cPosss1s^§OEOE21§m   Fammely;   ! m
++Posss1s:^+cPosss1s^§OEOE21fazek§m   Fammely;   ! m
++Posss2s:^+cPosss2s^§OEOE21§d   Fammely;   ! d
++Posss2s:^+cPosss2s^§OEOE21fazek§d   Fammely;   ! d
++Posss3s:^+cPosss3s^§J§§AE21§   Fammely;   ! ja, je, a,e
++Posss3s:^+cPosss3s^§AE21§   Fammely;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fammely;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE21§t§OEOE25§k   Fammely;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE21fazek§t§OEOE25§k   Fammely;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fammely;   ! ük, uk
++Possp3s:^+cPossp3s^§UUE21§k   Fammely;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fammely;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fammely;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fammely;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fammely;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fammely;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fammely;   !aik, jaik, eik, jeik
++Posss1p:^+cPosss1p^§AE22§im   Fammely;   ! aim
++Posss2p:^+cPosss2p^§AE22§id   Fammely;   ! aid
++Posss3p:^+cPosss3p^§AE22§i   Fammely;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§AE22§ink   Fammely;   ! aink, eink
++Possp2p:^+cPossp2p^§AE22§it§OEOE22§k   Fammely;  ! aitok, eitek
++Possp3p:^+cPossp3p^§AE22§ik   Fammely;   !aik, jaik, eik, jeik
+                           Fammely;
+
+LEXICON AddAdji
+0:^+cMid§oeoebbmely§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocasei;
+
+Lexicon Tocasei
++Adj:0     Possmely;
++Adj:0     Plurmelyi;
++Adj:0     Fammely;
+
+
+LEXICON Plurmelyi
++Plur:^+cPlur^§oeoez21§k    Genmely;
++Plur:^+cPlur^§oeoez17§k    Genmely;
++Plur:^+cPlur^§oeoeadjoemely§k    Genmely; 
+                            Genmely;
+
+!result
+!legeslegkedvesebbet
+!legeslegkedvesebben
+!legkedvesebbet
+!legkedvesebben
+!kedvesebbet
+!kedvesebben
+!kedveset
+!kedvesen

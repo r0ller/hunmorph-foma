@@ -1,0 +1,75 @@
+!!!enhuvbpfx.lexc!!!
+
+Multichar_Symbols  +Vbpfx
+
+      
+LEXICON Root
+Vbpfx;
+
+
+LEXICON Vbpfx
+abba AddVbpfx;
+agyon AddVbpfx;
+alá AddVbpfx;
+által AddVbpfx;
+alul AddVbpfx;
+át AddVbpfx;
+be AddVbpfx;
+bele AddVbpfx;
+benn AddVbpfx;
+egybe AddVbpfx;
+el AddVbpfx;
+ellen AddVbpfx;
+elő AddVbpfx;
+előre AddVbpfx;
+észre AddVbpfx;
+fel AddVbpfx;
+félbe AddVbpfx;
+félre AddVbpfx;
+felül AddVbpfx;
+fenn AddVbpfx;
+föl AddVbpfx;
+fölül AddVbpfx;
+fönn AddVbpfx;
+hátra AddVbpfx;
+haza AddVbpfx;
+helyre AddVbpfx;
+hozzá AddVbpfx;
+ide AddVbpfx;
+jóvá AddVbpfx;
+keresztül AddVbpfx;
+ketté AddVbpfx;
+ki AddVbpfx;
+kölcsön AddVbpfx;
+körbe AddVbpfx;
+körül AddVbpfx;
+közbe AddVbpfx;
+közre AddVbpfx;
+külön AddVbpfx;
+le AddVbpfx;
+meg AddVbpfx;
+mellé AddVbpfx;
+neki AddVbpfx;
+oda AddVbpfx;
+össze AddVbpfx;
+rá AddVbpfx;
+rajta AddVbpfx;
+széjjel AddVbpfx;
+szembe AddVbpfx;
+szerte AddVbpfx;
+szét AddVbpfx;
+tele AddVbpfx;
+tova AddVbpfx;
+tovább AddVbpfx;
+tönkre AddVbpfx;
+túl AddVbpfx;
+újjá AddVbpfx;
+újra AddVbpfx;
+utána AddVbpfx;
+végbe AddVbpfx;
+végig AddVbpfx;
+vissza AddVbpfx;
+
+LEXICON AddVbpfx
++Vbpfx:0     #;
+

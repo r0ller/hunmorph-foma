@@ -1,0 +1,1852 @@
+!!!enhunum1.lexc!!!
+! szor, szer, ször, edik, adik, odik, ed, ad,öd ragok
+
+Multichar_Symbols  +Num
+
++Dis +Ess +Soc +Tem +Tmp +Ik +Iadj +Kas +Npref+ +Par
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter 
+      
+§EOA§ §uue§ §ooez3§ §OEOE1§ §J§ §UUE§ §OEOE§ §JP§ §AE§ §OEOE2§
+§UUE1§ §oeoez1§ §oooe§ §oeoez2§ §AAA§ §oeoe§ §AA§ §oeoez§ §AE1§
+§VV§ §b§ §h§ §k§ §n§ §r§ §t§ 
+§aeoenr§ §oeanr§ §JPnull§ §aeoenra§
+§oeoez11§ §oeoez12§ §OEOE11§ §ooez13§ §EOA2§
+!
+§ooez18§ §uue2§ §EOA17§ §OEOE17§ §AE21§ §OEOE25§ §UUE21§ §AE22§
+§OEOE22§ §oeoez17§ §oooe2§ §AAA2§ §AA2§ §oeoe2§ §oeoez25§
+§oeanrmely§ §sz§ §UUE2§ §OEOE18§ §oeoez18§ 
+§aeoenrmelya§ §EOA18§ §ooez19§ §oeoez24§ §oeoezoa§
+§oeoez25oa§
+
+      
+LEXICON Root
+NumPref2 ;
+NumPref3 ;
+NumPref12 ;
+NumPref13 ;
+NumPref14 ;
+Num;
+Num1;
+Num2;
+Num3;
+Num4;
+Num5;
+
+Lexicon NumPref2
++Npref+:egy NumPref12;
++Npref+:egyes NumPref12;
++Npref+:kettő NumPref12;
++Npref+:két NumPref12;
++Npref+:kettes NumPref12;
++Npref+:három NumPref12;
++Npref+:hármas NumPref12;
++Npref+:négy NumPref12;
++Npref+:négyes NumPref12;
++Npref+:öt NumPref12;
++Npref+:ötös NumPref12;
++Npref+:hat NumPref12;
++Npref+:hatos NumPref12;
++Npref+:hét NumPref12;
++Npref+:hetes NumPref12;
++Npref+:nyolc NumPref12;
++Npref+:nyolcas NumPref12;
++Npref+:kilenc NumPref12;
++Npref+:kilences NumPref12;
++Npref+:egy NumPref13;
++Npref+:egyes NumPref13;
++Npref+:kettő NumPref13;
++Npref+:két NumPref13;
++Npref+:kettes NumPref13;
++Npref+:három NumPref13;
++Npref+:hármas NumPref13;
++Npref+:négy NumPref13;
++Npref+:négyes NumPref13;
++Npref+:öt NumPref13;
++Npref+:ötös NumPref13;
++Npref+:hat NumPref13;
++Npref+:hatos NumPref13;
++Npref+:hét NumPref13;
++Npref+:hetes NumPref13;
++Npref+:nyolc NumPref13;
++Npref+:nyolcas NumPref13;
++Npref+:kilenc NumPref13;
++Npref+:kilences NumPref13;
++Npref+:egy NumPref14;
++Npref+:egyes NumPref14;
++Npref+:kettő NumPref14;
++Npref+:két NumPref14;
++Npref+:kettes NumPref14;
++Npref+:három NumPref14;
++Npref+:hármas NumPref14;
++Npref+:négy NumPref14;
++Npref+:négyes NumPref14;
++Npref+:öt NumPref14;
++Npref+:ötös NumPref14;
++Npref+:hat NumPref14;
++Npref+:hatos NumPref14;
++Npref+:hét NumPref14;
++Npref+:hetes NumPref14;
++Npref+:nyolc NumPref14;
++Npref+:nyolcas NumPref14;
++Npref+:kilenc NumPref14;
++Npref+:kilences NumPref14;
++Npref+:fél NumPref12;
++Npref+:harmad NumPref12;
++Npref+:negyed NumPref12;
++Npref+:ötöd NumPref12;
++Npref+:hatod NumPref12;
++Npref+:heted NumPref12;
++Npref+:nyolcad NumPref12;
++Npref+:kilenced NumPref12;
++Npref+:tized NumPref12;
++Npref+:fél NumPref13;
++Npref+:harmad NumPref13;
++Npref+:negyed NumPref13;
++Npref+:ötöd NumPref13;
++Npref+:hatod NumPref13;
++Npref+:heted NumPref13;
++Npref+:nyolcad NumPref13;
++Npref+:kilenced NumPref13;
++Npref+:tized NumPref13;
++Npref+:fél NumPref14;
++Npref+:harmad NumPref14;
++Npref+:negyed NumPref14;
++Npref+:ötöd NumPref14;
++Npref+:hatod NumPref14;
++Npref+:heted NumPref14;
++Npref+:nyolcad NumPref14;
++Npref+:kilenced NumPref14;
++Npref+:tized NumPref14;
+          Num;
+
+Lexicon NumPref3
++Npref+:tíz NumPref2;
++Npref+:tizen NumPref2;
++Npref+:húsz NumPref2;
++Npref+:huszon NumPref2;
++Npref+:harminc NumPref2;
++Npref+:negyven NumPref2;
++Npref+:ötven NumPref2;
++Npref+:hatvan NumPref2;
++Npref+:hetven NumPref2;
++Npref+:nyolcvan NumPref2;
++Npref+:kilencven NumPref2;
++Npref+:tíz NumPref13;
++Npref+:húsz NumPref13;
++Npref+:harminc NumPref13;
++Npref+:negyven NumPref13;
++Npref+:ötven NumPref13;
++Npref+:hatvan NumPref13;
++Npref+:hetven NumPref13;
++Npref+:nyolcvan NumPref13;
++Npref+:kilencven NumPref13;
++Npref+:tíz NumPref14;
++Npref+:húsz NumPref14;
++Npref+:harminc NumPref14;
++Npref+:negyven NumPref14;
++Npref+:ötven NumPref14;
++Npref+:hatvan NumPref14;
++Npref+:hetven NumPref14;
++Npref+:nyolcvan NumPref14;
++Npref+:kilencven NumPref14;
+          Num;
+
+Lexicon NumPref12
++Npref+:száz NumPref13;
++Npref+:száz NumPref14;
++Npref+:száz NumPref3;
++Npref+:száz NumPref2;
++Npref+:száz Num1;
+          Num1;
+
+Lexicon NumPref13
++Npref+:ezer NumPref12;
++Npref+:ezer NumPref14;
++Npref+:ezer NumPref3;
++Npref+:ezer NumPref2;
+          Num2;
+
+Lexicon NumPref14
+!+Npref+:millió NumPref13;
+!+Npref+:millió NumPref12;
+!+Npref+:millió NumPref3;
+!+Npref+:millió NumPref2;
++Npref+:millió Num4;
+         Num4;
+
+LEXICON Num
+fél AddNum;
+feles AddNumat;
+egy AddNum; 
+egyes AddNumat;
+kettő AddNummar; 
+kettő:két AddNumket;
+kettő:más AddNumketthet2; 
+kettő:kett AddNumkett2; ! od odszor odik
+kettes AddNumat;
+kettős AddNumat;
+három AddNummarharom;
+három:hárm AddNumhar; 
+három:harm AddNumkettharom; 
+hármas AddNumat;
+négy AddNummarjnull; 
+négy:negy AddNumkett; 
+négyes AddNumat;
+öt AddNumoet; 
+ötös AddNumat;
+hat AddNum;
+hatos AddNumat;
+hét AddNummarhet; 
+hét:het AddNumketthet; 
+hetes AddNumat;
+nyolc AddNuma;
+nyolcas AddNumat;
+kilenc AddNum; 
+kilences AddNumat;
+elseje AddNum;
+másodika AddNum;
+harmadika AddNum;
+negyedike AddNum;
+ötödike AddNum;
+hatodika AddNum;
+hetedike AddNum;
+nyolcadika AddNum;
+kilencedike AddNum;
+tizedike AddNum;
+tizenegyedike AddNum;
+tizenkettedike AddNum;
+tizenharmadika AddNum;
+tizennegyedike AddNum;
+tizenötödike AddNum;
+tizenhatodika AddNum;
+tizenhetedike AddNum;
+tizennyolcadika AddNum;
+tizenkilencedike AddNum;
+huszadika AddNum;
+huszonegyedike AddNum;
+huszonkettedike AddNum;
+huszonharmadika AddNum;
+huszonnegyedike AddNum;
+huszonötödike AddNum;
+huszonhatodika AddNum;
+huszonhetedike AddNum;
+huszonnyolcadika AddNum;
+huszonkilencedike AddNum;
+harmincadika AddNum;
+harmincegyedike AddNum;
+
+
+LEXICON Num1
+tíz AddNummar; 
+tíz:tiz AddNumkett; 
+tízes AddNumat;
+húsz AddNummara;
+húsz:husz AddNumketta;
+húszas AddNumat;
+harminc AddNummelyoa; 
+harmincas AddNumat;
+negyven AddNum; 
+negyvenes AddNumat;
+ötven AddNum; 
+ötvenes AddNumat;
+hatvan AddNumoa;
+hatvanas AddNumat; 
+hetven AddNum; 
+hetvenes AddNumat;
+nyolcvan AddNumoa;
+nyolcvanas AddNumat; 
+kilencven AddNum;
+kilencvenes AddNumat; 
+negyven AddNum; 
+negyvenes AddNumat;
+ötven AddNum; 
+ötvenes AddNumat;
+hatvan AddNumoa;
+hatvanas AddNumat; 
+hetven AddNum; 
+hetvenes AddNumat;
+nyolcvan AddNumoa;
+nyolcvanas AddNumat; 
+kilencven AddNum;
+kilencvenes AddNumat; 
+    Num;
+
+LEXICON Num2
+száz AddNumoa; 
+százas AddNumat;
+    Num1;
+
+LEXICON Num3
+ezer AddNum; 
+ezer:ezr AddNumezr;
+ezres AddNumat;
+   Num2;
+
+LEXICON Num4
+millió AddNummil; 
+millió:milliom AddNummilliom;
+milliós AddNumat;
+milliárd AddNum; 
+milliárdos AddNumat;
+billiárd AddNum; 
+billiárdos AddNumat;
+billió AddNummil; 
+billió:billiom AddNummilliom;
+billiós AddNumat;
+trillió AddNummil; 
+trillió:trilliom AddNummilliom;
+trilliós AddNumat;
+trilliárd AddNum; 
+trilliárdos AddNumat;
+kvadrillió AddNummil; 
+kvadrillió:kvadrilliom AddNummilliom;
+kvadrilliós AddNumat;
+kvintillió AddNummil;
+kvintilliárd AddNum; 
+szextillió AddNummil;
+szextilliárd AddNum; 
+szeptillió AddNummil;
+szeptilliárd AddNum; 
+oktillió AddNummil;
+oktilliárd AddNum; 
+nonillió AddNummil;
+nonilliárd AddNum; 
+decillió AddNummil;
+decilliárd AddNum; 
+tucat AddNum;
+   Num3;
+
+LEXICON Num5
+mindkettő AddNummar; 
+mindkettő:mindketteje AddNummkette; 
+mindkettő:mindkettejük AddNummkette; 
+mindkettő:mindkét AddNumket;
+mindkettő:mindkett AddNumkett2; ! od odszor odik
+mindhárom AddNummarharom;
+mindhárom:mindhárm AddNumhar; 
+mindhárom:mindharm AddNumkettharom; 
+csomó AddNum;
+több AddNum;
+többszáz AddNum;
+többszáznyi AddNum;
+többezer AddNum;
+többezernyi AddNum;
+legtöbb AddNum;
+legeslegtöbb AddNum;
+nulla AddNum;
+
+LEXICON AddNum
++Num:0     Poss;
++Num:0     Plur;
++Num:0     Fam;
+
+LEXICON Poss
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam1;
+
+LEXICON Plur
++Plur:^+cPlur^§oeoez1§k    Gen;
+                            Gen1;
+        
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+LEXICON Fam1
++Fam:^+cFam^ék         Gen;
+                       Gen1;
+
+LEXICON Gen
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+LEXICON Gen1
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+ 
+LEXICON Case
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Szor
++Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+
+LEXICON Sub
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! i
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNumat
++Num:0     Possat;
++Num:0     Plurat;
++Num:0     Fam;
+
+LEXICON Possat
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenr§d       Szor;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
++Acc:^+cAcc^§AA§t       #;  ! ot, et, öt, t
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam1;
+
+LEXICON Plurat
++Plur:^+cPlur^§oeoez1§k    Gen;
++Plur:^+cPlur^§AA§k    Gen;
+                            Gen1;
+
+LEXICON AddNummil
++Num:0     Possmil;
++Num:0     Plurmil;
++Num:0     Fammil;
+
+LEXICON Possmil
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenr§d       Szormil;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Submil;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Fammil;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fammil;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fammil;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fammil;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fammil;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fammil;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fammil;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fammil;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fammil;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fammil;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fammil;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fammil;   !aik, jaik, eik, jeik
+                           Fammil1;
+
+LEXICON Plurmil
++Plur:^+cPlur^§oeoez1§k    Genmil;
+                            Genmil1;
+        
+LEXICON Fammil
++Fam:^+cFam^ék         Genmil;
+                       Genmil;
+LEXICON Fammil1
++Fam:^+cFam^ék         Genmil;
+                       Genmil;
+
+LEXICON Genmil
++Gens:^+cGens^é          Casemil;
++Genpl:^+cGenpl^éi     Casemil;
+                       Casemil;
+LEXICON Genmil1
++Gens:^+cGens^é          Casemil;
++Genpl:^+cGenpl^éi     Casemil;
+                       Casemil1;
+ 
+LEXICON Casemil
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Casemil1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Sup:^+cSup^an              #;  ! an - millióan
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Szormil
++Tmp:^+cTmp^sz§oeanr§r      Sub;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+
+LEXICON Submil
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNummilliom
++Num:0     Possmilliom;
+
+LEXICON Possmilliom
++Par:^+cPar^§aeoenr§d       Szormilliom;  ! od,ed,öd
+
+LEXICON Szormilliom
++Tmp:^+cTmp^sz§oeanr§r      Submilliom;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Submilliom
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+! ezer:ezr
+LEXICON AddNumezr
++Num:0     Possezr;
++Num:0     Plurezr;
+
+LEXICON Possezr
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
+!+Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenr§d       Szorezr;  ! od,ed,öd
+!+Tmp:^+cTmp^sz§oeanr§r      #;  ! szor, szer, ször
++Posss1s:^+cPosss1s^em   Famezr;   ! m
++Posss2s:^+cPosss2s^ed   Famezr;   ! d
++Posss3s:^+cPosss3s^§JPnull§§AE1§   Famezr;   ! ja, je, a,e
++Possp1s:^+cPossp1s^ünk   Famezr;   ! unk, ünk
++Possp2s:^+cPossp2s^et§OEOE§k   Famezr;   ! etek, atok
++Possp3s:^+cPossp3s^§JPnull§§UUE1§k   Famezr;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Famezr;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Famezr;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Famezr;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Famezr;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Famezr;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Famezr;   !aik, jaik, eik, jeik
+                                  Case1ezr;
+
+LEXICON Plurezr
++Plur:^+cPlur^§oeoez1§k    Genezr;
+                            Case1ezr;
+
+LEXICON Famezr
++Fam:^+cFam^ék         Genezr;
+                       Caseezr1;
+
+LEXICON Genezr
++Gens:^+cGens^é          Caseezr;
++Genpl:^+cGenpl^éi     Caseezr;
+                       Caseezr1;
+ 
+LEXICON Caseezr
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Caseezr1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1ezr
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
+
+LEXICON Szorezr
++Tmp:^+cTmp^sz§oeanr§r      Subezr;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subezr
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNumoa
++Num:0     Possoa;
++Num:0     Pluroa;
++Num:0     Famoa;
+
+LEXICON Possoa
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenra§d       Szoroa;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Suboa;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Famoa;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Famoa;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Famoa;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Famoa;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Famoa;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famoa;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Famoa;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Famoa;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Famoa;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Famoa;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Famoa;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Famoa;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Famoa;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Famoa;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Famoa;   !aik, jaik, eik, jeik
+                           Famoa1;
+
+LEXICON Pluroa
++Plur:^+cPlur^§oeoez1§k    Genoa;
++Plur:^+cPlur^§oeoez11§k    Genoa;
+                            Genoa;
+        
+LEXICON Famoa
++Fam:^+cFam^ék         Genoa;
+                       Genoa;
+LEXICON Famoa1
++Fam:^+cFam^ék         Genoa;
+                       Genoa1;
+
+LEXICON Genoa
++Gens:^+cGens^é          Caseoa;
++Genpl:^+cGenpl^éi     Caseoa;
+                       Caseoa;
+LEXICON Genoa1
++Gens:^+cGens^é          Caseoa;
++Genpl:^+cGenpl^éi     Caseoa;
+                       Caseoa1;
+ 
+LEXICON Caseoa
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Caseoa1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Szoroa
++Tmp:^+cTmp^sz§oeanr§r      Suboa;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Suboa
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNummelyoa
++Num:0     Possmelyoa;
++Num:0     Plurmelyoa;
++Num:0     Fammelyoa;
+
+LEXICON Possmelyoa
++Dis:^+cDis^§ooez18§nként     #;    ! anként, enként
++Dis:^+cDis^§ooez19§nként     #;    ! anként, enként
++Soc:^+cSoc^§EOA17§st§uue2§l  #;    ! astul, estül
++Soc:^+cSoc^§EOA18§st§uue2§l  #;    ! astul, estül
++Tem:^+cTem^§k§or               #;    ! kor
++Par:^+cPar^§aeoenrmelya§d       Szormelyoa;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanrmely§r      Submelyoa;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE17§m   Fammelyoa;   ! m
++Posss1s:^+cPosss1s^§OEOE18§m   Fammelyoa;   ! m ! a
++Posss2s:^+cPosss2s^§OEOE17§d   Fammelyoa;   ! d
++Posss2s:^+cPosss2s^§OEOE18§d   Fammelyoa;   ! d  ! a
++Posss3s:^+cPosss3s^§J§§AE21§   Fammelyoa;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE2§nk   Fammelyoa;    ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE17§t§OEOE25§k   Fammelyoa;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE18§t§OEOE25§k   Fammelyoa;   ! etek, atok ! a
++Possp3s:^+cPossp3s^§J§§UUE21§k   Fammelyoa;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE22§im   Fammelyoa;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE22§id   Fammelyoa;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE22§i   Fammelyoa;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE22§ink   Fammelyoa;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE22§it§OEOE22§k   Fammelyoa;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE22§ik   Fammelyoa;   !aik, jaik, eik, jeik
+                           Fammelyoa1;
+
+LEXICON Plurmelyoa
++Plur:^+cPlur^§oeoez17§k    Genmelyoa;
++Plur:^+cPlur^§oeoez18§k    Genmelyoa; ! a
+                            Genmelyoa;
+        
+LEXICON Fammelyoa
++Fam:^+cFam^ék         Genmelyoa;
+                       Genmelyoa;
+LEXICON Fammelyoa1
++Fam:^+cFam^ék         Genmelyoa;
+                       Genmelyoa1;
+
+LEXICON Genmelyoa
++Gens:^+cGens^é        Casemelyoa;
++Genpl:^+cGenpl^éi     Casemelyoa;
+                       Casemelyoa;
+LEXICON Genmelyoa1
++Gens:^+cGens^é        Casemelyoa;
++Genpl:^+cGenpl^éi     Casemelyoa;
+                       Casemelyoa1;
+ 
+LEXICON Casemelyoa
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
+
+LEXICON Casemelyoa1
++Abl:^+cAbl^§t§§oooe2§l     #;  ! tól, től
++Acc:^+cAcc^§oeoez24§t    #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA2§l      #;  ! nál, nél
++All:^+cAll^§h§§oeoe2§z     #;  ! hoz, hez, höz
++Cau:^+cCau^ért           #;  ! ért
++Dat:^+cDat^§n§§AA2§k       #;  ! nak, nek
++Del:^+cDel^§r§§oooe2§l     #;  ! ról, ről
++Ess:^+cEss^§uue2§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe2§l     #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA2§    #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA2§        #;  ! ba, be
++Ine:^+cIne^§b§§AA2§n       #;  ! ban, ben
++Ins:^+cIns^§VV§§AA2§l    #;  ! val, vel
++Nom:^+cNom^0             #;  ! 
++Sub:^+cSub^§r§§AA2§        #;  ! ra, re
++Sup:^+cSup^§oeoez25oa§n    #;  ! on, en, ön, n
++Ter:^+cTer^ig            #;  ! ig
+
+LEXICON Szormelyoa
++Tmp:^+cTmp^sz§oeanrmely§r      Submelyoa;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Submelyoa
++Sub:^+cSub^§r§§AA2§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanrmely§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNuma
++Num:0     Possa;
++Num:0     Plura;
++Num:0     Fama;
+
+LEXICON Possa
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenra§d       Szora;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Suba;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE11§m   Fama;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Fama;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fama;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fama;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fama;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fama;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fama;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fama;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fama;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fama;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fama;   !aik, jaik, eik, jeik
+                           Fama1;
+
+LEXICON Plura
++Plur:^+cPlur^§oeoez11§k    Gena;
+                            Gena;
+        
+LEXICON Fama
++Fam:^+cFam^ék         Gena;
+                       Gena;
+LEXICON Fama1
++Fam:^+cFam^ék         Gena;
+                       Gena1;
+
+LEXICON Gena
++Gens:^+cGens^é          Casea;
++Genpl:^+cGenpl^éi     Casea;
+                       Casea;
+LEXICON Gena1
++Gens:^+cGens^é          Casea;
++Genpl:^+cGenpl^éi     Casea;
+                       Casea1;
+ 
+LEXICON Casea
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Casea1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Szora
++Tmp:^+cTmp^sz§oeanr§r      Suba;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Suba
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+! három:hárm
+LEXICON AddNumhar
++Num:0     Posshar;
++Num:0     Plurhar;
+
+LEXICON Posshar
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA2§st§uue§l   #;    ! astul, estül
++Posss1s:^+cPosss1s^§OEOE11§m   Famhar;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Famhar;   ! d
++Posss3s:^+cPosss3s^§JPnull§§AE1§   Famhar;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famhar;   ! unk, ünk
++Possp1s:^+cPossp1s^ónk   Famhar;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Famhar;   ! etek, atok
++Possp2s:^+cPossp2s^ót§OEOE§k   Famhar;   ! etek, atok
++Possp3s:^+cPossp3s^§JPnull§§UUE1§k   Famhar;   ! ük, uk
++Possp3s:^+cPossp3s^ój§UUE1§k   Famhar;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Famhar;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Famhar;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Famhar;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Famhar;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Famhar;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Famhar;   !aik, jaik, eik, jeik
+                       Casehar1;
+!                       Case1har;
+
+LEXICON Plurhar
++Plur:^+cPlur^§oeoez11§k    Genhar;
+                       Casehar1;
+!                       Case1har;
+
+LEXICON Famhar
++Fam:^+cFam^ék         Genhar;
+                       Genhar;
+!                       Case1har;
+
+LEXICON Genhar
++Gens:^+cGens^é          Casehar;
++Genpl:^+cGenpl^éi     Casehar;
+                       Casehar1;
+ 
+LEXICON Casehar
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+                            #;
+LEXICON Casehar1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+!LEXICON Case1har
+!+Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
+!+Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
+
+
+LEXICON AddNummar
++Num:0     Possmar;
++Num:0     Plurmar;
++Num:0     Fammar;
+
+LEXICON Possmar
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Tmp:^+cTmp^sz§oeanr§r      Submar;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Fammar;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fammar;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fammar;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fammar;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fammar;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fammar;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fammar;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fammar;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fammar;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fammar;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fammar;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fammar;   !aik, jaik, eik, jeik
+                           Fammar1;
+
+LEXICON Plurmar
++Plur:^+cPlur^§oeoez1§k    Genmar;
+                            Genmar;
+        
+LEXICON Fammar
++Fam:^+cFam^ék         Genmar;
+                       Genmar;
+LEXICON Fammar1
++Fam:^+cFam^ék         Genmar;
+                       Genmar1;
+
+LEXICON Genmar
++Gens:^+cGens^é          Casemar;
++Genpl:^+cGenpl^éi     Casemar;
+                       Casemar;
+LEXICON Genmar1
++Gens:^+cGens^é          Casemar;
++Genpl:^+cGenpl^éi     Casemar;
+                       Casemar1;
+ 
+LEXICON Casemar
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Casemar1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Submar
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNummara
++Num:0     Possmara;
++Num:0     Plurmara;
++Num:0     Fammara;
+
+LEXICON Possmara
++Dis:^+cDis^§ooez13§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Tmp:^+cTmp^§sz§§oeanr§r      Submara;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE11§m   Fammara;   ! m
++Posss2s:^+cPosss2s^§OEOE11§d   Fammara;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Fammara;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fammara;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fammara;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fammara;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fammara;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fammara;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fammara;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fammara;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fammara;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fammara;   !aik, jaik, eik, jeik
+                           Fammara1;
+
+LEXICON Plurmara
++Plur:^+cPlur^§oeoez11§k    Genmara;
+                            Genmara;
+        
+LEXICON Fammara
++Fam:^+cFam^ék         Genmara;
+                       Genmara;
+LEXICON Fammara1
++Fam:^+cFam^ék         Genmara;
+                       Genmara1;
+
+LEXICON Genmara
++Gens:^+cGens^é          Casemara;
++Genpl:^+cGenpl^éi     Casemara;
+                       Casemara;
+LEXICON Genmara1
++Gens:^+cGens^é          Casemara;
++Genpl:^+cGenpl^éi     Casemara;
+                       Casemara1;
+ 
+LEXICON Casemara
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^at              #;  ! húszat
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Casemara1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^at              #;  ! húszat
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Submara
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+!három
+LEXICON AddNummarharom
++Num:0     Possmarharom;
++Num:0     Fammarharom;
+
+LEXICON Possmarharom
++Tem:^+cTem^§k§or           #;    ! kor
++Tmp:^+cTmp^sz§oeanr§r      Submarharom;    ! szor, szer, ször
+                  Gen1marharom;
+        
+LEXICON Fammarharom
++Fam:^+cFam^ék         Genmarharom;
+                       Gen1marharom;
+
+LEXICON Genmarharom
++Gens:^+cGens^é          Casemarharom;
++Genpl:^+cGenpl^éi     Casemarharom;
+                       Case2marharom;
+LEXICON Gen1marharom
++Gens:^+cGens^é          Casemarharom;
++Genpl:^+cGenpl^éi     Casemarharom;
+                       Case1marharom;
+ 
+LEXICON Casemarharom
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1marharom
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case2marharom
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Submarharom
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNummarjnull
++Num:0     Possmarjnull;
++Num:0     Plurmarjnull;
++Num:0     Fammarjnull;
+
+LEXICON Possmarjnull
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Tmp:^+cTmp^sz§oeanr§r      Submarjnull;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Fammarjnull;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fammarjnull;   ! d
++Posss3s:^+cPosss3s^§JPnull§§AE1§   Fammarjnull;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fammarjnull;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fammarjnull;   ! etek, atok
++Possp3s:^+cPossp3s^§JPnull§§UUE1§k   Fammarjnull;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Fammarjnull;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Fammarjnull;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Fammarjnull;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Fammarjnull;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Fammarjnull;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Fammarjnull;   !aik, jaik, eik, jeik
+                           Fammarjnull1;
+
+LEXICON Plurmarjnull
++Plur:^+cPlur^§oeoez1§k    Genmarjnull;
+                            Genmarjnull;
+        
+LEXICON Fammarjnull
++Fam:^+cFam^ék         Genmarjnull;
+                       Genmarjnull;
+LEXICON Fammarjnull1
++Fam:^+cFam^ék         Genmarjnull;
+                       Genmarjnull1;
+
+LEXICON Genmarjnull
++Gens:^+cGens^é          Casemarjnull;
++Genpl:^+cGenpl^éi     Casemarjnull;
+                       Casemarjnull;
+LEXICON Genmarjnull1
++Gens:^+cGens^é          Casemarjnull;
++Genpl:^+cGenpl^éi     Casemarjnull;
+                       Casemarjnull1;
+ 
+LEXICON Casemarjnull
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Casemarjnull1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Submarjnull
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+! hét
+LEXICON AddNummarhet
++Num:0     Possmarhet;
++Num:0     Fammarhet;
+
+LEXICON Possmarhet
++Tem:^+cTem^§k§or           #;    ! kor
++Tmp:^+cTmp^sz§oeanr§r      Submarhet;  ! szor, szer, ször
+                                  Genmar1het;
+
+LEXICON Fammarhet
++Fam:^+cFam^ék         Genmarhet;
+                       Genmar1het;
+
+LEXICON Genmarhet
++Gens:^+cGens^é          Casemarhet;
++Genpl:^+cGenpl^éi     Casemarhet;
+                       Casemarhet;
+
+LEXICON Genmar1het
++Gens:^+cGens^é          Casemarhet;
++Genpl:^+cGenpl^éi     Casemarhet;
+                       Case1marhet;
+ 
+LEXICON Casemarhet
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1marhet
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
+!+Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Submarhet
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+!hét:het
+LEXICON AddNumketthet
++Num:0     Possketthet;
++Num:0     Plurketthet;
+
+LEXICON Possketthet
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Par:^+cPar^§aeoenr§d       Szorketthet;  ! od,ed,öd
++Posss1s:^+cPosss1s^§OEOE1§m   Famketthet;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Famketthet;   ! d
++Posss3s:^+cPosss3s^§JPnull§§AE1§   Famketthet;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famketthet;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Famketthet;   ! etek, atok
++Possp3s:^+cPossp3s^§JPnull§§UUE1§k   Famketthet;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Famketthet;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Famketthet;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Famketthet;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Famketthet;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Famketthet;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Famketthet;   !aik, jaik, eik, jeik
+                                  Case1ketthet;
+
+LEXICON Plurketthet
++Plur:^+cPlur^§oeoez1§k    Genketthet;
+                            Case1ketthet;
+
+LEXICON Famketthet
++Fam:^+cFam^ék         Genketthet;
+                       Genketthet;
+
+LEXICON Genketthet
++Gens:^+cGens^é          Caseketthet;
++Genpl:^+cGenpl^éi     Caseketthet;
+                       Caseketthet1;
+ 
+LEXICON Caseketthet
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Caseketthet1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1ketthet
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
+
+LEXICON Szorketthet
++Tmp:^+cTmp^sz§oeanr§r      Subketthet;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subketthet
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNumkett
++Num:0     Posskett;
+
+LEXICON Posskett
++Par:^+cPar^§aeoenr§d       Szorkett;  ! od,ed,öd
+
+LEXICON Szorkett
++Tmp:^+cTmp^sz§oeanr§r      Subkett;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subkett
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNumkett2
++Num:0     Casekett2;
+
+LEXICON Casekett2
++Sup:^+cSup^en        #;  ! on, en, ön, n
+
+
+
+LEXICON AddNumketta
++Num:0     Possketta;
+
+LEXICON Possketta
++Par:^+cPar^§aeoenra§d       Szorketta;  ! od,ed,öd
+
+LEXICON Szorketta
++Tmp:^+cTmp^§sz§§oeanr§r      Subketta;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subketta
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+!kettő:két
+LEXICON AddNumket
++Num:0     Szorket;
+
+LEXICON Szorket
++Tmp:^+cTmp^sz§oeanr§r      Subket;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subket
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNumkettharom
++Num:0     Posskettharom;
+
+LEXICON Posskettharom
++Par:^+cPar^§aeoenra§d       Szorkettharom;  ! od,ed,öd
+
+LEXICON Szorkettharom
++Tmp:^+cTmp^sz§oeanr§r      Subkettharom;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+
+LEXICON Subkettharom
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+
+LEXICON AddNummkette
++Num:0     Casekette;
+ 
+LEXICON Casekette
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON AddNumoet
++Num:0     Possoet;
++Num:0     Pluroet;
++Num:0     Famoet;
+
+LEXICON Possoet
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Par:^+cPar^§aeoenr§d       Szoroet;  ! od,ed,öd
++Tmp:^+cTmp^sz§oeanr§r      Suboet;  ! szor, szer, ször
++Posss1s:^+cPosss1s^§OEOE1§m   Famoet;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Famoet;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Famoet;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famoet;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Famoet;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Famoet;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Famoet;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Famoet;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Famoet;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Famoet;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Famoet;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Famoet;   !aik, jaik, eik, jeik
+                           Fam1oet;
+
+LEXICON Pluroet
++Plur:^+cPlur^§oeoez1§k    Genoet;
+                            Gen1oet;
+        
+LEXICON Famoet
++Fam:^+cFam^ék         Genoet;
+                       Genoet;
+LEXICON Fam1oet
++Fam:^+cFam^ék         Genoet;
+                       Gen1oet;
+
+LEXICON Genoet
++Gens:^+cGens^é          Caseoet;
++Genpl:^+cGenpl^éi     Caseoet;
+                       Caseoet;
+LEXICON Gen1oet
++Gens:^+cGens^é          Caseoet;
++Genpl:^+cGenpl^éi     Caseoet;
+                       Case1oet;
+ 
+LEXICON Caseoet
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1oet
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezoa§n        #;  ! on, en, ön, n
++Sup:^+cSup^en        #;  ! on, en, ön, n 
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Szoroet
++Tmp:^+cTmp^sz§oeanr§r      Suboet;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+
+LEXICON Suboet
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! i
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;
+
+LEXICON AddNumketthet2
++Num:0     Possketthet2;
+
+LEXICON Possketthet2
++Par:^+cPar^§aeoenr§d       Szorketthet2;  ! od,ed,öd
+
+LEXICON Szorketthet2
++Tmp:^+cTmp^sz§oeanr§r      Subketthet2;  ! szor, szer, ször
++Ik:^+cIk^ik                #;  ! ik
+                            #;
+LEXICON Subketthet2
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Iadj:^+cIadj^i         #;  ! ra, re
++Kas:^+cKas^§oeanr§s     #;  !as,es,ös képző
+                            #;

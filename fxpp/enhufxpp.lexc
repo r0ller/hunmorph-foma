@@ -1,0 +1,1090 @@
+!!enhufxpp.lexc!!!
+
+Multichar_Symbols  
+
++FXPP +1N1P +P1N1P +1N2P +P1N2P +1N3P +P1N3P 
++2N1P +P2N1P +2N2P +P2N2P +2N3P +P2N3P 
+      
+LEXICON Root
+Nek;
+Neek;
+Tol;
+T;
+Nal;
+Hoz;
+Ert;
+Rol;
+Belol;
+Bele;
+Ben;
+Vel;
+Veele;
+Ra;
+Rea;
+Rajta;
+Alatt;
+Alaa;
+Alol;
+Altal;
+Folott;
+Felett;
+Folibe;
+Folibee;
+Folee;
+Felee;
+Feloel;
+Feluel;
+Foluel;
+Kozott;
+Kozee;
+Kozibe;
+Kozibee;
+Kozul;
+Kozt;
+Mellett;
+Mellee;
+Melloel;
+Utan;
+Mogul;
+Moge;
+Mogott;
+Elott;
+Elol;
+Ele;
+Elebe;
+Eleebe;
+Elejbe;
+Elejbee;
+Elibe;
+Elibee;
+Nelkul;
+Kivul;
+Miatt;
+Erett;
+Irant;
+Szerinte;
+Kore;
+Korul;
+Korulott;
+Korott;
+Helyett;
+Ellen;
+Vegett;
+
+
+LEXICON Nek
+nek+FXPP+1N1P:nekem #;
+nek+FXPP+P1N1P:énnekem #;
+nek+FXPP+1N2P:neked #;
+nek+FXPP+P1N2P:teneked #;
+nek+FXPP+1N3P:neki #;
+nek+FXPP+P1N3P:őneki #;
+nek+FXPP+1N3P:nekije #;
+nek+FXPP+P1N3P:őnekije #;
+nek+FXPP+2N1P:nekünk #;
+nek+FXPP+P2N1P:minekünk #;
+nek+FXPP+2N2P:nektek #;
+nek+FXPP+P2N2P:tinektek #;
+nek+FXPP+2N3P:nekik #;
+nek+FXPP+P2N3P:őnekik #;
+
+LEXICON Neek
+nék+FXPP+1N1P:nékem #;
+nék+FXPP+P1N1P:énnékem #;
+nék+FXPP+1N2P:néked #;
+nék+FXPP+P1N2P:tenéked #;
+nék+FXPP+1N3P:néki #;
+nék+FXPP+P1N3P:őnéki #;
+nék+FXPP+1N3P:nékije #;
+nék+FXPP+P1N3P:őnékije #;
+nék+FXPP+2N1P:nékünk #;
+nék+FXPP+P2N1P:minékünk #;
+nék+FXPP+2N2P:néktek #;
+nék+FXPP+P2N2P:tinéktek #;
+nék+FXPP+2N3P:nékik #;
+nék+FXPP+P2N3P:őnékik #;
+
+LEXICON Tol
+től+FXPP+1N1P:tőlem #;
+től+FXPP+P1N1P:éntőlem #;
+től+FXPP+1N2P:tőled #;
+től+FXPP+P1N2P:tetőled #;
+től+FXPP+1N3P:tőle #;
+től+FXPP+P1N3P:őtőle #;
+től+FXPP+2N1P:tőlünk #;
+től+FXPP+P2N1P:mitőlünk #;
+től+FXPP+2N2P:tőletek #;
+től+FXPP+P2N2P:titőletek #;
+től+FXPP+2N3P:tőlük #;
+től+FXPP+P2N3P:őtőlük #;
+
+LEXICON T
+t+FXPP+1N1P:engem #;
+t+FXPP+1N1P:engemet #;
+t+FXPP+1N1P:éngem #;
+t+FXPP+1N1Pet:éngemet #;
+t+FXPP+1N2P:téged #;
+t+FXPP+1N2P:tégedet #;
+t+FXPP+1N3P:őt #;
+t+FXPP+1N3Pet:őtet #;
+t+FXPP+2N1P:minket #;
+t+FXPP+2N1P:bennünket #;
+t+FXPP+2N1P:mibennünket #;
+t+FXPP+2N2P:titeket #;
+t+FXPP+2N2P:benneteket #;
+t+FXPP+2N2P:tibenneteket #;
+t+FXPP+2N3P:őket #;
+
+LEXICON Nal
+nál+FXPP+1N1P:nálam #;
+nál+FXPP+P1N1P:énnálam #;
+nál+FXPP+1N2P:nálad #;
+nál+FXPP+P1N2P:tenálad #;
+nál+FXPP+1N3P:nála #;
+nál+FXPP+P1N3P:őnála #;
+nál+FXPP+P1N3P:őnálánál #;
+nál+FXPP+2N1P:nálunk #;
+nál+FXPP+P2N1P:minálunk #;
+nál+FXPP+2N2P:nálatok #;
+nál+FXPP+P2N2P:tinálatok #;
+nál+FXPP+2N3P:náluk #;
+nál+FXPP+P2N3P:őnáluk #;
+
+LEXICON Hoz
+hoz+FXPP+1N1P:hozzám #;
+hoz+FXPP+P1N1P:énhozzám #;
+hoz+FXPP+1N2P:hozzád #;
+hoz+FXPP+P1N2P:tehozzád #;
+hoz+FXPP+1N3P:hozzá #;
+hoz+FXPP+P1N3P:őhozzá #;
+hoz+FXPP+1N3P:hozzája #;
+hoz+FXPP+P1N3P:őhozzája #;
+hoz+FXPP+2N1P:hozzánk #;
+hoz+FXPP+P2N1P:mihozzánk #;
+hoz+FXPP+2N2P:hozzátok #;
+hoz+FXPP+P2N2P:tihozzátok #;
+hoz+FXPP+2N3P:hozzájuk #;
+hoz+FXPP+P2N3P:őhozzájuk #;
+
+LEXICON Ert
+ért+FXPP+1N1P:értem #;
+ért+FXPP+P1N1P:énértem #;
+ért+FXPP+1N2P:érted #;
+ért+FXPP+P1N2P:teérted #;
+ért+FXPP+1N3P:érte #;
+ért+FXPP+P1N3P:őérte #;
+ért+FXPP+2N1P:értünk #;
+ért+FXPP+P2N1P:miértünk #;
+ért+FXPP+2N2P:értetek #;
+ért+FXPP+P2N2P:tiértetek #;
+ért+FXPP+2N3P:értük #;
+ért+FXPP+P2N3P:őértük #;
+
+LEXICON Rol
+ról+FXPP+1N1P:rólam #;
+ról+FXPP+P1N1P:énrólam #;
+ról+FXPP+1N2P:rólad #;
+ról+FXPP+P1N2P:terólad #;
+ról+FXPP+1N3P:róla #;
+ról+FXPP+P1N3P:őróla #;
+ról+FXPP+2N1P:rólunk #;
+ról+FXPP+P2N1P:mirólunk #;
+ról+FXPP+2N2P:rólatok #;
+ról+FXPP+P2N2P:tirólatok #;
+ról+FXPP+2N3P:róluk #;
+ról+FXPP+P2N3P:őróluk #;
+
+LEXICON Belol
+belől+FXPP+1N1P:belőlem #;
+belől+FXPP+P1N1P:énbelőlem #;
+belől+FXPP+1N2P:belőled #;
+belől+FXPP+P1N2P:tebelőled #;
+belől+FXPP+1N3P:belőle #;
+belől+FXPP+P1N3P:őbelőle #;
+belől+FXPP+2N1P:belőlünk #;
+belől+FXPP+P2N1P:mibelőlünk #;
+belől+FXPP+2N2P:belőletek #;
+belől+FXPP+P2N2P:tibelőletek #;
+belől+FXPP+2N3P:belőlük #;
+belől+FXPP+P2N3P:őbelőlük #;
+
+LEXICON Bele
+belé+FXPP+1N1P:belém #;
+belé+FXPP+P1N1P:énbelém #;
+belé+FXPP+1N2P:beléd #;
+belé+FXPP+P1N2P:tebeléd #;
+belé+FXPP+1N3P:belé #;
+belé+FXPP+P1N3P:őbelé #;
+belé+FXPP+1N3P:beléje #;
+belé+FXPP+P1N3P:őbeléje #;
+belé+FXPP+2N1P:belénk #;
+belé+FXPP+P2N1P:mibelénk #;
+belé+FXPP+2N2P:belétek #;
+belé+FXPP+P2N2P:tibelétek #;
+belé+FXPP+2N3P:beléjük #;
+belé+FXPP+P2N3P:őbeléjük #;
+
+LEXICON Ben
+ben+FXPP+1N1P:bennem #;
+ben+FXPP+P1N1P:énbennem #;
+ben+FXPP+1N2P:benned #;
+ben+FXPP+P1N2P:tebenned #;
+ben+FXPP+1N3P:benne #;
+ben+FXPP+P1N3P:őbenne #;
+ben+FXPP+2N1P:bennünk #;
+ben+FXPP+P2N1P:mibennünk #;
+ben+FXPP+2N2P:bennetek #;
+ben+FXPP+P2N2P:tibennetek #;
+ben+FXPP+2N3P:bennük #;
+ben+FXPP+P2N3P:őbennük #;
+
+LEXICON Vel
+vel+FXPP+1N1P:velem #;
+vel+FXPP+P1N1P:énvelem #;
+vel+FXPP+1N2P:veled #;
+vel+FXPP+P1N2P:teveled #;
+vel+FXPP+1N3P:vele #;
+vel+FXPP+P1N3P:ővele #;
+vel+FXPP+2N1P:velünk #;
+vel+FXPP+P2N1P:mivelünk #;
+vel+FXPP+2N2P:veletek #;
+vel+FXPP+P2N2P:tiveletek #;
+vel+FXPP+2N3P:velük #;
+vel+FXPP+P2N3P:ővelük #;
+
+LEXICON Veele
+véle+FXPP+1N1P:vélem #;
+véle+FXPP+P1N1P:énvélem #;
+véle+FXPP+1N2P:véled #;
+véle+FXPP+P1N2P:tevéled #;
+véle+FXPP+1N3P:véle #;
+véle+FXPP+P1N3P:ővéle #;
+véle+FXPP+2N1P:vélünk #;
+véle+FXPP+P2N1P:mivélünk #;
+véle+FXPP+2N2P:véletek #;
+véle+FXPP+P2N2P:tivéletek #;
+véle+FXPP+2N3P:vélük #;
+véle+FXPP+P2N3P:ővélük #;
+
+LEXICON Ra
+rá+FXPP+1N1P:rám #;
+rá+FXPP+P1N1P:énrám #;
+rá+FXPP+1N2P:rád #;
+rá+FXPP+P1N2P:terád #;
+rá+FXPP+1N3P:rá #;
+rá+FXPP+P1N3P:őrá #;
+rá+FXPP+1N3P:rája #;
+rá+FXPP+P1N3P:őrája #;
+rá+FXPP+2N1P:ránk #;
+rá+FXPP+P2N1P:miránk #;
+rá+FXPP+2N2P:rátok #;
+rá+FXPP+P2N2P:tirátok #;
+rá+FXPP+2N3P:rájuk #;
+rá+FXPP+P2N3P:őrájuk #;
+
+LEXICON Rea
+reá+FXPP+1N1P:reám #;
+reá+FXPP+P1N1P:énreám #;
+reá+FXPP+1N2P:reád #;
+reá+FXPP+P1N2P:tereád #;
+reá+FXPP+1N3P:reá #;
+reá+FXPP+P1N3P:őreá #;
+reá+FXPP+1N3P:reája #;
+reá+FXPP+P1N3P:őreája #;
+reá+FXPP+2N1P:reánk #;
+reá+FXPP+P2N1P:mireánk #;
+reá+FXPP+2N2P:reátok #;
+reá+FXPP+P2N2P:tireátok #;
+reá+FXPP+2N3P:reájuk #;
+reá+FXPP+P2N3P:őreájuk #;
+
+
+LEXICON Rajta
+rajta+FXPP+1N1P:rajtam #;
+rajta+FXPP+P1N1P:énrajtam #;
+rajta+FXPP+1N2P:rajtad #;
+rajta+FXPP+P1N2P:terajtad #;
+rajta+FXPP+1N3P:rajta #;
+rajta+FXPP+P1N3P:őrajta #;
+rajta+FXPP+2N1P:rajtunk #;
+rajta+FXPP+P2N1P:mirajtunk #;
+rajta+FXPP+2N2P:rajtatok #;
+rajta+FXPP+P2N2P:tirajtatok #;
+rajta+FXPP+2N3P:rajtuk #;
+rajta+FXPP+P2N3P:őrajtuk #;
+
+LEXICON  Alatt                 
+alatt+FXPP+1N1P:alattam #;
+alatt+FXPP+P1N1P:énalattam #;
+alatt+FXPP+1N2P:alattad #;
+alatt+FXPP+P1N2P:tealattad #;
+alatt+FXPP+1N3P:alatta #;
+alatt+FXPP+P1N3P:őalatta #;
+alatt+FXPP+2N1P:alattunk #;
+alatt+FXPP+P2N1P:mialattunk #;
+alatt+FXPP+2N2P:alattatok #;
+alatt+FXPP+P2N2P:tialattatok #;
+alatt+FXPP+2N3P:alattuk #;
+alatt+FXPP+P2N3P:őalattuk #;
+
+LEXICON Alaa
+alá+FXPP+1N1P:alám #;
+alá+FXPP+P1N1P:énalám #;
+alá+FXPP+1N2P:alád #;
+alá+FXPP+P1N2P:tealád #;
+alá+FXPP+1N3P:alája #;
+alá+FXPP+1N3P:alá #;
+alá+FXPP+P1N3P:őalája #;
+alá+FXPP+P1N3P:őalá #;
+alá+FXPP+2N1P:alánk #;
+alá+FXPP+P2N1P:mialánk #;
+alá+FXPP+2N2P:alátok #;
+alá+FXPP+P2N2P:tialátok #;
+alá+FXPP+2N3P:alájuk #;
+alá+FXPP+P2N3P:őalájuk #;
+
+LEXICON Alol
+alól+FXPP+1N1P:alólam #;
+alól+FXPP+P1N1P:énalólam #;
+alól+FXPP+1N2P:alólad #;
+alól+FXPP+P1N2P:tealólad #;
+alól+FXPP+1N3P:alóla #;
+alól+FXPP+P1N3P:őalóla #;
+alól+FXPP+2N1P:alólunk #;
+alól+FXPP+P2N1P:mialólunk #;
+alól+FXPP+2N2P:alólatok #;
+alól+FXPP+P2N2P:tialólatok #;
+alól+FXPP+2N3P:alóluk #;
+alól+FXPP+P2N3P:őalóluk #;
+
+LEXICON Altal
+által+FXPP+1N1P:általam #;
+által+FXPP+P1N1P:énáltalam #;
+által+FXPP+1N2P:általad #;
+által+FXPP+P1N2P:teáltalad #;
+által+FXPP+1N3P:általa #;
+által+FXPP+P1N3P:őáltala #;
+által+FXPP+2N1P:általunk #;
+által+FXPP+P2N1P:miáltalunk #;
+által+FXPP+2N2P:általatok #;
+által+FXPP+P2N2P:tiáltalatok #;
+által+FXPP+2N3P:általuk #;
+által+FXPP+P2N3P:őáltaluk #;
+
+LEXICON Folott
+fölött+FXPP+1N1P:fölöttem #;
+fölött+FXPP+P1N1P:énfölöttem #;
+fölött+FXPP+1N2P:fölötted #;
+fölött+FXPP+P1N2P:tefölötted #;
+fölött+FXPP+1N3P:fölötte #;
+fölött+FXPP+P1N3P:őfölötte #;
+fölött+FXPP+2N1P:fölöttünk #;
+fölött+FXPP+P2N1P:mifölöttünk #;
+fölött+FXPP+2N2P:fölöttetek #;
+fölött+FXPP+P2N2P:tifölöttetek #;
+fölött+FXPP+2N3P:fölöttük #;
+fölött+FXPP+P2N3P:őfölöttük #;
+
+LEXICON Felett
+felett+FXPP+1N1P:felettem #;
+felett+FXPP+P1N1P:énfelettem #;
+felett+FXPP+1N2P:feletted #;
+felett+FXPP+P1N2P:tefeletted #;
+felett+FXPP+1N3P:felette #;
+felett+FXPP+P1N3P:őfelette #;
+felett+FXPP+2N1P:felettünk #;
+felett+FXPP+P2N1P:mifelettünk #;
+felett+FXPP+2N2P:felettetek #;
+felett+FXPP+P2N2P:tifelettetek #;
+felett+FXPP+2N3P:felettük #;
+felett+FXPP+P2N3P:őfelettük #;
+
+LEXICON Folibe
+fölibe+FXPP+1N1P:fölibem #;
+fölibe+FXPP+P1N1P:énfölibem #;
+fölibe+FXPP+1N2P:fölibed #;
+fölibe+FXPP+P1N2P:tefölibed #;
+fölibe+FXPP+1N3P:fölibe #;
+fölibe+FXPP+P1N3P:őfölibe #;
+fölibe+FXPP+2N1P:fölibenk #;
+fölibe+FXPP+P2N1P:mifölibenk #;
+fölibe+FXPP+2N2P:fölibetek #;
+fölibe+FXPP+P2N2P:tifölibetek #;
+fölibe+FXPP+2N3P:fölibük #;
+fölibe+FXPP+P2N3P:őfölibük #;
+
+LEXICON Folibee
+fölibé+FXPP+1N1P:fölibém #;
+fölibé+FXPP+P1N1P:énfölibém #;
+fölibé+FXPP+1N2P:fölibéd #;
+fölibé+FXPP+P1N2P:tefölibéd #;
+fölibé+FXPP+1N3P:fölibé #;
+fölibé+FXPP+1N3P:fölibéje #;
+fölibé+FXPP+P1N3P:őfölibé #;
+fölibé+FXPP+P1N3P:őfölibéje #;
+fölibé+FXPP+2N1P:fölibénk #;
+fölibé+FXPP+P2N1P:mifölibénk #;
+fölibé+FXPP+2N2P:fölibétek #;
+fölibé+FXPP+P2N2P:tifölibétek #;
+fölibé+FXPP+2N3P:fölibéjük #;
+fölibé+FXPP+P2N3P:őfölibéjük #;
+
+LEXICON Folee
+fölé+FXPP+1N1P:fölém #;
+fölé+FXPP+P1N1P:énfölém #;
+fölé+FXPP+1N2P:föléd #;
+fölé+FXPP+P1N2P:teföléd #;
+fölé+FXPP+1N3P:fölé #;
+fölé+FXPP+1N3P:föléje #;
+fölé+FXPP+P1N3P:őfölé #;
+fölé+FXPP+P1N3P:őföléje #;
+fölé+FXPP+2N1P:fölénk #;
+fölé+FXPP+P2N1P:mifölénk #;
+fölé+FXPP+2N2P:fölétek #;
+fölé+FXPP+P2N2P:tifölétek #;
+fölé+FXPP+2N3P:föléjük #;
+fölé+FXPP+P2N3P:őföléjük #;
+
+LEXICON Felee
+felé+FXPP+1N1P:felém #;
+felé+FXPP+P1N1P:énfelém #;
+felé+FXPP+1N2P:feléd #;
+felé+FXPP+P1N2P:tefeléd #;
+felé+FXPP+1N3P:felé #;
+felé+FXPP+1N3P:feléje #;
+felé+FXPP+P1N3P:őfelé #;
+felé+FXPP+P1N3P:őfeléje #;
+felé+FXPP+2N1P:felénk #;
+felé+FXPP+P2N1P:mifelénk #;
+felé+FXPP+2N2P:felétek #;
+felé+FXPP+P2N2P:tifelétek #;
+felé+FXPP+2N3P:feléjük #;
+felé+FXPP+P2N3P:őfeléjük #;
+
+LEXICON Feloel
+felől+FXPP+1N1P:felőlem #;
+felől+FXPP+P1N1P:énfelőlem #;
+felől+FXPP+1N2P:felőled #;
+felől+FXPP+P1N2P:tefelőled #;
+felől+FXPP+1N3P:felőle #;
+felől+FXPP+P1N3P:őfelőle #;
+felől+FXPP+2N1P:felőlünk #;
+felől+FXPP+P2N1P:mifelőlünk #;
+felől+FXPP+2N2P:felőletek #;
+felől+FXPP+P2N2P:tifelőletek #;
+felől+FXPP+2N3P:felőlük #;
+felől+FXPP+P2N3P:őfelőlük #;
+
+LEXICON Feluel
+felül+FXPP+1N1P:felülem #;
+felül+FXPP+P1N1P:énfelülem #;
+felül+FXPP+1N2P:felüled #;
+felül+FXPP+P1N2P:tefelüled #;
+felül+FXPP+1N3P:felüle #;
+felül+FXPP+P1N3P:őfelüle #;
+felül+FXPP+2N1P:felülünk #;
+felül+FXPP+P2N1P:mifelülünk #;
+felül+FXPP+2N2P:felületek #;
+felül+FXPP+P2N2P:tifelületek #;
+felül+FXPP+2N3P:felülük #;
+felül+FXPP+P2N3P:őfelülük #;
+
+LEXICON Foluel
+fölül+FXPP+1N1P:fölülem #;
+fölül+FXPP+P1N1P:énfölülem #;
+fölül+FXPP+1N2P:fölüled #;
+fölül+FXPP+P1N2P:tefölüled #;
+fölül+FXPP+1N3P:fölüle #;
+fölül+FXPP+P1N3P:őfölüle #;
+fölül+FXPP+2N1P:fölülünk #;
+fölül+FXPP+P2N1P:mifölülünk #;
+fölül+FXPP+2N2P:fölületek #;
+fölül+FXPP+P2N2P:tifölületek #;
+fölül+FXPP+2N3P:fölülük #;
+fölül+FXPP+P2N3P:őfölülük #;
+
+LEXICON Kozott
+között+FXPP+1N1P:közöttem #;
+között+FXPP+P1N1P:énközöttem #;
+között+FXPP+1N2P:közötted #;
+között+FXPP+P1N2P:teközötted #;
+között+FXPP+1N3P:közötte #;
+között+FXPP+P1N3P:őközötte #;
+között+FXPP+2N1P:közöttünk #;
+között+FXPP+P2N1P:miközöttünk #;
+között+FXPP+2N2P:közöttetek #;
+között+FXPP+P2N2P:tiközöttetek #;
+között+FXPP+2N3P:közöttük #;
+között+FXPP+P2N3P:őközöttük #;
+
+LEXICON Kozee
+közé+FXPP+1N1P:közém #;
+közé+FXPP+P1N1P:énközém #;
+közé+FXPP+1N2P:közéd #;
+közé+FXPP+P1N2P:teközéd #;
+közé+FXPP+1N3P:közé #;
+közé+FXPP+P1N3P:őközé #;
+közé+FXPP+1N3P:közéje #;
+közé+FXPP+P1N3P:őközéje #;
+közé+FXPP+2N1P:közénk #;
+közé+FXPP+P2N1P:miközénk #;
+közé+FXPP+2N2P:közétek #;
+közé+FXPP+P2N2P:tiközétek #;
+közé+FXPP+2N3P:közéjük #;
+közé+FXPP+P2N3P:őközéjük #;
+
+LEXICON Kozibe
+közibe+FXPP+1N1P:közibem #;
+közibe+FXPP+P1N1P:énközibem #;
+közibe+FXPP+1N2P:közibed #;
+közibe+FXPP+P1N2P:teközibed #;
+közibe+FXPP+1N3P:közibe #;
+közibe+FXPP+P1N3P:őközibe #;
+közibe+FXPP+2N1P:közibünk #;
+közibe+FXPP+P2N1P:miközibünk #;
+közibe+FXPP+2N2P:közibetek #;
+közibe+FXPP+P2N2P:tiközibetek #;
+közibe+FXPP+2N3P:közibük #;
+közibe+FXPP+P2N3P:őközibük #;
+
+LEXICON Kozibee
+közibé+FXPP+1N1P:közibém #;
+közibé+FXPP+P1N1P:énközibém #;
+közibé+FXPP+1N2P:közibéd #;
+közibé+FXPP+P1N2P:teközibéd #;
+közibé+FXPP+1N3P:közibé #;
+közibé+FXPP+1N3P:közibéje #;
+közibé+FXPP+P1N3P:őközibé #;
+közibé+FXPP+P1N3P:őközibéje #;
+közibé+FXPP+2N1P:közibénk #;
+közibé+FXPP+P2N1P:miközibénk #;
+közibé+FXPP+2N2P:közibétek #;
+közibé+FXPP+P2N2P:tiközibétek #;
+közibé+FXPP+2N3P:közibük #;
+közibé+FXPP+P2N3P:őközibük #;
+közibé+FXPP+2N3P:közibéjük #;
+közibé+FXPP+P2N3P:őközibéjük #;
+
+LEXICON Kozul
+közül+FXPP+1N1P:közülem #;
+közül+FXPP+P1N1P:énközülem #;
+közül+FXPP+1N2P:közüled #;
+közül+FXPP+P1N2P:teközüled #;
+közül+FXPP+1N3P:közüle #;
+közül+FXPP+1N3P:közül #;
+közül+FXPP+P1N3P:őközüle #;
+közül+FXPP+2N1P:közülünk #;
+közül+FXPP+P2N1P:miközülünk #;
+közül+FXPP+2N2P:közületek #;
+közül+FXPP+P2N2P:tiközületek #;
+közül+FXPP+2N3P:közülük #;
+közül+FXPP+P2N3P:őközülük #;
+
+LEXICON Kozt
+közt+FXPP+1N1P:köztem #;
+közt+FXPP+P1N1P:énköztem #;
+közt+FXPP+1N2P:közted #;
+közt+FXPP+P1N2P:teközted #;
+közt+FXPP+1N3P:közte #;
+közt+FXPP+P1N3P:őközte #;
+közt+FXPP+2N1P:köztünk #;
+közt+FXPP+P2N1P:miköztünk #;
+közt+FXPP+2N2P:köztetek #;
+közt+FXPP+P2N2P:tiköztetek #;
+közt+FXPP+2N3P:köztük #;
+közt+FXPP+P2N3P:őköztük #;
+
+LEXICON Mellett
+mellett+FXPP+1N1P:mellettem #;
+mellett+FXPP+P1N1P:énmellettem #;
+mellett+FXPP+1N2P:melletted #;
+mellett+FXPP+P1N2P:temelletted #;
+mellett+FXPP+1N3P:mellette #;
+mellett+FXPP+P1N3P:őmellette #;
+mellett+FXPP+1N3P:mellett #;
+mellett+FXPP+2N1P:mellettünk #;
+mellett+FXPP+P2N1P:mimellettünk #;
+mellett+FXPP+2N2P:mellettetek #;
+mellett+FXPP+P2N2P:timellettetek #;
+mellett+FXPP+2N3P:mellettük #;
+mellett+FXPP+P2N3P:őmellettük #;
+
+LEXICON Mellee
+mellé+FXPP+1N1P:mellém #;
+mellé+FXPP+P1N1P:énmellém #;
+mellé+FXPP+1N2P:melléd #;
+mellé+FXPP+P1N2P:temelléd #;
+mellé+FXPP+1N3P:mellé #;
+mellé+FXPP+P1N3P:őmellé #;
+mellé+FXPP+1N3P:melléje #;
+mellé+FXPP+P1N3P:őmelléje #;
+mellé+FXPP+2N1P:mellénk #;
+mellé+FXPP+P2N1P:mimellénk #;
+mellé+FXPP+2N2P:mellétek #;
+mellé+FXPP+P2N2P:timellétek #;
+mellé+FXPP+2N3P:melléjük #;
+mellé+FXPP+P2N3P:őmelléjük #;
+
+LEXICON Melloel
+mellől+FXPP+1N1P:mellőlem #;
+mellől+FXPP+P1N1P:énmellőlem #;
+mellől+FXPP+1N2P:mellőled #;
+mellől+FXPP+P1N2P:temellőled #;
+mellől+FXPP+1N3P:mellőle #;
+mellől+FXPP+P1N3P:őmellőle #;
+mellől+FXPP+1N3P:mellől #;
+mellől+FXPP+2N1P:mellőlünk #;
+mellől+FXPP+P2N1P:mimellőlünk #;
+mellől+FXPP+2N2P:mellőletek #;
+mellől+FXPP+P2N2P:timellőletek #;
+mellől+FXPP+2N3P:mellőlük #;
+mellől+FXPP+P2N3P:őmellőlük #;
+
+LEXICON Utan
+után+FXPP+1N1P:utánam #;
+után+FXPP+P1N1P:énutánam #;
+után+FXPP+1N2P:utánad #;
+után+FXPP+P1N2P:teutánad #;
+után+FXPP+1N3P:utána #;
+után+FXPP+P1N3P:őutána #;
+után+FXPP+1N3P:után #;
+után+FXPP+2N1P:utánunk #;
+után+FXPP+P2N1P:miutánunk #;
+után+FXPP+2N2P:utánatok #;
+után+FXPP+P2N2P:tiutánatok #;
+után+FXPP+2N3P:utánuk #;
+után+FXPP+P2N3P:őutánuk #;
+
+LEXICON Mogul
+mögül+FXPP+1N1P:mögülem #;
+mögül+FXPP+P1N1P:énmögülem #;
+mögül+FXPP+1N2P:mögüled #;
+mögül+FXPP+P1N2P:temögüled #;
+mögül+FXPP+1N3P:mögüle #;
+mögül+FXPP+1N3P:mögül #;
+mögül+FXPP+P1N3P:őmögüle #;
+mögül+FXPP+2N1P:mögülünk #;
+mögül+FXPP+P2N1P:mimögülünk #;
+mögül+FXPP+2N2P:mögületek #;
+mögül+FXPP+P2N2P:timögületek #;
+mögül+FXPP+2N3P:mögülük #;
+mögül+FXPP+P2N3P:őmögülük #;
+
+LEXICON Moge
+mögé+FXPP+1N1P:mögém #;
+mögé+FXPP+P1N1P:énmögém #;
+mögé+FXPP+1N2P:mögéd #;
+mögé+FXPP+P1N2P:temögéd #;
+mögé+FXPP+1N3P:mögé #;
+mögé+FXPP+P1N3P:őmögé #;
+mögé+FXPP+1N3P:mögéje #;
+mögé+FXPP+P1N3P:őmögéje #;
+mögé+FXPP+2N1P:mögénk #;
+mögé+FXPP+P2N1P:mimögénk #;
+mögé+FXPP+2N2P:mögétek #;
+mögé+FXPP+P2N2P:timögétek #;
+mögé+FXPP+2N3P:mögéjük #;
+mögé+FXPP+P2N3P:őmögéjük #;
+
+LEXICON Mogott
+mögött+FXPP+1N1P:mögöttem #;
+mögött+FXPP+P1N1P:énmögöttem #;
+mögött+FXPP+1N2P:mögötted #;
+mögött+FXPP+P1N2P:temögötted #;
+mögött+FXPP+1N3P:mögött #;
+mögött+FXPP+1N3P:mögötte #;
+mögött+FXPP+P1N3P:őmögötte #;
+mögött+FXPP+2N1P:mögöttünk #;
+mögött+FXPP+P2N1P:mimögöttünk #;
+mögött+FXPP+2N2P:mögöttetek #;
+mögött+FXPP+P2N2P:timögöttetek #;
+mögött+FXPP+2N3P:mögöttük #;
+mögött+FXPP+P2N3P:őmögöttük #;
+
+LEXICON Elott
+előtt+FXPP+1N1P:előttem #;
+előtt+FXPP+P1N1P:énelőttem #;
+előtt+FXPP+1N2P:előtted #;
+előtt+FXPP+P1N2P:teelőtted #;
+előtt+FXPP+1N3P:előtt #;
+előtt+FXPP+1N3P:előtte #;
+előtt+FXPP+P1N3P:őelőtte #;
+előtt+FXPP+2N1P:előttünk #;
+előtt+FXPP+P2N1P:mielőttünk #;
+előtt+FXPP+2N2P:előttetek #;
+előtt+FXPP+P2N2P:tielőttetek #;
+előtt+FXPP+2N3P:előttük #;
+előtt+FXPP+P2N3P:őelőttük #;
+
+LEXICON Elol
+elől+FXPP+1N1P:előlem #;
+elől+FXPP+P1N1P:énelőlem #;
+elől+FXPP+1N2P:előled #;
+elől+FXPP+P1N2P:teelőled #;
+elől+FXPP+1N3P:elől #;
+elől+FXPP+1N3P:előle #;
+elől+FXPP+P1N3P:őelőle #;
+elől+FXPP+2N1P:előlünk #;
+elől+FXPP+P2N1P:mielőlünk #;
+elől+FXPP+2N2P:előletek #;
+elől+FXPP+P2N2P:tielőletek #;
+elől+FXPP+2N3P:előlük #;
+elől+FXPP+P2N3P:őelőlük #;
+
+LEXICON Ele
+elé+FXPP+1N1P:elém #;
+elé+FXPP+P1N1P:énelém #;
+elé+FXPP+1N2P:eléd #;
+elé+FXPP+P1N2P:teeléd #;
+elé+FXPP+1N3P:elé #;
+elé+FXPP+P1N3P:őelé #;
+elé+FXPP+1N3P:eléje #;
+elé+FXPP+P1N3P:őeléje #;
+elé+FXPP+2N1P:elénk #;
+elé+FXPP+P2N1P:mielénk #;
+elé+FXPP+2N2P:elétek #;
+elé+FXPP+P2N2P:tielétek #;
+elé+FXPP+2N3P:eléjük #;
+elé+FXPP+P2N3P:őeléjük #;
+
+LEXICON Elebe
+elé+FXPP+1N1P+Ill:elémbe #;
+elé+FXPP+P1N1P+Ill:énelémbe #;
+elé+FXPP+1N2P+Ill:elédbe #;
+elé+FXPP+P1N2P+Ill:teelédbe #;
+elé+FXPP+1N3P+Ill:elébe #;
+elé+FXPP+P1N3P+Ill:őelébe #;
+elé+FXPP+2N1P+Ill:elénkbe #;
+elé+FXPP+P2N1P+Ill:mielénkbe #;
+elé+FXPP+2N2P+Ill:elétekbe #;
+elé+FXPP+P2N2P+Ill:tielétekbe #;
+elé+FXPP+2N3P+Ill:eléjükbe #;
+elé+FXPP+P2N3P+Ill:őeléjükbe #;
+
+LEXICON Eleebe
+elébe+FXPP+1N1P:elébem #;
+elébe+FXPP+P1N1P:énelébem #;
+elébe+FXPP+1N2P:elébed #;
+elébe+FXPP+P1N2P:teelébed #;
+elébe+FXPP+1N3P:elébe #;
+elébe+FXPP+P1N3P:őelébe #;
+elébe+FXPP+2N1P:elébünk #;
+elébe+FXPP+P2N1P:mielébünk #;
+elébe+FXPP+2N2P:elébetek #;
+elébe+FXPP+P2N2P:tielébetek #;
+elébe+FXPP+2N3P:elébük #;
+elébe+FXPP+P2N3P:őelébük #;
+
+LEXICON Elejbe
+elejbe+FXPP+1N1P:elejbem #;
+elejbe+FXPP+P1N1P:énelejbem #;
+elejbe+FXPP+1N2P:elejbed #;
+elejbe+FXPP+P1N2P:teelejbed #;
+elejbe+FXPP+1N3P:elejbe #;
+elejbe+FXPP+P1N3P:őelejbe #;
+elejbe+FXPP+2N1P:elejbünk #;
+elejbe+FXPP+P2N1P:mielejbünk #;
+elejbe+FXPP+2N2P:elejbetek #;
+elejbe+FXPP+P2N2P:tielejbetek #;
+elejbe+FXPP+2N3P:elejbük #;
+elejbe+FXPP+P2N3P:őelejbük #;
+
+LEXICON Elejbee
+elejbé+FXPP+1N1P:elejbém #;
+elejbé+FXPP+P1N1P:énelejbém #;
+elejbé+FXPP+1N2P:elejbéd #;
+elejbé+FXPP+P1N2P:teelejbéd #;
+elejbé+FXPP+1N3P:elejbé #;
+elejbé+FXPP+P1N3P:őelejbé #;
+elejbé+FXPP+2N1P:elejbünk #;
+elejbé+FXPP+P2N1P:mielejbünk #;
+elejbé+FXPP+2N2P:elejbétek #;
+elejbé+FXPP+P2N2P:tielejbétek #;
+elejbé+FXPP+2N3P:elejbük #;
+elejbé+FXPP+P2N3P:őelejbük #;
+
+LEXICON Elibe
+elibe+FXPP+1N1P:elibem #;
+elibe+FXPP+P1N1P:énelibem #;
+elibe+FXPP+1N2P:elibed #;
+elibe+FXPP+P1N2P:teelibed #;
+elibe+FXPP+1N3P:elibe #;
+elibe+FXPP+P1N3P:őelibe #;
+elibe+FXPP+2N1P:elibünk #;
+elibe+FXPP+P2N1P:mielibünk #;
+elibe+FXPP+2N2P:elibetek #;
+elibe+FXPP+P2N2P:tielibetek #;
+elibe+FXPP+2N3P:elibük #;
+elibe+FXPP+P2N3P:őelibük #;
+
+LEXICON Elibee
+elibé+FXPP+1N1P:elibém #;
+elibé+FXPP+P1N1P:énelibém #;
+elibé+FXPP+1N2P:elibéd #;
+elibé+FXPP+P1N2P:teelibéd #;
+elibé+FXPP+1N3P:elibé #;
+elibé+FXPP+P1N3P:őelibé #;
+elibé+FXPP+1N3P:elibéje #;
+elibé+FXPP+P1N3P:őelibéje #;
+elibé+FXPP+2N1P:elibünk #;
+elibé+FXPP+P2N1P:mielibünk #;
+elibé+FXPP+2N2P:elibetek #;
+elibé+FXPP+P2N2P:tielibetek #;
+elibé+FXPP+2N3P:elibük #;
+elibé+FXPP+P2N3P:őelibük #;
+
+LEXICON Nelkul
+nélkül+FXPP+1N1P:nélkülem #;
+nélkül+FXPP+P1N1P:énnélkülem #;
+nélkül+FXPP+1N2P:nélküled #;
+nélkül+FXPP+P1N2P:tenélküled #;
+nélkül+FXPP+1N3P:nélkül #;
+nélkül+FXPP+1N3P:nélküle #;
+nélkül+FXPP+P1N3P:őnélküle #;
+nélkül+FXPP+2N1P:nélkülünk #;
+nélkül+FXPP+P2N1P:minélkülünk #;
+nélkül+FXPP+2N2P:nélkületek #;
+nélkül+FXPP+P2N2P:tinélkületek #;
+nélkül+FXPP+2N3P:nélkülük #;
+nélkül+FXPP+P2N3P:őnélkülük #;
+
+LEXICON Kivul
+kívül+FXPP+1N1P:kívülem #;
+kívül+FXPP+P1N1P:énkívülem #;
+kívül+FXPP+1N2P:kívüled #;
+kívül+FXPP+P1N2P:tekívüled #;
+kívül+FXPP+1N3P:kívüle #;
+kívül+FXPP+P1N3P:őkívüle #;
+kívül+FXPP+2N1P:kívülünk #;
+kívül+FXPP+P2N1P:mikívülünk #;
+kívül+FXPP+2N2P:kívületek #;
+kívül+FXPP+P2N2P:tikívületek #;
+kívül+FXPP+2N3P:kívülük #;
+kívül+FXPP+P2N3P:őkívülük #;
+
+LEXICON Miatt
+miatt+FXPP+1N1P:miattam #;
+miatt+FXPP+P1N1P:énmiattam #;
+miatt+FXPP+1N2P:miattad #;
+miatt+FXPP+P1N2P:temiattad #;
+miatt+FXPP+1N3P:miatta #;
+miatt+FXPP+1N3P:miatt #;
+miatt+FXPP+P1N3P:őmiatta #;
+miatt+FXPP+2N1P:miattunk #;
+miatt+FXPP+P2N1P:mimiattunk #;
+miatt+FXPP+2N2P:miattatok #;
+miatt+FXPP+P2N2P:timiattatok #;
+miatt+FXPP+2N3P:miattuk #;
+miatt+FXPP+P2N3P:őmiattuk #;
+
+LEXICON Erett
+érett+FXPP+1N1P:érettem #;
+érett+FXPP+P1N1P:énérettem #;
+érett+FXPP+1N2P:éretted #;
+érett+FXPP+P1N2P:teéretted #;
+érett+FXPP+1N3P:érette #;
+érett+FXPP+1N3P:érett #;
+érett+FXPP+P1N3P:őérette #;
+érett+FXPP+2N1P:érettünk #;
+érett+FXPP+P2N1P:miérettünk #;
+érett+FXPP+2N2P:érettetek #;
+érett+FXPP+P2N2P:tiérettetek #;
+érett+FXPP+2N3P:érettük #;
+érett+FXPP+P2N3P:őérettük #;
+
+LEXICON Irant
+iránt+FXPP+1N1P:irántam #;
+iránt+FXPP+P1N1P:énirántam #;
+iránt+FXPP+1N2P:irántad #;
+iránt+FXPP+P1N2P:teirántad #;
+iránt+FXPP+1N3P:iránta #;
+iránt+FXPP+1N3P:iránt #;
+iránt+FXPP+P1N3P:őiránta #;
+iránt+FXPP+2N1P:irántunk #;
+iránt+FXPP+P2N1P:miirántunk #;
+iránt+FXPP+2N2P:irántatok #;
+iránt+FXPP+P2N2P:tiirántatok #;
+iránt+FXPP+2N3P:irántuk #;
+iránt+FXPP+P2N3P:őirántuk #;
+
+LEXICON Szerinte
+szerinte+FXPP+1N1P:szerintem #;
+szerinte+FXPP+P1N1P:énszerintem #;
+szerinte+FXPP+1N2P:szerinted #;
+szerinte+FXPP+P1N2P:teszerinted #;
+szerinte+FXPP+1N3P:szerinte #;
+szerinte+FXPP+1N3P:szerint #;
+szerinte+FXPP+P1N3P:őszerinte #;
+szerinte+FXPP+2N1P:szerintünk #;
+szerinte+FXPP+P2N1P:miszerintünk #;
+szerinte+FXPP+2N2P:szerintetek #;
+szerinte+FXPP+P2N2P:tiszerintetek #;
+szerinte+FXPP+2N3P:szerintük #;
+szerinte+FXPP+P2N3P:őszerintük #;
+
+LEXICON Kore
+köré+FXPP+1N1P:körém #;
+köré+FXPP+P1N1P:énkörém #;
+köré+FXPP+1N2P:köréd #;
+köré+FXPP+P1N2P:teköréd #;
+köré+FXPP+1N3P:köré #;
+köré+FXPP+1N3P:köréje #;
+köré+FXPP+P1N3P:őköré #;
+köré+FXPP+P1N3P:őköréje #;
+köré+FXPP+2N1P:körénk #;
+köré+FXPP+P2N1P:mikörénk #;
+köré+FXPP+2N2P:körétek #;
+köré+FXPP+P2N2P:tikörétek #;
+köré+FXPP+2N3P:köréjük #;
+köré+FXPP+P2N3P:őköréjük #;
+
+LEXICON Korul
+körül+FXPP+1N1P:körülem #;
+körül+FXPP+P1N1P:énkörülem #;
+körül+FXPP+1N2P:körüled #;
+körül+FXPP+P1N2P:tekörüled #;
+körül+FXPP+1N3P:körül #;
+körül+FXPP+1N3P:körüle #;
+körül+FXPP+P1N3P:őkörüle #;
+körül+FXPP+2N1P:körülünk #;
+körül+FXPP+P2N1P:mikörülünk #;
+körül+FXPP+2N2P:körületek #;
+körül+FXPP+P2N2P:tikörületek #;
+körül+FXPP+2N3P:körülük #;
+körül+FXPP+P2N3P:őkörülük #;
+
+LEXICON Korulott
+körülött+FXPP+1N1P:körülöttem #;
+körülött+FXPP+P1N1P:énkörülöttem #;
+körülött+FXPP+1N2P:körülötted #;
+körülött+FXPP+P1N2P:tekörülötted #;
+körülött+FXPP+1N3P:körülötte #;
+körülött+FXPP+P1N3P:őkörülötte #;
+körülött+FXPP+2N1P:körülöttünk #;
+körülött+FXPP+P2N1P:mikörülöttünk #;
+körülött+FXPP+2N2P:körülöttetek #;
+körülött+FXPP+P2N2P:tikörülöttetek #;
+körülött+FXPP+2N3P:körülöttük #;
+körülött+FXPP+P2N3P:őkörülöttük #;
+
+LEXICON Korott
+körött+FXPP+1N1P:köröttem #;
+körött+FXPP+P1N1P:énköröttem #;
+körött+FXPP+1N2P:körötted #;
+körött+FXPP+P1N2P:tekörötted #;
+körött+FXPP+1N3P:körötte #;
+körött+FXPP+1N3P:körött #;
+körött+FXPP+P1N3P:őkörötte #;
+körött+FXPP+2N1P:köröttünk #;
+körött+FXPP+P2N1P:miköröttünk #;
+körött+FXPP+2N2P:köröttetek #;
+körött+FXPP+P2N2P:tiköröttetek #;
+körött+FXPP+2N3P:köröttük #;
+körött+FXPP+P2N3P:őköröttük #;
+
+LEXICON Helyett
+helyett+FXPP+1N1P:helyettem #;
+helyett+FXPP+P1N1P:énhelyettem #;
+helyett+FXPP+1N2P:helyetted #;
+helyett+FXPP+P1N2P:tehelyetted #;
+helyett+FXPP+1N3P:helyette #;
+helyett+FXPP+1N3P:helyett #;
+helyett+FXPP+P1N3P:őhelyette #;
+helyett+FXPP+2N1P:helyettünk #;
+helyett+FXPP+P2N1P:mihelyettünk #;
+helyett+FXPP+2N2P:helyettetek #;
+helyett+FXPP+P2N2P:tihelyettetek #;
+helyett+FXPP+2N3P:helyettük #;
+helyett+FXPP+P2N3P:őhelyettük #;
+
+LEXICON Ellen
+ellen+FXPP+1N1P:ellenem #;
+ellen+FXPP+P1N1P:énellenem #;
+ellen+FXPP+1N2P:ellened #;
+ellen+FXPP+P1N2P:teellened #;
+ellen+FXPP+1N3P:ellene #;
+ellen+FXPP+1N3P:ellen #;
+ellen+FXPP+P1N3P:őellene #;
+ellen+FXPP+2N1P:ellenünk #;
+ellen+FXPP+P2N1P:miellenünk #;
+ellen+FXPP+2N2P:ellenetek #;
+ellen+FXPP+P2N2P:tiellenetek #;
+ellen+FXPP+2N3P:ellenük #;
+ellen+FXPP+P2N3P:őellenük #;
+
+LEXICON Vegett
+végett+FXPP+1N1P:végettem #;
+végett+FXPP+P1N1P:énvégettem #;
+végett+FXPP+1N2P:végetted #;
+végett+FXPP+P1N2P:tevégetted #;
+végett+FXPP+1N3P:végette #;
+végett+FXPP+1N3P:végett #;
+végett+FXPP+P1N3P:ővégette #;
+végett+FXPP+2N1P:végettünk #;
+végett+FXPP+P2N1P:mivégettünk #;
+végett+FXPP+2N2P:végettetek #;
+végett+FXPP+P2N2P:tivégettetek #;
+végett+FXPP+2N3P:végettük #;
+végett+FXPP+P2N3P:ővégettük #;
+
+
+!LEXICON AllFxpp
+!alá
+!alatt
+!alól
+!által
+!belé
+!belől
+!ben
+!elé
+!elébe
+!elejbe
+!elejbé
+!elibe
+!elibé
+!ellen
+!elől*
+!előtt
+!érett
+!ért
+!felé
+!felett
+!felől
+!fölibe
+!fölibé
+!fölött
+!helyett
+!hoz
+!iránt
+!kívül
+!köré
+!körött
+!körül
+!körülött
+!közé
+!közibe
+!közibé
+!között
+!közt
+!közül
+!mellé
+!mellett
+!mellől
+!miatt
+!mögé
+!mögött
+!mögül
+!nál
+!nek
+!nék
+!nélkül
+!rá
+!rajta
+!reá
+!ról
+!szerinte
+!t
+!től
+!után
+!vel
+!véle

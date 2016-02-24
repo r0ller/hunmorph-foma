@@ -1,0 +1,1227 @@
+! enhuadj1.lexc
+Multichar_Symbols  +Adj @U.ART.PRESENT@ @U.ART.ABSENT@ 
+
++Dis +Ess +Soc +Tem +Pref+
++Posss1s +Posss2s +Posss3s +Possp1s +Possp2s +Possp3s 
++Posss1p +Posss2p +Posss3p +Possp1p +Possp2p +Possp3p
+
++Plur +Fam +Gens +Genpl
+      
++Abl +Acc +Ade +All +Cau +Dat +Del
++Ela +Fac +For +Forp +Forpen +Ill +Ine +Ins +Nom
++Sub +Sup +Ter +Mid
++Ik
+      
+§EOA§ §uue§ §ooez3§ §OEOE1§ §J§ §UUE§ §OEOE§ §JP§ §AE§ §OEOE2§
+§UUE1§ §oeoez1§ §oooe§ §oeoez2§ §oeoez12§ §AAA§ §oeoe§ §AA§ §oeoez§ §AE1§ §oeoezmid§ §OEOE4a§
+§VV§ §b§ §h§ §k§ §n§ §r§ §t§ §oeoebb§ 
+§oeoez11§ §OEOE11§
+§oeoez1e§ §oeoez11e§ §Jnull§ §JPnull§ 
+
+LEXICON Root
+Prefleg;
+Prefigekoto;
+Prefleg1;
+
+LEXICON Prefleg
+leg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+legesleg@U.ART.PRESENT@       Prefigekoto ; ! optional article prefix
+                        Prefigekoto ; ! empty string entry
+LEXICON Prefleg1
+leg@U.ART.PRESENT@       Adj1 ; ! optional article prefix
+legesleg@U.ART.PRESENT@       Adj1 ; ! optional article prefix
+                        Adj1 ; ! empty string entry
+
+LEXICON Prefigekoto
++Pref+:keresztül   Adj;
++Pref+:kölcsön   Adj;
++Pref+:széjjel   Adj;
++Pref+:szembe   Adj;
++Pref+:szerte   Adj;
++Pref+:vissza   Adj;
++Pref+:helyre   Adj;
++Pref+:tovább   Adj;
++Pref+:tönkre   Adj;
++Pref+:észre   Adj;
++Pref+:rajta   Adj;
++Pref+:előre   Adj;
++Pref+:félbe   Adj;
++Pref+:félre   Adj;
++Pref+:felül   Adj;
++Pref+:fölül   Adj;
++Pref+:agyon   Adj;
++Pref+:ellen   Adj;
++Pref+:körbe   Adj;
++Pref+:körül   Adj;
++Pref+:közbe   Adj;
++Pref+:közre   Adj;
++Pref+:külön   Adj;
++Pref+:utána   Adj;
++Pref+:végbe   Adj;
++Pref+:végig   Adj;
++Pref+:hátra   Adj;
++Pref+:hozzá   Adj;
++Pref+:egybe   Adj;
++Pref+:ketté   Adj;
++Pref+:össze   Adj;
++Pref+:mellé   Adj;
++Pref+:által   Adj;
++Pref+:alul   Adj;
++Pref+:haza   Adj;
++Pref+:újra   Adj;
++Pref+:abba   Adj;
++Pref+:neki   Adj;
++Pref+:bele   Adj;
++Pref+:újjá   Adj;
++Pref+:benn   Adj;
++Pref+:fenn   Adj;
++Pref+:fönn   Adj;
++Pref+:jóvá   Adj;
++Pref+:szét   Adj;
++Pref+:tele   Adj;
++Pref+:tova   Adj;
++Pref+:meg   Adj;
++Pref+:oda   Adj;
++Pref+:elő   Adj;
++Pref+:túl   Adj;
++Pref+:alá   Adj;
++Pref+:föl   Adj;
++Pref+:ide   Adj;
++Pref+:fel   Adj;
++Pref+:rá   Adj;
++Pref+:ki   Adj;
++Pref+:le   Adj;
++Pref+:el   Adj;
++Pref+:át   Adj;
++Pref+:be   Adj;
+            Adj;
+
+LEXICON Adj
+!főtt AddAdj;
+!lőtt AddAdj;
+!nőtt AddAdj;
+!pisilt AddAdj;
+!rítt AddAdj;
+!új AddAdj;
+aberrált AddAdj;
+abált AddAdj;
+acélozott AddAdj;
+adományozott AddAdj;
+adszorbeált AddAdj;
+adósodott AddAdj;
+adósított AddAdj;
+affektált AddAdj;
+aggott AddAdj;
+agyalt AddAdj;
+agyalágyult AddAdj;
+agykárosodott AddAdj;
+ahidrált AddAdj;
+ajzott AddAdj;
+ajándékozott AddAdj;
+ajánlott AddAdj;
+akkreditált AddAdj;
+akácosított AddAdj;
+alant AddAdj;
+alapozott AddAdj;
+aljasult AddAdj;
+alkalmazott AddAdj;
+aládúcolt AddAdj;
+alátámasztott AddAdj;
+amerikaiasodott AddAdj;
+ammonizált AddAdj;
+antedatált AddAdj;
+antikizált AddAdj;
+aranyozott AddAdj;
+asszimilált AddAdj;
+aszalt AddAdj;
+aszott AddAdj;
+avatott AddAdj;
+avult AddAdj;
+barikádozott AddAdj;
+barázdált AddAdj;
+bigott AddAdj;
+bitorolt AddAdj;
+bizakodott AddAdj;
+bizonyított AddAdj;
+biztos AddAdjat;
+biztosított AddAdj;
+blokkolt AddAdj;
+bolygatott AddAdj;
+bombabiztos AddAdjat;
+bomlott AddAdj;
+bontott AddAdj;
+bonyolult AddAdj;
+bonyolított AddAdj;
+bordázott AddAdj;
+borotvált AddAdj;
+borult AddAdj;
+borzolt AddAdj;
+borított AddAdj;
+bosszantott AddAdj;
+bundázott AddAdj;
+burjánzott AddAdj;
+burkolt AddAdj;
+bágyadt AddAdj;
+bántalmazott AddAdj;
+bénult AddAdj;
+bízott AddAdj;
+bökött AddAdj;
+bútorzott AddAdj;
+cicomázott AddAdj;
+civilizált AddAdj;
+csalódott AddAdj;
+csapolt AddAdj;
+csapott AddAdj;
+csapzott AddAdj;
+csatolt AddAdj;
+csigázott AddAdj;
+csinált AddAdj;
+csiszolt AddAdj;
+csodálkozott AddAdj;
+csomózott AddAdj;
+csonkolt AddAdj;
+csonkított AddAdj;
+csontozott AddAdj;
+csukott AddAdj;
+csúszott AddAdj;
+cukkolt AddAdj;
+cukrozott AddAdj;
+cáfolt AddAdj;
+célorientált AddAdj;
+dalolt AddAdj;
+deklasszált AddAdj;
+dekoltált AddAdj;
+dekompenzált AddAdj;
+dekoncentrált AddAdj;
+delokalizált AddAdj;
+deprimált AddAdj;
+derivált AddAdj;
+desperált AddAdj;
+differenciált AddAdj;
+disszociált AddAdj;
+diszkvalifikált AddAdj;
+disztingvált AddAdj;
+divatjamúlt AddAdj;
+dobozolt AddAdj;
+dobódott AddAdj;
+dolgozott AddAdj;
+domborított AddAdj;
+domesztikált AddAdj;
+drótozott AddAdj;
+dugott AddAdj;
+díjazott AddAdj;
+dögfáradt AddAdj;
+dúcolt AddAdj;
+edzett AddAdj;
+effeminált AddAdj;
+egybeforrott AddAdj;
+egyensúlyozott AddAdj;
+egzaltált AddAdj;
+elemzett AddAdj;
+előirányzott AddAdj;
+enervált AddAdj;
+erőszakolt AddAdj;
+esztergályozott AddAdj;
+evett AddAdj;
+exponált AddAdj;
+fagyott AddAdj;
+fakult AddAdj;
+faragott AddAdj;
+fazonozott AddAdj;
+fegyelmezett AddAdj;
+filézett AddAdj;
+finanszírozott AddAdj;
+finomult AddAdj;
+finomított AddAdj;
+fintorított AddAdj;
+fogadott AddAdj;
+fogalmazott AddAdj;
+fogazott AddAdj;
+foglalkoztatott AddAdj;
+foglalt AddAdj;
+fogott AddAdj;
+fogult AddAdj;
+fojtott AddAdj;
+fokozott AddAdj;
+foldott AddAdj;
+foltozott AddAdj;
+folytatott AddAdj;
+folyásolt AddAdj;
+fonott AddAdj;
+fontolt AddAdj;
+fordított AddAdj;
+forgatott AddAdj;
+forgott AddAdj;
+formált AddAdj;
+forrasztott AddAdj;
+forrott AddAdj;
+foszlott AddAdj;
+fosztott AddAdj;
+frakcionált AddAdj;
+frusztrált AddAdj;
+fuserált AddAdj;
+futott AddAdj;
+fuvalkodott AddAdj;
+fásult AddAdj;
+fátyolozott AddAdj;
+félholt AddAdj;
+félájult AddAdj;
+féregrágott AddAdj;
+fóliázott AddAdj;
+földhözjuttatott AddAdj;
+fölvilágosult AddAdj;
+fúvódott AddAdj;
+fülezett AddAdj;
+fürdött AddAdj;
+főmegbízott AddAdj;
+galériázott AddAdj;
+garantált AddAdj;
+gatyásodott AddAdj;
+gazosodott AddAdj;
+gaztalanított AddAdj;
+gettósított AddAdj;
+gondolt AddAdj;
+gondozott AddAdj;
+granulált AddAdj;
+grillezett AddAdj;
+gumizott AddAdj;
+gyakorlott AddAdj;
+gyanított AddAdj;
+gyanúsított AddAdj;
+gyarmatosított AddAdj;
+gyomtalanított AddAdj;
+gyors AddAdj;
+gyorsfagyasztott AddAdj;
+gyógyszerezett AddAdj;
+gyógyult AddAdj;
+gyökértömött AddAdj;
+gázbiztos AddAdjat;
+gázosított AddAdj;
+gáztalanított AddAdj;
+génmanipulált AddAdj;
+hadbavonult AddAdj;
+haditett AddAdj;
+hagyatott AddAdj;
+hagyatékozott AddAdj;
+hagyott AddAdj;
+hajlott AddAdj;
+hajlított AddAdj;
+hajszolt AddAdj;
+hajtott AddAdj;
+hajított AddAdj;
+halasztott AddAdj;
+hallatszott AddAdj;
+hallgatott AddAdj;
+hallott AddAdj;
+hallásgátolt AddAdj;
+halláskárosult AddAdj;
+halmozott AddAdj;
+halott AddAdj;
+halt AddAdj;
+hamarkodott AddAdj;
+hamisított AddAdj;
+hangolt AddAdj;
+hangsúlyozott AddAdj;
+hangzott AddAdj;
+hangzósított AddAdj;
+hanyagolt AddAdj;
+harcolt AddAdj;
+hasznosított AddAdj;
+használt AddAdj;
+hasított AddAdj;
+hatalmazott AddAdj;
+hatlapolt AddAdj;
+hatott AddAdj;
+határolt AddAdj;
+határozott AddAdj;
+hatástalanított AddAdj;
+hatódott AddAdj;
+helyreállított AddAdj;
+hitehagyott AddAdj;
+hitt AddAdj;
+hivatott AddAdj;
+hizlalt AddAdj;
+hiúsult AddAdj;
+holt AddAdj;
+holtbiztos AddAdjat;
+holtsápadt AddAdj;
+horganyzott AddAdj;
+hornyolt AddAdj;
+hullafáradt AddAdj;
+hullott AddAdj;
+háborgatott AddAdj;
+háborodott AddAdj;
+hájasodott AddAdj;
+hálált AddAdj;
+háramlott AddAdj;
+hátrahagyott AddAdj;
+háziasított AddAdj;
+hígított AddAdj;
+hívott AddAdj;
+hízott AddAdj;
+húzott AddAdj;
+húzódott AddAdj;
+idejétmúlt AddAdj;
+idomított AddAdj;
+igazolt AddAdj;
+igényjogosult AddAdj;
+illatosított AddAdj;
+illett AddAdj;
+illuminált AddAdj;
+illusztrált AddAdj;
+impregnált AddAdj;
+inaszakadt AddAdj;
+indikált AddAdj;
+indiszponált AddAdj;
+indokolt AddAdj;
+indult AddAdj;
+informált AddAdj;
+introvertált AddAdj;
+iskolázott AddAdj;
+istenáldott AddAdj;
+itatott AddAdj;
+ivott AddAdj;
+izgatott AddAdj;
+izmolt AddAdj;
+japánosított AddAdj;
+javult AddAdj;
+javított AddAdj;
+jogfosztott AddAdj;
+jogosult AddAdj;
+jogosított AddAdj;
+jogvédett AddAdj;
+jutalmazott AddAdj;
+jutott AddAdj;
+játszott AddAdj;
+jóvolt AddAdj;
+jóvolt AddAdjvolt;
+jóvátett AddAdj;
+józanodott AddAdj;
+jött AddAdj;
+kalapált AddAdj;
+kalcinált AddAdj;
+kapcsolt AddAdj;
+kapkodott AddAdj;
+karbantartott AddAdj;
+karéjozott AddAdj;
+karózott AddAdj;
+kerekedett AddAdj;
+keresztkódolt AddAdj;
+kertezett AddAdj;
+keríttetett AddAdj;
+kiáltott AddAdj;
+klimatizált AddAdj;
+klónozott AddAdj;
+kobzott AddAdj;
+koedukált AddAdj;
+koholt AddAdj;
+kombinált AddAdj;
+komlózott AddAdj;
+komplikált AddAdj;
+kompromittálódott AddAdj;
+konténerezett AddAdj;
+konzervált AddAdj;
+kopott AddAdj;
+kopt AddAdj;
+koptatott AddAdj;
+korlátolt AddAdj;
+korlátozott AddAdj;
+koszlott AddAdj;
+kosztalanított AddAdj;
+kozott AddAdj;
+kráterezett AddAdj;
+kulturált AddAdj;
+kurtított AddAdj;
+kuszált AddAdj;
+kábult AddAdj;
+kárpitozott AddAdj;
+kárvallott AddAdj;
+kátyúsított AddAdj;
+képzett AddAdj;
+kínzott AddAdj;
+kóborolt AddAdj;
+körülhatárolt AddAdj;
+körülárkolt AddAdj;
+köztudott AddAdj;
+közzétett AddAdj;
+lakkozott AddAdj;
+lakott AddAdj;
+lambériázott AddAdj;
+lapcentrált AddAdj;
+lapított AddAdj;
+lehetett AddAdj;
+lenzett AddAdj;
+listázott AddAdj;
+lombozódott AddAdj;
+lopott AddAdj;
+lopásbiztos AddAdjat;
+lyukacsozott AddAdj;
+lyukasztgatott AddAdj;
+lyukazott AddAdj;
+lágy AddAdj;
+láncolt AddAdj;
+látott AddAdj;
+látszott AddAdj;
+látáskárosult AddAdj;
+légkondicionált AddAdj;
+légritkított AddAdj;
+légzett AddAdj;
+létrejött AddAdj;
+lótott-futott AddAdj;
+lökött AddAdj;
+macskásodott AddAdj;
+macskásított AddAdj;
+magabiztos AddAdjat;
+magozott AddAdj;
+magyarosított AddAdj;
+magyarázott AddAdj;
+magzott AddAdj;
+magánalkalmazott AddAdj;
+magánosított AddAdj;
+maradott AddAdj;
+marginalizálódott AddAdj;
+margózott AddAdj;
+ment AddAdj;
+mercerizált AddAdj;
+metszett AddAdj;
+mintázott AddAdj;
+mivolt AddAdj;
+mivolt AddAdjvolt;
+mocskolt AddAdj;
+molyrágott AddAdj;
+mondott AddAdj;
+mondvacsinált AddAdj;
+mosódott AddAdj;
+mozgáskorlátozott AddAdj;
+munkált AddAdj;
+mállott AddAdj;
+mámorosodott AddAdj;
+márványozott AddAdj;
+méltányolt AddAdj;
+mélyfagyasztott AddAdj;
+módosított AddAdj;
+múlt AddAdjae;
+nagyolt AddAdj;
+napbarnított AddAdj;
+nekivadult AddAdj;
+nevelkedett AddAdj;
+normázott AddAdj;
+nyereségorientált AddAdj;
+nyilvántartott AddAdj;
+nyitott AddAdj;
+nyomorgatott AddAdj;
+nyomorult AddAdj;
+nyomorított AddAdj;
+nyomott AddAdj;
+nyugalmazott AddAdj;
+nyugdíjjogosult AddAdj;
+nyílott AddAdj;
+nyírott AddAdj;
+nyújtott AddAdj;
+nyúlott AddAdj;
+nyűtt AddAdj;
+némult AddAdj;
+némított AddAdj;
+növekedésorientált AddAdj;
+odalett AddAdj;
+okafogyott AddAdj;
+okkult AddAdj;
+okozott AddAdj;
+oldott AddAdj;
+oltott AddAdj;
+olvasott AddAdj;
+olvasztott AddAdj;
+omlott AddAdj;
+omolt AddAdj;
+ostromlott AddAdj;
+osztott AddAdj;
+osztályozott AddAdj;
+ottmaradt AddAdj;
+pacsmagolt AddAdj;
+palackozott AddAdj;
+palázott AddAdj;
+paraméterezett AddAdj;
+patentírozott AddAdj;
+patkolt AddAdj;
+pattogzott AddAdj;
+pauperizálódott AddAdj;
+pazarolt AddAdj;
+pedzett AddAdj;
+piacorientált AddAdj;
+piacosított AddAdj;
+piszkított AddAdj;
+pityókázott AddAdj;
+pliszírozott AddAdj;
+poklozott AddAdj;
+poliglott AddAdj;
+politikátlanított AddAdj;
+polírozott AddAdj;
+pontosított AddAdj;
+pontozott AddAdj;
+priorált AddAdj;
+privilegizált AddAdj;
+profitorientált AddAdj;
+programozott AddAdj;
+proporcionált AddAdj;
+proskribált AddAdj;
+provokált AddAdj;
+próbált AddAdj;
+puhult AddAdj;
+pusztult AddAdj;
+pusztított AddAdj;
+páncélozott AddAdj;
+párnázott AddAdj;
+párosított AddAdj;
+pökött AddAdj;
+rablott AddAdj;
+raboskodott AddAdj;
+rabosított AddAdj;
+ragadtatott AddAdj;
+ragasztott AddAdj;
+rajzolt AddAdj;
+rakott AddAdj;
+rekedett AddAdj;
+rekuperált AddAdj;
+reprezentált AddAdj;
+rezignált AddAdj;
+rokkant AddAdj;
+romlott AddAdj;
+románosított AddAdj;
+rongálódott AddAdj;
+rontott AddAdj;
+rossz AddAdjt;
+rostált AddAdj;
+rovott AddAdj;
+rovátkolt AddAdj;
+rozsdásodott AddAdj;
+rácsozott AddAdj;
+ráncolt AddAdj;
+rántott AddAdj;
+régvolt AddAdj;
+régvolt AddAdjvolt;
+rótt AddAdj;
+rúgott AddAdj;
+sajtolt AddAdj;
+sarkított AddAdj;
+satnyult AddAdj;
+simított AddAdj;
+siratott AddAdj;
+sodrott AddAdj;
+sorozott AddAdj;
+soványodott AddAdj;
+spannolt AddAdj;
+sportolt AddAdj;
+sulykolt AddAdj;
+szabadalmaztatott AddAdj;
+szabadított AddAdj;
+szabott AddAdj;
+szabványosított AddAdj;
+szabványozott AddAdj;
+szaggatott AddAdj;
+szakavatott AddAdj;
+szakképzett AddAdj;
+szakított AddAdj;
+szarusodott AddAdj;
+szavatolt AddAdj;
+szelvényezett AddAdj;
+szembeállított AddAdj;
+személyezett AddAdj;
+szerelvényezett AddAdj;
+szervezett AddAdj;
+szervátültetett AddAdj;
+szexualizált AddAdj;
+szigetelt AddAdj;
+szituált AddAdj;
+szitált AddAdj;
+szocializálódott AddAdj;
+szokott AddAdj;
+szomorított AddAdj;
+szorgalmazott AddAdj;
+szorult AddAdj;
+szubvencionált AddAdj;
+szuperbiztos AddAdjat;
+szállott AddAdj;
+szállított AddAdj;
+számlált AddAdj;
+számozott AddAdj;
+számított AddAdj;
+szándékolt AddAdj;
+szántott AddAdj;
+származtatott AddAdj;
+szárnyazott AddAdj;
+szárított AddAdj;
+százalékolt AddAdj;
+színehagyott AddAdj;
+szólott AddAdj;
+szórakozott AddAdj;
+szőrmézett AddAdj;
+szőtt AddAdj;
+sározott AddAdj;
+sózott AddAdj;
+sötétbeborult AddAdj;
+sújtott AddAdj;
+tabusított AddAdj;
+tagolt AddAdj;
+tagozatosított AddAdj;
+talált AddAdj;
+tantárgyasított AddAdj;
+tanult AddAdj;
+tanított AddAdj;
+tapasztalt AddAdj;
+tapasztott AddAdj;
+taposott AddAdj;
+tarolt AddAdj;
+tartott AddAdj;
+tartósított AddAdj;
+tartóztatott AddAdj;
+teflonozott AddAdj;
+telt AddAdj;
+teraszosított AddAdj;
+tetszett AddAdj;
+tett AddAdj;
+tiltott AddAdj;
+tisztított AddAdj;
+titkolt AddAdj;
+tompult AddAdj;
+tompított AddAdj;
+torzult AddAdj;
+tudott AddAdj;
+tupírozott AddAdj;
+turbósított AddAdj;
+tájékozott AddAdj;
+támogatott AddAdj;
+tántorított AddAdj;
+táplált AddAdj;
+tébolyodott AddAdj;
+tönkrement AddAdj;
+tönkretett AddAdj;
+túltáplált AddAdj;
+túlzott AddAdj;
+túlzsúfolt AddAdj;
+tükröztetett AddAdj;
+tűzkárosult AddAdj;
+ugrott AddAdj;
+unott AddAdj;
+utasított AddAdj;
+utazott AddAdj;
+utánzott AddAdj;
+vadult AddAdj;
+vadított AddAdj;
+vagyonbukott AddAdj;
+vakolt AddAdj;
+vakosított AddAdj;
+vakult AddAdj;
+vallott AddAdj;
+varrott AddAdj;
+vasalt AddAdj;
+vegyszerezett AddAdj;
+versenyzett AddAdj;
+veszélyezett AddAdj;
+veszélyeztetett AddAdj;
+vetett AddAdj;
+vett AddAdj;
+vevőorientált AddAdj;
+villámsújtott AddAdj;
+világlátott AddAdj;
+világosult AddAdj;
+világított AddAdj;
+virágosított AddAdj;
+virágzott AddAdj;
+viszonzott AddAdj;
+vitatott AddAdj;
+vitt AddAdj;
+vizsgált AddAdj;
+volt AddAdj;
+volt AddAdjvolt;
+vonatkoztatott AddAdj;
+vontatott AddAdj;
+vonzott AddAdj;
+vurst AddAdj;
+vágott AddAdj;
+vágyott AddAdj;
+választott AddAdj;
+választójogosult AddAdj;
+válogatott AddAdj;
+változott AddAdj;
+vámosított AddAdj;
+várakoztatott AddAdj;
+városiasodott AddAdj;
+vásznazott AddAdj;
+védett AddAdj;
+véghezvitt AddAdj;
+végzett AddAdj;
+vékonyított AddAdj;
+vívott AddAdj;
+zaklatott AddAdj;
+zavarodott AddAdj;
+zavartatott AddAdj;
+zománcozott AddAdj;
+zselézett AddAdj;
+zsidótlanított AddAdj;
+zsugorodott AddAdj;
+zsákmányolt AddAdj;
+zsúfolt AddAdj;
+zálogosított AddAdj;
+zápult AddAdj;
+zárkózott AddAdj;
+ábrándult AddAdj;
+áhított AddAdj;
+ájult AddAdj;
+áldott AddAdj;
+állapodott AddAdj;
+állapított AddAdj;
+állott AddAdj;
+állított AddAdj;
+általánosított AddAdj;
+áporodott AddAdj;
+árnyékolt AddAdj;
+árusított AddAdj;
+árvult AddAdj;
+átalkodott AddAdj;
+átkozott AddAdj;
+ázott AddAdj;
+áztatott AddAdj;
+értékorientált AddAdj;
+étkeztetett AddAdj;
+írott AddAdj;
+óhajtott AddAdj;
+ólmozott AddAdj;
+ónozott AddAdj;
+
+
+LEXICON Adj1
+agyondolgozott AddAdj;
+agyonhasznált AddAdj;
+belebolondult AddAdj;
+belebonyolódott AddAdj;
+beledolgozott AddAdj;
+beleivódott AddAdj;
+belepistult AddAdj;
+beleszámított AddAdj;
+csomagkapcsolt AddAdj;
+előrehajlott AddAdj;
+előrehaladott AddAdj;
+erdőborított AddAdj;
+eredményorientált AddAdj;
+exportorientált AddAdj;
+extrapolált AddAdj;
+extrovertált AddAdj;
+félbeszakított AddAdj;
+fémzárolt AddAdj;
+hiteszegett AddAdj;
+hozzákapcsolt AddAdj;
+hozzászokott AddAdj;
+jégkárosult AddAdj;
+jóllakott AddAdj;
+katasztrófasújtott AddAdj;
+keresztrefeszített AddAdj;
+kettéhasított AddAdj;
+kettévágott AddAdj;
+konzulviselt AddAdj;
+magaválasztott AddAdj;
+napcserzett AddAdj;
+pofoncsapott AddAdj;
+sportválogatott AddAdj;
+sugárfertőzött AddAdj;
+szélcserzett AddAdj;
+teljesítményorientált AddAdj;
+testreszabott AddAdj;
+utángyártott AddAdj;
+utógondozott AddAdj;
+viszontlátott AddAdj;
+viszontszeretett AddAdj;
+vérehagyott AddAdj;
+észrevett AddAdj;
+önelégedett AddAdj;
+öngyilkosjelölt AddAdj;
+örökbefogadott AddAdj;
+ügyefogyott AddAdj;
+üzembiztos AddAdjat;
+üzletorientált AddAdj;
+
+LEXICON AddAdj
+0:^+cMid§oeoebb§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocase;
+
+Lexicon Tocase1
++Adj+Mid:0     Poss1;
++Adj+Mid:0     Plur1;
++Adj+Mid:0     Fam1;
+
+LEXICON Poss1
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam1;
+LEXICON Plur1
++Plur:^+cPlur^§oeoez1§k    Gen;
++Plur:^+cPlur^§oeoez11§k    Gen;
+                            Gen1;
+LEXICON Fam1
++Fam:^+cFam^ék         Gen;
+                       Gen1;
+LEXICON Gen1
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+
+Lexicon Tocase
++Adj:0     Poss;
++Adj:0     Plur;
++Adj:0     Fam;
+
+LEXICON Poss
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam11;
+LEXICON Plur
++Plur:^+cPlur^§oeoez1§k    Gen;
++Plur:^+cPlur^§oeoez11§k    Gen;
+                            Gen;
+LEXICON Fam
++Fam:^+cFam^ék         Gen;
+                       Gen;
+
+LEXICON Fam11
++Fam:^+cFam^ék         Gen;
+                       Gen11;
+
+LEXICON Gen
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case;
+ 
+LEXICON Gen11
++Gens:^+cGens^é          Case;
++Genpl:^+cGenpl^éi     Case;
+                       Case1;
+
+LEXICON Case
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Case1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+                            Ik;
+
+
+Lexicon Ik
++Ik:^ik     Possik;
++Ik:^ik     Plurik;
++Ik:^ik     Famik;
+            #;
+
+LEXICON Possik
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1§m   Famik;   ! m
++Posss1s:^+cPosss1s^§OEOE4a§m   Famik;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Famik;   ! d
++Posss2s:^+cPosss2s^§OEOE4a§d   Famik;   ! d
++Posss3s:^+cPosss3s^§J§§AE1§   Famik;   ! ja, je, a,e
++Posss3s:^+cPosss3s^§AE1§   Famik;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famik;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Famik;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE4a§t§OEOE§k   Famik;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Famik;   ! ük, uk
++Possp3s:^+cPossp3s^§UUE1§k   Famik;   ! ük, uk
++Posss1p:^+cPosss1p^§AE§im   Famik;   ! aim
++Posss1p:^+cPosss1p^§JP§§AE§im   Famik;   ! aim
++Posss2p:^+cPosss2p^§AE§id   Famik;   ! aid
++Posss2p:^+cPosss2p^§JP§§AE§id   Famik;   ! aid
++Posss3p:^+cPosss3p^§AE§i   Famik;   ! ai, jai, ei, jei
++Posss3p:^+cPosss3p^§JP§§AE§i   Famik;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§AE§ink   Famik;   ! aink, eink
++Possp1p:^+cPossp1p^§JP§§AE§ink   Famik;   ! aink, eink
++Possp2p:^+cPossp2p^§AE§it§OEOE2§k   Famik;  ! aitok, eitek
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Famik;  ! aitok, eitek
++Possp3p:^+cPossp3p^§AE§ik   Famik;   !aik, jaik, eik, jeik
++Possp3p:^+cPossp3p^§JP§§AE§ik   Famik;   !aik, jaik, eik, jeik
+                           Famik;
+LEXICON Plurik
++Plur:^+cPlur^§oeoez1e§k    Genik;
++Plur:^+cPlur^§oeoez11e§k    Genik;
+                            Genik;
+
+LEXICON Famik
++Fam:^+cFam^ék         Genik;
+                       Genik;
+
+LEXICON Genik
++Gens:^+cGens^é          Caseik;
++Genpl:^+cGenpl^éi     Caseik;
+                       Caseik;
+  
+LEXICON Caseik
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoezmid§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON AddAdjt
+0:^+cMid§oeoebb§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocaset;
+
+Lexicon Tocaset
++Adj:0     Posst;
++Adj:0     Plur;
++Adj:0     Fam;
+
+LEXICON Posst
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Acc:^+cAcc^t       #;  ! ot, et, öt, t
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^^§J§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam11;
+
+
+
+LEXICON AddAdjat
+0:^+cMid§oeoebb§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocaseat;
+
+! s végűek at tárgyesettel, pl. biztosak (case1 acc)
+Lexicon Tocaseat
++Adj:0     Possat;
++Adj:0     Plurat;
++Adj:0     Famat;
+
+LEXICON Possat
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1§m   Famat;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Famat;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Famat;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Famat;   ! d
++Posss3s:^+cPosss3s^^§J§§AE1§   Famat;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Famat;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Famat;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Famat;   ! etek, atok
++Possp3s:^+cPossp3s^§J§§UUE1§k   Famat;   ! ük, uk
++Posss1p:^+cPosss1p^§JP§§AE§im   Famat;   ! aim
++Posss2p:^+cPosss2p^§JP§§AE§id   Famat;   ! aid
++Posss3p:^+cPosss3p^§JP§§AE§i   Famat;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JP§§AE§ink   Famat;   ! aink, eink
++Possp2p:^+cPossp2p^§JP§§AE§it§OEOE2§k   Famat;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JP§§AE§ik   Famat;   !aik, jaik, eik, jeik
+                           Famat11;
+LEXICON Plurat
++Plur:^+cPlur^§oeoez1§k    Genat;
++Plur:^+cPlur^§oeoez11§k    Genat;
+                            Genat;
+LEXICON Famat
++Fam:^+cFam^ék         Genat;
+                       Genat;
+
+LEXICON Famat11
++Fam:^+cFam^ék         Genat;
+                       Genat11;
+
+LEXICON Genat
++Gens:^+cGens^é          Caseat;
++Genpl:^+cGenpl^éi     Caseat;
+                       Caseat;
+ 
+LEXICON Genat11
++Gens:^+cGens^é          Caseat;
++Genpl:^+cGenpl^éi     Caseat;
+                       Caseat1;
+
+LEXICON Caseat
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+
+LEXICON Caseat1
++Abl:^+cAbl^§t§§oooe§l      #;  ! tól, től
++Acc:^+cAcc^§oeoez2§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§oeoez12§t       #;  ! ot, et, öt, t
++Acc:^+cAcc^§AA§t       #;  ! ot, et, öt, t
++Ade:^+cAde^§n§§AAA§l       #;  ! nál, nél
++All:^+cAll^§h§§oeoe§z      #;  ! hoz, hez, höz
++Cau:^+cCau^ért             #;  ! ért
++Dat:^+cDat^§n§§AA§k        #;  ! nak, nek
++Del:^+cDel^§r§§oooe§l      #;  ! ról, ről
++Ess:^+cEss^§uue§l          #;    ! ul, ül
++Ela:^+cEla^§b§§oooe§l      #;  ! ból, ből
++Fac:^+cFac^§VV§§AAA§       #;  ! vá, vé
++Forp:^+ccForp^§k§épp          #;  ! ként, képp, képpen
++Forpen:^+cxForpen^§k§éppen          #;  ! ként, képp, képpen
++For:^+cFor^§k§ént          #;  ! ként, képp, képpen
++Ill:^+cIll^§b§§AA§         #;  ! ból, ből
++Ine:^+cIne^§b§§AA§n        #;  ! ban, ben
++Ins:^+cIns^§VV§§AA§l       #;  ! val, vel
++Nom:^+cNom^0               #;  ! 
++Sub:^+cSub^§r§§AA§         #;  ! ra, re
++Sup:^+cSup^§oeoez§n        #;  ! on, en, ön, n
++Ter:^+cTer^ig              #;  ! ig
+                            Ik;
+
+! uses Fam, etc of Tocase
+Lexicon AddAdjvolt
++Adj:0     Possvolt;
+
+LEXICON Possvolt
++Posss3s:^+cPosss3s^§AE1§   Fam;   ! ja, je, a,e
++Possp3s:^+cPossp3s^§UUE1§k   Fam;   ! ük, uk
+
+LEXICON AddAdjae
+0:^+cMid§oeoebb§bb Tocase1;  !körkörösebbek nem körkörösebbök!
+@U.ART.ABSENT@  Tocaseae;
+
+! elmúlta Jnull, JPnull
+Lexicon Tocaseae
++Adj:0     Possae;
++Adj:0     Plur;
++Adj:0     Fam;
+
+LEXICON Possae
++Dis:^+cDis^§ooez3§nként    #;    ! anként, enként
++Soc:^+cSoc^§EOA§st§uue§l   #;    ! astul, estül
++Tem:^+cTem^§k§or             #;    ! kor
++Posss1s:^+cPosss1s^§OEOE1§m   Fam;   ! m
++Posss1s:^+cPosss1s^§OEOE11§m   Fam;   ! m
++Posss2s:^+cPosss2s^§OEOE1§d   Fam;   ! d
++Posss2s:^+cPosss2s^§OEOE11§d   Fam;   ! d
++Posss3s:^+cPosss3s^^§Jnull§§AE1§   Fam;   ! ja, je, a,e
++Possp1s:^+cPossp1s^§UUE§nk   Fam;   ! unk, ünk
++Possp2s:^+cPossp2s^§OEOE1§t§OEOE§k   Fam;   ! etek, atok
++Possp2s:^+cPossp2s^§OEOE11§t§OEOE§k   Fam;   ! etek, atok
++Possp3s:^+cPossp3s^§Jnull§§UUE1§k   Fam;   ! ük, uk
++Posss1p:^+cPosss1p^§JPnull§§AE§im   Fam;   ! aim
++Posss2p:^+cPosss2p^§JPnull§§AE§id   Fam;   ! aid
++Posss3p:^+cPosss3p^§JPnull§§AE§i   Fam;   ! ai, jai, ei, jei
++Possp1p:^+cPossp1p^§JPnull§§AE§ink   Fam;   ! aink, eink
++Possp2p:^+cPossp2p^§JPnull§§AE§it§OEOE2§k   Fam;  ! aitok, eitek
++Possp3p:^+cPossp3p^§JPnull§§AE§ik   Fam;   !aik, jaik, eik, jeik
+                           Fam11;
+
+
+!result
+!legeslegkedvesebbet
+!legeslegkedvesebben
+!legkedvesebbet
+!legkedvesebben
+!kedvesebbet
+!kedvesebben
+!kedveset
+!kedvesen
