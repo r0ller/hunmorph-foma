@@ -1,0 +1,1 @@
+read regex @"hunnoun.fst" | @"hunverb.fst" | @"hunnum.fst" | @"hunadj.fst" | @"hunfxpp.fst" | @"hunmisc.fst";

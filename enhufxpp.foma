@@ -1,0 +1,57 @@
+### enhu2.foma ###
+
+
+define ToUpCase [a:A|á:Á|b:B|c:C|d:D|e:E|é:É|f:F|g:G|h:H|i:I|í:Í|j:J|k:K|l:L|m:M|n:N|o:O|ó:Ó|ö:Ö|ő:Ő|p:P|q:Q|r:R|s:S|t:T|u:U|ú:Ú|ü:Ü|ű:Ű|v:V|w:W|x:X|y:Y|z:Z] ?* | ?* ;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup      "^"        -> 0;
+define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
+                       "^" "+" {cEss}  -> 0 ,,
+                       "^" "+" {cSoc}  -> 0 ,,
+                       "^" "+" {cTem}  -> 0 ,,
+                       "^" "+" {cPosss1p}  -> 0 ,,
+                       "^" "+" {cPosss2p}  -> 0 ,,
+                       "^" "+" {cPosss3p}  -> 0 ,,
+                       "^" "+" {cPossp1p}  -> 0 ,,
+                       "^" "+" {cPossp2p}  -> 0 ,,
+                       "^" "+" {cPossp3p}  -> 0 ,,
+                       "^" "+" {cPosss1s}  -> 0 ,,
+                       "^" "+" {cPosss2s}  -> 0 ,,
+                       "^" "+" {cPosss3s}  -> 0 ,,
+                       "^" "+" {cPossp1s}  -> 0 ,,
+                       "^" "+" {cPossp2s}  -> 0 ,,
+                       "^" "+" {cPossp3s}  -> 0 ,,
+                       "^" "+" {cPlur}  -> 0 ,,
+                       "^" "+" {cFam}  -> 0 ,,
+                       "^" "+" {cGenpl} -> 0 ,,
+                       "^" "+" {cGens}  -> 0 ,,
+                       "^" "+" {cAbl}  -> 0 ,,
+                       "^" "+" {cAcc}  -> 0 ,,
+                       "^" "+" {cAde}  -> 0 ,,
+                       "^" "+" {cAll}  -> 0 ,,
+                       "^" "+" {cCau}  -> 0 ,,
+                       "^" "+" {cDat}  -> 0 ,,
+                       "^" "+" {cDel}  -> 0 ,,
+                       "^" "+" {cEla}  -> 0 ,,
+                       "^" "+" {cFac}  -> 0 ,,
+                       "^" "+" {cFor}  -> 0 ,,
+                       "^" "+" {cIll}  -> 0 ,,
+                       "^" "+" {cIne}  -> 0 ,,
+                       "^" "+" {cIns}  -> 0 ,,
+                       "^" "+" {cNom}  -> 0 ,,
+                       "^" "+" {cSub}  -> 0 ,,
+                       "^" "+" {cSup}  -> 0 ,,
+                       "^" "+" {c1nr1pers}  -> 0 ,,
+                       "^" "+" {c1nr2pers}  -> 0 ,,
+                       "^" "+" {cTer}  -> 0;
+
+echo ">>> read in enhufxpp <<<"                    
+read lexc lexc/fxpp/enhufxpp.lexc
+define Lexicon
+
+define Grammar Lexicon           .o. 
+               CleanupEndings    .o.
+               Cleanup            .o.
+               ToUpCase ;
+
+regex Grammar  ;

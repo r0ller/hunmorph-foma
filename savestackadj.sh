@@ -1,0 +1,1 @@
+save stack hunadj.fst

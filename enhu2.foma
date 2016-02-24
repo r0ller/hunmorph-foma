@@ -1,0 +1,2931 @@
+### enhu2.foma ###
+
+# Vowels
+define Vowel [ a | á | ä | e | é | ë | i | í | o |ó | u | ú | ü | ű | ö | ő | A | Á | E | É | I | Í | O |Ó | U | Ú | Ü | Ű | Ö | Ő ];
+define ConsNogln [ b | c | d | f | h | j | k | m | p | q | r | s | v | w | x | y | z | B | C | D | E | F | H | J | K | L | M | P | Q | R | S | V | W | X | Y | Z ];
+define Cons [ b | c | č | ć | d | f | g | h | j | k | l | m | n | p | q | r | s | t | v | w | x | y | z | B | C | Č | Ć | D | E | F | G | H | J | K | L | M | N | P | Q | R | S | T | V | W | X | Y | Z ];
+define yNoCons [ ConsNogln y | Vowel y | s z t y | ConsNogln Y | Vowel Y | S Z T Y ];
+define yNoConstny [ Cons y | Vowel y | Cons Y | Vowel Y ];
+define Vowelwithy [ Vowel | yNoCons ];
+define Vowelwithyy [ Vowel | y | Y ];
+define Vowelwithytny [ Vowel | yNoConstny ];
+define Vowel1 [ a | e | í | o | ü | ö | A | E | Í | O | Ü | Ö ]; # w/o  á, é, i, ó, ő, ű, u, ú
+define Vowel2 [ a | e | i | í | o | ü | ö | A | E | I | Í | O | Ü | Ö ]; # w/o  á, é, i, ó, ő, ű, u, ú
+define Vowel1exc [ á | ä | é | ë | i | ó | ő | ű | u | ú | Á | É | I | Ó | Ő | Ű | U | Ú ];
+define Vowel1withy [ Vowel1 | yNoCons ];
+define Vowel2withy [ Vowel2 | yNoCons ];
+define BackVowel [ a | á | o | ó | u | ú | A | Á | O | Ó | U | Ú ];
+define FrontUnroundedVowel [ ä | e | é | ë | i | í | ü | ű | E | É | I | Í | Ü | Ű ];
+define Front1UnroundedVowel [ ä | e | é | ë | i | í | E | É | I | Í  ];
+define FrontRoundedVowel [ ö | ő | Ö | Ő ];
+define Front1RoundedVowel [ ö | ő | ü | ű | Ö | Ő | Ü | Ű ];
+define FrontVowel [ ä | e | é | ë | i | í | ü | ű | ö | ő | E | É | I | Í | Ü | Ű | Ö | Ő ];
+define NonPlosivCons [ c | j | l | r | s | v | z | C | J | L | R | S | V | Z ];
+define OppNonPlosivCons [ b | d | f | g | h | k | m | n | p | q | t | w | x | y | B | D | F | G | H | K | M | N | P | Q | T | W | X | Y ];
+define DCons [ s z | z s | g y | t y | n y | l y | c s |  S Z | Z S | G Y | T Y | N Y | L Y | C S ];
+define AccSingle [ j | l | n | r | s | z | J | L | N | R | S | Z ];
+define Nodupy [ Vowel | ConsNogln ];
+# előd (gróf zsiráf bab) 
+define ConsJaje [ b | f  | B | F ];
+define Consrd [ r d | n d ];
+#abáltja holdja
+define ConsAeJaje [ \Cons d | g | \s \c  h | s \c h | [ \s & \Vowel ] c h | k | l | m | n | p | r | \l t | v | g y | \z t y | \Cons D | G | \S \C  H | S \C H | [ \S & \Vowel ] C H | K | L | M | N | P | R | \L T | V | G Y | \Z T Y ];
+# kénye reménye
+define ConsAe [ c | j | s | z | x | s z | z s | c s | č | ć | [ s | Vowel ] c h | s z t y | n y | l y | C | J | S | Z | X | S Z | Z S | C S | Č | Ć | [ S | Vowel ] C H | S Z T Y | N Y | L Y ];
+
+# Consonant doubling: 1-letter consonant doubled before -ing/-ed (beg/begging)
+define Etoee e -> é ||  _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* ; # \0: not zero kor & ként excluded
+define Atoaa a -> á ||  _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur}  | "+" {cGens} | "+" {cGenpl}] ?* ; # \0: not zero kor & ként excluded
+#derék
+define Eetoe é -> e || .#. \%^* _ [ k ] "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} ]   ?*  ;
+#bél
+define EetoeAcc é -> e || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cAcc} ]  ?*  ;
+define EtoeeFgg e -> é || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ {cFam} | {cGen} | {cGenpl} ]    ?*  ;
+define EetoePP é -> e || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} ]   ?*  ;
+#víz
+define IitoiAcc3 í -> i || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cAcc} ]  ?*  ;
+define ItoiiFgg3 i -> í || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ {cFam} | {cGen} | {cGenpl} ]    ?*  ;
+define IitoiPP3 í -> i || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} ]   ?*  ;
+#tűz
+define UeuetoueAcc3 ű -> ü || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cAcc} ]  ?*  ;
+define UetoueueFgg3 ü -> ű || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ {cFam} | {cGen} | {cGenpl} ]    ?*  ;
+define UeuetouePP3 ű -> ü || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} ]   ?*  ;
+#nyár
+define AatoaAcc3 á -> a || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cAcc} ]  ?*  ;
+define AtoaaFgg3 a -> á || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ {cFam} | {cGen} | {cGenpl} ]    ?*  ;
+define AatoaPP3 á -> a || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} ]   ?*  ;
+#kút, úr
+define UutouAcc3 ú -> u || .#. \%^* _ [ DCons | Cons ] "^"  [ "+" {cAcc} ]  ?*  ;
+define UtouuFgg3 u -> ú || .#. \%^* _ [ DCons | Cons ] "^"  ?*  [ {cFam} | {cGen} | {cGenpl} ]    ?*  ;
+# úr - ura
+define UutouPP3 ú -> u || .#. \%^* _ NonPlosivCons+  "^"  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}| "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s}| "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} ]   ?*  ;
+# út, kút, lúd - lúdja  rúd ruduk
+define UutouPP31 ú -> u || .#. \%^* _ OppNonPlosivCons+ %^  ?*  [ "+" {cPlur}  | "+" {cSoc} | "+" {cDis} |"+" {cPosss1s}  | "+" {cPosss2s}    | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p}  | "+" {cPossp3s}]   ?*  ;
+
+define UuJtoj §J§ -> j || .#. \%^* ú OppNonPlosivCons+ %^ [ "+" {cPosss3s} ] %^ _ ?*  ;
+
+define HarmRulejaje §AE1§ -> á // .#. \"^"* BackVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE1§ -> é // .#. \"^"* FrontVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE1§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?*  _ %^ [ 0 ] .o. 
+                 §AE1§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ %^ [ 0 ] ;
+define HarmRulejajemagas §AE1magas§ -> é // .#. \"^"* BackVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE1magas§ -> é // .#. \"^"* FrontVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE1magas§ -> e // .#. \"^"* BackVowel \Vowel* "^" ?*  _ %^ [ 0 ] .o. 
+                 §AE1magas§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ %^ [ 0 ] ;
+define HarmRulejajemely §AE21§ -> á // .#. \"^"* BackVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE21§ -> á // .#. \"^"* FrontVowel \Vowel* "^" ?* _ "^"  ?*  [ "+" {cAbl} | "+" {cAcc} | "+" {cAde} | "+" {cAll} | "+" {cCau} | "+" {cDat} | "+" {cDel} | "+" {cEla} | "+" {cFac} | "+" {cIll} | "+" {cIne} | "+" {cIns} | "+" {cSub} | "+" {cSue} | "+" {cSup} | "+" {cTer} | "+" {cFam} | "+" {cDis} | "+" {cEss} | "+" {cSoc}  | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p} | "+" {cPlur} | "+" {cGens} | "+" {cGenpl}] ?* .o.
+                 §AE21§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?*  _ %^ [ 0 ] .o. 
+                 §AE21§ -> a // .#. \"^"* FrontVowel \Vowel* "^" ?* _ %^ [ 0 ] ;
+
+# changez2 changes oeoez2 to oeoez3 for certain cases
+# köd-> ködöt but ködeimet (acc ending or rounded wovels, öü)
+define Changez2   §oeoez2§ -> §oeoez3§ // .#. ?* [ "+" {cGens} |  "+" {cGenpl} | "+" {cPosss1s}  | "+" {cPosss2s}  | "+" {cPosss3s}  | "+" {cPossp1s}  | "+" {cPossp2s}  | "+" {cPossp3s} | "+" {cPosss1p} | "+" {cPosss2p} | "+" {cPosss3p} | "+" {cPossp1p} | "+" {cPossp2p} | "+" {cPossp3p}|  "+" {cPlur}|  "+" {cFam} ] ?* _ t [0] ;
+define HarmRuleAcc §oeoez2§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez2§ -> e // .#. \"^"* FrontVowel \Vowel* Cons+ r "^"  _ \"^"* .#. .o. # ezret
+                 §oeoez2§ -> e // .#. \"^"* [ t | f | n | v | T | F | N | V ] e j "^"  _ \"^"* .#. .o.
+                 §oeoez2§ -> e // .#. \"^"* [ m | M ] e l l "^"  _ \"^"* .#. .o.
+                 §oeoez2§ -> e // .#. \"^"* [ t | T ] ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2§ -> e // .#. \"^"* [ f | F ] ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2§ -> e // .#. \"^"* [ s | S ] z ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez2§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez2§ -> o //  BackVowel s z n %^ _ .o. # hasznot
+# rozsot 
+                 §oeoez2§ -> o //  [ r | R ] o z s %^ _ .o. # koszt
+# gúnyt, koszt, vészt
+                 §oeoez2§ -> 0 //  Vowel [ n y | s z  | l y ]   %^ _ .o.
+                 §oeoez2§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez2§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez2§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez2§ -> o // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez2§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez2§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleAccy §oeoez2y§ -> 0 // Vowelwithyy %^ _  .o.
+                 §oeoez2y§ -> e // .#. \"^"* [ t | f | n | T | F | N ] e j "^"  _ \"^"* .#. .o.
+                 §oeoez2y§ -> e // .#. \"^"* [ m | M ]  e l l "^"  _ \"^"* .#. .o.
+                 §oeoez2y§ -> e // .#. \"^"* [ t | T ] ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2y§ -> e // .#. \"^"* [ f | F ]  ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2y§ -> e // .#. \"^"* [ s | S ]  z ü z "^"  _ \"^"* .#. .o.
+                 §oeoez2y§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez2y§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez2y§ -> o //  BackVowel s z n %^ _ .o. # hasznot
+# rozsot 
+                 §oeoez2y§ -> o //  [ r | R ]  o z s %^ _ .o. # koszt
+# gúnyt, koszt, vészt
+                 §oeoez2y§ -> 0 //  Vowel [ n y | s z  | l y ]   %^ _ .o.
+                 §oeoez2y§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez2y§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez2y§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez2y§ -> o // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez2y§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez2y§ -> e // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleAccoa §oeoez12§ -> 0 // Vowelwithy %^ _  .o.
+# vásznat, kazlat, jászlat
+                 §oeoez12§ -> a // .#. \"^"* BackVowel \Vowel* s z n "^" _ \"^"* .#.  .o.
+                 §oeoez12§ -> a // .#. \"^"* BackVowel \Vowel* s z l "^" _ \"^"* .#.  .o.
+                 §oeoez12§ -> a // .#. \"^"* BackVowel \Vowel* z l "^" _ \"^"* .#.  .o.
+                 §oeoez12§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez12§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez12§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez12§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez12§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez12§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oeoez12§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez12§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleAccoaoe §oeoez13§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez13§-> a // r j %^ _ .o. # varjat, borjat
+                 §oeoez13§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez13§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez13§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez13§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez13§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez13§ -> o //  [ r | R ] o z s %^ _ .o. # koszt
+                 §oeoez13§ -> 0 //  [ s z | z s  | S z | Z s ] %^ _ .o. # koszt
+                 §oeoez13§ -> a // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez13§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ]* _ ,,
+                 §oeoez13§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAccmely §oeoez22§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez22§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez22§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez22§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez22§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez22§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez22§ -> a // .#. \"^"* Vowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez22§ -> o // .#. \"^"* Vowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez22§ -> o //  [ r | R ] o z s %^ _ .o. # koszt
+                 §oeoez22§ -> 0 //  [ s z | z s | S z | Z s ] %^ _ ; # koszt
+define HarmRuleAccmely27 §oeoez27§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez27§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez27§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez27§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez27§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez27§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez27§ -> a // .#. \"^"* Vowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez27§ -> a // .#. \"^"* Vowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez27§ -> a //  [ r | R ] o z s %^ _ .o. # koszt
+                 §oeoez27§ -> 0 //  [ s z | z s | S z | Z s ] %^ _ ; # koszt
+define HarmRuleAccmagas §oeoez2magas§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez2magas§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez2magas§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez2magas§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez2magas§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez2magas§ -> e // .#. \"^"* Vowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez2magas§ -> e // .#. \"^"* Vowel \Vowel* "^" [ \"^" ]* _ ;
+define HarmRuleAccoamely §oeoez24§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez24§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez24§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez24§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez24§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez24§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez24§ -> a // .#. \"^"* Vowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez24§ -> a // .#. \"^"* Vowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez24§ -> o //  [ r | R ] o z s %^ _ .o. # koszt
+                 §oeoez24§ -> 0 //  [ s z | z s | S z | Z s ] %^ _ ; # koszt de kekszet
+define HarmRuleAccoe §oeoez4§ -> 0 //  Vowelwithy  %^ _  .o.
+                 §oeoez4§ -> 0 //  Vowelwithy  s z  %^ _  .o. 
+                 §oeoez4§ -> e // .#. \"^"* [ f | F ] ü l "^" _ \"^"* .#.  .o.
+                 §oeoez4§ -> e // .#. \"^"* [ t | f | n | T | F | N ] e j "^"  _ \"^"* .#. .o.
+                 §oeoez4§ -> e // .#. \"^"* [ m | M ] e l l "^"  _ \"^"* .#. .o.
+                 §oeoez4§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez4§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez4§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez4§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez4§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez4§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez4§ -> o // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez4§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+#másik
+define HarmRuleAccmelymasik §oeoez26§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez26§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez26§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez26§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez26§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez26§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez26§ -> a // .#. \"^"* Vowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez26§ -> a // .#. \"^"* Vowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez26§ -> a //  [ r | R ] o z s %^ _ .o. # koszt
+                 §oeoez26§ -> 0 //  [ s z | z s | S z | Z s ] %^ _ ; # koszt
+#
+# göb, etc...
+#
+define HarmRuleAcc1 §oeoez3§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez3§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez3§ -> 0 //  [ s | S ] z %^ _ .o. # koszt
+# if at least one additional affix befor the acc affix babot de babjaimat
+                 §oeoez3§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez3§ -> o // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez3§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez3§ -> e // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleAcc1mely §oeoez3§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez3§ -> 0 //  Vowel AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel AccSingle AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel [ n y | s z | l y ]   %^ _ .o.
+                 §oeoez3§ -> 0 //  Vowel [ n y | l y | s z | z s ] AccSingle  %^ _ .o.
+                 §oeoez3§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez3§ -> 0 //  [ s | S ] z %^ _ .o. # koszt
+                 §oeoez3§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* [ "^" ] ?* _ .o.
+                 §oeoez3§ -> o // .#. \"^"* BackVowel \Vowel* "^" [ \"^" ]* _ ,,
+                 §oeoez3§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez3§ -> a // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+
+# mész->meszet ész->eszet
+define HarmRuleAccoaee §oeoez42§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez42§ -> 0 //  Vowel [ n y | l y ]   %^ _ .o.
+#                §oeoez42§ -> 0 //  Vowel [ n y | l y | z s ] AccSingle  %^ _ .o.
+                 §oeoez42§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez42§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oeoez42§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez42§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+# mész->mészt ész->észt
+define HarmRuleAccoaee43 §oeoez43§ -> 0 // Vowelwithy %^ _  .o.
+                 §oeoez43§ -> 0 //  Vowel [ n y | l y | s z | z ]   %^ _ .o.
+#                §oeoez43§ -> 0 //  Vowel [ n y | l y | s z | z | z s ] AccSingle  %^ _ .o.
+                 §oeoez43§ -> 0 //  [ Nodupy ]  y  %^ _ .o.
+                 §oeoez43§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oeoez43§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §oeoez43§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRulePlur §oeoez1§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez1§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez1§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez1§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRulePlury §oeoez1y§ -> 0 // .#. \"^"* Vowelwithyy %^ ?*  _  .o.
+                 §oeoez1y§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez1y§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez1y§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRulePlurmagas §oeoez1magas§ -> 0 // .#. \"^"* [ Vowel | Cons y] %^ ?*  _  .o.
+                 §oeoez1magas§ -> e // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez1magas§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez1magas§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRulePluroa §oeoez11§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez11§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez11§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez11§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRulePluroaoe §oeoez15§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez15§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez15§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez15§ -> e // .#. \"^"* FrontRoundedVowel \Vowel+  "^" ?* _ ;
+
+define HarmRulePluroamely §oeoez21§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez21§ -> a // .#. \"^"* Vowel \Vowel+ "^" ?*  _ ;
+define HarmRulePlurmely §oeoez17§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez17§ -> o // .#. \"^"* Vowel \Vowel+ "^" ?*  _ ;
+define HarmRulePlurmely18 §oeoez18§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez18§ -> a // .#. \"^"* Vowel \Vowel+ "^" ?*  _ ;
+define HarmRulePluroe §oeoez5§ -> 0 // .#. \"^"* Vowelwithy %^ ?*  _  .o.
+                 §oeoez5§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?*  _ ,,
+                 §oeoez5§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §oeoez5§ -> e // .#. \"^"* FrontRoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleJfi §J1§ -> j || .#. \"^"*  %^ ?* _ ,,
+                  §J1§ -> 0 || .#. \"^"*  %^ ?* _ ;
+##########################################################
+#  ja/e ae
+# b,d,f: - ja/je
+# g,k,l,m,n,p,r,t,v,  ny, gy, ty - ja/e és a/e 
+# c,h,j,s,z, sz,zs, cs - a/e
+###########################################################
+
+# sültje
+define HarmRuleJ §J§ -> j || .#. \"^"* [ Vowelwithy | ConsJaje ] %^ ?* _ .o.
+                 §J§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §J§ -> 0 || .#. \"^"* ConsAeJaje %^ ?* _ .o.
+                 §J§ -> 0 || .#. \"^"* ConsAe %^ ?* _ .o.
+                 §J§ -> j || .#. \"^"* Cons %^ ?* _ ;
+
+define HarmRuleJy §Jy§ -> j || .#. \"^"* [ Vowelwithyy | ConsJaje ] %^ ?* _ .o.
+                 §Jy§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §Jy§ -> 0 || .#. \"^"* ConsAeJaje %^ ?* _ .o.
+                 §Jy§ -> 0 || .#. \"^"* ConsAe %^ ?* _ ;
+
+define HarmRuleJJ    §J§ -> j || .#. \"^"* %^  ?* _ ;
+define HarmRuleJJ1   §JJ§ -> j || .#. \"^"* %^  ?* _ ;
+define HarmRuleJnull §J§ -> 0 || .#. \"^"* %^  ?* _ ;
+define HarmRuleJnull1 §Jnull§ -> 0 || .#. \"^"* %^  ?* _ ;
+define HarmRuleJmagas §Jmagas§ -> j || .#. \"^"* [ Vowel | ConsJaje | Cons y  ] %^ ?* _ .o.  
+                 §Jmagas§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §Jmagas§ -> j || .#. \"^"* Consrd %^ ?* _ ,,
+                 §Jmagas§ -> 0 || .#. \"^"* [ ConsAeJaje | ConsAe | Vowel y ] %^ ?* _ ;
+define HarmRuletol §oooe§ -> ó // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oooe§ -> ő // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuletolmagas §oooemagas§ -> ő // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oooemagas§ -> ő // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuletolmely §oooe2§ -> ó // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §oooe2§ -> ó // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleul §uue§ -> u // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §uue§ -> ü // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleulmagas §uuemagas§ -> ü // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §uuemagas§ -> ü // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleulmely §uue2§ -> u // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §uue2§ -> u // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAAA §AAA§ -> á // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                   §AAA§ -> é // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAAAmagas §AAAmagas§ -> é // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                   §AAAmagas§ -> é // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAAAmely §AAA2§ -> á // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                   §AAA2§ -> á // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAA §AA§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                  §AA§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAAmely §AA2§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                  §AA2§ -> a // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleAAX §AAX§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _  .#. ,,
+                  §AAX§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ .#. ,,
+                  §AAX§ -> á // .#. \"^"* BackVowel \Vowel* "^" ?* _ ?+ ,,
+                  §AAX§ -> é // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ?+ ;
+define HarmRuleAAmagas §AAmagas§ -> e // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                  §AAmagas§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuletuze §tuze§ -> 0 // .#.  ?* Vowel+ "^"*  _ ,,
+                  §tuze§ -> e // .#.  ?* \Vowel+ "^"* _ ;
+define HarmRuleVVy §VVy§ -> v || Vowelwithyy %^  _ ,,
+                  §VVy§ -> b || \b b %^ _ ,,
+                  §VVy§ -> c || \c c %^ _ ,,
+                  §VVy§ -> d || \d d %^ _ ,,
+                  §VVy§ -> f || \f f %^ _ ,,
+                  §VVy§ -> g || \g g %^ _ ,,
+                  §VVy§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVy§ -> j || \j j %^ _ ,,
+                  §VVy§ -> k || \k k %^ _ ,,
+                  §VVy§ -> l || \l l %^ _ ,,
+                  §VVy§ -> m || \m m %^ _ ,,
+                  §VVy§ -> n || \n n %^ _ ,,
+                  §VVy§ -> p || \p p %^ _ ,,
+                  §VVy§ -> q || \q q %^ _ ,,
+                  §VVy§ -> r || \r r %^ _ ,,
+                  §VVy§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVy§ -> t || \t t %^ _ ,,
+                  §VVy§ -> v || \v v %^ _ ,,
+                  §VVy§ -> w || \w w %^ _ ,,
+                  §VVy§ -> s z || \x x %^ _ ,,
+                  §VVy§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVy§ -> [ c s ] || [ Vowel t s | i c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVy§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVy§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVy§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VVy§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVy§ -> %$ || \g g y %^ _ .o.
+                  §VVy§ -> %$ || \l l y %^ _ .o.
+                  §VVy§ -> %$ || \n n y %^ _ .o.
+                  §VVy§ -> %$ || \t t y %^ _ .o.
+                  §VVy§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVy§ -> %$ || \s s z %^ _ .o.
+                  §VVy§ -> %$ || \z z s %^ _ .o.
+                  §VVy§ -> s || \s s %^ _ .o.
+                  §VVy§ -> v || \y y %^ _ .o.
+                  §VVy§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VVy§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+define HarmRuleVVmagas §VVmagas§ -> v || Vowel %^  _ ,,
+                  §VVmagas§ -> b || \b b %^ _ ,,
+                  §VVmagas§ -> c || \c c %^ _ ,,
+                  §VVmagas§ -> d || \d d %^ _ ,,
+                  §VVmagas§ -> f || \f f %^ _ ,,
+                  §VVmagas§ -> g || \g g %^ _ ,,
+                  §VVmagas§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVmagas§ -> j || \j j %^ _ ,,
+                  §VVmagas§ -> k || \k k %^ _ ,,
+                  §VVmagas§ -> l || \l l %^ _ ,,
+                  §VVmagas§ -> m || \m m %^ _ ,,
+                  §VVmagas§ -> n || \n n %^ _ ,,
+                  §VVmagas§ -> p || \p p %^ _ ,,
+                  §VVmagas§ -> q || \q q %^ _ ,,
+                  §VVmagas§ -> r || \r r %^ _ ,,
+                  §VVmagas§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVmagas§ -> t || \t t %^ _ ,,
+                  §VVmagas§ -> v || \v v %^ _ ,,
+                  §VVmagas§ -> w || \w w %^ _ ,,
+                  §VVmagas§ -> j || Vowel y %^ _ ,,
+                  §VVmagas§ -> s z || \x x %^ _ ,,
+                  §VVmagas§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVmagas§ -> [ c s ] || [ Vowel t s | i c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVmagas§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVmagas§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVmagas§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VVmagas§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVmagas§ -> %$ || \g g y %^ _ .o.
+                  §VVmagas§ -> %$ || \l l y %^ _ .o.
+                  §VVmagas§ -> %$ || \n n y %^ _ .o.
+                  §VVmagas§ -> %$ || \t t y %^ _ .o.
+                  §VVmagas§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVmagas§ -> %$ || \s s z %^ _ .o.
+                  §VVmagas§ -> %$ || \z z s %^ _ .o.
+                  §VVmagas§ -> s || \s s %^ _ .o.
+                  §VVmagas§ -> v || \y y %^ _ .o.
+                  §VVmagas§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VVmagas§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+#
+# Vogézek miatt (Vogézek^^) k után %^+
+#
+define HarmRuleVV §VV§ -> v || Vowel %^  _ ,,
+                  §VV§ -> b || \b b %^ _ ,,
+                  §VV§ -> c || \c c %^ _ ,,
+                  §VV§ -> d || \d d %^ _ ,,
+                  §VV§ -> f || \f f %^ _ ,,
+                  §VV§ -> g || \g g %^ _ ,,
+                  §VV§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VV§ -> j || \j j %^ _ ,,
+                  §VV§ -> k || \k k %^+ _ ,,
+                  §VV§ -> l || \l l %^ _ ,,
+                  §VV§ -> m || \m m %^ _ ,,
+                  §VV§ -> n || \n n %^ _ ,,
+                  §VV§ -> p || \p p %^ _ ,,
+                  §VV§ -> q || \q q %^ _ ,,
+                  §VV§ -> r || \r r %^ _ ,,
+                  §VV§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VV§ -> t || \t t %^ _ ,,
+                  §VV§ -> v || \v v %^ _ ,,
+                  §VV§ -> w || \w w %^ _ ,,
+                  §VV§ -> s z || \x x %^ _ ,,
+                  §VV§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VV§ -> [ c s ] || [ Vowel t s | i c h | y c h | é c h | á c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VV§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VV§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VV§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VV§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VV§ -> %$ || \g g y %^ _ .o.
+                  §VV§ -> %$ || \l l y %^ _ .o.
+                  §VV§ -> %$ || \n n y %^ _ .o.
+                  §VV§ -> %$ || \t t y %^ _ .o.
+                  §VV§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VV§ -> %$ || \s s z %^ _ .o.
+                  §VV§ -> %$ || \z z s %^ _ .o.
+                  §VV§ -> s || \s s %^ _ .o.
+                  §VV§ -> v || \y y %^ _ .o.
+                  §VV§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VV§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+
+
+define HarmRuleVVSZ §VVSZ§ -> v || Vowel %^ _ ,,
+                  §VVSZ§ -> b || \b b %^ _ ,,
+                  §VVSZ§ -> c || \c c %^ _ ,,
+                  §VVSZ§ -> d || \d d %^ _ ,,
+                  §VVSZ§ -> f || \f f %^ _ ,,
+                  §VVSZ§ -> g || \g g %^ _ ,,
+                  §VVSZ§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVSZ§ -> j || \j j %^ _ ,,
+                  §VVSZ§ -> k || \k k %^ _ ,,
+                  §VVSZ§ -> l || \l l %^ _ ,,
+                  §VVSZ§ -> m || \m m %^ _ ,,
+                  §VVSZ§ -> n || \n n %^ _ ,,
+                  §VVSZ§ -> p || \p p %^ _ ,,
+                  §VVSZ§ -> q || \q q %^ _ ,,
+                  §VVSZ§ -> r || \r r %^ _ ,,
+                  §VVSZ§ -> s z || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVSZ§ -> t || \t t %^ _ ,,
+                  §VVSZ§ -> v || \v v %^ _ ,,
+                  §VVSZ§ -> w || \w w %^ _ ,,
+                  §VVSZ§ -> s z || \x x %^ _ ,,
+                  §VVSZ§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVSZ§ -> [ c s ] || [ Vowel t s | i c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVSZ§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVSZ§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVSZ§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VVSZ§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVSZ§ -> %$ || \g g y %^ _ .o.
+                  §VVSZ§ -> %$ || \l l y %^ _ .o.
+                  §VVSZ§ -> %$ || \n n y %^ _ .o.
+                  §VVSZ§ -> %$ || \t t y %^ _ .o.
+                  §VVSZ§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVSZ§ -> %$ || \s s z %^ _ .o.
+                  §VVSZ§ -> %$ || \z z s %^ _ .o.
+                  §VVSZ§ -> s || \s s %^ _ .o.
+                  §VVSZ§ -> v || \y y %^ _ .o.
+                  §VVSZ§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VVSZ§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+define HarmRuleVVC §VVC§ -> v || Vowel %^  _ ,,
+                  §VVC§ -> b || \b b %^ _ ,,
+                  §VVC§ -> c || \c c %^ _ ,,
+                  §VVC§ -> d || \d d %^ _ ,,
+                  §VVC§ -> f || \f f %^ _ ,,
+                  §VVC§ -> g || \g g %^ _ ,,
+                  §VVC§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVC§ -> j || \j j %^ _ ,,
+                  §VVC§ -> k || \k k %^ _ ,,
+                  §VVC§ -> l || \l l %^ _ ,,
+                  §VVC§ -> m || \m m %^ _ ,,
+                  §VVC§ -> n || \n n %^ _ ,,
+                  §VVC§ -> p || \p p %^ _ ,,
+                  §VVC§ -> q || \q q %^ _ ,,
+                  §VVC§ -> r || \r r %^ _ ,,
+                  §VVC§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVC§ -> t || \t t %^ _ ,,
+                  §VVC§ -> v || \v v %^ _ ,,
+                  §VVC§ -> w || \w w %^ _ ,,
+                  §VVC§ -> s z || \x x %^ _ ,,
+                  §VVC§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVC§ -> [ c s ] || [ Vowel t s | i c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVC§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVC§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVC§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VVC§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVC§ -> %$ || \g g y %^ _ .o.
+                  §VVC§ -> %$ || \l l y %^ _ .o.
+                  §VVC§ -> %$ || \n n y %^ _ .o.
+                  §VVC§ -> %$ || \t t y %^ _ .o.
+                  §VVC§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVC§ -> %$ || \s s z %^ _ .o.
+                  §VVC§ -> %$ || \z z s %^ _ .o.
+                  §VVC§ -> s || \s s %^ _ .o.
+                  §VVC§ -> v || \y y %^ _ .o.
+                  §VVC§ -> c || [ \c & \z & \t ] z %^ _  .o.
+                  §VVC§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+define HarmRuleVVK §VVK§ -> v || Vowel %^  _ ,,
+                  §VVK§ -> b || \b b %^ _ ,,
+                  §VVK§ -> k || \c c %^ _ ,,
+                  §VVK§ -> d || \d d %^ _ ,,
+                  §VVK§ -> f || \f f %^ _ ,,
+                  §VVK§ -> g || \g g %^ _ ,,
+                  §VVK§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVK§ -> j || \j j %^ _ ,,
+                  §VVK§ -> k || \k k %^ _ ,,
+                  §VVK§ -> l || \l l %^ _ ,,
+                  §VVK§ -> m || \m m %^ _ ,,
+                  §VVK§ -> n || \n n %^ _ ,,
+                  §VVK§ -> p || \p p %^ _ ,,
+                  §VVK§ -> q || \q q %^ _ ,,
+                  §VVK§ -> r || \r r %^ _ ,,
+                  §VVK§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVK§ -> t || \t t %^ _ ,,
+                  §VVK§ -> v || \v v %^ _ ,,
+                  §VVK§ -> w || \w w %^ _ ,,
+                  §VVK§ -> s z || \x x %^ _ ,,
+                  §VVK§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVK§ -> [ c s ] || [ Vowel t s | i c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVK§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVK§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVK§ -> [ h ] || e c h %^ _ .o.  # pech
+                  §VVK§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVK§ -> %$ || \g g y %^ _ .o.
+                  §VVK§ -> %$ || \l l y %^ _ .o.
+                  §VVK§ -> %$ || \n n y %^ _ .o.
+                  §VVK§ -> %$ || \t t y %^ _ .o.
+                  §VVK§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVK§ -> %$ || \s s z %^ _ .o.
+                  §VVK§ -> %$ || \z z s %^ _ .o.
+                  §VVK§ -> s || \s s %^ _ .o.
+                  §VVK§ -> v || \y y %^ _ .o.
+                  §VVK§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VVK§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+# Metternich
+define HarmRuleVVH §VVH§ -> v || Vowel %^  _ ,,
+                  §VVH§ -> b || \b b %^ _ ,,
+                  §VVH§ -> c || \c c %^ _ ,,
+                  §VVH§ -> d || \d d %^ _ ,,
+                  §VVH§ -> f || \f f %^ _ ,,
+                  §VVH§ -> g || \g g %^ _ ,,
+                  §VVH§ -> h || [ \h & \c ] h %^ _ ,,
+                  §VVH§ -> j || \j j %^ _ ,,
+                  §VVH§ -> k || \k k %^+ _ ,,
+                  §VVH§ -> l || \l l %^ _ ,,
+                  §VVH§ -> m || \m m %^ _ ,,
+                  §VVH§ -> n || \n n %^ _ ,,
+                  §VVH§ -> p || \p p %^ _ ,,
+                  §VVH§ -> q || \q q %^ _ ,,
+                  §VVH§ -> r || \r r %^ _ ,,
+                  §VVH§ -> s || [ \s & \c & \t & \z ] s %^ _ ,,
+                  §VVH§ -> t || \t t %^ _ ,,
+                  §VVH§ -> v || \v v %^ _ ,,
+                  §VVH§ -> w || \w w %^ _ ,,
+                  §VVH§ -> s z || \x x %^ _ ,,
+                  §VVH§ -> 0 || [ b b | c c | d d | f f | g g | h h | j j | k k | l l | m m | n n | p p | q q | r r | s s | t t | v v | w w | x x | y y | z z ] %^ _ ,,
+                  §VVH§ -> [ c s ] || [ Vowel t s | y c h | é c h | á c h | t s c h | ć | č ] %^ _ .o. # Damjanich Bartsch
+                  §VVH§ -> [ h ] || [ [ o | a | u | r | l ]  c h ] %^ _ .o. # Bloch Bach eunuch Karch Pilch
+                  §VVH§ ->  s || [ s c h ] %^ _ .o. # Damjanich Bartsch
+                  §VVH§ -> [ h ] || [ e c h | i c h ] %^ _ .o.  # pech
+                  §VVH§ -> 0 || [ c c s | g g y | l l y | n n y | t t y | s s z | z z s ] %^ _ .o.
+                  §VVH§ -> %$ || \g g y %^ _ .o.
+                  §VVH§ -> %$ || \l l y %^ _ .o.
+                  §VVH§ -> %$ || \n n y %^ _ .o.
+                  §VVH§ -> %$ || \t t y %^ _ .o.
+                  §VVH§ -> %$ || \c c s %^ _ .o. # css-> ccs
+                  §VVH§ -> %$ || \s s z %^ _ .o.
+                  §VVH§ -> %$ || \z z s %^ _ .o.
+                  §VVH§ -> s || \s s %^ _ .o.
+                  §VVH§ -> v || \y y %^ _ .o.
+                  §VVH§ -> z || [ \c & \z & \t ] z %^ _  .o.
+                  §VVH§ -> c || [ t z | c z ] %^ _ .o. # tz-> tzc
+                  y -> g  || g _ %^ %$ .o.
+                  y -> l  || l _ %^ %$ .o.
+                  y -> n  || n _ %^ %$ .o.
+                  %$ -> y || [ g g | l l | n n ] %^ _ .o.
+                  y -> t  || t _ %^ %$ .o.
+                  %$ -> y || t t %^ _ .o.
+                  s -> c  || c _ %^ %$ .o.  # cs$ -> cc$
+                  %$ -> s || c c %^ _ .o.   # cc$ -> ccs
+                  z -> s  || s _ %^ %$ .o.
+                  %$ -> z || s s %^ _ .o.
+                  s -> z  || z _ %^ %$ .o.
+                  %$ -> s || z z %^ _ ;
+
+define HarmRuleVVKOT §VVKOT§ -> v || Vowel %^  _ .o.
+                  §VVKOT§ -> %- s z || s %^ _ .o.
+                  §VVKOT§ -> %- t || t %^ _ .o.
+                  §VVKOT§ -> %- l || l %^ _ .o.
+                  §VVKOT§ -> %- r || r %^ _ .o.
+                  §VVKOT§ -> %- m || m %^ _ .o.
+                  §VVKOT§ -> %- f || f %^ _ .o.
+                  §VVKOT§ -> %- n || n %^ _ ;
+
+define HarmRuleVVdzs   §VVdzs§ -> %$ || ?* %^ _ .o.
+                  d -> d d  ||  _ z s  %^ %$ .o.
+                  %$ -> 0 || ?* %^ _ ;
+
+
+# falukéhoz falvakéhoz
+define HarmRulehoz §oeoe§ -> o // .#. \"^"* BackVowel \Vowel* "^"  ?* _ .o.
+                 §oeoe§ -> e //  Front1UnroundedVowel \Vowel* "^" \"^"* _ ,,
+                 §oeoe§ -> ö //  Front1RoundedVowel \Vowel* "^" \"^"* _ ;
+define HarmRulehozy §oeoey§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ .o.
+                 §oeoey§ -> e //  Front1UnroundedVowel \Vowel* "^" \"^"* _ ,,
+# at least one element at the end containing unrounded, at least one tag
+                 §oeoey§ -> ö //  .#. \"^"* %^ ?* Front1RoundedVowel \Vowel* "^"  \"^"* _ .o.
+                 §oeoey§ -> e //  Front1RoundedVowel \Vowel* "^" \"^"* _ ; 
+define HarmRulehozyy §oeoeyy§ -> 0 // .#. ?*  [ Vowel | y ]  "^" _ .o.
+                 §oeoeyy§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ .o.
+                 §oeoeyy§ -> e //  [ Front1UnroundedVowel | y ] \Vowel* "^" \"^"* _ ,,
+# at least one element at the end containing unrounded, at least one tag
+                 §oeoeyy§ -> ö //  .#. \"^"* %^ ?* Front1RoundedVowel \Vowel* "^"  \"^"* _ .o.
+                 §oeoeyy§ -> e //  [ Front1RoundedVowel | y ] \Vowel* "^" \"^"* _ ; 
+define HarmRulehozmely §oeoe2§ -> o // .#. ?* "^" ?* _ ;
+# at least one element at the end containing unrounded, at least one tag
+define HarmRulehozmagas §oeoemagas§ -> ö // .#. \"^"* %^ ?* Front1RoundedVowel \Vowel* "^"  \"^"* _ .o.
+                 §oeoemagas§ -> e // .#. \"^"* BackVowel \Vowel* "^" ?* _ .o.
+                 §oeoemagas§ -> e //  Front1UnroundedVowel \Vowel* "^" \"^"* _ ,,
+# at least one element at the end containing unrounded, at least one tag
+                 §oeoemagas§ -> e //  Front1RoundedVowel \Vowel* "^" \"^"* _ ; 
+define HarmRuleonen §oeoez§ -> 0 //   Vowelwithy %^ _ .o.
+# rácsaimen
+                 §oeoez§ -> o // .#. \"^"* BackVowel Cons* "^" ?* _ .o.
+# mécsünken
+                 §oeoez§ -> ö //  Front1RoundedVowel Cons* "^" [ \%^* | Cons* %^ ] _ ,,
+                 §oeoez§ -> e //  Front1UnroundedVowel Cons* "^"  [ \%^* | Cons* %^ ] _ ;
+define HarmRuleoneny §oeoezy§ -> 0 //   Vowelwithyy %^ _ .o.
+# rácsaimen
+                 §oeoezy§ -> o // .#. \"^"* BackVowel Cons* "^" ?* _ .o.
+# mécsünken
+                 §oeoezy§ -> ö //  Front1RoundedVowel Cons* "^"  _ .o.
+                 §oeoezy§ -> e //  Front1RoundedVowel Cons* "^" [ \%^* | Cons* %^ ] _ ,,
+                 §oeoezy§ -> e //  Front1UnroundedVowel Cons* "^"  [ \%^* | Cons* %^ ] _ ;
+define HarmRuleonenmely §oeoez25§ -> 0 //   Vowelwithy %^ _ .o.
+                 §oeoez25§ -> o //   \Vowel %^ _ ;
+define HarmRuleonenmagas §oeoezmagas§ -> 0 //  [ Vowel | Cons y ] %^ _ .o.
+                 §oeoezmagas§ -> ö // .#. \"^"* %^ ?* Front1RoundedVowel \Vowel* "^" _ .o.
+                 §oeoezmagas§ -> e //   \Vowel %^ _ ;
+define HarmRuleonenoe §oeoez31§ -> 0 //   Vowelwithy %^ _ .o.
+                 §oeoez31§ -> o // .#. \"^"* BackVowel \Vowel* "^"  _ ,,
+                 §oeoez31§ -> o //  BackVowel \Vowel* "^"  _ ,,
+                 §oeoez31§ -> e //  Front1UnroundedVowel \Vowel* "^"  _ ,,
+                 §oeoez31§ -> ö //  Front1RoundedVowel \Vowel* "^" _ ;
+define HarmRuleenkent §ooez3§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez3§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkenty §ooez3y§ -> 0 // .#. \"^"* Vowelwithyy %^ ?* _  .o.
+                 §ooez3y§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3y§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3y§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentmagas §ooez3magas§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez3magas§ -> e // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3magas§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez3magas§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+
+define HarmRuleenkentmely §ooez18§ -> 0 // .#. \"^"* Vowel %^ ?* _  .o.
+                 §ooez18§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez18§ -> o // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez18§ -> o // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentmely19 §ooez19§ -> 0 // .#. \"^"* Vowel %^ ?* _  .o.
+                 §ooez19§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez19§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez19§ -> a // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentoa §ooez13§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez13§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez13§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez13§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentoaoe §ooez23§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez23§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez23§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez23§ -> e // .#. \"^"* FrontRoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentoamely §ooez23§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez23§ -> a // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez23§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez23§ -> a // .#. \"^"* Front1RoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleenkentoe §ooez4§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §ooez4§ -> o // .#. \"^"* BackVowel \Vowel+ "^" ?* _ ,,
+                 §ooez4§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel+ "^" ?* _ ,,
+                 §ooez4§ -> e // .#. \"^"* FrontRoundedVowel \Vowel+  "^" ?* _ ;
+define HarmRuleestul §EOA§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestuly §EOAy§ -> 0 // .#. \"^"* Vowelwithyy %^  ?* _  .o.
+                 §EOAy§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOAy§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOAy§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestulmagas §EOAmagas§ -> 0 // .#. \"^"* [ Vowel | Cons y ] %^  ?* _  .o.
+                 §EOAmagas§ -> e // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOAmagas§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOAmagas§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestulmely §EOA17§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA17§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA17§ -> o // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA17§ -> o // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestulmely18 §EOA18§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA18§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA18§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA18§ -> a // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestuloa §EOA2§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA2§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA2§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA2§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestuloaoe §EOA12§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA12§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA12§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA12§ -> e // .#. \"^"* FrontRoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestuloamely §EOA22§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA22§ -> a // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA22§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA22§ -> a // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleestuloe §EOA1§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §EOA1§ -> o // .#. \"^"* BackVowel \Vowel* "^" ?* _ ,,
+                 §EOA1§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel* "^" ?* _ ,,
+                 §EOA1§ -> e // .#. \"^"* FrontRoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleunk §UUE§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §UUE§ -> u // .#. \"^"* BackVowel \Vowel+  "^" ?* _ ,,
+                 §UUE§ -> ü // .#. \"^"* FrontVowel \Vowel+ "^" ?* _ ;
+define HarmRuleunky §UUEy§ -> 0 // .#. \"^"* Vowelwithyy %^ ?* _  .o.
+                 §UUEy§ -> u // .#. \"^"* BackVowel \Vowel+  "^" ?* _ ,,
+                 §UUEy§ -> ü // .#. \"^"* FrontVowel \Vowel+ "^" ?* _ ;
+define HarmRuleunkmagas §UUEmagas§ -> 0 // .#. \"^"* [ Vowel | Cons y ] %^ ?* _  .o.
+                 §UUEmagas§ -> ü // .#. \"^"* BackVowel \Vowel+  "^" ?* _ ,,
+                 §UUEmagas§ -> ü // .#. \"^"* FrontVowel \Vowel+ "^" ?* _ ;
+define HarmRuleunkmely §UUE2§ -> 0 // .#. \"^"* Vowelwithy %^ ?* _  .o.
+                 §UUE2§ -> u // .#. \"^"* BackVowel \Vowel+  "^" ?* _ ,,
+                 §UUE2§ -> u // .#. \"^"* FrontVowel \Vowel+ "^" ?* _ ;
+define HarmRuleunkmelytny §UUE3§ -> 0 // .#. \"^"* Vowelwithytny %^ ?* _  .o.
+                 §UUE3§ -> u // .#. \"^"* BackVowel \Vowel+  "^" ?* _ ,,
+                 §UUE3§ -> u // .#. \"^"* FrontVowel \Vowel+ "^" ?* _ ;
+define HarmRuleotok1 §OEOE1§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE1§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE1§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE1§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1y §OEOE1y§ -> 0 // .#. \"^"* Vowelwithyy %^  ?* _  .o.
+                 §OEOE1y§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE1y§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE1y§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1magas §OEOE1magas§ -> 0 // .#. \"^"* [ Vowel | Cons y ] %^  ?* _  .o.
+                 §OEOE1magas§ -> e // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE1magas§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE1magas§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1mely §OEOE17§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE17§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE17§ -> o // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE17§ -> o // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1mely18 §OEOE18§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE18§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE18§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE18§ -> a // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1oa §OEOE11§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE11§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE11§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE11§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1oamely §OEOE21§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE21§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE21§ -> a // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE21§ -> a // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+#define HarmRuleotok1oamelyfazek §OEOE21fazek§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+#                 §OEOE21fazek§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+#                 §OEOE21fazek§ -> o // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+#                 §OEOE21fazek§ -> o // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1oe §OEOE4§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE4§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE4§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE4§ -> e // .#. \"^"* FrontRoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok1oaoe §OEOE14§ -> 0 // .#. \"^"* Vowelwithy %^  ?* _  .o.
+                 §OEOE14§ -> a // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE14§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE14§ -> e // .#. \"^"* FrontRoundedVowel \Vowel*  "^" ?* _ ;
+
+define HarmRuleotok2 §OEOE§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok2y §OEOEy§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOEy§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOEy§ -> e // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok2magas §OEOEmagas§ -> e // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOEmagas§ -> e // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOEmagas§ -> ö // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok2mely §OEOE25§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE25§ -> o // .#. \"^"* Front1UnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE25§ -> o // .#. \"^"* Front1RoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleotok2oe §OEOE3§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE3§ -> e // .#. \"^"* FrontUnroundedVowel \Vowel* "^" ?* _ ,,
+                 §OEOE3§ -> e // .#. \"^"* FrontRoundedVowel \Vowel*  "^" ?* _ ;
+define HarmRuleuk §UUE1§ -> u // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §UUE1§ -> ü // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleukmagas §UUE1magas§ -> ü // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §UUE1magas§ -> ü // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleukmely §UUE21§ -> u // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §UUE21§ -> u // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+# fii fiai fijai
+define HarmRuleJPfi §JP1§ -> j || .#.  ?* _ ,,
+                 §JP1§ -> 0 || .#.  ?* _ ;
+##########################################################
+#  ja/e ae
+# b,d,f: - ja/je
+# g,k,l,m,n,p,r,t,v,  ny, gy, ty - ja/e és a/e 
+# c,h,j,s,z, sz,zs, cs - a/e
+###########################################################
+
+# sültje
+define HarmRuleJP §JP§ -> j || .#. \"^"* [ Vowel1withy | ConsJaje ] %^ ?* _ .o.
+                 §JP§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §JP§ -> 0 || .#. \"^"* ConsAeJaje %^ ?* _ .o.
+                 §JP§ -> 0 || .#. \"^"* [ ConsAe | Vowel1exc ]  %^ ?* _ .o.
+                 §JP§ -> j || .#. \"^"* Cons %^ ?* _ ;
+define HarmRuleJP2 §JP§ -> j || .#. \"^"* [ Vowel2withy | ConsJaje ] %^ ?* _ .o.
+                 §JP§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §JP§ -> 0 || .#. \"^"* ConsAeJaje %^ ?* _ .o.
+                 §JP§ -> 0 || .#. \"^"* [ ConsAe | Vowel1exc ]  %^ ?* _ .o.
+                 §JP§ -> j || .#. \"^"* Cons %^ ?* _ ;
+
+define HarmRuleJPy §JPy§ -> j || .#. \"^"* [ Vowelwithyy | ConsJaje ] %^ ?* _ .o.
+                 §JPy§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §JPy§ -> 0 || .#. \"^"* ConsAeJaje %^ ?* _ .o.
+                 §JPy§ -> 0 || .#. \"^"* [ ConsAe | Vowel1exc ]  %^ ?* _ ;
+define HarmRuleJPJ §JP§ -> j || .#. \"^"*  %^  ?* _ ;
+define HarmRuleJPJ1 §JPJ§ -> j || .#. \"^"*  %^  ?* _ ;
+define HarmRuleJPnull §JP§ -> 0 || .#. \"^"*  %^  ?* _ ;
+define HarmRuleJPnull1 §JPnull§ -> 0 || .#. \"^"*  %^  ?* _ ;
+define HarmRuleJPmagas §JPmagas§ -> j || .#. \"^"* [ Vowel1 | ConsJaje | Cons y ] %^ ?* _ .o.
+                 §JPmagas§ -> j || .#. \"^"* ConsAeJaje %^ ?* _ ,,
+                 §JPmagas§ -> j || .#. \"^"* Consrd %^ ?* _ ,,
+                 §JPmagas§ -> 0 || .#. \"^"* [ Vowel y | ConsAeJaje | ConsAe | Vowel1exc ] %^ ?* _ ;
+define HarmRuleai §AE§ -> 0 || .#. \"^"* Vowelwithy %^ \j* _ .o.
+                  §AE§ -> a // .#. \"^"* BackVowel Cons* %^ \%^* _ .o.
+                  §AE§ -> e // .#. \"^"* FrontVowel Cons* %^ \%^* _ ;
+define HarmRuleaiyi §AEyi§ -> 0 || .#. \"^"* Vowelwithyy %^ \%^* \j _ .o.
+                  §AEyi§ -> e // .#. \"^"* FrontVowel Cons* %^ \%^* _ .o.
+                  §AEyi§ -> a // .#. \"^"* BackVowel Cons* %^ \%^* _ ;
+define HarmRuleaimagas §AEmagas§ -> 0 || .#. \"^"* Vowelwithy %^ ?* \j* _ .o.
+                  §AEmagas§ -> e // .#. \"^"* Vowel Cons* "^" ?* j* _ .o.
+                  §AEmagas§ -> e // .#. \"^"* [ ó | á | é | ő | ű | i | í ] "^" ?* j  _ ;
+define HarmRuleaimely §AE22§ -> 0 || .#. \"^"* Vowel %^ \j* _ .o.
+#bakelitaim barátaim cukkiniaim nem jó!
+                 §AE22§ -> a // .#. \"^"* Vowel Cons+ "^" ?* j*  _ .o.   
+#cukkinijaim  hajójaim            
+                 §AE22§ -> a // .#. \"^"* [ ó | á | é | ő | ű | i | í ] "^" ?* j  _ ;
+# fii fiai fijai
+define HarmRuleaimelyfi §AE221§ -> a || .#. ?* j _ .o.
+                 §AE221§ -> 0 // .#. ?* \j _ ;
+define HarmRuleaitok2 §OEOE2§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE2§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleaitok2magas §OEOE2magas§ -> e // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE2magas§ -> e // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define HarmRuleaitok2mely §OEOE22§ -> o // .#. \"^"* BackVowel \Vowel*  "^" ?* _ ,,
+                 §OEOE22§ -> o // .#. \"^"* FrontVowel \Vowel* "^" ?* _ ;
+define Suffixb   §b§ -> 0 // b b [ %^ | 0 ] _ .o.
+                 §b§ -> b // \[ b b ] [ %^ | 0 ] _ ;
+define Suffixh   §h§ -> 0 // h h [ %^ | 0 ] _ .o.
+                 §h§ -> h // \[ h h ] [ %^ | 0 ] _ ;
+define Suffixk   §k§ -> 0 // k k [ %^ | 0 ] _ .o.
+                 §k§ -> k // \[ k k ] [ %^ | 0 ] _ ;
+define Suffixn   §n§ -> 0 // n n [ %^ | 0 ] _ .o.
+                 §n§ -> n // \[ n n ] [ %^ | 0 ] _ ;
+define SuffixNNn   §NNn§ -> %- n // n n [ %^ | 0 ] _ .o.
+                 §NNn§ -> n // \[ n n ] [ %^ | 0 ] _ ;
+define Suffixr   §r§ -> 0 // r r [ %^ | 0 ] _ .o.
+                 §r§ -> r // \[ r r ] [ %^ | 0 ] _ ;
+define SuffixRRr   §RRr§ -> %- r // r r [ %^ | 0 ] _ .o.
+                 §RRr§ -> r // \[ r r ] [ %^ | 0 ] _ ;
+define Suffixt   §t§ -> 0 // t t  [ %^ | 0 ] _ .o.
+                 §t§ -> t // \[ t t ] [ %^ | 0 ]  _ ;
+
+
+
+define ToUpCase [a:A|á:Á|b:B|c:C|d:D|e:E|é:É|f:F|g:G|h:H|i:I|í:Í|j:J|k:K|l:L|m:M|n:N|o:O|ó:Ó|ö:Ö|ő:Ő|p:P|q:Q|r:R|s:S|t:T|u:U|ú:Ú|ü:Ü|ű:Ű|v:V|w:W|x:X|y:Y|z:Z] ?* | ?* ;
+
+# Cleanup: remove morpheme boundaries
+define Cleanup      "^"        -> 0;
+define CleanupEndings  "^" "+" {cDis}  -> 0 ,,
+                       "^" "+" {cEss}  -> 0 ,,
+                       "^" "+" {cSoc}  -> 0 ,,
+                       "^" "+" {cTem}  -> 0 ,,
+                       "^" "+" {cPosss1p}  -> 0 ,,
+                       "^" "+" {cPosss2p}  -> 0 ,,
+                       "^" "+" {cPosss3p}  -> 0 ,,
+                       "^" "+" {cPossp1p}  -> 0 ,,
+                       "^" "+" {cPossp2p}  -> 0 ,,
+                       "^" "+" {cPossp3p}  -> 0 ,,
+                       "^" "+" {cPosss1s}  -> 0 ,,
+                       "^" "+" {cPosss2s}  -> 0 ,,
+                       "^" "+" {cPosss3s}  -> 0 ,,
+                       "^" "+" {cPossp1s}  -> 0 ,,
+                       "^" "+" {cPossp2s}  -> 0 ,,
+                       "^" "+" {cPossp3s}  -> 0 ,,
+                       "^" "+" {cPlur}  -> 0 ,,
+                       "^" "+" {cFam}  -> 0 ,,
+                       "^" "+" {cGenpl} -> 0 ,,
+                       "^" "+" {cGens}  -> 0 ,,
+                       "^" "+" {cAbl}  -> 0 ,,
+                       "^" "+" {cAcc}  -> 0 ,,
+                       "^" "+" {cnAcc}  -> 0 ,,
+                       "^" "+" {cAde}  -> 0 ,,
+                       "^" "+" {cAll}  -> 0 ,,
+                       "^" "+" {cCau}  -> 0 ,,
+                       "^" "+" {cDat}  -> 0 ,,
+                       "^" "+" {cDel}  -> 0 ,,
+                       "^" "+" {cEla}  -> 0 ,,
+                       "^" "+" {cFac}  -> 0 ,,
+                       "^" "+" {cFor}  -> 0 ,,
+                       "^" "+" {ccForp}  -> 0 ,,
+                       "^" "+" {cxForpen}  -> 0 ,,
+                       "^" "+" {cIll}  -> 0 ,,
+                       "^" "+" {cIne}  -> 0 ,,
+                       "^" "+" {cIns}  -> 0 ,,
+                       "^" "+" {cNom}  -> 0 ,,
+                       "^" "+" {cSub}  -> 0 ,,
+                       "^" "+" {cSue}  -> 0 ,,
+                       "^" "+" {cSup}  -> 0 ,,
+                       "^" "+" {cTer}  -> 0;
+
+define ItoY   G h i c z i -> G h y c z y ,,
+              C z i n k -> C z y n k ,,
+              I b l  -> Y b l ;
+
+
+echo ">>> read in enhu2 <<<"                    
+read lexc lexc/noun/enhu2.lexc
+define Lexicon
+
+define Grammar Lexicon           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJnull1         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPnull1        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhujaje <<<"
+read lexc lexc/noun/enhujaje.lexc
+define Lexiconjaje
+
+define Grammarjaje Lexiconjaje           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJJ        .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPJ       .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleAA        .o. 
+               HarmRuleAAX        .o. 
+               HarmRuleVV        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuszulo <<<"
+read lexc lexc/noun/enhuszulo.lexc
+define Lexiconszulo
+
+define Grammarszulo Lexiconszulo .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJJ        .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonenoe    .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhule <<<"
+read lexc lexc/noun/enhule.lexc
+define Lexiconle
+
+define Grammarle Lexiconle       .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePluroa    .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJnull1    .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoa  .o. 
+               HarmRuleestuloa   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oa   .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPnull1   .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoa     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuero <<<"
+read lexc lexc/noun/enhuero.lexc
+define Lexiconero
+
+define Grammarero Lexiconero     .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJJ1       .o. 
+               HarmRuleJnull1    .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPJ1      .o. 
+               HarmRuleJPnull1   .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRuletolmely   .o. 
+               HarmRuleAccmely   .o. 
+               HarmRuleAAAmely   .o. 
+               HarmRuleAAmely    .o. 
+               HarmRuleulmely    .o. 
+               HarmRuleonenmely  .o. 
+               HarmRulehozmely   .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoe <<<"
+read lexc lexc/noun/enhuoe.lexc
+define Lexiconoe
+
+define Grammaroe Lexiconoe       .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroe    .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoe  .o. 
+               HarmRuleestuloe   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oe   .o. 
+               HarmRuleotok2oe   .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoe     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonenoe    .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+
+echo ">>> read in enhuoa <<<"
+read lexc lexc/noun/enhuoa.lexc
+define Lexiconoa
+
+define Grammaroa Lexiconoa        .o. 
+               Etoee              .o. 
+               Atoaa              .o. 
+               Changez2           .o.
+               HarmRulejaje       .o. 
+               CleanupEndings     .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o.
+               HarmRulePluroa     .o. 
+               HarmRuleJ          .o.
+               HarmRuleJnull1     .o. 
+               HarmRuleul         .o. 
+               HarmRuleuk         .o. 
+               HarmRuleenkentoa   .o. 
+               HarmRuleestuloa    .o. 
+               HarmRuleunk        .o. 
+               HarmRuleotok1oa    .o. 
+               HarmRuleotok2      .o. 
+               HarmRuleJP         .o. 
+               HarmRuleJPnull1    .o. 
+               HarmRuleai         .o. 
+               HarmRuleaitok2     .o. 
+               HarmRuleAcc        .o.
+               HarmRuleAccoa      .o. 
+               HarmRuleAcc1       .o. 
+               HarmRuletol        .o. 
+               HarmRuleAAA        .o. 
+               HarmRulehoz        .o. 
+               HarmRuleVV         .o. 
+               HarmRuleAA         .o. 
+               HarmRuleonen       .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoaae <<<"
+read lexc lexc/noun/enhuoaae.lexc
+define Lexiconoaae
+
+define Grammaroaae Lexiconoaae        .o. 
+               Etoee              .o. 
+               Atoaa              .o. 
+               Changez2           .o.
+               HarmRulejaje       .o. 
+               CleanupEndings     .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroa     .o. 
+               HarmRuleJ          .o. 
+               HarmRuleJnull1     .o. 
+               HarmRuleJJ1       .o. 
+               HarmRuleul         .o. 
+               HarmRuleuk         .o. 
+               HarmRuleenkentoa   .o. 
+               HarmRuleestuloa    .o. 
+               HarmRuleunk        .o. 
+               HarmRuleotok1oa    .o. 
+               HarmRuleotok2      .o. 
+               HarmRuleJP         .o. 
+               HarmRuleJPnull1    .o. 
+               HarmRuleJPJ1      .o. 
+               HarmRuleai         .o. 
+               HarmRuleaitok2     .o. 
+               HarmRuleAccoa      .o. 
+               HarmRuleAcc1       .o. 
+               HarmRuletol        .o. 
+               HarmRuleAAA        .o. 
+               HarmRulehoz        .o. 
+               HarmRuleVV         .o. 
+               HarmRuleAA         .o. 
+               HarmRuleonen       .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoeae <<<"
+read lexc lexc/noun/enhuoeae.lexc
+define Lexiconoeae
+
+define Grammaroeae Lexiconoeae       .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroe    .o. 
+               HarmRuleJnull     .o. 
+               HarmRuleJJ1       .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoe  .o. 
+               HarmRuleestuloe   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oe   .o. 
+               HarmRuleotok2oe   .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleJPJ1      .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoe     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonenoe    .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoajaje <<<"
+read lexc lexc/noun/enhuoajaje.lexc
+define Lexiconoajaje
+
+define Grammaroajaje Lexiconoajaje        .o. 
+               Etoee              .o. 
+               Atoaa              .o. 
+               Changez2           .o.
+               HarmRulejaje       .o. 
+               CleanupEndings     .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroa     .o. 
+               HarmRuleJ          .o. 
+               HarmRuleJJ1        .o. 
+               HarmRuleul         .o. 
+               HarmRuleuk         .o. 
+               HarmRuleenkentoa   .o. 
+               HarmRuleestuloa    .o. 
+               HarmRuleunk        .o. 
+               HarmRuleotok1oa    .o. 
+               HarmRuleotok2      .o. 
+               HarmRuleJP         .o. 
+               HarmRuleJPJ1       .o. 
+               HarmRuleai         .o. 
+               HarmRuleaitok2     .o. 
+               HarmRuleAccoa      .o. 
+               HarmRuleAcc1       .o. 
+               HarmRuletol        .o. 
+               HarmRuleAAA        .o. 
+               HarmRulehoz        .o. 
+               HarmRuleVV         .o. 
+               HarmRuleAA         .o. 
+               HarmRuleonen       .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoamely <<<"
+read lexc lexc/noun/enhuoamely.lexc
+define Lexiconoamely
+
+define Grammaroamely Lexiconoamely     .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePluroamely      .o. 
+               HarmRuleJ               .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentoamely    .o. 
+               HarmRuleestuloamely     .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1oamely     .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJP              .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccoamely       .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhumely <<<"
+read lexc lexc/noun/enhumely.lexc
+define Lexiconmely
+
+define Grammarmely Lexiconmely         .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePlurmely        .o. 
+               HarmRulePlurmely18      .o.
+               HarmRuleJ               .o. 
+               HarmRuleJnull1          .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleenkentmely19    .o.
+               HarmRuleestulmely       .o. 
+               HarmRuleestulmely18     .o.
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleotok1mely18     .o. 
+               HarmRuleJP2              .o. 
+			   HarmRuleJPnull1         .o.
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuleAccmely27       .o.
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhumelyjaje <<<"
+
+read lexc lexc/noun/enhumelyjaje.lexc
+define Lexiconmelyjaje
+
+define Grammarmelyjaje Lexiconmelyjaje         .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePlurmely        .o. 
+               HarmRuleJJ1             .o.
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+
+echo ">>> read in enhumelytny <<<"
+ 
+read lexc lexc/noun/enhumelytny.lexc
+define Lexiconmelytny
+
+define Grammarmelytny Lexiconmelytny         .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePlurmely        .o. 
+               HarmRuleJ               .o.
+               HarmRuleJJ1             .o.
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleunkmelytny      .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJP              .o.
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhumelyae <<<"
+read lexc lexc/noun/enhumelyae.lexc
+define Lexiconmelyae
+
+define Grammarmelyae Lexiconmelyae         .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePlurmely        .o. 
+               HarmRuleJ               .o. 
+               HarmRuleJJ1             .o. 
+               HarmRuleJnull1          .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJP              .o. 
+               HarmRuleJPJ1            .o. 
+			   HarmRuleJPnull1         .o.
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhumelymasik <<<"
+read lexc lexc/noun/enhumelymasik.lexc
+define Lexiconmelymasik
+
+define Grammarmelymasik Lexiconmelymasik         .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb                 .o. 
+               Suffixh                 .o. 
+               Suffixk                 .o. 
+               Suffixn                 .o. 
+               Suffixr                 .o. 
+               Suffixt                 .o. 
+               HarmRulePlurmely        .o. 
+               HarmRulePluroamely          .o. 
+               HarmRuleJ               .o. 
+               HarmRuleJnull1          .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJP              .o. 
+			   HarmRuleJPnull1         .o.
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuleAccmelymasik    .o.
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuin <<<"
+# ín, from oamely
+read lexc lexc/noun/enhuin.lexc
+define Lexiconin
+
+define Grammarin Lexiconin             .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixk           .o. 
+               HarmRulePluroamely      .o. 
+               HarmRuleJnull1          .o.
+               HarmRuleJJ1             .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentoamely    .o. 
+               HarmRuleestuloamely     .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1oamely     .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccoamely       .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuderek <<<"   
+# derék
+read lexc lexc/noun/enhuderek.lexc
+define Lexiconderek
+
+define Grammarderek Lexiconderek       .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Eetoe                   .o. 
+               Changez2                .o.
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixk           .o. 
+               HarmRulePluroamely      .o. 
+               HarmRuleJnull           .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentoamely    .o. 
+               HarmRuleestuloamely     .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1oamely     .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJPnull          .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccoamely       .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoaee <<<"   
+# kerék, úr
+read lexc lexc/noun/enhuoaee.lexc
+define Lexiconoaee
+
+define Grammaroaee Lexiconoaee     .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               EetoeAcc          .o. # é
+               EtoeeFgg          .o. 
+               EetoePP           .o. 
+               IitoiAcc3         .o. # í
+               ItoiiFgg3         .o. 
+               IitoiPP3          .o. 
+               UeuetoueAcc3      .o. # ű
+               UetoueueFgg3      .o. 
+               UeuetouePP3       .o. 
+               AatoaAcc3         .o. # á
+               AtoaaFgg3         .o. 
+               AatoaPP3          .o. 
+               UutouAcc3         .o. # ú
+               UtouuFgg3         .o. 
+               UutouPP3          .o. 
+               UutouPP31         .o. 
+               UuJtoj            .o.
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroa    .o. 
+               HarmRuleJnull     .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoa  .o. 
+               HarmRuleestuloa   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oa   .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoa     .o. 
+               HarmRuleAccoaee   .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuoaee2 <<<"   
+read lexc lexc/noun/enhuoaee2.lexc
+define Lexiconoaee2
+
+define Grammaroaee2 Lexiconoaee2     .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+              # EetoeAcc          .o. # é
+               EtoeeFgg          .o. 
+               EetoePP           .o. 
+              # IitoiAcc3         .o. # í
+               ItoiiFgg3         .o. 
+               IitoiPP3          .o. 
+               UeuetoueAcc3      .o. # ű
+               UetoueueFgg3      .o. 
+               UeuetouePP3       .o. 
+               AatoaAcc3         .o. # á
+               AtoaaFgg3         .o. 
+               AatoaPP3          .o. 
+               UutouAcc3         .o. # ú
+               UtouuFgg3         .o. 
+               UutouPP3          .o. 
+               UutouPP31         .o. 
+               UuJtoj            .o.
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroa    .o. 
+               HarmRuleJnull     .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoa  .o. 
+               HarmRuleestuloa   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oa   .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoa     .o. 
+               HarmRuleAccoaee43   .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+# kerék, úr
+echo ">>> read in enhuoaeejaje <<<"   
+read lexc lexc/noun/enhuoaeejaje.lexc
+define Lexiconoaeejaje
+
+define Grammaroaeejaje Lexiconoaeejaje     .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePluroa    .o. 
+               HarmRuleJJ        .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoa  .o. 
+               HarmRuleestuloa   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oa   .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPJ       .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccoa     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuho <<<"   
+read lexc lexc/noun/enhuho.lexc
+define Lexiconho
+
+define Grammarho Lexiconho        .o. 
+               Etoee              .o. 
+               Atoaa              .o. 
+               Changez2           .o.
+               HarmRulejaje       .o. 
+               CleanupEndings     .o.
+               Suffixk           .o. 
+               HarmRulePluroa     .o.
+               HarmRulePluroaoe   .o. 
+               HarmRuleJ          .o. 
+               HarmRuleJnull1     .o. 
+               HarmRuleul         .o. 
+               HarmRuleuk         .o. 
+               HarmRuleenkentoa   .o.
+               HarmRuleenkentoaoe .o. 
+               HarmRuleestuloa    .o.
+               HarmRuleestuloaoe  .o. 
+               HarmRuleunk        .o.
+               HarmRuleotok1oa    .o. 
+               HarmRuleotok1oaoe  .o. 
+               HarmRuleotok2      .o.
+               HarmRuleotok2oe    .o. 
+               HarmRuleJP         .o. 
+               HarmRuleai         .o. 
+               HarmRuleaitok2     .o.
+               HarmRuleAccoe      .o.
+               HarmRuleAccoaoe    .o. 
+               HarmRuleAcc1       .o. 
+               HarmRuletol        .o. 
+               HarmRuleAAA        .o. 
+               HarmRulehoz        .o. 
+               HarmRuleVV         .o. 
+               HarmRuleAA         .o. 
+               HarmRuleonenoe     .o. 
+               HarmRuleonenmely   .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhubokor <<<"   
+read lexc lexc/noun/enhubokor.lexc
+define Lexiconbokor
+
+define Grammarbokor Lexiconbokor .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               HarmRulejajemely        .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePlur      .o. 
+               HarmRulePlurmely        .o. 
+               HarmRuleJnull1    .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJJ1       .o.
+               HarmRuleul        .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleuk        .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestul     .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunk       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletol       .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAA       .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehoz       .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonen      .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhusator <<<"   
+read lexc lexc/noun/enhusator.lexc
+define Lexiconsator
+
+define Grammarsator Lexiconsator  .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePlur      .o. 
+               HarmRulePluroa    .o. 
+               HarmRuleJnull     .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoa  .o. 
+               HarmRuleestuloa   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oa   .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleai        .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAccoa     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhumagas <<<"   
+read lexc lexc/noun/enhumagas.lexc
+define Lexiconmagas
+
+define Grammarmagas Lexiconmagas   .o. 
+               Etoee               .o. 
+               Atoaa               .o. 
+               Changez2            .o.
+               HarmRulejajemagas   .o. 
+               CleanupEndings      .o.
+               Suffixk           .o. 
+               HarmRulePlurmagas   .o. 
+               HarmRuleJmagas      .o. 
+               HarmRuleulmagas     .o. 
+               HarmRuleukmagas     .o. 
+               HarmRuleenkentmagas .o. 
+               HarmRuleestulmagas  .o. 
+               HarmRuleunkmagas    .o. 
+               HarmRuleotok1magas  .o. 
+               HarmRuleotok2magas  .o. 
+               HarmRuleJPmagas     .o. 
+               HarmRuleaimagas     .o. 
+               HarmRuleaitok2magas .o. 
+               HarmRuleAccmagas    .o. 
+               HarmRuleAcc1        .o. 
+               HarmRuletolmagas    .o. 
+               HarmRuleAAAmagas    .o. 
+               HarmRulehozmagas    .o. 
+               HarmRuleVVmagas     .o. 
+               HarmRuleAAmagas     .o. 
+               HarmRuleonenmagas   .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhufi <<<"   
+read lexc lexc/noun/enhufi.lexc
+define Lexiconfi
+
+define Grammarfi Lexiconfi       .o. 
+               Etoee                   .o. 
+               Atoaa                   .o. 
+               Changez2                .o.
+               HarmRulejaje      .o. 
+               HarmRulejajemely        .o. 
+               CleanupEndings          .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlurmely        .o. 
+               HarmRuleJfi             .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleJPfi            .o. 
+               HarmRuleaimelyfi        .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV              .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonenmely        .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJnull1         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPnull1        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuocs <<<"   
+read lexc lexc/noun/enhuocs.lexc
+define Lexiconocs
+
+define Grammarocs Lexiconocs           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhutuz <<<"   
+# tűz, fűz, szűz oe miatt van külön az oaee csoporttól tüzet és nem tüzöt!
+read lexc lexc/noun/enhutuz.lexc
+define Lexicontuz
+
+define Grammartuz Lexicontuz     .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               EetoeAcc          .o. # é
+               EtoeeFgg          .o. 
+               EetoePP           .o. 
+               IitoiAcc3         .o. # í
+               ItoiiFgg3         .o. 
+               IitoiPP3          .o. 
+               UeuetoueAcc3      .o. # ű
+               UetoueueFgg3      .o. 
+               UeuetouePP3       .o. 
+               AatoaAcc3         .o. # á
+               AtoaaFgg3         .o. 
+               AatoaPP3          .o. 
+               UutouAcc3         .o. # ú
+               UtouuFgg3         .o. 
+               UutouPP3          .o. 
+               UutouPP31         .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePluroe    .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkentoe  .o. 
+               HarmRuleestuloe   .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1oe   .o. 
+               HarmRuleotok2oe   .o. 
+               HarmRuleJPnull    .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o.
+               HarmRuleAccoe     .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonenoe    .o. 
+               HarmRuletuze      .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuyi <<<"   
+read lexc lexc/noun/enhuyi.lexc
+define Lexiconyi
+
+define Grammaryi Lexiconyi           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixk           .o. 
+               HarmRulePlury     .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJy        .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkenty    .o. 
+               HarmRuleestuly    .o. 
+               HarmRuleunk       .o. 
+               HarmRuleunky      .o. 
+               HarmRuleotok2y     .o. 
+               HarmRuleotok1y    .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPy       .o. 
+               HarmRuleaiyi      .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAccy       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehozy       .o. 
+               HarmRulehozyy       .o. 
+               HarmRuleVVy       .o. 
+               HarmRuleAA        .o. 
+               HarmRuleoneny     .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhufnevek <<<"                    
+read lexc lexc/noun/enhufnevek.lexc
+define Lexiconfnevek
+
+define Grammarfnevek Lexiconfnevek           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRulePluroe    .o.
+               HarmRuleJ         .o. 
+               HarmRuleJJ1         .o. 
+               HarmRuleJnull1         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPJ1        .o. 
+               HarmRuleJPnull1        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleVVH       .o.
+               HarmRuleVVdzs     .o.
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhufnige <<<"                    
+read lexc lexc/noun/enhufnige.lexc
+define Lexiconfnige
+
+define Grammarfnige Lexiconfnige           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJnull1    .o.
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPnull1   .o.
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup             .o.
+               ToUpCase;
+
+
+echo ">>> read in enhufnnum <<<"                    
+read lexc lexc/noun/enhufnnum.lexc
+define Lexiconfnnum
+
+define Grammarfnnum Lexiconfnnum           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhufnspec <<<"                    
+read lexc lexc/noun/enhufnspec.lexc
+define Lexiconfnspec
+
+define Grammarfnspec Lexiconfnspec           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               SuffixNNn           .o. 
+               Suffixn           .o. 
+               SuffixRRr           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleJnull1         .o. 
+               HarmRuleJPnull1         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuleAccoa     .o.
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleVVSZ        .o. 
+               HarmRuleVVC        .o. 
+               HarmRuleVVK        .o.
+               HarmRuleVVKOT       .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhufxpp <<<"                    
+read lexc lexc/noun/enhunfxpp.lexc
+define Lexiconfxpp
+
+define Grammarfxpp Lexiconfxpp          .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuleAccoa     .o.
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuezaz <<<"                    
+read lexc lexc/noun/enhuazez.lexc
+define Lexiconezaz
+
+define Grammarezaz Lexiconezaz           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhuezaz2 <<<"                    
+read lexc lexc/noun/enhuazez2.lexc
+define Lexiconezaz2
+
+define Grammarezaz2 Lexiconezaz2           .o. 
+#               Etoee             .o. 
+#               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               Cleanup           .o.
+               ToUpCase          .o.
+               Cleanup;
+
+echo ">>> read in enhuing <<<"                    
+read lexc lexc/noun/enhuing.lexc
+define Lexiconing
+
+define Grammaring Lexiconing           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               HarmRulejajemely        .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRulePlurmely        .o. 
+               HarmRulePlurmely18      .o.
+               HarmRuleJ         .o. 
+               HarmRuleJnull1          .o. 
+               HarmRuleul        .o. 
+               HarmRuleulmely          .o. 
+               HarmRuleuk        .o. 
+               HarmRuleukmely          .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleenkentmely      .o. 
+               HarmRuleenkentmely19    .o.
+               HarmRuleestul     .o. 
+               HarmRuleestulmely       .o. 
+               HarmRuleestulmely18     .o.
+               HarmRuleunk       .o. 
+               HarmRuleunkmely         .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleotok1mely       .o. 
+               HarmRuleotok2mely       .o. 
+               HarmRuleotok1mely18     .o. 
+               HarmRuleJP2        .o. 
+			   HarmRuleJPnull1         .o.
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleaimely          .o. 
+               HarmRuleaitok2mely      .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuleAccmely         .o. 
+               HarmRuleAcc1mely        .o. 
+               HarmRuleAccmely27       .o.
+               HarmRuletol       .o. 
+               HarmRuletolmely         .o. 
+               HarmRuleAAA       .o. 
+               HarmRuleAAAmely         .o. 
+               HarmRulehoz       .o. 
+               HarmRulehozmely         .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleAAmely          .o. 
+               HarmRuleonen      .o. 
+               HarmRuleonenmely        .o. 
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhucske <<<"                    
+read lexc lexc/noun/enhucske.lexc
+define Lexiconcske
+
+define Grammarcske Lexiconcske           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhutalan <<<"                    
+read lexc lexc/noun/enhutalan.lexc
+define Lexicontalan
+
+define Grammartalan Lexicontalan           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+echo ">>> read in enhusag <<<"                    
+read lexc lexc/noun/enhusag.lexc
+define Lexiconsag
+
+define Grammarsag Lexiconsag           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+
+echo ">>> read in enhuyy <<<"                    
+read lexc lexc/noun/enhuyy.lexc
+define Lexiconyy
+
+define Grammaryy Lexiconyy           .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRuleJ         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               ItoY              .o.
+               Cleanup           .o.
+               ToUpCase;
+
+read lexc lexc/noun/enhuossz3.lexc
+define Lexiconossz3
+
+define Grammarossz Lexiconossz3         .o. 
+               Etoee             .o. 
+               Atoaa             .o. 
+               Changez2          .o.
+               HarmRulejaje      .o. 
+               CleanupEndings    .o.
+               Suffixb           .o. 
+               Suffixh           .o. 
+               Suffixk           .o. 
+               Suffixn           .o. 
+               Suffixr           .o. 
+               Suffixt           .o. 
+               HarmRulePlur      .o. 
+               HarmRulePluroe    .o.
+               HarmRuleJ         .o. 
+               HarmRuleJJ1         .o. 
+               HarmRuleJnull1         .o. 
+               HarmRuleul        .o. 
+               HarmRuleuk        .o. 
+               HarmRuleenkent    .o. 
+               HarmRuleestul     .o. 
+               HarmRuleunk       .o. 
+               HarmRuleotok1     .o. 
+               HarmRuleotok2     .o. 
+               HarmRuleJP        .o. 
+               HarmRuleJPJ1        .o. 
+               HarmRuleJPnull1        .o. 
+               HarmRuleai        .o. 
+               HarmRuleaitok2    .o. 
+               HarmRuleAcc       .o. 
+               HarmRuleAcc1      .o. 
+               HarmRuletol       .o. 
+               HarmRuleAAA       .o. 
+               HarmRulehoz       .o. 
+               HarmRuleVV        .o. 
+               HarmRuleVVH       .o.
+               HarmRuleVVdzs     .o.
+               HarmRuleAA        .o. 
+               HarmRuleonen      .o. 
+               HarmRulePlurmely18  .o. 
+               HarmRuleulmely      .o. 
+               HarmRuleestulmely   .o. 
+               HarmRuletolmely     .o. 
+               HarmRuleAccmely     .o. 
+               HarmRuleAAAmely     .o. 
+               HarmRuleAAmely      .o. 
+               HarmRulehozmely     .o. 
+               HarmRuleonenmely    .o. 
+               HarmRuleenkentmely  .o.
+               Cleanup           .o.
+               ToUpCase;
+
+
+regex Grammar | Grammarjaje | Grammarszulo | Grammarle | Grammarero  | Grammaroe  | Grammaroeae  | Grammaroa | Grammaroaae | Grammaroajaje | Grammaroamely | Grammarmely | Grammarmelyjaje | Grammarmelyae |  Grammarmelymasik | Grammarmelytny | Grammarin | Grammarderek | Grammaroaee | Grammaroaee2 | Grammaroaeejaje | Grammarho | Grammarbokor | Grammarsator | Grammarmagas | Grammarfi | Grammarocs | Grammartuz | Grammaryi | Grammarfnevek | Grammarfnige | Grammarfnnum | Grammarfnspec | Grammarfxpp  | Grammarezaz | Grammarezaz2 | Grammaring | Grammarcske  | Grammartalan | Grammarsag | Grammaryy | Grammarossz ;
